@@ -151,13 +151,7 @@ const outlets = [
 
 
 export default function Home() {
-  <Head>
-        <title>Get Best Body Massage in Delhi | First Visit Offer 1999</title>
-        <meta
-          name="description"
-          content="Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now."
-        />
-      </Head>
+  
 const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -548,6 +542,14 @@ const features2 = [
 
 
   return (
+    <>
+    <Head>
+        <title>Get Best Body Massage in Delhi | First Visit Offer 1999</title>
+        <meta
+          name="description"
+          content="Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now."
+        />
+      </Head>
     <main>
     <div className="font-sans overflow-hidden">
       {/* Floating Decorative Elements */}
@@ -2575,6 +2577,8 @@ const features2 = [
       
     </div>
     </main>
+    </>
+    
      
   );
 }
