@@ -104,28 +104,28 @@ const features = [
       
         const faqs = [
           {
-            question: "Which kinds of massage does Spa Delhi perform?",
-            answer: "There is a wide range of massage services to address your wellness needs, and they include aromatherapy, deep tissue, B2B, and couple massages, to name a few. Both therapeutic techniques are designed to relax and heal.",
+            question: "How can I apply for Spa jobs in Delhi?",
+            answer: "Apply from spa delhi official website. Send your CV with certifications and experience. Shortlisted candidates receive interview invites and practical assessments tailored to therapist, front-desk or housekeeping roles across outlets.",
             icon: <FaSpa className="text-teal-600" />
           },
           {
-            question: "Do your therapists have experience, or are they certified?",
-            answer: "Yes, all our therapists are professional, fully trained individuals who are certified in their process and want to provide you with the best experience of massage experience.",
+            question: "Do you hire foreign therapists in Delhi?",
+            answer: "Yes, we recruit certified foreign therapists for our hotel outlets in Delhi. We focus on subject to work eligibility, documentation and local hiring regulations. International experience is valued for certain positions.",
             icon: <FaLeaf className="text-teal-600" />
           },
           {
-            question: "How do I make a reservation for a massage?",
-            answer: "Booking is simple by phone, via Telegram, or online. Pick your service, favorable outlet, and time, and we will confirm.",
+            question: "Are part-time spa therapist jobs in Delhi available?",
+            answer: " Yes, We offer part time spa jobs in Delhi or NCR regions. Specify preferred hours and location when applying to help our HR team match you with suitable shifts.",
             icon: <FaHotTub className="text-teal-600" />
           },
           {
-            question: "Do you offer 24/ 7 massage?",
-            answer: "Our timings are adaptable; we are available on a late-night and early-morning schedule to accommodate your tight schedule.",
+            question: "What qualifications are required for spa therapist jobs?",
+            answer: "We mention our requirements on the website. Check our criteria and apply from our career page for a spa job in Delhi. Hotel roles may require prior 5-star experience or specialized technique training.",
             icon: <FaLeaf className="text-teal-600" />
           },
           {
-            question: "What safety and hygiene precautions do you take?",
-            answer: "Your safety means everything to us, as we are radically committed to maintaining high standards of cleanliness through the provision of fresh linens, sterilized equipment, and thorough therapist screening.",
+            question: "Is training provided for new hires?",
+            answer: " Yes, we provide in-house training, assessments and mentorship. We ensure every new therapist meets our high service and hygiene standards before attending to clients.",
             icon: <FaSpa className="text-teal-600" />
           },
           {

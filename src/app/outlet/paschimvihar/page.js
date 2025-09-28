@@ -26,29 +26,29 @@ export default function paschimvihar() {
             const faqs = [
                   
                   {
-                    question: "What is the cost of a Couple Massage?",
-                    answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+                    question: "What makes your spa in Gurgaon Special?",
+                    answer: "Our spa in Gurgaon offers multiple massage therapy like b2b massage, hot stone massage, deep tissue massage and sandwich massage in gurgaon at very affordable prices.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Do you offer discounts or packages?",
-                    answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+                    question: "Why are you known as the best spa in gurgaon?",
+                    answer: "Because we are the top rated massage spa in gurgaon. We have Indian and international therapists both from multiple countries. Our therapists always ensure your safety and privacy.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "How much does a Full Body Massage cost?",
-                    answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+                    question: "Do you provide packages for spa in Gurgaon with full service?",
+                    answer: "Yes of course, We offer spa in gurgaon with full service at very affordable prices. Our certified therapists come to your door steps and provide high quality massage in gurgaon.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are there any hidden fees in your pricing?",
-                    answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+                    question: "How do I reach your spa center in Gurgaon?",
+                    answer: "Book spa session from us. We will share all details about our spa in gurgaon like location, price, about our therapists and more. We are the trusted spa centre in gurgaon with top-notch massage service.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Do you offer membership or loyalty programs?",
-                        answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+                        question: "Can I book a session at female to male spa in Gurgaon?",
+                        answer: "You can book a female to male spa in gurgaon with us. We have top certified Female therapists to provide you comfort and relaxation at very affordable prices. You can choose your female therapists as per your preference.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {
@@ -349,7 +349,7 @@ const SERVICES_RIGHT = [
           </div>
 
           {/* Image section - more elegant */}
-          <div className="relative h-80 md:h-96 lg:h-[450px]">
+          <div className="relaFgurtive h-80 md:h-96 lg:h-[450px]">
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
                 <img

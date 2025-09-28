@@ -237,29 +237,29 @@ export default function Outlet() {
           const faqs = [
                 
                 {
-                  question: "What is the cost of a Couple Massage?",
-                  answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+                  question: "Which areas do you cover in your outlets?",
+                  answer: "We have 12+ Spa outlets in Delhi. Our Spa in Rohini, Aerocity, CP, Lajpat Nagar, GK, Pitampura, Dwarka, Karol Bagh, Noida and Gurgaon. Contact us for details and booking in any outlets.",
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
-                  question: "Do you offer discounts or packages?",
-                  answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+                  question: "How do I find the nearest Spa Delhi outlet?",
+                  answer: "YYou check our spa outlets in Delhi on the website. We mention our spa outlet locations. Check and book your spa session in the nearest spa to you. Our spa in lajpat nagar, pitampura and top 5 star hotel outlets.",
                   icon: <FaHandSparkles className="text-teal-600" />
                 },
                 
                 {
-                  question: "How much does a Full Body Massage cost?",
-                  answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+                  question: "Are foreign therapists available at our spa outlets in Delhi?",
+                  answer: "Yes at our spa in an aerocity outlet we have foreign therapists to provide massage spa tour international clients. And foreign therapists are scheduled at selected outlets and hotel spas. Contact us and book now.",
                   icon: <FaLeaf className="text-teal-600" />
                 },
                 {
-                  question: "Are there any hidden fees in your pricing?",
-                  answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+                  question: "Are outlet addresses and timings listed online?",
+                  answer: "If you want to know about spa timing you can contact us. And we offer spa service in hotels late at night. Just contact us and know about timings and locations.",
                   icon: <FaSpa className="text-teal-600" />
                 },
                 {
-                      question: "Do you offer membership or loyalty programs?",
-                      answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+                      question: "Can I request female-only therapists at outlets?",
+                      answer: " Yes, you can choose therapists as per your preference and you choose female therapists at our spa outlets in Delhi.",
                       icon: <FaHotTub className="text-teal-600" />
                     },
                     {

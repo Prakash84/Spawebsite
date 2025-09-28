@@ -26,29 +26,29 @@ export default function noida() {
             const faqs = [
                   
                   {
-                    question: "What is the cost of a Couple Massage?",
-                    answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+                    question: "What services are available at your spa in Noida?",
+                    answer: " We offer genuine massage service at our spa in Noida. We have multiple massage types like Thai, couple, full body, B2B and aromatherapy treatments. We provide certified therapists, private setups and home spa options for complete relaxation.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Do you offer discounts or packages?",
-                    answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+                    question: "Do you operate a spa in Greater Noida?",
+                    answer: "Yes you can book our massage spa in greater noida. Our certified therapists are always ready to provide comfort, relaxation and help you to remove your stress and anxiety.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "How much does a Full Body Massage cost?",
-                    answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+                    question: "Are services offered at spa in Noida Sector 18?",
+                    answer: "Yes you can book our spa in noida sector 18 by female therapists. We offer top-notch massage service in a private room with 100% security. Our therapists ensure your comfort and hygiene in your spa session.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are there any hidden fees in your pricing?",
-                    answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+                    question: "Can I relax at your body spa in Noida?",
+                    answer: "We are here for your relaxation. If you are looking for the best body spa in Noida for complete relaxation visit our spa. We have a wide range of massage services in Noida like B2B massage, Hot Stone Massage, Full Body Massage and couple massage.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Do you offer membership or loyalty programs?",
-                        answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+                        question: " Are home services offered from your spa centre in Noida?",
+                        answer: "Yes, we offer spa home service in Noida with very affordable prices. Our spa centre in Noida has certified and well trained therapists to provide you massage service at home.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {

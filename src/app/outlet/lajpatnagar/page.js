@@ -26,29 +26,29 @@ export default function lajpatnagar() {
             const faqs = [
                   
                   {
-                    question: "What is the cost of a Couple Massage?",
-                    answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+                    question: "What services are offered at the spa in Lajpat Nagar?",
+                    answer: "Our spa in Lajpat Nagar provides Thai, full body, couple, sandwich, B2B and home spa massage service in lajpat nagar. We offer all massages in a luxury private room with professional therapists.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Do you offer discounts or packages?",
-                    answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+                    question: "Are there first-visit offers at body spa in Lajpat Nagar?",
+                    answer: "Yes you can grab the first visit offer at our body spa in lajpat nagar. Our full body massage started in just 1999 for the first visitor.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "How much does a Full Body Massage cost?",
-                    answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+                    question: "Do you provide authentic Full body massage in Lajpat Nagar?",
+                    answer: "Yes, we are providing authentic full body massage in lajpat nagar by our well trained therapists. You can choose your therapists as per your needs. Our therapists are certified and well trained.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are there any hidden fees in your pricing?",
-                    answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+                    question: "Can I walk into the massage centre in Lajpat Nagar?",
+                    answer: "Yes, we are accepted but it depends on the availability of our therapists. So we recommended you to book your spa session in advance. ",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Do you offer membership or loyalty programs?",
-                        answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+                        question: "How do I locate the massage spa in Lajpat Nagar?",
+                        answer: "Just call us our team and share you full details about our spa and availability of our therapists. Our spa is located in prime locations. Where you can travel easily by metro or your private vehicle. When you book your spa session our team shares the exact location of our spa with you. ",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {

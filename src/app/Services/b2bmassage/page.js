@@ -97,27 +97,27 @@ const container = {
       const faqs = [
         {
           question: "What is a B2B massage in Delhi?",
-          answer: "It is a body-to-body massage designed to relax the body and refresh the mind. At Spa Delhi, our experts use high-quality oils and massage techniques to provide you with complete comfort.",
+          answer: "In B2B (Body To Body) Massage in Delhi. We use close-contact techniques for deep sensory relaxation. Spa Delhi conducts B2B professionally with certified therapists.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Is your B2B massage service in Delhi discreet and private?",
-          answer: "Yes, we respect your privacy. Every session is carried out with complete care, confidentiality, and professionalism.",
+          question: "Is B2B offered in Karol Bagh?",
+          answer: "Yes, we offer b2b massage in karol bagh delhi by female therapists. We recommend prior booking and confirmation to secure your preferred service and therapist. So call us for pure relaxation.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "What are the benefits of B2B massage in Delhi?",
-          answer: "The benefits include stress relief, better sleep, improved circulation, fresh skin, and mental clarity.",
+          question: "Are B2B massage legal and professional?",
+          answer: "Spa Delhi operates within legal and professional guidelines. We provide safe and 100% private b2b massage in Delhi. Our therapists always maintain proper hygiene and cleanliness.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-          question: "How do I book a B2B massage in Delhi?",
-          answer: "Booking is simple. Just reach us on Telegram, and our team will confirm your appointment quickly.",
+          question: "What safety measures apply during B2B sessions?",
+          answer: "We ensure 100% safety or privacy of our clients. You will get a b2b massage in a private room with proper hygiene and cleanliness. Therapists follow protocols to protect client dignity and ensure a safe, respectful service.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "What makes Spa Delhi the best B2B massage centre in Delhi?",
-          answer: "Our professional staff, calming interiors, luxury service, and respect for client privacy make us the top choice for B2B massages in Delhi.",
+          question: "How do I book a B2B session near me in Delhi?",
+          answer: "We mention our contact number on the website. Just call us or drop a message and book your b2b massage near you. We also mention our spa outlets location on site",
           icon: <FaSpa className="text-teal-600" />
         },
         {

@@ -52,29 +52,29 @@ export default function pricing() {
   const faqs = [
       
       {
-        question: "What is the cost of a Couple Massage?",
-        answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+        question: "Where can I view Spa Price in Delhi?",
+        answer: "You can See spa prices on our pricing page. Our spa prices in Delhi are very affordable and competitive for our clients. We launch first-visit offers and seasonal discounts for spa sessions.",
         icon: <FaSpa className="text-teal-600" />
       },
       {
-        question: "Do you offer discounts or packages?",
-        answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+        question: "What is the full Body massage price in karol bagh?",
+        answer: "Full body massage price in karol bagh is very affordable. You can contact our support team to provide the best prices for full body massage. Our full body massage started in just 1999.",
         icon: <FaHandSparkles className="text-teal-600" />
       },
       
       {
-        question: "How much does a Full Body Massage cost?",
-        answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+        question: "Do you offer package discounts and combos?",
+        answer: "Yes, If you book a combo session then we will provide you extra discount on combo pack or more than one session. Check current deals on the Pricing page or during booking for the best value.",
         icon: <FaLeaf className="text-teal-600" />
       },
       {
-        question: "Are there any hidden fees in your pricing?",
-        answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+        question: "Do you run seasonal promotions on pricing?",
+        answer: "Yes we run seasonal and festival promotions. Where you can get huge discounts on combo packs and normal spa sessions. For more price related details show on the above.",
         icon: <FaSpa className="text-teal-600" />
       },
       {
-            question: "Do you offer membership or loyalty programs?",
-            answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+            question: "What are female to male spa prices in Noida?",
+            answer: "Noida is the best location to remove your work stress. Our female to male spa prices in noida are very affordable for all our clients and corporate employees. Call us on our number and book your relaxation time.",
             icon: <FaHotTub className="text-teal-600" />
           },
           {

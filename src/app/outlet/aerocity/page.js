@@ -26,29 +26,29 @@ export default function aerocity() {
             const faqs = [
                   
                   {
-                    question: "What is the cost of a Couple Massage?",
-                    answer: "The price for a Couple Massage varies depending on the location and duration. Please check our pricing details for specific outlet prices",
+                    question: "What makes a luxury spa in Aerocity unique?",
+                    answer: " Spa in Aerocity is the premium and luxury spa outlet in Delhi. At the aerocity outlet we offer foreign international therapists to provide spa in top 5 star hotels of Delhi.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Do you offer discounts or packages?",
-                    answer: "Yes, we offer special packages and discounts, including a first-visit special at just ₹1999.",
+                    question: "Are Aerocity spa services near the airport?",
+                    answer: "Yes, Our Aerocity outlets are conveniently located close to IGI Airport hotels. You can call us for your spa session booking and we will come to your door steps to provide 100% relaxation.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "How much does a Full Body Massage cost?",
-                    answer: "The cost of a Full Body Massage depends on the duration and location. For specific pricing, please refer to the service details on our website.",
+                    question: "Is body massage in Aerocity available?",
+                    answer: "Yes, We offer multiple types of massage therapy in our aerocity spa. Potli massage, hot stone massage, swedish massage or full body massage in Aerocity. For more query contact us.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Are there any hidden fees in your pricing?",
-                    answer: "No, our pricing is transparent with no hidden fees. The cost mentioned is what you pay.",
+                    question: "Are Aerocity rates different from other outlets?",
+                    answer: "Yes, Because Aerocity is the premium location and our spa outlet in Aerocity is known for luxury and premium service. Spa in aerocity prices are different from other spas. Check the Pricing page for exact rates.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Do you offer membership or loyalty programs?",
-                        answer: "Yes, we offer membership options with great discounts for regular clients. Contact us for more details",
+                        question: "Can I book a hotel spa in Aerocity?",
+                        answer: "Yes, you can book your spa session at the 5 star hotels in aerocity. We have 5 star hotel spa outlets in aerocity Jw Marriott, Lemon Tree, Novotel and Ibis Hotel.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
                       {

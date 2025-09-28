@@ -107,28 +107,28 @@ const container = {
     
       const faqs = [
         {
-          question: "What types of massage therapies do you offer?",
-          answer: "We offer Full Body Massage, wich MasSandsage, B2B Therapy, Full Body Massage, and Female-to-Male treatments.",
+          question: "What is included in a Full body massage in Delhi?",
+          answer: "In our Full Body Massage in Delhi. It includes the head, neck, shoulders, back, arms and legs. Our certified therapists provide top-notch full body massage in Delhi.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Where are your spa outlets located in Delhi and Noida?",
-          answer: "Our outlets are located in Rajouri Garden, Rohini, Pitampura, Noida, Aerocity, Dwarka, Connaught Place, and Lajpat Nagar.",
+          question: "Is full body massage available in Karol bagh?",
+          answer: "Yes, Our spa is available in Karol Bagh to give you perfect relaxation. Experience Full body massage in Aerocity with experienced therapists and optional hotel-room packages tailored for travelers and guests seeking quality services.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "What is your first-visit special offer?",
-          answer: "Our first-visit special is ₹1999, offering a luxurious experience at an affordable price.",
+          question: "Are oil choices offered in full body massage packages?",
+          answer: "Yes. We use professional oils and essential blends, including unscented options for sensitive skin. Mention oil preferences or allergies during booking or at session start. We maintain proper cleanliness at our spa session.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-          question: "Do you have therapists from different countries?",
-          answer: "Yes, we have skilled therapists from Russia, Thailand, Afghanistan, India, and other countries.",
+          question: "Can I have a full body massage at home?",
+          answer: "Yes, We offer full body massage at home in Delhi service by our certified therapists. our home full body service includes trained therapists bringing oils, linens and equipment.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "Can I book a Full Body Massage session?",
-          answer: "Yes, we offer Full Body Massage sessions for a relaxing and intimate experience.",
+          question: "How soon can I book full body sessions?",
+          answer: "You need to book your session in Advance, especially on weekends and at hotel/Aerocity outlets. Book online or call the outlet to secure preferred time and therapist selection.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
