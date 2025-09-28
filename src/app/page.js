@@ -543,12 +543,18 @@ const features2 = [
 
   return (
     <>
-    <Head>
+      <Head>
         <title>Get Best Body Massage in Delhi | First Visit Offer 1999</title>
         <meta
           name="description"
           content="Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now."
         />
+        {/* Open Graph / social preview */}
+        <meta property="og:title" content="Get Best Body Massage in Delhi | First Visit Offer 1999" />
+        <meta property="og:description" content="Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now." />
+        <meta property="og:image" content="/images/hb1.jpg" />
+        <meta property="og:type" content="website" />
+        <meta name="twitter:card" content="summary_large_image" />
       </Head>
     <main>
     <div className="font-sans overflow-hidden">
