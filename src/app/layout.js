@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Best Spa in Delhi For Complete Relaxation | Spa Delhi Offer @1999 ",
+  title: "creat",
   description: "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
 };
 

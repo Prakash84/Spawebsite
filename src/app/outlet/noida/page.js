@@ -59,53 +59,30 @@ export default function noida() {
                 ];
   const hotelOutlets = [
   {
-    title: "JW Marriott Hotel Noida",
-    image: "/images/JW Marriott Hotel Noida.jpg",
+    title: "Radisson Blu MBD Hotel, Noida",
+    image: "/images/Radisson_Blu_MBD_Hotel,_Noida.jpg",
     description:
       "JW Marriott Hotel Noida offers luxury stays, fine dining, spa services, and elegant ambiance near Delhi Airport’s business district.",
   },
   {
-    title: "Lemon Tree Premier Noida",
-    image: "/images/LemonTreePremierNoida.jpg",
-    description:
-      "Lemon Tree Premier Noida is a stylish, upscale hotel in Delhi’s Noida offering contemporary rooms and top-notch service.",
-  },
-  {
-    title: "Novotel New Delhi Noida",
-    image: "/images/NovotelNewDelhiNoida.jpeg",
+    title: "Sandal Suites by Lemon Tree Hotels (listed as luxury in Noida)",
+    image: "/images/Sandal_Suites_by_Lemon_Tree_Hotels.jpg",
     description:
       "Modern upscale airport hotel with sleek rooms, rooftop pool, spa, and Noida connectivity for travelers.",
   },
   {
-    title: "Pride Plaza Hotel",
-    image: "/images/pride-plaza-hotel-Noida1-2.jpg",
-    description:
-      "Elegant urban retreat offering luxurious rooms, dining, fitness center, event spaces, and personalized hospitality.",
-  },
-  {
-    title: "IBIS New Delhi Noida",
-    image: "/images/IBISNewDelhiNoida.jpg",
+    title: "Crowne Plaza, Greater Noida (near Noida)",
+    image: "/images/Crowne_Plaza_Greater_Noida.jpg",
     description:
       "Rejuvenate at Ibis Noida’s spa with expert therapists, luxurious treatments, and serene ambience.",
   },
   {
-    title: "Pullman Noida",
-    image: "/images/pullmanNoida.jpg",
+    title: "Jaypee Greens Golf & Spa Resort, Greater Noida",
+    image: "/images/Jaypee_Greens_Golf_Spa_Resort_Greater_Noida.jpg",
     description:
       "Experience rejuvenating spa services at The Park Connaught Place – where luxury meets wellness.",
   },
-  {
-    title: "Jaypee Vasant Noida",
-    image: "/images/jaypeeVasantNoida.png",
-    description:
-      "Indulge at The Suryaa with massages, therapies, serene ambiance, and personalized wellness.",
-  },
-  {
-    title: "The Ashok (Chanakyapuri)",
-    image: "/images/TheAshok(Chanakyapuri).webp",
-    description:
-      "Rejuvenate at The Ashok’s luxury spa in Chanakyapuri—experience ultimate relaxation and wellness.",
-  },
+  
 ];
   const pricingPlans = [
     {

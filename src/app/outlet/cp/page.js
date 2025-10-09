@@ -62,49 +62,49 @@ export default function cp() {
     title: "Radisson Blu Hotel Connaught Place",
     image: "/images/radissonblu_CP.jpg",
     description:
-      "JW Marriott Hotel Connaught Place offers luxury stays, fine dining, spa services, and elegant ambiance near Delhi Airport’s business district.",
+      "Spa Delhi offers special body massage in Connaught Place at Radisson Blu. Experienced therapists offer relaxing services such as full-body and B2B massage that cause you to forget the stress and your body and mind are refreshed.",
   },
   {
     title: "The Park Connaught Place",
     image: "/images/thePrak_CP.jpg",
     description:
-      "Lemon Tree Premier Connaught Place is a stylish, upscale hotel in Delhi’s Connaught Place offering contemporary rooms and top-notch service.",
+      "Visitors at The Park Connaught Place will find a relaxing environment with Spa Delhi. Our female-to-male spa in Connaught Place uses soothing oils and gentle methods to deliver comfort, either alone or with a partner, thanks to the couple’s massages.",
   },
   {
-    title: "The Lalit New Delhi Connaught Place",
+    title: "The LaLiT New Delhi Connaught Place",
     image: "/images/theLalit_CP.jpg",
     description:
-      "Modern upscale airport hotel with sleek rooms, rooftop pool, spa, and Connaught Place connectivity for travelers.",
+      "Relief and recovery are top priorities at The LaLiT. Spa Delhi’s team provides therapies that remove stress and assist muscle healing, using high-end products for a smooth and energizing experience.",
   },
   {
     title: "Holiday Inn New Delhi Connaught Place",
     image: "/images/holidayIn_CP.jpg",
     description:
-      "Elegant urban retreat offering luxurious rooms, dining, fitness center, event spaces, and personalized hospitality.",
+      "At Holiday Inn Connaught Place, Spa Delhi continues its top-quality service. Options include full-body massages and custom aromatherapy, all designed to create calm and boost energy, so guests feel better quickly.",
   },
   {
     title: "Jw Marriott New Delhi Connaught Place",
     image: "/images/JwMarriott_CP.jpg",
     description:
-      "Rejuvenate at Ibis Connaught Place’s spa with expert therapists, luxurious treatments, and serene ambience.",
+      "At Spa Delhi of JW Marriott Connaught Place, the guests will be provided with expert skills in Spa with deep tissue and aroma therapy massages. Experts will provide a relaxing environment where all the therapies will favor physical and psychological rejuvenation.",
   },
   {
     title: "Pullman Connaught Place",
     image: "/images/pullman.jpg",
     description:
-      "Experience rejuvenating spa services at The Park Connaught Place – where luxury meets wellness.",
+      "Pullman guests can access private, elegant massage sessions arranged by Spa Delhi. Expert hands use luxury oils and smart techniques to reduce tension and support good blood flow.",
   },
   {
     title: "Shangri-La Eros, New Delhi",
     image: "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.AVIF",
     description:
-      "Indulge at The Suryaa with massages, therapies, serene ambiance, and personalized wellness.",
+      "Shangri-La Eros welcomes Spa Delhi’s team for deep tissue and aromatherapy massages. The peaceful atmosphere and expert care help clients recharge in a world-class hotel setting.",
   },
   {
     title: "The Imperial New Delhi",
     image: "/images/theImperial_CP.jpeg",
     description:
-      "Rejuvenate at The Ashok’s luxury spa in Chanakyapuri—experience ultimate relaxation and wellness.",
+      "There is also Spa Delhi located at The Imperial. Therapists welcome guests to experience relaxing massage techniques which help to relax the body and mind and make every visitor leave with an unforgettable experience.",
   },
 ];
   const pricingPlans = [
@@ -159,23 +159,23 @@ export default function cp() {
 ];
   const services = [
     {
-      title: "Aromatherapy",
-      description: "Essential oils for emotional and physical well-being",
+      title: "B2B Massage",
+      description: "Our Body-to-Body massage allows the guests to relax to the greatest extent possible because the professionals apply rich oils and tried techniques to combat fatigue, relax nervousness, and increase your energy levels throughout the body.",
       icon: "🌸",
     },
     {
-      title: "Deep Tissue",
-      description: "Targets chronic muscle tension with slow, deep pressure",
+      title: "Swedish Massage",
+      description: "Swedish Massage remains to be well-known and popular because of its soft pressure and simple movements. It helps in supporting relaxed muscles, improved blood circulation and a calm mind.",
       icon: "💆‍♂️",
     },
     {
-      title: "Hot Stone Therapy",
-      description: "Warm stones to melt away tension and improve circulation",
+      title: "Full Body Massage",
+      description: "Full Body Massage covers all areas with smooth movements and warm oils. It’s a good way to loosen muscles, cleanse the body, and return to a peaceful state.",
       icon: "🪨",
     },
     {
-      title: "Couples Massage",
-      description: "Shared relaxation experience for two in a private suite",
+      title: "Couple Massage",
+      description: "Enjoy relaxing together with a Couple Massage—for those who want to bond in a peaceful, cozy space. It is an experience that is shared and serves as an important experience both physically and emotionally.",
       icon: "👫",
     },
   ];
@@ -287,13 +287,13 @@ const topSteps = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Connaught Place</span>
-            Tailored Experiences,
-              <span className="block mt-2 font-medium">Journey to <span className="text-rose-600">Tranquility</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
+            & Spa in
+              <span className="block mt-2 font-medium">Place at <span className="text-rose-600">Top Hotels</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At LuxeSpa, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
+           Spa Delhi, the premier spa centre in Connaught Place, offers absolute comfort, where customers can relax and enjoy the best spa services in renowned hotels in the area.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -416,7 +416,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">5-Star Hotel Outlets</span>
+                      Our Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">at Top 5 star Hotels in Connaught Place</span>
                     </motion.h2>
                     
                     <motion.p
@@ -566,7 +566,8 @@ const topSteps = [
         transition={{ duration: 0.5, delay: 0.1 }}
         viewport={{ once: true }}
       >
-        Luxurious <span className="text-amber-500">Spa Experiences</span>
+        Our Massage <span className="text-amber-500">Services at Hotels in Connaught Place
+</span>
       </motion.h2>
     </div>
 
@@ -634,7 +635,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Top Luxury Spa <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Outlets in Connaught Place Delhi</span>
+                      Spa Delhi: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Spa centre in Connaught Place for Spa Services in Delhi</span>
                     </motion.h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
         </div>
@@ -726,29 +727,30 @@ const topSteps = [
           >
             <div className="max-w-lg">
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                Our premium spa is nestled within Connaught Place's most luxurious 5-star hotels, offering an oasis 
-                of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                designed private sanctuaries.
+                Spa Delhi is the best destination of massage and <span className="font-medium text-stone-800"> spa in Delhi</span>. This facility offers relaxation through luxury and high-quality healthcare.
+
+All the services are professionally organized, and you can choose to be fully comfortable or use special B2B approaches. The staff consists of highly experienced therapists (international as well as local) who understand how to personally customize treatments to your needs, choosing the perfect pressure and scents.
+
+                 
+                <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
+                 <span className="font-medium text-stone-800"></span>
               </p>
               
               
               
               <p className="text-stone-600 mb-6 leading-relaxed">
-                We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                Our premium spa is nestled within Connaught Place's most luxurious 5-star hotels, offering an oasis 
-                of calm in the heart of Delhi.
+                The Spa Delhi is located in various locations within Delhi -<span className="font-medium text-stone-800">Aerocity, Connaught place, Lajpat Nagar, Dwarka, and Noida.</span> Anyone who desires to take a time-out of the hectic schedules can rely on Spa Delhi to have the most preferred spa getaway, in the highest level of luxury.
+
+
+                <span className="font-medium text-stone-800"></span> 
+                <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
+                 <span className="font-medium text-stone-800"></span>
               </p>
               
               <div className="grid grid-cols-2 gap-4 mb-8">
                 <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                   <div className="text-amber-600 text-2xl mb-2">★</div>
-                  <h4 className="font-medium text-stone-800">Award-Winning</h4>
+                  <h4 className="font-medium text-stone-800">5 Star Hotel Outlet</h4>
                   <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
                 </div>
                 <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
@@ -802,11 +804,10 @@ const topSteps = [
                                            transition={{ duration: 0.6 }}
                                          >
                                            <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                           <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Premium Spa Experiences</h1>
+                                           <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">How to Book Massage Therapy in Connaught Place Hotels</h1>
                                            <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
                                            <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-                                             Bespoke wellness journeys — experienced therapists, modern techniques and planetary-conscious operations for a restorative spa
-                                             experience.
+                                             It is easy to book a massage session in the Connaught Place hotels. Spa Delhi ensures that the procedures are fast and smooth.
                                            </p>
                                          </motion.div>
                                  

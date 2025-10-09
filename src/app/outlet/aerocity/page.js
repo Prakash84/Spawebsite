@@ -62,49 +62,49 @@ export default function aerocity() {
     title: "JW Marriott Hotel Aerocity",
     image: "/images/JW Marriott Hotel Aerocity.jpg",
     description:
-      "JW Marriott Hotel Aerocity offers luxury stays, fine dining, spa services, and elegant ambiance near Delhi Airport’s business district.",
+      "Spend your time in the quality environment of JW Marriott Hotel Aerocity and include a calming spa experience to your visit. Our professional therapists come with therapies that are designed to relieve the stress and cheer up the senses, hence your visit becomes even more pampering. The calmness of our treatments is the ideal match to the beautiful environment of this popular hotel.",
   },
   {
     title: "Lemon Tree Premier Aerocity",
     image: "/images/LemonTreePremierAerocity.jpg",
     description:
-      "Lemon Tree Premier Aerocity is a stylish, upscale hotel in Delhi’s Aerocity offering contemporary rooms and top-notch service.",
+      "Lemon Tree Premier Aerocity combines style with relaxation, and Spa Delhi adds to that comfort with on-demand massage sessions in your room. Whether you want a couple's massage or need complete body relaxation, our spa centre in Mahipalpur helps you unwind after a busy schedule in the bustling Aerocity area.",
   },
   {
     title: "Novotel New Delhi Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description:
-      "Modern upscale airport hotel with sleek rooms, rooftop pool, spa, and Aerocity connectivity for travelers.",
+      "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
   },
   {
     title: "Pride Plaza Hotel",
     image: "/images/pride-plaza-hotel-aerocity1-2.jpg",
     description:
-      "Elegant urban retreat offering luxurious rooms, dining, fitness center, event spaces, and personalized hospitality.",
+      "Visit to Pride Plaza Hotel is even more comfortable with Spa Delhi. Our Best spa in Aerocity is designed to minimize muscle aches, energize you, and leave you feeling refreshed. The soothing atmosphere we create takes luxury relaxation to the next level. ",
   },
   {
     title: "IBIS New Delhi Aerocity",
     image: "/images/IBISNewDelhiAerocity.jpg",
     description:
-      "Rejuvenate at Ibis Aerocity’s spa with expert therapists, luxurious treatments, and serene ambience.",
+      "IBIS Aerocity is popular due to comfort and practicality, and Spa Delhi is the one that makes your relaxation instantly available to your door. You can experience stress relief, sore muscles, and complete recharge with our massages customized to your needs while on-site. Each session has been designed to be comfortable.",
   },
   {
     title: "Pullman Aerocity",
     image: "/images/pullmanAerocity.jpg",
     description:
-      "Experience rejuvenating spa services at The Park Connaught Place – where luxury meets wellness.",
+      "Pullman Aerocity is where wellness and indulgence are united. Our professional hands mean that every therapy is unique, whether it is stress-relieving aromatherapy or the deep tissue bodywork. Spa Delhi ensures your body feels lighter and refreshed, turning your time at Pullman into a complete wellness getaway.",
   },
   {
     title: "Jaypee Vasant Aerocity",
     image: "/images/jaypeeVasantAerocity.png",
     description:
-      "Indulge at The Suryaa with massages, therapies, serene ambiance, and personalized wellness.",
+      "At Jaypee Vasant Aerocity, Spa Delhi creates a soothing break from the demands of travel. Our spa in Mahipalpur relaxes the body, reduces stress, and gives clarity to the mind. Getting a professional service in the comfort of your hotel room means enjoying a relaxing getaway without having to leave the comfort of your room. ",
   },
   {
     title: "The Ashok (Chanakyapuri)",
     image: "/images/TheAshok(Chanakyapuri).webp",
     description:
-      "Rejuvenate at The Ashok’s luxury spa in Chanakyapuri—experience ultimate relaxation and wellness.",
+      "The massage services at Spa Delhi are as attractive as the Ashok. Our therapies restore balance and relaxation, blending seamlessly with the luxurious ambiance of the hotel. All the sessions are well scheduled so that you can enjoy your stay as both healing and refreshing.",
   },
 ];
   const pricingPlans = [
@@ -160,25 +160,32 @@ export default function aerocity() {
 {/* End Our Process */}
   const services = [
     {
-      title: "Aromatherapy",
-      description: "Essential oils for emotional and physical well-being",
-      icon: "🌸",
-    },
-    {
-      title: "Deep Tissue",
-      description: "Targets chronic muscle tension with slow, deep pressure",
+      title: "B2B Massage",
+      description: "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
       icon: "💆‍♂️",
     },
     {
-      title: "Hot Stone Therapy",
-      description: "Warm stones to melt away tension and improve circulation",
-      icon: "🪨",
-    },
-    {
       title: "Couples Massage",
-      description: "Shared relaxation experience for two in a private suite",
+      description: "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
       icon: "👫",
     },
+    // {
+    //   title: "Thai Massage",
+    //   description: "With stretches, pressure points, and slow movements, Thai massage helps improve flexibility and restores natural body energy. It is an effective therapy that combines healing and relaxation.",
+    //   icon: "💆‍♀️🧘‍♀️",
+    // },
+    
+    {
+      title: "Aromatherapy",
+      description: "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
+      icon: "🌸",
+    },
+    {
+      title: "Hot Stone Therapy",
+      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
+      icon: "🪨",
+    },
+    
   ];
   const services1 = [
   {
@@ -250,10 +257,10 @@ export default function aerocity() {
 const SERVICES_LEFT = [
   {
     id: 'foreigner',
-    title: 'Foreigner Staff',
+    title: 'Unmatched Luxury and Ambiance',
     subtitle: 'International therapists for authentic treatments',
     desc:
-      "We bring therapists trained across Russia, Afghanistan and Uzbekistan to deliver refined, presence-based healing that goes beyond standard relaxation.",
+      "All of the Spa Delhi branches are designed to be relaxing. With cozy interiors and relaxing scents, each and every component is created to help you relax.",
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
@@ -261,10 +268,10 @@ const SERVICES_LEFT = [
   },
   {
     id: 'body',
-    title: 'Body Treatments',
+    title: 'Highly Skilled Global Therapists',
     subtitle: 'Mastery across 23 specialised modalities',
     desc:
-      "From Thai Herbal Compress to Craniosacral therapy — every therapist completes 500+ hours of in-house training before serving clients.",
+      "Our therapists are professionally trained, experienced and have knowledge of international spa techniques. They deliver treatments focused on quality and care for each client.",
     chips: [
       'Thai Herbal Compress',
       'Shiatsu',
@@ -282,10 +289,10 @@ const SERVICES_LEFT = [
 const SERVICES_RIGHT = [
   {
     id: 'top',
-    title: 'Top Rated Services',
+    title: 'Wide Range of Premium Treatments',
     subtitle: 'Sustainable + award-winning',
     desc:
-      "Carbon-neutral operations, zero-waste policies and handcrafted products from ethical cooperatives — wellness that cares for the planet.",
+      "With many therapies like full-body massage, couple massage, aromatherapy, and body-to-body, our menu adapts to everyone’s needs.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -293,10 +300,10 @@ const SERVICES_RIGHT = [
   },
   {
     id: 'packages',
-    title: 'Home & Hotel Spa',
+    title: 'Accessible at Delhi’s Top Hotels',
     subtitle: 'Premium in-room & home journeys',
     desc:
-      "We partner with leading hotels to offer private suites and fully equipped in-room spa experiences. Corporate & event packages available.",
+      "Spa Delhi is available in leading hotels in Aerocity, including JW Marriott, Novotel, and Pullman. The easy access makes our services convenient for anyone who values comfort.",
     chips: ['JW Marriott Aerocity', 'The Suryaa', 'The Park CP'],
     time: '3-6 hours',
     price: 'From ₹8,500',
@@ -306,18 +313,18 @@ const SERVICES_RIGHT = [
 const topSteps = [
     {
       icon: <FaHotel className="text-amber-700 text-xl" />,
-      title: 'Choose Your Hotel & Room Type',
-      text: 'Tell us your hotel (JW Marriott, The Suryaa, Pullman, Holiday Inn etc.). Our therapists set up a spa-grade space in any room, hassle-free.',
+      title: 'Therapist Arrival at Your Hotel',
+      text: 'Our therapist arrives at your hotel punctually with all the materials required to carry out your massage like oils, towels, and linens.',
     },
     {
       icon: <FaClock className="text-amber-700 text-xl" />,
-      title: 'Pick the Massage Type & Duration',
-      text: 'Choose a full 120-minute treatment or a quick 30-minute session. Not sure? Our team suggests the best option for your goals.',
+      title: '24/7 Availability in Aerocity',
+      text: 'We accept bookings any time of the day or night, which is very accommodating to busy travellers.',
     },
     {
       icon: <FaPhoneAlt className="text-amber-700 text-xl" />,
-      title: 'Confirm Booking Online or via Call',
-      text: 'Book via website, WhatsApp or call. Therapist schedules are live and confirmations are instant — no waiting, no guessing.',
+      title: 'Quick Call or Telegram Booking',
+      text: 'Get in touch with either a direct call or Telegram and schedule your session immediately.',
     },
   ]
 
@@ -356,13 +363,13 @@ const topSteps = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Aerocity</span>
-            Tailored Experiences,
-              <span className="block mt-2 font-medium">Journey to <span className="text-rose-600">Tranquility</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Luxury Massage</span>
+            at Top Hotels in,
+              <span className="block mt-2 font-medium">Aerocity – Spa Delhi <span className="text-rose-600">Tranquility</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At LuxeSpa, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
+            Step into comfort and relaxation with Spa Delhi’s luxury Spa in Aerocity, offering treatments at the finest hotels in the Area. Whether you visit for work, stay on holiday, or seek soothing care during your trip, our expert therapists ensure you enjoy a calm and refreshing experience without ever leaving your hotel.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -494,7 +501,7 @@ const topSteps = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.4, duration: 0.5 }}
                     >
-                      Discover premium spa experiences at our 5-star hotel outlets. Indulge in luxurious treatments, rejuvenating therapies, and serene environments tailored for relaxation and elegance.
+                      Spa Delhi offers exclusive massage services at some of the most prestigious hotels in Aerocity. Each session is designed to alleviate stress and promote balance in your mind and body. Our expert therapists will offer personalized therapy in your hotel room, ensuring every moment is a health retreat. The following are the hotels where we have our services:
                     </motion.p>
                     
                     <motion.div
@@ -588,14 +595,13 @@ const topSteps = [
                                 transition={{ delay: 0.3 }}
                                 viewport={{ once: true }}
                               >
-                                How to Book Body Massage <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">in Aerocity At 5 Star Hotels?</span>
+                                Step Into Luxury <span className="relative">
+                                  <span className="text-amber-600 z-10 relative">Wellness at Aerocity with Spa Delhi</span>
                                   <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                                 </span>
                               </motion.h2>
                   <p className="text-gray-700 text-lg">
-                    At Luxury Body Spa, we are dedicated to creating a haven of peace, wellness, and rejuvenation in the heart of Delhi. With a blend of ancient healing traditions and modern techniques, our expert therapists restore balance and vitality. From full-body massages to specialized therapies, each session is designed to relax the mind, soothe the body, and uplift the spirit.
-                    Located in the heart of Delhi’s bustling Aerocity, our spa is surrounded by some of the city’s most prestigious hotels, making it the perfect destination for travelers and locals alike. Aerocity is renowned for its world-class hospitality, modern infrastructure, and seamless connectivity to IGI Airport and central Delhi.
+                    Spa Delhi makes a hotel stay at Aerocity an experience of complete relaxation. Be it in JW Marriott, Lemon tree, Pullman or Novotel, you can rely on the comfort, care and refreshing therapies in the comfort of your room. Make your reservations now and spend a night that is memorable.
                   </p>
                   {/* <p className="text-gray-700 text-lg">
                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
@@ -638,8 +644,16 @@ const topSteps = [
               transition={{ duration: 0.5, delay: 0.1 }}
               viewport={{ once: true }}
             >
-              Luxurious <span className="text-amber-500">Spa Experiences</span>
+              Why Choose <span className="text-amber-500">Spa Delhi for Spa Services in Delhi</span>
             </motion.h2>
+            <motion.p
+                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.4, duration: 0.5 }}
+                    >
+                      Spa Delhi is a blend of reliable spa treatment and luxury. Our services are guaranteed of top-quality comfort in high-quality hotels whether you are in Delhi as a tourist or to work or to relax.
+                    </motion.p>
           </div>
       
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -871,11 +885,10 @@ const topSteps = [
           transition={{ duration: 0.6 }}
         >
           <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Premium Spa Experiences</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Our Massage Services at Hotels in Aerocity</h1>
           <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-            Bespoke wellness journeys — experienced therapists, modern techniques and planetary-conscious operations for a restorative spa
-            experience.
+           Spa Delhi offers a great variety of treatments to meet the needs of all guests. Every service is designed so that relaxation and recovery are fully achieved to ensure that your stay is easier and more comfortable.
           </p>
         </motion.div>
 
@@ -993,9 +1006,9 @@ const topSteps = [
             >
               <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 <div>
-                  <h4 className="text-2xl font-bold">Personalized Spa Journeys</h4>
+                  <h4 className="text-2xl font-bold">A Promise of Total Rejuvenation</h4>
                   <p className="mt-2 opacity-95">
-                    Consultation-based plans, loyalty benefits and corporate wellness options. Priority booking for members.
+                    Every massage is designed to relax, refresh, and heal. We ensure you return energized, calm, and fully satisfied with your therapy.
                   </p>
                 </div>
                 <div className="flex gap-3">
@@ -1051,7 +1064,7 @@ const topSteps = [
           </motion.h1>
 
           <p className="mt-4 text-gray-700 max-w-2xl mx-auto text-sm md:text-base">
-            Experience luxury massage in your hotel with quick, easy and flexible booking. Our <span className="font-semibold text-amber-700">massage spa in Aerocity</span> comes directly to your room — at your convenience.
+            Booking a Spa Delhi session is quick and simple. We have simplified our process so that you can have an excellent time enjoying therapy.
           </p>
         </header>
 
@@ -1059,7 +1072,7 @@ const topSteps = [
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           {topSteps.map((s, idx) => (
             <motion.article
-              key={idx}
+              
               initial={{ opacity: 0, y: 16 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}

@@ -26,8 +26,8 @@ export default function paschimvihar() {
             const faqs = [
                   
                   {
-                    question: "What makes your spa in Gurgaon Special?",
-                    answer: "Our spa in Gurgaon offers multiple massage therapy like b2b massage, hot stone massage, deep tissue massage and sandwich massage in gurgaon at very affordable prices.",
+                    question: "What makes your spa in gurgaonn Special?",
+                    answer: "Our spa in gurgaonn offers multiple massage therapy like b2b massage, hot stone massage, deep tissue massage and sandwich massage in gurgaon at very affordable prices.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
@@ -37,17 +37,17 @@ export default function paschimvihar() {
                   },
                   
                   {
-                    question: "Do you provide packages for spa in Gurgaon with full service?",
+                    question: "Do you provide packages for spa in gurgaonn with full service?",
                     answer: "Yes of course, We offer spa in gurgaon with full service at very affordable prices. Our certified therapists come to your door steps and provide high quality massage in gurgaon.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "How do I reach your spa center in Gurgaon?",
+                    question: "How do I reach your spa center in gurgaonn?",
                     answer: "Book spa session from us. We will share all details about our spa in gurgaon like location, price, about our therapists and more. We are the trusted spa centre in gurgaon with top-notch massage service.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "Can I book a session at female to male spa in Gurgaon?",
+                        question: "Can I book a session at female to male spa in gurgaonn?",
                         answer: "You can book a female to male spa in gurgaon with us. We have top certified Female therapists to provide you comfort and relaxation at very affordable prices. You can choose your female therapists as per your preference.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
@@ -59,37 +59,37 @@ export default function paschimvihar() {
                 ];
   const hotelOutlets = [
   {
-    title: "JW Marriott Hotel Gurugram",
+    title: "The Oberoi, Gurgaon",
     image: "/images/JW Marriott Hotel Gurugram.jpg",
     description:
       "JW Marriott Hotel Gurugram offers luxury stays, fine dining, spa services, and elegant ambiance near Delhi Airport’s business district.",
   },
   {
-    title: "Lemon Tree Premier Gurugram",
+    title: "The Westin Gurgaon, New Delhi",
     image: "/images/LemonTreePremierGurugram.jpg",
     description:
       "Lemon Tree Premier Gurugram is a stylish, upscale hotel in Delhi’s Gurugram offering contemporary rooms and top-notch service.",
   },
   {
-    title: "Novotel New Delhi Gurugram",
+    title: "Grand Hyatt Gurgaon",
     image: "/images/NovotelNewDelhiGurugram.jpeg",
     description:
       "Modern upscale airport hotel with sleek rooms, rooftop pool, spa, and Gurugram connectivity for travelers.",
   },
   {
-    title: "Pride Plaza Hotel",
+    title: "Taj City Centre, Gurugram",
     image: "/images/pride-plaza-hotel-Gurugram1-2.jpg",
     description:
       "Elegant urban retreat offering luxurious rooms, dining, fitness center, event spaces, and personalized hospitality.",
   },
   {
-    title: "IBIS New Delhi Gurugram",
+    title: "Trident Gurgaon",
     image: "/images/IBISNewDelhiGurugram.jpg",
     description:
       "Rejuvenate at Ibis Gurugram’s spa with expert therapists, luxurious treatments, and serene ambience.",
   },
   {
-    title: "Pullman Gurugram",
+    title: "Hilton Gurugram Baani City Centre",
     image: "/images/pullmanGurugram.jpg",
     description:
       "Experience rejuvenating spa services at The Park Connaught Place – where luxury meets wellness.",
@@ -287,7 +287,7 @@ const SERVICES_RIGHT = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Gurugram</span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">gurgaon</span>
             Tailored Experiences,
               <span className="block mt-2 font-medium">Journey to <span className="text-rose-600">Tranquility</span></span>
             </h1>
@@ -349,11 +349,11 @@ const SERVICES_RIGHT = [
           </div>
 
           {/* Image section - more elegant */}
-          <div className="relaFgurtive h-80 md:h-96 lg:h-[450px]">
+          <div className="relative h-80 md:h-96 lg:h-[450px]">
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
                 <img
-                  src="/images/hotel4.jpg" // ✅ Yahan apna image path daal
+                  src="/images/SandalSuitesbyLemonTreeHotels_gurgaon.jpg" // ✅ Yahan apna image path daal
                   alt="Spa Environment"
                   className="w-full h-full object-cover"
                 />
