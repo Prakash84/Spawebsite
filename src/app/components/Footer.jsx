@@ -1,6 +1,8 @@
 import { WhatsApp } from "@mui/icons-material";
 import { Instagram, Linkedin, Youtube } from "lucide-react";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Hotel } from "lucide-react";
+ 
 
 export default function Footer() {
   const icons = [
@@ -76,7 +78,8 @@ export default function Footer() {
       <h4 className="text-lg font-semibold mb-6 text-amber-300">5-Star Hotels</h4>
       <ul className="space-y-4 text-gray-400">
         {['Roseate House', 'The Park', 'Radisson Blu MBD', 'The Oberoi', 'Radisson Blu Hotel'].map((hotel, i) => (
-          <li key={i}>
+          <li key={i} className="flex items-center space-x-2">
+            <Hotel className="w-4 h-4 text-amber-400" />
             <a
               href={`/hotels/${hotel.toLowerCase().replace(/\s+/g, "")}`}
               className="hover:text-amber-400 transition-colors text-sm inline-block"
@@ -87,6 +90,7 @@ export default function Footer() {
         ))}
       </ul>
     </div>
+
 
     {/* Contact Us Section */}
     <div className="min-w-0">
