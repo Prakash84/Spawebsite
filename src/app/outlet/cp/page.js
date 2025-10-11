@@ -1,4 +1,4 @@
-import Cpage from "./cpage";
+import Conaughtpage from "./Conaughtpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
@@ -22,5 +22,5 @@ export const metadata = {
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
 export default function About() {
-  return <Cpage />;
+  return <Conaughtpage />;
 }

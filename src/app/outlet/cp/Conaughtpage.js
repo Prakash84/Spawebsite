@@ -13,7 +13,7 @@ import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
 
 
 
-export default function Cpage() {
+export default function Conaughtpage() {
   const [isVisible, setIsVisible] = useState(false);
       useEffect(() => {
                 setIsVisible(true);
