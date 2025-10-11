@@ -57,32 +57,38 @@ const features = [
     {
       id: 1,
       icon: <FaRupeeSign className="w-6 h-6" aria-hidden="true" />,
-      title: 'Competitive Salary & Incentives',
-      desc: 'Attractive pay range + performance-based incentives and weekly payouts to reward your skill and dedication.'
+      title: 'Employment in 5 Star Hotels in Delhi NCR',
+      desc: 'Get familiar with high-quality brands such as, JW Marriott, Lemon Tree and Novotel.'
     },
     {
       id: 2,
       icon: <FaHotel className="w-6 h-6" aria-hidden="true" />,
-      title: 'Work in 5‑Star Hotel Spa Outlets',
-      desc: 'Serve premium clients at top hotels across Delhi NCR — a professional environment that elevates your profile.'
+      title: 'High Salary and Incentives',
+      desc: 'Competitive remuneration, tips, and performance commissions.'
     },
     {
       id: 3,
       icon: <FaShuttleVan className="w-6 h-6" aria-hidden="true" />,
-      title: 'Convenient Transport & Cabs',
-      desc: 'Safe and reliable cab facilities to and from work so you can focus on delivering great therapy.'
+      title: 'Friendly Work Environment to Females',
+      desc: 'We are also recruiting spa therapist positions for females in Delhi with comfort, safety, and respect.'
     },
     {
       id: 4,
       icon: <FaChalkboardTeacher className="w-6 h-6" aria-hidden="true" />,
-      title: 'Professional Growth & Development',
-      desc: 'Regular workshops, certifications, and on-the-job training to sharpen your skills and advance your career.'
+      title: 'Full-time and Part-Time positions will be offered',
+      desc: 'Part-time spa positions in Delhi NCR include flexible schedules.'
     },
     {
       id: 5,
       icon: <FaBalanceScale className="w-6 h-6" aria-hidden="true" />,
-      title: 'Work‑Life Balance',
-      desc: 'Flexible shifts and part-time options for students, parents, and professionals seeking balanced schedules.'
+      title: 'Develop as a Certified Massage Therapist',
+      desc: 'Training courses and seminars to improve your knowledge.'
+    },
+    {
+      id: 5,
+      icon: <FaBalanceScale className="w-6 h-6" aria-hidden="true" />,
+      title: 'Opportunities in Aerocity, Noida, and Delhi',
+      desc: 'Search and apply to hotel spa vacancies in Noida, male to female spa vacancies in Aerocity or body spa vacancies in Mahipalpur.'
     }
   ]
 
@@ -171,16 +177,17 @@ show: { opacity: 1, y: 0, transition: { duration: 0.5 } },
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">We Are Hiring</span>
-        Professional Spa Therapists, 
-        <span className="block mt-2 font-medium">Join Our Luxury Spa Network Across <span className="text-rose-600">Delhi NCR</span></span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Spa Jobs in Delhi</span>
+        – Join the Leading
+        <span className="block mt-2 font-medium">Massage & Spa Team <span className="text-rose-600">at Spa Delhi NCR</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-       Are you passionate about wellness, relaxation, and the art of massage therapy? Do you have a natural ability to provide exceptional spa experiences in a luxury setting? If you are a skilled and dedicated professional, we have an exciting opportunity for you to join our prestigious spa team!
+       Need a satisfying spa therapist position in Delhi? Spa Delhi provides luxury offices, good remuneration, and career development in leading 5-star hotels and spas in Delhi, Noida and more.
       </p>
-      <p>We are currently hiring Therapist Staff for our luxury spa outlets located in 5-star hotels across the Delhi NCR region. This includes renowned establishments such as Lemon Tree, Novotel, Roseate House, and Radisson. Whether you are looking for a full-time or part-time position, we have a variety of roles available to suit your lifestyle and career aspirations.</p>
-<p>At our luxury spa, we are committed to providing the highest standard of services to our clients, ensuring that each visit is a transformative experience. If you are looking for a spa job in Delhi or a therapist job that allows you to grow professionally in a luxury environment, this could be the perfect opportunity for you!</p>
+      <h2 className="text-2xl md:text-3xl font-light text-gray-800"><span className="block mt-2 font-medium">Our Premium Massage Center in Delhi</span></h2>
+      <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">In the Spa Delhi, there are 5-star hotels, spa and massage therapist employment opportunities in the most lavish places in Delhi. Start your trip with one of the most reliable brands of spa brands in the city.</p>
+
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
         <div className="flex items-center space-x-3">
@@ -357,7 +364,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            We Are <span className="text-amber-600">Hiring Spa Therapists</span>
+            Hiring Spa Therapists <span className="text-amber-600">– Build Your Future in Wellness</span>
           </motion.h2>
           <motion.p
             className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -366,7 +373,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            Join our luxurious spa chain and grow your career while offering top-tier wellness experiences to elite clients.
+            We are recruiting qualified and enthusiastic spa therapists (both male and female) to work in our luxury massage rooms located in Delhi and Noida, Aerocity, and Mahipalpur. But be it part time spa work in Delhi or full-time, we are offering all the vacancy that suits you.
           </motion.p>
           <div className="w-24 h-1 bg-amber-500 mx-auto mt-4"></div>
         </div>
@@ -389,23 +396,27 @@ View All Cities
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Perform a variety of treatments including massages, facials, and body wraps</span>
+                <span>Provide high-quality body massages and spa to the customers.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Provide exceptional customer service and create a soothing atmosphere</span>
+                <span>Keep the highest level of hygiene and comfort of the clients.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Maintain cleanliness and hygiene of treatment rooms</span>
+                <span>Recommend appropriate treatments according to the needs of clients.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Assist clients with product recommendations for home care</span>
+                <span>Always be private and professional.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Follow all protocols for safety and sanitation</span>
+                <span>Bookings and sessions to be handled responsibly and in a timely manner.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-amber-600 mr-2 mt-1">•</span>
+                <span>Create excellent branding of Represent Spa Delhi.</span>
               </li>
             </ul>
           </motion.div>
@@ -427,23 +438,27 @@ View All Cities
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span><strong>Experience:</strong> Previous experience in luxury spa preferred</span>
+                <span><strong>Experience:</strong> Experience in the spa or massage therapy during 1 to 3 years.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span><strong>Skills:</strong> Knowledge of various spa therapies and techniques</span>
+                <span><strong>Skills:</strong> SPA/massage therapy certification or diploma.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span><strong>Qualifications:</strong> Certification in spa therapy is a plus</span>
+                <span><strong>Qualifications:</strong> Good communication and interpersonal skills.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span><strong>Gender:</strong> Open to both Male and Female candidates</span>
+                <span><strong>Gender:</strong> Both male and female spa therapists were welcome.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span><strong>Location:</strong> Positions across top hotels in Delhi NCR</span>
+                <span><strong>Location:</strong> Candidates were favored in and around Delhi NCR.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-amber-600 mr-2 mt-1">•</span>
+                <span><strong>Hotel:</strong> Flexible hotel spa jobs in Mahipalpur, Noida or in Aerocity.</span>
               </li>
             </ul>
           </motion.div>
@@ -465,23 +480,27 @@ View All Cities
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>24+ outlets across Delhi, Noida, and Gurgaon</span>
+                <span>High-end 5-star hotel sites.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Luxurious 5-star hotel spa locations</span>
+                <span>Competitive compensation and rewards.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Accommodation & safety assured</span>
+                <span>Flexible employment (full time/ part-time).</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>High income with weekly payouts</span>
+                <span>Career development programs.</span>
               </li>
               <li className="flex items-start">
                 <span className="text-amber-600 mr-2 mt-1">•</span>
-                <span>Professional and friendly team</span>
+                <span>Training and grooming of professionals.</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-amber-600 mr-2 mt-1">•</span>
+                <span>Supportive, respectful, and safe work culture.</span>
               </li>
             </ul>
           </motion.div>
@@ -501,26 +520,26 @@ View All Cities
               <h3 className="text-2xl font-bold text-amber-800">Available Positions</h3>
             </div>
             <p className="text-gray-700 mb-4">
-              We are hiring <strong>Female Spa Therapists</strong> for full-time roles. 
-              Freshers and experienced professionals welcome.
+              Spa Delhi has vacancies in numerous types of luxury massage spa positions in Delhi and Noida, among them:
+               <strong></strong>
             </p>
             <div className="bg-amber-100 p-4 rounded-lg">
               <h4 className="font-semibold text-amber-800 mb-2">Therapies We Offer</h4>
               <div className="grid grid-cols-2 gap-2 text-sm">
                 <span className="flex items-center">
-                  <span className="text-amber-600 mr-1">•</span> Couple Massage
+                  <span className="text-amber-600 mr-1">•</span> Couple Massage Therapist
                 </span>
                 <span className="flex items-center">
-                  <span className="text-amber-600 mr-1">•</span> Sandwich Massage
+                  <span className="text-amber-600 mr-1">•</span> Sandwich Massage Therapist
                 </span>
                 <span className="flex items-center">
-                  <span className="text-amber-600 mr-1">•</span> Full Body Massage
+                  <span className="text-amber-600 mr-1">•</span> Full Body Massage Expert
                 </span>
                 <span className="flex items-center">
-                  <span className="text-amber-600 mr-1">•</span> Female to Male Massage
+                  <span className="text-amber-600 mr-1">•</span> Male Spa therapist to Female in Delhi.
                 </span>
                 <span className="flex items-center">
-                  <span className="text-amber-600 mr-1">•</span> B2B Therapy
+                  <span className="text-amber-600 mr-1">•</span> B2B Therapy Specialist
                 </span>
               </div>
             </div>
@@ -735,7 +754,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ duration: 0.5 }}
           >
-            <span className="block">Why <span className="text-amber-600">Work With Us?</span></span>
+            <span className="block">Why Choose <span className="text-amber-600">Spa Delhi for Spa Therapist Jobs in Delhi Hotels?</span></span>
           </motion.h2>
           <motion.p
             className="mt-3 max-w-2xl mx-auto text-gray-700"
@@ -744,7 +763,7 @@ View All Cities
             viewport={{ once: true }}
             transition={{ delay: 0.15, duration: 0.5 }}
           >
-            Join a luxury spa network that values your wellbeing and growth — here’s what we offer to our therapists.
+            In case of your desire to get employed in the top 5-star hotel spa in Delhi or Aerocity, then Spa Delhi presents you with the perfect platform to shine.
           </motion.p>
         </div>
 
@@ -813,8 +832,8 @@ View All Cities
               <FaPaperPlane className="w-5 h-5" aria-hidden="true" />
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-amber-900">How to Apply</h3>
-              <p className="text-sm text-gray-700 mt-1">Simple steps to submit your application and join our luxury spa network.</p>
+              <h3 className="text-2xl font-bold text-amber-900">How to Apply for Spa Jobs in Delhi</h3>
+              <p className="text-sm text-gray-700 mt-1">Be a part of a reliable and rapidly expanding brand that has been in the business of providing the best massage spa jobs in Delhi NCR.</p>
             </div>
           </div>
 
@@ -824,8 +843,8 @@ View All Cities
                 <div className="w-10 h-10 rounded-full bg-white border border-amber-200 flex items-center justify-center font-semibold text-amber-700">1</div>
               </div>
               <div>
-                <h4 className="font-semibold text-amber-900">Submit Your Resume & Cover Letter</h4>
-                <p className="text-sm text-gray-700 mt-1">Attach your updated resume and a short cover letter detailing your experience, qualifications, and why you want to work in a luxury spa.</p>
+                <h4 className="font-semibold text-amber-900">Submit Your Resume</h4>
+                <p className="text-sm text-gray-700 mt-1">Send your revised resume with stating your desired place of work (Delhi, Noida, Aerocity).</p>
               </div>
             </li>
 
@@ -834,8 +853,8 @@ View All Cities
                 <div className="w-10 h-10 rounded-full bg-white border border-amber-200 flex items-center justify-center font-semibold text-amber-700">2</div>
               </div>
               <div>
-                <h4 className="font-semibold text-amber-900">Include Certifications & Training</h4>
-                <p className="text-sm text-gray-700 mt-1">Please list any massage or spa therapy certifications, workshops, or professional training you have completed.</p>
+                <h4 className="font-semibold text-amber-900">Certification and Training</h4>
+                <p className="text-sm text-gray-700 mt-1">Add your spa or massage certifications so that you are shortlisted quickly.</p>
               </div>
             </li>
 
@@ -844,15 +863,23 @@ View All Cities
                 <div className="w-10 h-10 rounded-full bg-white border border-amber-200 flex items-center justify-center font-semibold text-amber-700">3</div>
               </div>
               <div>
-                <h4 className="font-semibold text-amber-900">Send & Wait for Confirmation</h4>
-                <p className="text-sm text-gray-700 mt-1">Send everything via email or WhatsApp. We'll review your application and reach out to schedule an interview if you match our requirements.</p>
+                <h4 className="font-semibold text-amber-900">Send and Wait of Confirmation or Offer Letter</h4>
+                <p className="text-sm text-gray-700 mt-1">After the review, you will be sent a confirmation of an interview or job offer in a couple of days.
+Spa Delhi is now hiring for:</p>
               </div>
             </li>
           </ol>
 
           <div className="mt-6 bg-white p-4 rounded-lg border border-amber-100">
-            <p className="text-sm text-gray-700"><span className="font-semibold">Pro tip:</span> Mention your preferred locations and available shift timings in the cover letter to speed up the shortlisting process.</p>
-          </div>
+  <p className="font-semibold text-gray-800 mb-2">💡 Pro Tips:</p>
+  <ul className="list-disc list-inside space-y-2 text-sm text-gray-700">
+    <li>Delhi Hotels Jobs Massage Spa.</li>
+    <li>Noida and Aerocity Body Spa Jobs.</li>
+    <li>Mahipalpur Spa Male to Female Jobs.</li>
+    <li>India, Delhi NCR Female spa Therapist Jobs.</li>
+  </ul>
+</div>
+
         </motion.div>
 
         {/* Right: Contact & CTA */}
