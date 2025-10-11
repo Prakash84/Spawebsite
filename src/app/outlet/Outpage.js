@@ -30,49 +30,49 @@ const hotelOutlets = [
     title: "JW Marriott Hotel Aerocity",
     image: "/images/JW Marriott Hotel Aerocity.jpg",
     description:
-      "JW Marriott Hotel Aerocity offers luxury stays, fine dining, spa services, and elegant ambiance near Delhi Airport’s business district.",
+      "Spa Delhi is a hotel where one can indulge in luxurious massage therapies and enjoy the wellness experience in high-end comfort.",
   },
   {
     title: "Lemon Tree Premier Aerocity",
     image: "/images/LemonTreePremierAerocity.jpg",
     description:
-      "Lemon Tree Premier Aerocity is a stylish, upscale hotel in Delhi’s Aerocity offering contemporary rooms and top-notch service.",
+      "De-Stress and refresh with Spa Delhi expert therapists who provide personalized spa treatments in the luxurious environment of Lemon Tree Premier.",
   },
   {
     title: "Novotel New Delhi Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description:
-      "Modern upscale airport hotel with sleek rooms, rooftop pool, spa, and Aerocity connectivity for travelers.",
+      "The ultimate relaxation with Spa Delhi massage therapies, a combination of luxury oils and professional skills in the modern space of Novotel.",
   },
   {
     title: "The Grand New Delhi",
     image: "/images/TheGrandNewDelhi.jpg",
     description:
-      "Elegant urban retreat offering luxurious rooms, dining, fitness center, event spaces, and personalized hospitality.",
+      "Have a splendid experience of the SpA Delhi massage services that are provided at the Grand New Delhi hotel where you can enjoy total relaxation and wellness in the luxurious surroundings of The Grand.",
   },
   {
     title: "IBIS New Delhi Aerocity",
     image: "/images/IBISNewDelhiAerocity.jpg",
     description:
-      "Rejuvenate at Ibis Aerocity’s spa with expert therapists, luxurious treatments, and serene ambience.",
+      "Enjoy Spa Delhi. Have a special massage therapy in IBIS, where masterful care is combined with a relaxing environment to get holistic rejuvenation.",
   },
   {
     title: "The Park Connaught Place",
     image: "/images/TheParkConnaughtPlace.jpg",
     description:
-      "Experience rejuvenating spa services at The Park Connaught Place – where luxury meets wellness.",
+      "Find a pleasant getaway with Spa Delhi luxury massages, which relaxes the body and uplift your senses.",
   },
   {
     title: "The Suryaa New Delhi (NFC)",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg",
     description:
-      "Indulge at The Suryaa with massages, therapies, serene ambiance, and personalized wellness.",
+      "Experience Spa Delhi specializes in massage services at The Suryaa, where customers receive personalized well-being and ultimate relaxation in the massage salon.",
   },
   {
     title: "The Ashok (Chanakyapuri)",
     image: "/images/TheAshok(Chanakyapuri).webp",
     description:
-      "Rejuvenate at The Ashok’s luxury spa in Chanakyapuri—experience ultimate relaxation and wellness.",
+      "Relax your body and mind with high-quality spa services at The Ashok, which combines luxurious experiences with a professional approach.",
   },
 ];
   const outlets = [
@@ -123,37 +123,37 @@ const locations = [
   {
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
-    description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
+    description: "Lajpat Nagar the city is regarded to be the place of the most excellent massage treatments with professional attention and relaxing environment.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
-    description: "Relax and unwind with our premium services at Aerocity.",
+    description: "Spa in Aerocity, in which Spa Delhi provides a wide range of luxury services and well-being to all clients.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
-    description: "Experience rejuvenation at our elegant Paschim Vihar location.",
+    description: "Take a break and refuel at Paschim Vihar with Spa Delhi through a special massage session to regain your lost energy.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
-    description: "Escape to serenity at our luxurious spa in Rohini.",
+    description: "Experience a serene escape in Rohini with Spa Delhi’s expertly delivered massage services for body and mind.",
     link: "https://wa.me/8826482370"
   },
   {
-    name: "Lajpat Nagar",
+    name: "Paharganj",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
-    description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
+    description: "Get the high-quality spa in Paharganj, which are stress reliever and soothing.",
     link: "https://wa.me/8826482370"
   },
   {
-    name: "Aerocity",
+    name: "Pitampura",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
-    description: "Relax and unwind with our premium services at Aerocity.",
+    description: "At Spa Delhi, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
     link: "https://wa.me/8826482370"
   },
   {
@@ -366,13 +366,12 @@ export default function Outpage() {
           </div>
 
           <h1 className="text-5xl md:text-6xl font-bold font-serif text-amber-900 leading-tight">
-            Our Premium <span className="text-amber-600"></span> <br /> 
-            <span className="bg-amber-600 text-white px-3 py-1 rounded-md">Spa Outlets</span>
+            Our Hotel Spa<span className="text-amber-600"></span> <br /> 
+            <span className="bg-amber-600 text-white px-3 py-1 rounded-md">Outlets for </span>Massage Spa in Delhi
           </h1>
 
           <p className="text-gray-600 max-w-md">
-            Relax your body and mind with our premium spa and wellness care. 
-            Experience tranquility, beauty, and complete rejuvenation in one place.
+            Enjoy unmatched luxury with expert massage services from Spa Delhi, now available at the best hotel spa outlets in the city, for the ultimate relaxation experience.
           </p>
 
           {/* CTA Buttons */}
@@ -440,7 +439,7 @@ export default function Outpage() {
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
-      Meet our diverse team of professionals who bring excellence and passion to every engagement.
+      Enjoy the luxury of a premium massage at Spa Delhi, offering high-quality hotel spa treatments and therapeutic massages at the finest spas in Delhi.
     </motion.p>
   
 
@@ -502,7 +501,7 @@ View All Cities
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      Our 5-Star Hotel Outlets
+      Our 5-Star Hotel Outlets for Massage Spa in Delhi
     </motion.h2>
 
     {/* Description */}
@@ -512,7 +511,7 @@ View All Cities
       whileInView={{ opacity: 1 }}
       transition={{ duration: 0.6, delay: 0.2 }}
     >
-      Discover premium spa experiences at our 5-star hotel outlets. Indulge in luxurious treatments, rejuvenating therapies, and serene environments tailored for relaxation and elegance.
+      Spa Delhi offers the world standard of wellness to the highest 5-star hotels making sure that the customers experience a personalized massage in a luxurious and serene environment.
     </motion.p>
 
     {/* Cards */}
@@ -596,7 +595,7 @@ View All Cities
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
-                            Get Exclusive Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Our Premium Spa Outlet in Noida</span>
+                            Spa Delhi: <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Best Massage Centre for Hotel Spa in Delhi</span>
                           </motion.h2>
                 <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
               </div>
@@ -679,23 +678,14 @@ View All Cities
                 >
                   <div className="max-w-lg">
                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                      Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                      Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                      of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                      <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                      and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                      designed private sanctuaries.
+                      In Spa Delhi, we re-brand the hotel wellness by offering our best massage services in the most luxurious hotels in Delhi. We have certified therapists including international experts that provide personalized treatments depending on your relaxation need and comfort. Through full-body treatments and B2B massages to couple treatments, all the experiences are aimed at melting away the stress, enhancing circulation, and restoring the vitality.
+                       <span className="font-medium text-stone-800"></span>
                     </p>
                     
                     
                     
                     <p className="text-stone-600 mb-6 leading-relaxed">
-                      We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                      <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                      and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                      designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                      Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                      of calm in the heart of Delhi.
+                      The visitors are subjected to posh oils, hygienic, and peaceful settings to uplift every session. Be it business, leisure or weekend outing, Spa Delhi would guarantee you a spa experience that is elegant, health-wise and unquestionably comfortably so, this makes us the favourite massage area that the hotels have spa services in Delhi.
                     </p>
                     
                     <div className="grid grid-cols-2 gap-4 mb-8">
@@ -823,7 +813,7 @@ View All Cities
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                  Visit us at any of our luxurious outlets, conveniently located across Delhi for your ultimate spa experience.
+                  Luxury spa outlets of Spa Delhi are the best way to treat yourself and they will provide professional massage treatments to the most preferred locations in the city.
                 </motion.p>
               </div>
       
@@ -986,18 +976,17 @@ View All Cities
 
       {/* Heading */}
       <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif">
-         Experience Full Body Massage in Connaught Place At Prime Location Of Delhi
+         Enjoy Top-Class Massage in Delhi at Hotel Spa in Delhi
       </h2>
 
       {/* Description */}
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
-        Experience the <strong>best luxury spa in Delhi NCR</strong>, where tranquility meets indulgence. Our exclusive spa retreat offers world-class therapies designed to rejuvenate your body, mind, and soul.
-        From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients.
-        From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients.
+        Spa Delhi guarantees complete relaxation and restorativeness to all the guests in the top Hotels of Delhi. Our professional therapists use the most sophisticated massage methods, essential oils, and individual therapies to help people relieve stress, enhance blood flow, and boost energy. Every session is designed to offer a total wellness experience, whether it's a full body massage, B2B therapy, or a couple session. <strong></strong>
       </p>
       <p className="text-gray-700 leading-relaxed text-base md:text-lg">
-        From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients. <strong>Book your indulgent escape today.</strong>
-         From traditional Ayurvedic treatments to modern deep tissue massages, each session is curated by expert therapists using premium essential oils and natural ingredients.
+        
+Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any room within a hotel to a haven of peace and pleasures. Customers leave rejuvenated, renewed and completely engrossed in an unmatched spa experience and Spa Delhi is the recommended name when it comes to luxury hotel massage services in the city.
+
       </p>
     </motion.div>
 
@@ -1231,12 +1220,12 @@ View All Cities
                                       >
                                         <div className="grid md:grid-cols-2 gap-8 items-center">
                                           <div>
-                                            <h3 className="text-2xl font-bold mb-4">Personalized Spa Journeys</h3>
+                                            <h3 className="text-2xl font-bold mb-4">Book Your Luxury Massage Today</h3>
                                             <p className="mb-4 opacity-90">
-                                              Every visit begins with a confidential wellness consultation where our specialists listen to your concerns and goals. We consider your lifestyle, stress levels, and any physical discomfort to create a truly personalized treatment plan.
+                                              Indulge in the finest spa experience with Spa Delhi’s expert therapists delivering personalized massages at your preferred hotel.
                                             </p>
                                             <p className="opacity-90">
-                                              Our exclusive loyalty program offers priority booking, complimentary upgrades, and special members-only events. Corporate wellness packages are available for businesses looking to invest in their team's wellbeing.
+                                              Relax, rejuvenate, and restore balance in the most luxurious setting, ensuring a premium wellness journey that revitalizes both body and mind. Book your appointment now to experience ultimate relaxation and sophistication.
                                             </p>
                                           </div>
                                           <div className="flex justify-center">
