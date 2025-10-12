@@ -7,7 +7,7 @@ export const metadata = {
   openGraph: {
     title: "Get Best Body Massage in Delhi | First Visit Offer 1999",
     description: "Looking for a relaxing massage in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi.",
-    images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
+    images: ["/images/luxuryspaicon.png"], // <-- use absolute URL in production
     type: "website",
   },
   twitter: {

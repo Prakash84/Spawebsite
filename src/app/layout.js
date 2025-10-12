@@ -17,7 +17,11 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "creat",
-  description: "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
+  description:
+    "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
+  icons: {
+    icon: "/images/luxuryspaicon.png", // 👈 yahan path diya favicon ka
+  },
 };
 
 export default function RootLayout({ children }) {
