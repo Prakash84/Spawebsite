@@ -1,10 +1,18 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-
-    images: {
-  domains: ['luxurybodyspa.in'],
-  
-}
+  reactStrictMode: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'spadelhi.com',
+        port: '3001',
+        pathname: '/**',
+      },
+      // add more patterns if needed
+    ],
+  },
+  // other config...
 };
 
 
