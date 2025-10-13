@@ -81,7 +81,7 @@ export default function Footer() {
           <li key={i} className="flex items-center space-x-2">
             <Hotel className="w-4 h-4 text-amber-400" />
             <a
-              href={`/hotels/${hotel.toLowerCase().replace(/\s+/g, "")}`}
+              href={`/outlet`}
               className="hover:text-amber-400 transition-colors text-sm inline-block"
             >
               {hotel}

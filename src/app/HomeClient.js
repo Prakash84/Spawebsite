@@ -2236,9 +2236,11 @@ const features2 = [
           transition={{ delay: 0.4 }}
           viewport={{ once: true }}
         >
+         <a href="/Services">
           <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
             Discover Our Treatments
           </button>
+          </a> 
         </motion.div>
       </div>
     </div>
