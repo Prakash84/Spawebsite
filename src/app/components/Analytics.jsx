@@ -5,7 +5,7 @@ import Script from "next/script";
 export default function Analytics() {
   return (
     <>
-      {/* Google tag (gtag.js) */}
+      {/* ✅ Google Analytics Tag */}
       <Script
         async
         src="https://www.googletagmanager.com/gtag/js?id=G-J61QTX20MN"
@@ -18,6 +18,12 @@ export default function Analytics() {
           gtag('config', 'G-J61QTX20MN');
         `}
       </Script>
+
+      {/* ✅ Google Site Verification */}
+      <meta
+        name="google-site-verification"
+        content="urWTsZ4VUiaWDY0gtPaGZ2YFOFrW4fQxFwqYn8lovLs"
+      />
     </>
   );
 }
