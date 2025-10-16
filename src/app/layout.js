@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import TopBar from "./components/TopBar";
+import Analytics from "./components/Analytics";
 ;
 
 const geistSans = Geist({
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         
       >
+         <Analytics />
         {/* <TopBar /> */}
         <Navbar />
         {children}
