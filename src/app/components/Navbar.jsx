@@ -38,11 +38,11 @@ export default function Navbar() {
   };
 
   const servicesDropdown = [
-    { name: "Sandwich Massage", href: "/Services/sandwichmassage" },
-    { name: "Couple Massage", href: "/Services/couplemassage" },
-    { name: "B2B Massage", href: "/Services/b2bmassage" },
-    { name: "Full Body Massage", href: "/Services/fullbodymassage" },
-    { name: "We Are Hiring", href: "/Services/hotstonemassage" },
+    { name: "Sandwich Massage", href: "/massage-service-in-delhi/massage-service-in-delhi" },
+    { name: "Couple Massage", href: "/massage-service-in-delhi/couples-massage-in-delhi" },
+    { name: "B2B Massage", href: "/massage-service-in-delhi/b2bmassage" },
+    { name: "Full Body Massage", href: "/massage-service-in-delhi/fullbodymassage" },
+    { name: "We Are Hiring", href: "/massage-service-in-delhi/hotstonemassage" },
   ];
 
   const outletDropdown = [
@@ -124,7 +124,7 @@ export default function Navbar() {
               onMouseLeave={handleServicesLeave}
             >
               <button className="font-medium text-gray-800 hover:text-amber-600 transition">
-                <a href="/Services">Services</a>
+                <a href="/massage-service-in-delhi">Services</a>
               </button>
               {isServicesOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
@@ -228,7 +228,7 @@ export default function Navbar() {
 
             {/* Mobile Services */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
-              <a href="/Services" className="hover:text-amber-600 w-full">
+              <a href="/massage-service-in-delhi" className="hover:text-amber-600 w-full">
                 Services
               </a>
               <button
