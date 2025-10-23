@@ -595,7 +595,7 @@ const features2 = [
                      {/* <a href={slide.link} className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 shadow-lg hover:shadow-xl">
                       Book a Spa Session Now
                     </a>  */}
-                    <a href="#services" className="bg-white/20 hover:bg-white/30 backdrop-blur-lg text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 border border-white">
+                    <a href="/massage-service-in-delhi" className="bg-white/20 hover:bg-white/30 backdrop-blur-lg text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 border border-white">
                       Explore Our Spa Services
                     </a>
                     
@@ -786,7 +786,7 @@ const features2 = [
               viewport={{ once: true }}
             >
               <motion.a
-                href="/about"
+                href="/about-us"
                 className="relative overflow-hidden px-8 py-4 rounded-full font-medium text-white group"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
@@ -2008,7 +2008,7 @@ const features2 = [
                 </a>
                 
                 <a
-                  href="/pricing"
+                  href="/spa-price-in-delhi"
                   className="flex-1 inline-flex items-center justify-center bg-white border-2 border-amber-500 text-amber-600 px-6 py-4 rounded-full text-lg font-medium hover:bg-amber-50 transition-all duration-300 shadow hover:shadow-md"
                 >
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
@@ -2236,7 +2236,7 @@ const features2 = [
           transition={{ delay: 0.4 }}
           viewport={{ once: true }}
         >
-         <a href="/Services">
+         <a href="/massage-service-in-delhi">
           <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
             Discover Our Treatments
           </button>
