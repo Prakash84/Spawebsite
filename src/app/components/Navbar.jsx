@@ -38,19 +38,19 @@ export default function Navbar() {
   };
 
   const servicesDropdown = [
-    { name: "Sandwich Massage", href: "/massage-service-in-delhi/massage-service-in-delhi" },
+    { name: "Sandwich Massage", href: "/massage-service-in-delhi/sandwich-massage-in-delhi" },
     { name: "Couple Massage", href: "/massage-service-in-delhi/couples-massage-in-delhi" },
-    { name: "B2B Massage", href: "/massage-service-in-delhi/b2bmassage" },
-    { name: "Full Body Massage", href: "/massage-service-in-delhi/fullbodymassage" },
-    { name: "We Are Hiring", href: "/massage-service-in-delhi/hotstonemassage" },
+    { name: "B2B Massage", href: "/massage-service-in-delhi/b2b-massage-in-delhi" },
+    { name: "Full Body Massage", href: "/massage-service-in-delhi/full-body-massage-in-delhi" },
+    { name: "We Are Hiring", href: "/massage-service-in-delhi/spa-therapist-jobs-in-delhi" },
   ];
 
   const outletDropdown = [
-    { name: "Aerocity", href: "/outlet/aerocity" },
-    { name: "Connaught Place", href: "/outlet/cp" },
-    { name: "Lajpat Nagar", href: "/outlet/lajpatnagar" },
-    { name: "Gurugram", href: "/outlet/paschimvihar" },
-    { name: "Noida", href: "/outlet/noida" },
+    { name: "Aerocity", href: "/Spa-in-rohini/spa-in-aerocity" },
+    { name: "Connaught Place", href: "/Spa-in-rohini/spa-in-connaught-place" },
+    { name: "Lajpat Nagar", href: "/Spa-in-rohini/spa-in-lajpat-nagar" },
+    { name: "Gurugram", href: "/Spa-in-rohini/spa-in-gurgaon" },
+    { name: "Noida", href: "/Spa-in-rohini/spa-in-noida" },
   ];
 
   return (
@@ -111,7 +111,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/about"
+              href="/about-us"
               className="font-medium text-gray-800 hover:text-amber-600 transition"
             >
               About
@@ -142,7 +142,7 @@ export default function Navbar() {
             </div>
 
             <a
-              href="/pricing"
+              href="/spa-price-in-delhi"
               className="font-medium text-gray-800 hover:text-amber-600 transition"
             >
               Pricing
@@ -155,7 +155,7 @@ export default function Navbar() {
               onMouseLeave={handleOutletLeave}
             >
               <button className="font-medium text-gray-800 hover:text-amber-600 transition">
-                <a href="/outlet">Outlet</a>
+                <a href="/Spa-in-rohini">Outlet</a>
               </button>
               {isOutletOpen && (
                 <div className="absolute left-0 mt-2 w-56 bg-white shadow-xl rounded-xl z-50 py-2">
@@ -220,7 +220,7 @@ export default function Navbar() {
               Home
             </a>
             <a
-              href="/about"
+              href="/about-us"
               className="block text-gray-800 font-semibold hover:text-amber-600"
             >
               About
@@ -254,7 +254,7 @@ export default function Navbar() {
             )}
 
             <a
-              href="/pricing"
+              href="/spa-price-in-delhi"
               className="block text-gray-800 font-semibold hover:text-amber-600"
             >
               Pricing
@@ -262,7 +262,7 @@ export default function Navbar() {
 
             {/* Mobile Outlet */}
             <div className="flex justify-between items-center text-gray-800 font-semibold py-2">
-              <a href="/outlet" className="hover:text-amber-600 w-full">
+              <a href="/Spa-in-rohini" className="hover:text-amber-600 w-full">
                 Outlet
               </a>
               <button

@@ -1,9 +1,9 @@
-import Aeropage from "./Aeropage";
+import Pricpage from "./Pricpage";
 // src/app/page.js
 // <-- NO "use client" here -->
 export const metadata = {
-  title: "Top-Notch Massage spa in Aerocity | 5 Star Hotel Spa in aerocity",
-  description: " Looking for a massage spa in Aerocity? We offer spa service in Aerocity and hotel spa in aerocity. Our service always gives relaxation to customers. So visit our spa in Aerocity now.",
+  title: "Get the best spa price in Delhi | Check Full Body massage price",
+  description: "Get Best spa price in delhi our spa service starting from just 1999. We have top 5 star outlets to provide you spa sessions in delhi or ncr regions. Check out full body massage price in noida",
   openGraph: {
     title: "Visit Best Sandwich Massage in Delhi | Started in just @1999",
     description: "Relax with Sandwich Massage in Delhi. Just visit our Sandwich Massage Spa in Karol Bagh to get the perfect sandwich massage in Delhi.",
@@ -21,6 +21,6 @@ export const metadata = {
 // dynamic import is optional but helps to avoid SSR issues with some libs
 // const HomeClient = dynamic(() => import("./HomeClient"), { ssr: false });
 
-export default function About() {
-  return <Aeropage />;
+export default function page() {
+  return <Pricpage />;
 }
