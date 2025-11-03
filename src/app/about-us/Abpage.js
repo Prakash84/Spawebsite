@@ -323,7 +323,7 @@ export default function Abpage({
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a href='/about'>
                <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-              <span>Our Journey</span>
+              <span><a href='/spa-price-in-delhi'>Our Prices</a></span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
@@ -535,7 +535,7 @@ export default function Abpage({
                                     </motion.h2>
             <p className="text-gray-600 text-lg leading-relaxed">
               Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation. We combine modern techniques with traditional practices to create therapy plans that suit your body and lifestyle — making us one of the most trusted luxury spas in Delhi.
-              Our <span className="font-semibold text-amber-700">massage spa in Delhi </span> 
+              Our <span className="font-semibold text-amber-700"><a href='/'>massage spa in Delhi</a> </span> 
               was established several years ago with the prime goal of giving 
               pleasure with the perfect package of massage services to individuals 
               struggling with finding peace. Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation.
@@ -568,7 +568,7 @@ export default function Abpage({
               Our <span className="font-semibold text-amber-700">full-body massage in Connaught Place </span> 
               is an ideal destination where you can set yourself free and get all set 
               to find the wonders with a deep relaxation massage led by the best 
-              massage therapist. We combine modern techniques with traditional practices to create therapy plans that suit your body and lifestyle — making us one of the most trusted luxury spas in Delhi. Our massage spa in Delhi was established several years ago with the prime goal of giving pleasure with the perfect package of massage services to individuals struggling with finding peace. Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation.
+              massage therapist. We combine modern techniques with traditional practices to create therapy plans that suit your body and lifestyle — making us one of the most trusted luxury spas in Delhi. Our massage spa in Delhi was established several years ago with the prime goal of giving pleasure with the perfect package of  <a href='/massage-service-in-delhi'><span className="font-semibold text-amber-700">massage services in Delhi </span></a>to individuals struggling with finding peace. Luxury Spa is a one-stop destination where expert therapists, premium oils, and tailored therapies come together to deliver a lasting sense of rejuvenation.
             </p>
           </motion.div>
 
@@ -640,7 +640,7 @@ export default function Abpage({
             </h2>
 
             <p className="mt-4 text-gray-700 max-w-xl">
-              We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and spa experiences. In Connaught Place (CP), Aerocity, Noida, Gurgaon or Dwarka, SpaDelhi will bring its spa to your door.
+             We have also had the honour of collaborating with some of the most esteemed hotels to provide in-room massage and <a href='/spa-in-aerocity'><span className="text-amber-600"> spa in Aerocity</span></a>, Connaught Place (CP),  Noida, Gurgaon or Dwarka, SpaDelhi will bring its spa to your door.
             </p>
 
             {/* three highlight chips */}
@@ -698,13 +698,13 @@ export default function Abpage({
             {/* CTA row */}
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="#book"
+                href="https://api.whatsapp.com/send?phone=919211059033"
                 className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
               >
                 Book a Session
               </a>
 
-              <a href="#services" className="text-amber-900 font-medium hover:underline">Explore Services</a>
+              <a href="/massage-service-in-delhi" className="text-amber-900 font-medium hover:underline">Explore Services</a>
             </div>
           </div>
         </div>
@@ -972,13 +972,13 @@ export default function Abpage({
 
           <div className="flex items-center gap-4">
             <a
-              href="#contact"
+              href="/contact"
               className="inline-block px-5 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:brightness-95 transition"
             >
               Contact & Book
             </a>
             <a
-              href="#careers"
+              href="/spa-therapist-jobs-in-delhi"
               className="text-amber-900 font-medium hover:underline"
             >
               Join Our Team

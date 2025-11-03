@@ -699,7 +699,7 @@ const features2 = [
               <span className="mr-2">✦</span> About Our Luxury Spa
             </motion.div>
 
-            <motion.h2
+            <motion.h1
               className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -710,7 +710,7 @@ const features2 = [
                 <span className="text-amber-600 z-10 relative">Luxury Body Spa in Delhi</span>
                 <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
               </span>
-            </motion.h2>
+            </motion.h1>
 
             <motion.div
               className="space-y-6 mb-8"
@@ -720,7 +720,7 @@ const features2 = [
               viewport={{ once: true }}
             >
               <p className="text-gray-600 text-lg leading-relaxed">
-                Discover the best <strong className="text-amber-600 font-medium">massage service in Delhi,</strong>where every therapist utilizes their exceptional skills and personalized care to rejuvenate your body and soul. Whether you prefer deep tissue massage, B2B massage, or aromatherapy massage, our high-end treatments will leave you feeling completely satisfied, with a sense of ultimate relaxation and rejuvenation 
+                Discover the best <a href="/massage-service-in-delhi"><strong className="text-amber-600 font-medium">massage service in Delhi,</strong></a>where every therapist utilizes their exceptional skills and personalized care to rejuvenate your body and soul. Whether you prefer deep tissue massage, B2B massage, or aromatherapy massage, our high-end treatments will leave you feeling completely satisfied, with a sense of ultimate relaxation and rejuvenation 
               </p>
               {/* <p className="text-gray-600 text-lg leading-relaxed">
                 Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
@@ -1371,7 +1371,7 @@ const features2 = [
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
-            Our exclusive spa Delhi outlets offer world-class therapies In 5 Star Hotels Spa In Delhi
+            Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/Spa-in-rohini">Hotels Spa In Delhi</a>
           </motion.p>
           
           <motion.div
@@ -1531,6 +1531,7 @@ const features2 = [
             transition={{ delay: 0.2 }}
           >
             Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+            Check our affordable <a href="/spa-price-in-delhi">spa price in Delhi.</a>
           </motion.p>
         </div>
 
