@@ -231,10 +231,10 @@ const teamMembers = [
         </p>
 
         <a
-          href="tel:+919211235800"
+          href="/massage-service-in-delhi"
           className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
         >
-          View Pricing Plans
+          View Our Services
         </a>
       </div>
     </section>
@@ -350,9 +350,11 @@ const teamMembers = [
           animate={isVisible ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.8, delay: 1 }}
         >
+          <a href='/Spa-in-rohini'>
           <button className="px-10 py-4 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-lg font-medium hover:opacity-90 transition-opacity shadow-lg shadow-amber-500/30">
-            View All Services
+            Outlets
           </button>
+          </a>
           <p className="mt-6 text-amber-700 max-w-xl mx-auto">
             Experience the difference of our premium spa treatments. Book a consultation today and discover your path to wellness.
           </p>
@@ -664,9 +666,12 @@ const teamMembers = [
                     </div>
                     
                     <div className="flex flex-col sm:flex-row gap-4">
-                      <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                      <a href='/View All Services'>
+                        <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         View Treatments
                       </button>
+                      </a>
+                      
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>

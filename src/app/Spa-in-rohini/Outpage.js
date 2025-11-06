@@ -478,10 +478,10 @@ className="group-hover:scale-105 transition-transform duration-500"
 
 <div className="flex justify-center mt-10">
 <a
-href="#/cities"
+href="/massage-service-in-delhi"
 className="inline-flex items-center gap-3 bg-gradient-to-r from-purple-600 to-pink-600 text-white font-semibold px-6 py-3 rounded-full shadow-md transition-all"
 >
-View All Cities
+View All Services
 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 5l7 7-7 7"></path>
 </svg>
@@ -712,9 +712,11 @@ View All Cities
                     </div>
                     
                     <div className="flex flex-col sm:flex-row gap-4">
+                      <a href='/View Pricing Plans'>
                       <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                        View Treatments
+                        Our Packages
                       </button>
+                      </a>
                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>

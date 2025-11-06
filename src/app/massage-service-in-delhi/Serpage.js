@@ -532,9 +532,9 @@ const faqs = [
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">60-90 min</span>
-                  <button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
-                    Learn More
-                  </button>
+                  <a href='https://api.whatsapp.com/send?phone=919211059033'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    Book Now
+                  </button></a>
                 </div>
               </div>
             </motion.div>
@@ -557,9 +557,9 @@ const faqs = [
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">75-120 min</span>
-                  <button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
-                    Learn More
-                  </button>
+                  <a href='https://api.whatsapp.com/send?phone=919211059033'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    Book Now
+                  </button></a>
                 </div>
               </div>
             </motion.div>
@@ -582,9 +582,9 @@ const faqs = [
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">90-150 min</span>
-                  <button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
-                    Learn More
-                  </button>
+                  <a href='https://api.whatsapp.com/send?phone=919211059033'><button className="px-5 py-2 bg-gradient-to-r from-amber-500 to-amber-600 text-white rounded-full text-sm font-medium hover:opacity-90 transition-opacity">
+                    Book Now
+                  </button></a>
                 </div>
               </div>
             </motion.div>
@@ -794,8 +794,8 @@ const faqs = [
                               whileHover={{ scale: 1.03 }}
                               whileTap={{ scale: 0.98 }}
                             >
-                              <a href="/Services" className="flex items-center gap-2">
-                                 View Treatments
+                              <a href="/spa-price-in-delhi" className="flex items-center gap-2">
+                                 Check Price
                               </a>
                               
                             </motion.button>
@@ -899,7 +899,7 @@ const faqs = [
                             viewport={{ once: true }}
                           >
                             <p className="text-gray-600 text-lg leading-relaxed">
-                              Welcome to <strong className="text-amber-600 font-medium">Delhi Body Spa</strong>, where we offer a range of <strong className="text-amber-600 font-medium">luxury spa</strong> treatments including <strong className="text-amber-600 font-medium">female to male spa</strong>, <strong className="text-amber-600 font-medium">couple massages</strong>, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
+                              Welcome to <a href='/'><strong className="text-amber-600 font-medium">Spa Delhi</strong></a>, where we offer a range of <strong className="text-amber-600 font-medium">luxury spa</strong> treatments including <strong className="text-amber-600 font-medium">female to male spa</strong>, <strong className="text-amber-600 font-medium">couple massages</strong>, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
                               Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
                             </p>
                             {/* <p className="text-gray-600 text-lg leading-relaxed">
@@ -949,7 +949,7 @@ const faqs = [
                             viewport={{ once: true }}
                           >
                             <motion.a
-                              href="/about"
+                              href="/about-us"
                               className="relative overflow-hidden px-8 py-4 rounded-full font-medium text-white group"
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
@@ -970,7 +970,7 @@ const faqs = [
                               whileHover={{ scale: 1.05 }}
                               whileTap={{ scale: 0.95 }}
                             >
-                              <a href="#Pricing" className="relative z-10 flex items-center gap-2 cursor-pointer">
+                              <a href="/spa-price-in-delhi" className="relative z-10 flex items-center gap-2 cursor-pointer">
                                 View Pricing
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                                   <path d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z" />
@@ -1199,7 +1199,7 @@ const faqs = [
                         <div className="mb-6">
                           <h4 className="text-lg font-bold text-amber-700 mb-3">Signature Oil Blends</h4>
                           <div className="grid grid-cols-2 gap-3">
-                            {['Erotic Massage', 'Nuru Massage', 'B2B Massage', 'Sandalwood Serenity', 'Jasmine Bliss', 'Frankincense Balance'].map((oil, index) => (
+                            {['AromaTherapy', 'Couple Massage', 'B2B Massage', 'Sandwich Massage', 'Thai Massage', 'Full-body Massage'].map((oil, index) => (
                               <div key={index} className="flex items-center">
                                 <div className="w-2 h-2 rounded-full bg-amber-400 mr-2"></div>
                                 <span className="text-amber-800">{oil}</span>
@@ -1334,12 +1334,14 @@ const faqs = [
                   viewport={{ once: true }}
                   transition={{ duration: 0.8, delay: 0.3 }}
                 >
+                  <a href='https://api.whatsapp.com/send?phone=919211059033'>
                   <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
-                    Book Your Rejuvenating Experience
+                    Book Your Spa Session Now
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
                       <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                     </svg>
                   </button>
+                  </a>
                   <p className="text-amber-700 mt-4">
                     Limited slots available. Reserve your session today.
                   </p>
@@ -1807,16 +1809,16 @@ const faqs = [
                 📞 Call to Book: +91 92112 35800
               </a>
               <a
-                href="#contact"
+                href="/contact"
                 className="border-2 border-white text-white px-8 py-4 rounded-full font-bold shadow-md hover:bg-white/10 transition-all duration-300"
               >
                 ✉️ Send Inquiry
               </a>
               <a
-                href="#services"
+                href="/Spa-in-rohini"
                 className="bg-amber-300 text-amber-900 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-400 transition-all duration-300"
               >
-                💆‍♀️ View Services
+                💆‍♀️ View Outlets
               </a>
             </div>
           </div>
