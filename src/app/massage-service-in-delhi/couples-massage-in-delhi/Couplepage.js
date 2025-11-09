@@ -280,12 +280,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+        <a href='/sandwich-massage-in-delhi'>
         <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-          <span>Explore Couple Massage</span>
+          <span>Explore Sandwich Massage</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
         </button>
+        </a>
         <button className=" text-blue-500 rounded-sm  hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -656,12 +658,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      </div>
                      
                      <div className="flex flex-col sm:flex-row gap-4">
+                      <a href='/massage-service-in-delhi'>
                        <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          View Treatments
                        </button>
+                       </a>
+                       <a href=''>
                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
+                       </a>
                      </div>
                    
                    </div>
@@ -1105,12 +1111,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
 
           <div className="flex flex-wrap gap-4 mb-8">
+            <a href='/spa-price-in-delhi'>
             <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
-              Learn More
+              Our pricing
             </button>
+            </a>
+            <a href='/Spa-in-rohini'>
             <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
-              View Projects
+              Outlets
             </button>
+            </a>
           </div>
 
           <div className="flex items-center space-x-4">
