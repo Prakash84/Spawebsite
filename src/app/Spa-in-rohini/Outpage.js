@@ -384,7 +384,7 @@ export default function Outpage() {
             </a>
 
             <a
-              href="#book"
+              href="https://api.whatsapp.com/send?phone=918826482370"
               className="px-6 py-3 rounded-xl bg-amber-600 text-white font-medium shadow-md hover:bg-amber-700 transition"
             >
               Book Now
@@ -545,7 +545,7 @@ View All Services
 
             {/* Book Now Button */}
             <a
-              href="http://wa.link/njldxn"
+              href="https://api.whatsapp.com/send?phone=918826482370"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-5 py-2 rounded-full bg-amber-500 text-white text-sm font-semibold hover:bg-amber-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -655,10 +655,10 @@ View All Services
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          
-                          <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                          <a href='https://api.whatsapp.com/send?phone=918826482370'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
-                          </button>
+                          </button></a>
+                          
                         </div>
                       </div>
                     </div>
@@ -712,14 +712,17 @@ View All Services
                     </div>
                     
                     <div className="flex flex-col sm:flex-row gap-4">
-                      <a href='/View Pricing Plans'>
+                      <a href='/spa-price-in-delhi'>
                       <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Our Packages
                       </button>
                       </a>
-                      <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                      <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
+                      </a>
+                      
                     </div>
                   
                   </div>

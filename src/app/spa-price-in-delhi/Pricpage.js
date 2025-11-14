@@ -600,10 +600,12 @@ const teamMembers = [
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          
-                          <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                          <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                            <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
                           </button>
+                          </a>
+                          
                         </div>
                       </div>
                     </div>
@@ -666,15 +668,17 @@ const teamMembers = [
                     </div>
                     
                     <div className="flex flex-col sm:flex-row gap-4">
-                      <a href='/View All Services'>
+                      <a href='/massage-service-in-delhi'>
                         <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         View Treatments
                       </button>
                       </a>
-                      
-                      <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                      <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
+                      </a>
+                      
                     </div>
                   
                   </div>

@@ -1480,7 +1480,7 @@ const features2 = [
           viewport={{ once: true }}
         >
           <button className="relative inline-flex items-center gap-3 group">
-            <a href="/outlet"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
+            <a href="/Spa-in-rohini"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
               VIEW ALL OUTLETS
             </span></a>
             <div className="relative h-0.5 bg-amber-800/30 overflow-hidden w-24">

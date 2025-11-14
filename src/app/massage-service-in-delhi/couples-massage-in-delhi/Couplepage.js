@@ -1058,12 +1058,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
                                            >
-                                             <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
+                                            <a href='/massage-service-in-delhi'>
+                                              <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Rejuvenating Experience
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
                                                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                                                </svg>
                                              </button>
+                                            </a>
+                                             
                                              <p className="text-amber-700 mt-4">
                                                Limited slots available. Reserve your session today.
                                              </p>

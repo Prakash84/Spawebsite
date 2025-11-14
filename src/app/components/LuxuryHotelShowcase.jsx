@@ -174,12 +174,15 @@ const LuxuryHotelShowcase = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
+          <a href="/couples-massage-in-delhi">
+            <button className="inline-flex items-center px-8 py-4 bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold rounded-full hover:shadow-xl transition-all duration-300 group">
             Book Your Romantic Couple Massage Today!
             <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 ml-2 transition-transform group-hover:translate-x-1" viewBox="0 0 24 24" fill="currentColor">
               <path fillRule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm4.28 10.28a.75.75 0 000-1.06l-3-3a.75.75 0 10-1.06 1.06l1.72 1.72H8.25a.75.75 0 000 1.5h5.69l-1.72 1.72a.75.75 0 101.06 1.06l3-3z" clipRule="evenodd" />
             </svg>
           </button>
+          </a>
+          
           <div className="mt-10 flex flex-wrap justify-center gap-8">
             {['Unwind', 'reconnect', 'celebrate bond with the best couple massage in Delhi '].map((brand, idx) => (
               <div key={idx} className="bg-white px-6 py-3 rounded-xl shadow-sm border border-amber-100">

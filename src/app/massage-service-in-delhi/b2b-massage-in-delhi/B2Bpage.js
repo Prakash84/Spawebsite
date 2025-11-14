@@ -279,9 +279,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-        <a href='/'>
+        <a href='/about-us'>
         <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-          <span>Explore B2B Massage</span>
+          <span>About Us</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -653,12 +653,17 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      </div>
                      
                      <div className="flex flex-col sm:flex-row gap-4">
-                       <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                      <a href='/massage-service-in-delhi'>
+                        <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          View Treatments
                        </button>
-                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                      </a>
+                       <a href=''>
+                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
+                       </a>
+                       
                      </div>
                    
                    </div>
@@ -1049,12 +1054,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
                                            >
-                                             <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
+                                            <a href='/massage-service-in-delhi'>
+                                              <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Rejuvenating Experience
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
                                                  <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
                                                </svg>
                                              </button>
+                                            </a>
+                                             
                                              <p className="text-amber-700 mt-4">
                                                Limited slots available. Reserve your session today.
                                              </p>
@@ -1102,12 +1110,17 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
 
           <div className="flex flex-wrap gap-4 mb-8">
-            <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
-              Learn More
+            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+              <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
+              Book Now
             </button>
-            <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
-              View Projects
+            </a>
+            <a href='/massage-service-in-delhi'>
+              <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
+              View More Services
             </button>
+            </a>
+            
           </div>
 
           <div className="flex items-center space-x-4">
