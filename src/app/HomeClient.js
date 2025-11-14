@@ -266,18 +266,18 @@ const [isVisible, setIsVisible] = useState(false);
 
   const slides = [
     {
-      title: "Premium B2B Massage in Delhi with Trained Therapists",
+      title: "Welcome to The Spa Delhi — Your One-Stop for Ultimate Relaxation",
       link: "https://api.whatsapp.com/send?phone=918826482370",
       image: "/images/hb1.jpg"
       
     },
     {
-      title: " Luxury Spa in Delhi with 12+ Outlets Across NCR",
+      title: "Explore Spa Delhi With 12+ Spa Outlets in Delhi NCR",
       link: "https://api.whatsapp.com/send?phone=918826482370",
       image: "/images/hb2.jpg"
     },
     {
-      title: "Relax at Our Exotic Spa in Aerocity Delhi – 5 Star Hotel Outlets",
+      title: "Book Massage at the best massage centre in Delh",
       link: "https://api.whatsapp.com/send?phone=918826482370",
       image: "/images/hb3.jpg"
     },
@@ -324,7 +324,7 @@ const [isVisible, setIsVisible] = useState(false);
 const testimonials = [
     {
       id: 1,
-      name: "Anjali Sharma",
+      name: "Akash Sharma",
       role: "Corporate Professional",
       content: "After long office hours, I wanted a place to relax. Delhi Body Spa in Connaught Place gave me the perfect body massage. The ambience was soothing, and I felt completely stress-free after the session. Highly recommended for anyone looking for the best body spa in Delhi",
       date: "April 15, 2023",
@@ -344,7 +344,7 @@ const testimonials = [
     },
     {
       id: 3,
-      name: "Meera Kapoor",
+      name: "Sonu Kapoor",
       role: "Fitness Enthusiast",
       content: "After my workout sessions, I visit Delhi Body Spa for full body massage. The team is very professional, and the oils they use are premium quality. This is the perfect spot for relaxation and body care in Delhi",
       date: "June 8, 2023",
@@ -706,11 +706,11 @@ const features2 = [
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Affordable & Professional <span className="relative">
-                <span className="text-amber-600 z-10 relative">Luxury Body Spa in Delhi</span>
+              Experience Our Spa in <span className="relative">
+                <span className="text-amber-600 z-10 relative">Delhi For Professional Massage Services</span>
                 <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
               </span>
-            </motion.h1>
+            </motion.h1> 
 
             <motion.div
               className="space-y-6 mb-8"
@@ -938,7 +938,7 @@ const features2 = [
         transition={{ duration: 0.5, delay: 0.1 }}
         viewport={{ once: true }}
       >
-        Top Rated <span className="text-amber-500">Spa Services In Delhi, Noida & Gurgaon</span>
+        Explore Every Kind of <span className="text-amber-500">Massage At Our Massage Parlour in Delhi</span>
       </motion.h2>
     </div>
 
@@ -982,7 +982,7 @@ const features2 = [
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6 font-serif">
-            Why Choose <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Spa Delhi for </span> Relaxation & Wellness?
+            Why We Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">The Best Massage </span> RCentre in Delhi?
           </h2>
           
           <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
@@ -1661,8 +1661,8 @@ const features2 = [
                           transition={{ delay: 0.3 }}
                           viewport={{ once: true }}
                         >
-                          Best Rated Spa Massage <span className="relative">
-                            <span className="text-amber-600 z-10 relative">in Delhi for Stress Relief</span>
+                          Enjoy Premium Massage <span className="relative">
+                            <span className="text-amber-600 z-10 relative">Therapies At Our Spa in Delhi</span>
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                           </span>
                         </motion.h2>
@@ -1691,8 +1691,8 @@ const features2 = [
                           transition={{ delay: 0.3 }}
                           viewport={{ once: true }}
                         >
-                          Premium Spa in <span className="relative">
-                            <span className="text-amber-600 z-10 relative">Gurgoan with Certified Therapists</span>
+                          Get Top-Rated Full Body <span className="relative">
+                            <span className="text-amber-600 z-10 relative">Massage At Spa in Connaught Place</span>
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                           </span>
                         </motion.h2>
@@ -1818,7 +1818,7 @@ Established several years ago, our goal has always been to provide peace, comfor
         <span className="block text-xl font-light tracking-widest text-[#D4A866] mb-2">
           PREMIUM WELLNESS DESTINATIONS
         </span>
-        24+ Exclusive Body Spa Outlets
+        24+ Exclusive Spa Delhi Outlets
       </h2>
       <div className="w-16 h-0.5 bg-[#D4A866] mt-6" />
     </div>

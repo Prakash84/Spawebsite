@@ -567,23 +567,23 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                            <ul className="mt-4 space-y-2">
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Couple Massage</span>
+                               <span className="text-stone-700">Romantic setup</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Jacuzzi Bath</span>
+                               <span className="text-stone-700">Two therapists</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Private Room</span>
+                               <span className="text-stone-700">Private couple suite</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Oil & Cream Massage</span>
+                               <span className="text-stone-700">Stress relief together</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Aromatherapy</span>
+                               <span className="text-stone-700">Herbal welcome drink</span>
                              </li>
                            </ul>
                            
@@ -636,23 +636,23 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
                        <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">★</div>
-                        <h4 className="font-medium text-stone-800">5 Start Hotel</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🌹</div>
+                        <h4 className="font-medium text-stone-800">Couple Suite</h4>
                         <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                        <h4 className="font-medium text-stone-800">Nuru Massage</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🕯 </div>
+                        <h4 className="font-medium text-stone-800">Candlelight Ambience</h4>
                         <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                        <h4 className="font-medium text-stone-800">Couples Welcome</h4>
+                        <div className="text-amber-600 text-2xl mb-2">💆‍♀️ </div>
+                        <h4 className="font-medium text-stone-800">Customized Massage Choice</h4>
                         <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🧖</div>
-                        <h4 className="font-medium text-stone-800">Erotic Massage</h4>
+                        <div className="text-amber-600 text-2xl mb-2">☕ </div>
+                        <h4 className="font-medium text-stone-800">Complimentary Refreshments</h4>
                         <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
                       </div>
                      </div>

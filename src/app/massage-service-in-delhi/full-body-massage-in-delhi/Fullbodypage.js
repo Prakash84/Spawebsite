@@ -241,7 +241,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
         <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Full Body Massage</span>
-        in Delhi:, 
+        in Delhi, 
         <span className="block mt-2 font-medium">Relax Your Mind, <span className="text-rose-600">Body, and Soul</span></span>
       </h1>
 
@@ -576,23 +576,23 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                            <ul className="mt-4 space-y-2">
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Full Body Massage</span>
+                               <span className="text-stone-700">Head-to-toe therapy</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Jacuzzi Bath</span>
+                               <span className="text-stone-700">Deep tissue option</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Private Room</span>
+                               <span className="text-stone-700">Muscle flexibility boost</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Oil & Cream Massage</span>
+                               <span className="text-stone-700">Relieves fatigue</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Aromatherapy</span>
+                               <span className="text-stone-700">Warm towel finish</span>
                              </li>
                            </ul>
                            
@@ -646,23 +646,23 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
                        <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">★</div>
-                        <h4 className="font-medium text-stone-800">5 Start Hotel</h4>
+                        <div className="text-amber-600 text-2xl mb-2">💧</div>
+                        <h4 className="font-medium text-stone-800">Deep Tissue / Swedish</h4>
                         <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                        <h4 className="font-medium text-stone-800">Nuru Massage</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🌿</div>
+                        <h4 className="font-medium text-stone-800">Aromatherapy Oils</h4>
                         <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                        <h4 className="font-medium text-stone-800">Couples Welcome</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🧘‍♀️</div>
+                        <h4 className="font-medium text-stone-800">Total Body Relaxation</h4>
                         <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🧖</div>
-                        <h4 className="font-medium text-stone-800">Erotic Massage</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🕯</div>
+                        <h4 className="font-medium text-stone-800">Warm Towel Finish</h4>
                         <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
                       </div>
                      </div>
@@ -1155,11 +1155,11 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
         
         {/* Why Choose Us Section */}
-                <section className="py-20 relative">
+                {/* <section className="py-20 relative">
                   <div className="absolute inset-0 bg-amber-800 opacity-5"></div>
                   <div className="container mx-auto px-4 relative">
                     
-                    {/* Section Header */}
+                   
                 <motion.div 
                   className="text-center mb-20"
                   initial={{ opacity: 0, y: 20 }}
@@ -1171,7 +1171,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
-                    transition={{ delay: 0.2, duration: 0.5 }}
+                    transition={{ delay: 0.2, duratio5n: 0.5 }}
                   >
                     <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
                     <span className="text-amber-700 font-medium tracking-wider">Specialty</span>
@@ -1212,7 +1212,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                               When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhi's best spas offer a range of services tailored to suit every need. With both Indian and foreign therapists, these therapies are designed to promote deep relaxation, reduce stress, and rejuvenate the body.
         
                             </p>
-                          {/* Bullet Points instead of Image */}
+                         
                           <ul className="list-disc list-inside text-gray-700 space-y-2">
                             <li>Highly trained and certified therapists</li>
                             <li>Wide range of massage techniques</li>
@@ -1250,9 +1250,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         <p>
                          The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
                         </p>
-                        {/* <p>
-                          Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
-                        </p> */}
+                        
                         <div className="flex mt-6">
                           {['Lavender', 'Eucalyptus', 'Rosemary', 'Sandalwood'].map((oil, index) => (
                             <div key={index} className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm mr-2">
@@ -1264,7 +1262,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                     </div>
                   </div>
-                </section>
+                </section> */}
         {/* Pricing Section */}
               <section id= "Pricing" className="py-10 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-white to-amber-50 relative overflow-hidden">
               {/* Decorative elements */}
