@@ -1058,13 +1058,13 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               </h2>
                                             </div>
                                              <p className="text-gray-600 leading-relaxed mb-6">
-                            We believe true wellness emerges from harmony between physical, mental, and energetic dimensions. Unlike conventional spas, our approach integrates three core principles:
+                            Experience world-class relaxation with our international massage therapists, trained to give you the best spa therapy in India. At our spa, we believe true wellness comes from the perfect balance of mind, body, and energy. That’s why our treatments combine natural techniques with global healing practices for deeper, long-lasting results.
                                               </p>
                                               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                                                 {[
-                                                  {title: 'Russian Therapist', desc: 'Therapists trained in meditation techniques to create truly present healing experiences'},
-                                                  {title: 'Afgani Therapist', desc: 'Therapies designed to activate your body\'s innate healing capabilities'},
-                                                  {title: 'Uzbeki Therapist', desc: 'Space designed with sacred geometry to enhance therapeutic benefits'}
+                                                  {title: 'Russian Therapist', desc: 'Highly skilled therapists trained in advanced meditation and relaxation techniques. Their sessions help reduce stress, calm the mind, and improve overall well-being.'},
+                                                  {title: 'Afgani Therapist', desc: 'Traditional Afghani healing methods designed to activate your body’s natural recovery power, improve blood flow, and relieve chronic pain.'},
+                                                  {title: 'Uzbeki Therapist', desc: 'Therapists who use sacred-geometry–based healing spaces and gentle hands-on techniques for deep relaxation, emotional balance, and full-body comfort.'}
                                                 ].map((item, index) => (
                                                   <div key={index} className="bg-indigo-50 p-4 rounded-xl">
                                                     <h3 className="font-bold text-amber-800 mb-2">{item.title}</h3>
@@ -1073,7 +1073,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                                 ))}
                                               </div>
                                               <p className="text-gray-600 leading-relaxed">
-                                                This holistic framework allows us to create treatments that don't just relax temporarily but catalyze lasting change. Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
+                                               Our foreigner staff follows a holistic approach that gives results beyond temporary relaxation. Clients often report better sleep, reduced anxiety, improved energy levels, and long-term pain relief after our signature therapies.
                                               </p>
                                             <div className="mt-6">
                                               <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>
@@ -1100,13 +1100,15 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               </h2>
                                             </div>
                                                                 <p className="text-gray-600 leading-relaxed mb-6">
-                                                Our team of 23 therapists represents the pinnacle of spa craftsmanship. Each practitioner undergoes 500+ hours of training in our proprietary modalities before touching clients. We source talent globally, with specialists in:
+                                               Looking for the best spa in Delhi that offers world-class massage therapies and expert international techniques? Our spa is known for its highly trained therapists and advanced healing services trusted by thousands of clients across the city.
+
+We have a team of 23 professional therapists, each with 500+ hours of certified spa training. Our specialists are experts in some of the most powerful and in-demand massage therapies in Delhi, including:
                                               </p>
                                               <ul className="grid grid-cols-2 gap-3 mb-6">
                                                 {[
-                                                  'Thai Herbal Compress', 'Shiatsu', 'Lymphatic Drainage', 
-                                                  'Ayurvedic Abhyanga', 'Hot Stone Therapy', 'Aromatherapy',
-                                                  'Deep Tissue Sculpting', 'Craniosacral'
+                                                  'Thai Herbal Compress', 'Lymphatic Drainage', 'Hot Stone Therapy', 
+                                                  'Deep Tissue Sculpting', 'Shiatsu', 'Ayurvedic Abhyanga',
+                                                  'Aromatherapy', 'Craniosacral Therapy'
                                                 ].map((item, index) => (
                                                   <li key={index} className="flex items-center">
                                                     <div className="w-2 h-2 bg-amber-800 rounded-full mr-3"></div>
@@ -1115,7 +1117,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                                 ))}
                                               </ul>
                                               <p className="text-gray-600 leading-relaxed">
-                                                Beyond technical excellence, we select therapists for their intuitive healing abilities. Monthly training includes emotional intelligence development and energy work certification. This investment shows in our 98% client retention rate and numerous industry awards.
+                                              We continuously provide skill enhancement training so our therapists deliver the most effective spa services in Delhi. With a 98% client retention rate, we are trusted for quality, safety, and exceptional results.
                                               </p>
                                             <div className="mt-6">
                                               <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">75-90 min | From ₹3,200</span>
@@ -1146,15 +1148,16 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               </h2>
                                             </div>
                                             <p className="text-gray-600 leading-relaxed mb-6">
-                                              Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
+                                             Experience the most popular and highly effective spa therapies designed to relax your body, reduce stress, and improve overall wellness. Our spa is known for delivering the best massage treatments in India, combining skilled therapists with soothing techniques.
                                             </p>
                                             <div className="flex flex-wrap gap-4 mb-6">
                                               {[
-                                                {icon: '♻️', text: 'Zero-Waste Policy'},
-                                                {icon: '🌱', text: 'Organic Linens'},
-                                                {icon: '💧', text: 'Water Recycling'},
-                                                {icon: '🌎', text: 'Carbon Offsetting'},
-                                                {icon: '🏺', text: 'Handcrafted Products'}
+                                                {icon: '💆‍♂️', text: 'Full Body Massage Therapy'},
+                                                {icon: '🔥', text: 'Hot Stone Massage'},
+                                                {icon: '🌺', text: 'Aromatherapy Massage'},
+                                                {icon: '🪔', text: 'Deep Tissue Therapy'},
+                                                {icon: '🌿', text: 'Herbal Body Scrub & Polish'},
+                                                {icon: '🧖‍♀️', text: 'Steam & Detox Therapy'}
                                               ].map((item, index) => (
                                                 <span key={index} className="bg-[#f0eae3] text-amber-800 px-4 py-2 rounded-full flex items-center">
                                                   <span className="mr-2 text-xl">{item.icon}</span>
@@ -1163,7 +1166,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               ))}
                                             </div>
                                             <p className="text-gray-600 leading-relaxed">
-                                              Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation. When you indulge at Serenity, you're supporting a healthier ecosystem.
+                                              All our spa services are carefully designed to give you the perfect balance of relaxation, healing, and rejuvenation. Clients experience reduced stress, improved sleep, fresher skin, and long-lasting relief from body pain.
                                             </p>
                                             {/* // */}
                                             
@@ -1188,7 +1191,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               <h2 className="text-2xl font-bold text-[#3a2e2a]">Home & Hotel Spa</h2>
                                             </div>
                                             <p className="text-gray-600 leading-relaxed mb-6">
-                                              Our commitment extends beyond individual wellness to planetary health. We're proud to be the first Carbon Neutral spa in our region, with initiatives including:
+                                             Enjoy luxury spa services in Delhi from the comfort of your home or hotel. Our home spa services in Delhi are perfect for people who want privacy, convenience, and a professional spa experience without traveling.
                                             </p>
                                             <div className="flex flex-wrap gap-4 mb-6">
                                               {[
@@ -1206,7 +1209,7 @@ Through luxury, hygiene, and competent nursing, Spa Delhi is able to convert any
                                               ))}
                                             </div>
                                             <p className="text-gray-600 leading-relaxed">
-                                              Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation.
+                                              Our mobile spa team carries everything needed—massage bed, essential oils, towels, aroma setup, relaxing music—so your experience feels exactly like a luxury spa in Delhi, but in your personal space.
                                             </p>
                                             <div className="mt-6">
                                               <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">3-6 hours | From ₹8,500</span>
