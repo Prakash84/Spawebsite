@@ -1349,10 +1349,10 @@ const faqs = [
               </div>
             </section>
              {/* content section */}
-                  <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-20 px-6 md:px-16">
+                  <section className="bg-gradient-to-b from-[#fcf7f4] to-[#f8f0eb] py-18 px-4 md:px-14">
                                                    <div className="max-w-6xl mx-auto">
                                                      {/* Section Header */}
-                                                     <motion.div 
+                                                     {/* <motion.div 
                                                        className="text-center mb-16"
                                                        initial={{ opacity: 0, y: 20 }}
                                                        whileInView={{ opacity: 1, y: 0 }}
@@ -1362,13 +1362,13 @@ const faqs = [
                                                        <span className="text-lg font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
                                                        <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-6">Top Rated Body Spa Services in Delhi for Complete Relaxation</h1>
                                                        <div className="w-24 h-1 bg-amber-600 mx-auto rounded-full"></div>
-                                                     </motion.div>
+                                                     </motion.div> */}
                            
                                                      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-                                                       {/* Left Column */}
+                                                       
                                                        <div>
-                                                         {/* Facial Treatments */}
-                                                         <motion.div 
+                                                         
+                                                         {/* <motion.div 
                                                            className="bg-white bg-optage-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#e8d5c9]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
@@ -1406,11 +1406,11 @@ const faqs = [
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-90 min | From ₹2,800</span>
                                                            </div>
-                                                         </motion.div>
+                                                         </motion.div> */}
                                                          
                            
                                                          {/* Body Treatments */}
-                                                         <motion.div 
+                                                         {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#e8d5c9]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
@@ -1448,7 +1448,7 @@ const faqs = [
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">75-90 min | From ₹3,200</span>
                                                            </div>
-                                                         </motion.div>
+                                                         </motion.div> */}
                                                        </div>
                            
                                                        {/* Right Column */}
@@ -1456,7 +1456,7 @@ const faqs = [
                                                          
                            
                                                          {/* Massage Therapy */}
-                                                         <motion.div 
+                                                         {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg mb-10 border border-[#e8d5c9]"
                                                            initial={{ opacity: 0, x: -30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
@@ -1495,14 +1495,13 @@ const faqs = [
                                                              Our product line features sustainably harvested ingredients from ethical cooperatives. We've partnered with local environmental initiatives, donating 5% of profits to wetland conservation. When you indulge at Serenity, you're supporting a healthier ecosystem.
                                                              Our clients report benefits ranging from improved sleep patterns to reduced chronic pain months after their visits.
                                                            </p>
-                                                           {/* // */}
                                                            
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">60-120 min | From ₹2,500</span>
                                                            </div>
-                                                         </motion.div>
+                                                         </motion.div> */}
                                                          {/* Wellness Packages */}
-                                                         <motion.div 
+                                                         {/* <motion.div 
                                                            className="bg-white bg-opacity-80 backdrop-blur-sm rounded-2xl p-8 shadow-lg border border-[#e8d5c9]"
                                                            initial={{ opacity: 0, x: 30 }}
                                                            whileInView={{ opacity: 1, x: 0 }}
@@ -1541,7 +1540,7 @@ const faqs = [
                                                            <div className="mt-6">
                                                              <span className="inline-block bg-amber-100 text-amber-800 py-1 px-4 rounded-full text-sm font-medium">3-6 hours | From ₹8,500</span>
                                                            </div>
-                                                         </motion.div>
+                                                         </motion.div> */}
                                                        </div>
                                                      </div>
                            
