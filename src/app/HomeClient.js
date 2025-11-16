@@ -2399,7 +2399,7 @@ Established several years ago, our goal has always been to provide peace, comfor
         </div>
         
         {/* CTA Button */}
-        <div className="mt-16 text-center">
+        {/* <div className="mt-16 text-center">
           <button className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium text-indigo-600 transition-all duration-300 rounded-full group hover:bg-indigo-500 hover:text-white">
             <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-full bg-indigo-500 rounded-full group-hover:translate-x-0"></span>
             <span className="relative flex items-center text-lg font-medium">
@@ -2409,7 +2409,7 @@ Established several years ago, our goal has always been to provide peace, comfor
               </svg>
             </span>
           </button>
-        </div>
+        </div> */}
       </div>
     </section>     
       {/* F&Q Section */}
