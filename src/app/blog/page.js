@@ -120,7 +120,7 @@ export default function blog() {
           Welcome to our spa blog, where we share wellness advice, beauty tips, and the science behind relaxation. Our expert therapists share their insights to help you lead a balanced and calm lifestyle.
         </p>
         <p className="mt-4 text-gray-600 italic text-md">
-          "Relax your body, renew your mind, and revive your spirit."
+          Relax your body, renew your mind, and revive your spirit.
         </p>
       </section>
 
@@ -187,7 +187,7 @@ export default function blog() {
                                         viewport={{ once: true }}
                                       >
                                         <FaStar className="text-amber-500" />
-                                        Questions? We’re here to help
+                                        Questions? We are here to help
                                       </motion.div>
                                       <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
                                         Frequently Asked <span className="text-amber-600">Questions</span>
