@@ -6,13 +6,13 @@
   import Image from 'next/image';
   import { Check } from "lucide-react";
   // import WhatsappFloat from '../components/WhatsappFloat';
-  import WhatsappFloat from '../../components/WhatsappFloat';
+  import WhatsappFloat from '../components/WhatsappFloat';
   import { Spa, SpaOutlined, SelfImprovement, HealthAndSafety, Air } from '@mui/icons-material';
   import { ArrowRight } from 'lucide-react';
 import { FaCrown } from 'react-icons/fa';
 import { FaSpa, FaHotel, FaStar, FaCheckCircle } from "react-icons/fa";
-import luxuryhotelpartners from '../../components/LuxuryHotelPartners';
-import LuxuryHotelShowcase from '../../components/LuxuryHotelShowcase';
+import luxuryhotelpartners from '../components/LuxuryHotelPartners';
+import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   import { FaTelegram } from 'react-icons/fa';
   import { FaLeaf, FaHotTub, FaHandSparkles } from "react-icons/fa";
   import { AnimatePresence } from 'framer-motion';

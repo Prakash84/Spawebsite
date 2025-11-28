@@ -6,17 +6,18 @@
   import Image from 'next/image';
   import { Check } from "lucide-react";
   // import WhatsappFloat from '../components/WhatsappFloat';
-  import WhatsappFloat from '../../components/WhatsappFloat';
+  import WhatsappFloat from '../components/WhatsappFloat';
   import { Spa, SpaOutlined, SelfImprovement, HealthAndSafety, Air } from '@mui/icons-material';
   import { ArrowRight } from 'lucide-react';
 import { FaCrown } from 'react-icons/fa';
 import { FaSpa, FaHotel, FaStar, FaCheckCircle } from "react-icons/fa";
-import luxuryhotelpartners from '../../components/LuxuryHotelPartners';
-import LuxuryHotelShowcase from '../../components/LuxuryHotelShowcase';
+import luxuryhotelpartners from '../components/LuxuryHotelPartners';
+import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   import { FaTelegram } from 'react-icons/fa';
   import { FaLeaf, FaHotTub, FaHandSparkles } from "react-icons/fa";
   import { AnimatePresence } from 'framer-motion';
   import Head from "next/head";
+
 
   const playfair = Playfair_Display({
     subsets: ['latin'],
@@ -31,30 +32,30 @@ import LuxuryHotelShowcase from '../../components/LuxuryHotelShowcase';
   });
   const services = [
     {
-      title: "Relaxation-Driven Aromatherapy Massage for Stress Relief and Full Body Rejuvenation",
+      title: "Romantic Aromatherapy with the Partner",
       image: "/images/aromatherapy-featured-jpg.webp",
-      description: "The calming nature of the oils and the gentle massage motions ease stress and fuel your mind with good energy.",
+      description: "Take part in an aromatherapy session that will result in soothing and relieving aromatics creating a romantic and intimate atmosphere. This is a method that nurtures emotional attachment and melts away stress.",
       // duration: "60-90 min"
     },
+   
     {
-      title: "Traditional Indian Touch with Modern Techniques for Holistic Healing",
-      image: "/images/19-2-1024x427.png",
-      description: "Old Indian massage practices are mixed with the modern spa methods. This special style is known to cure the body, bring a sense of balance and promote wellness.",
-      // duration: "75 min"
-    },
-    {
-      title: "Sensual Therapy for Deep Connection and Ultimate Relaxation",
-      image: "/images/45224.jpg",
-      description: "This therapy is about building comfort and intimacy. It helps with confidence, calmness, and deeper relaxation.",
-      // duration: "90 min"
-    },
-    {
-      title: "Customized B2B Massage Tailored to Your Unique Body Needs",
-      image: "/images/152804.jpg",
-      description: "Every client is different. We design massages according to body type, pressure preference, and relaxation goals to make the session truly personal.",
+      title: "Swedish Couple Massage Rejuvenating",
+      image: "/images/Couple Massage.jpg",
+      description: "Based on pure relaxation, the techniques of a Swedish massage enhance blood flow, relieve tension, and set a serene atmosphere for you and your partner to relax simultaneously.",
       // duration: "60 min"
     },
-    
+    {
+      title: "Stress-Busting Deep Tissue Therapy for Couples",
+      image: "/images/thaimassage.jpg",
+      description: "Deep strokes are used by our specialized therapists to ease tense muscles, giving couples the ultimate physical relaxation combined with enhanced flexibility in their joints.",
+      // duration: "60 min"
+    },
+    {
+      title: "Ayurvedic Couple Massage for Complete Wellness",
+      image: "/images/potliMassage.jpg",
+      description: "Connect to the wealth of Ayurveda through herbalized oil, rhythmic movements using synchronized rhythmic strokes that benefit balance and rejuvenation, harmony between both partners.",
+      // duration: "60 min"
+    }
   ];
 const container = {
     hidden: { opacity: 0 },
@@ -65,7 +66,6 @@ const container = {
       }
     }
   };
-
    const item = {
     hidden: { opacity: 0, y: 20 },
     show: { opacity: 1, y: 0 }
@@ -74,14 +74,14 @@ const container = {
 
 {/* End Our Process */}
 
-  export default function B2Bpage() {
+  export default function Couplepage() {
     <Head>
-        <title>Get Body To Body Massage in Delhi | B2B Massage in Karol Bagh</title>
+        <title>Couple Massage in Delhi | Female to male Couple Massage</title>
         <meta
           name="description"
-          content="We offer genuine body to body massage in Delhi. If you are looking for B2B massage or body massage just visit our spa in Karol Bagh. Book Your Session"
+          content="Looking for a couple massage in Delhi? Visit our spa in Karol bagh for the best couples massage. We have certified therapists to provide you perfect relaxation."
         />
-    </Head>
+      </Head>
     const [isVisible, setIsVisible] = useState(false);
     
       useEffect(() => {
@@ -96,33 +96,33 @@ const container = {
     
       const faqs = [
         {
-          question: "What is a B2B massage in Delhi?",
-          answer: "In B2B (Body To Body) Massage in Delhi. We use close-contact techniques for deep sensory relaxation. Spa Delhi conducts B2B professionally with certified therapists.",
+          question: "What is included in a Couple Massage in Karol Bagh?",
+          answer: "Couple massage offers personalized treatments, calming oils, a private couple's massage room, and shared relaxation areas for couples to enjoy together.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Is B2B offered in Karol Bagh?",
-          answer: "Yes, we offer b2b massage in karol bagh delhi by female therapists. We recommend prior booking and confirmation to secure your preferred service and therapist. So call us for pure relaxation.",
+          question: "What is the duration of a couple's massage session?",
+          answer: "Typical sessions range between 60 and 90 minutes, but you can opt to go with the customized packages that will last longer.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "Are B2B massage legal and professional?",
-          answer: "Spa Delhi operates within legal and professional guidelines. We provide safe and 100% private b2b massage in Delhi. Our therapists always maintain proper hygiene and cleanliness.",
+          question: "Is Couple Massage in Karol Bagh offered in a private room?",
+          answer: "Yes, Spa Delhi offers exquisitely designed individual couple massage rooms to ensure relaxation, privacy, and a level of tranquility.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-          question: "What safety measures apply during B2B sessions?",
-          answer: "We ensure 100% safety or privacy of our clients. You will get a b2b massage in a private room with proper hygiene and cleanliness. Therapists follow protocols to protect client dignity and ensure a safe, respectful service.",
+          question: "Are the oils in a couple massage safe?",
+          answer: "It contains high-quality, skin-safe essential oils that are safe and natural, helping both partners relax during intimate activity.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "How do I book a B2B session near me in Delhi?",
-          answer: "We mention our contact number on the website. Just call us or drop a message and book your b2b massage near you. We also mention our spa outlets location on site",
+          question: "Is it possible to book a few massages on special occasions?",
+          answer: "Absolutely! Many couples also book our spa on anniversaries, birthdays, and other romantic occasions to create lasting memories.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Do you offer hotel B2B massage services in Delhi?",
-          answer: "Yes, we provide exclusive services at hotels like Andaaz, The Park, The Surya, and ITC Welcome Dwarka.",
+          question: "Why Spa Delhi is the top couple massage centre in Delhi?",
+          answer: "With experienced therapists, high-quality ambience, aromatic oils, and its affordable luxury packages, Spa Delhi is the first choice of couples.With experienced therapists, high-quality ambience, aromatic oils, and its affordable luxury packages, Spa Delhi is the first choice of couples.",
           icon: <FaHandSparkles className="text-teal-600" />
         },   
       ];
@@ -131,32 +131,32 @@ const container = {
      const highlights = [
     {
       icon: <Spa className="text-amber-600" />,
-      title: "Stress Relief & Relaxation",
-      description: "Our B2B massage spa in Pashchim Vihar reduce stress and anxiety in the most natural way. The gentle strokes relax the nervous system, helping you feel light and calm."
+      title: "Boost well being",
+      description: "Our couple massage in Delhi boosts your emotional strength, cuts down stress, and builds bonds and relaxation moments with your partner."
     },
     {
       icon: <SelfImprovement className="text-amber-600" />,
-      title: "Improved Blood Circulation",
-      description: "The methods implemented by our therapists enhance blood circulation. A good blood circulation pumps oxygen to all areas of your body and makes you feel more energetic."
+      title: "Improve circulation",
+      description: "Couple massage in Karol Bagh is ideal way to transform physical intimacy with improved circulation, joint flexibility, and overall body relaxation for couples"
     },
     {
       icon: <HealthAndSafety className="text-amber-600" />,
-      title: "Muscle Recovery & Pain Relief",
-      description: "Tight muscles from long hours at work or gym soreness get instant relief with our massages. B2B Spa in Paharganj helps the muscles recover faster also reducing the body pain."
+      title: "Builds bond",
+      description: "Encourages open communication and bonding while enjoying a calming, rejuvenating experience together."
     },
     {
       icon: <Air className="text-amber-600" />,
-      title: "Detoxification & Skin Glow",
-      description: "Massage speeds up the lymph movement. A good lymph movement removes toxins from your body and gives your skin a fresh and healthy look."
+      title: "Release tension ",
+      description: "Get ready to release tension by 50% with couple massage service in Delhi. Choose our couple massage spa in Delhi to experience the true benefits."
     }
   ];
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Soothing Oil Therapy for B2B Massage in Delhi",
+        title: "Soothing Oil Therapy for Couple Massage in Delhi",
         description1:
-          "Massage is enhanced by our oil treatments. Aromatic oils of high quality feed the skin, relax the muscles, and encourage deep relaxation. Every stroke is meant to heal, as the oils improve circulation and soothing of senses. You have all the comfort with this combination of professional hands and relaxing oils.",        
-          image: "/images/7878.jpg",
+          "Spa Delhi is best couple spa in Paschim Vihar where our team of therapist utilized high-quality oils for soothing oil therapy. Luxury oils of lavender, sandalwood, and eucalyptus are selected to help deepen the relaxation and renew the body. Not only does this therapy relieve stress, but it also hydrates your skin, leaving both you and your partner with a rejuvenated and glowing complexion. As you are massaged in synchronisation with aromatic oils, it makes the couple massage experience truly memorable and more emotionally fulfilling. It is the high-quality therapy that couples may enjoy, trying to gain physical relaxation and emotional fondness in the best spa centre in Delhi.",
+        image: "/images/137.jpg",
       },
       // {
       //   title: "Ayurvedic Massage",
@@ -204,7 +204,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           icon: <FaCrown className="text-amber-500" />
         }
       ];
-      
+
+
     return (
       <main>
       
@@ -223,18 +224,18 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     <div className="space-y-6 text-center lg:text-left">
       <div className="inline-flex items-center space-x-2 mb-6">
         <div className="w-12 h-px bg-amber-600"></div>
-        <span className="text-amber-600 font-light tracking-widest">SIGNATURE TREATMENT</span>
+        <span className="text-amber-600 font-light tracking-widest">Massage TREATMENT</span>
         <div className="w-12 h-px bg-amber-600"></div>
       </div>
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-        <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">B2B Massage in Delhi:</span>
-        Great Destination 
-        <span className="block mt-2 font-medium">To Get <span className="text-rose-600">Luxury Massage</span></span>
+        <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Enjoy Finest Massage</span>
+        to Reconnect and Relax, 
+        <span className="block mt-2 font-medium"> with Couple <span className="text-rose-600"> Massage in Delhi</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Feel the luxury and calmness at the best Body to Body massage in Delhi. Each massage session is designed to provide you with unparalleled comfort and relaxation. Come to us if you want to experience something which is much more than an ordinary spa massage.
+        Spa Delhi is the best spa for couple in Delhi, offering the finest couple massage in Delhi to strengthen the bond between you and your loved one, relax you, and release tension through high-quality spa treatments.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -279,9 +280,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </div>
 
       <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-        <a href='/about-us'>
+        <a href='/sandwich-massage-in-delhi'>
         <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-          <span>About Us</span>
+          <span>Explore Sandwich Massage</span>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
           </svg>
@@ -308,8 +309,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     <div className="relative h-80 md:h-96 lg:h-[450px]">
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
         <img
-          src="/images/446979.jpg"
-          alt="B2B Massage Spa"
+          src="/images/couple-bathrobes-posing-embraced.jpg"
+          alt="Couple Massage Spa"
           className="w-full h-full object-cover"
         />
       </div>
@@ -354,17 +355,17 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative Benefits <span className="text-amber-600"> of B2B Massage in Delhi</span>
+                    Benefits of <span className="text-amber-600">Couple Massage in Delhi</span>
                   </motion.h2>
-                  <motion.p
+                  {/* <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Relaxation is not all that is provided by a proper B2B Massage in Karol Bagh. It makes your body healthy, stress relief, and your mind a refresher. At Spa Delhi, we offer Full body massage in Delhi, and leave you feeling relaxed.
-                  </motion.p>
+                    Get ready to release tension by 50% with couple massage service in Delhi. Choose our couple massage spa in Delhi to experience the true benefits.
+                  </motion.p> */}
       <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
     </div>
 
@@ -412,7 +413,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Benefits of Our B2B <span className="text-amber-600">Massage Service in Delhi</span>
+                    Transformative <span className="text-amber-600">Benefits of Couple Massage in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -421,40 +422,40 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Each experience at Spa Delhi is meant to provide you with peacefulness, clear mind, and healthy body.
+                     Experience relaxation, closer bonding, and a stress-free life with our Couple massage at home in Delhi.
                   </motion.p>
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {[
                 { 
-                  title: "Premium Locations", 
-                  description: "We work in the chosen five-star hotels and luxury locations in Delhi. You have the most optimal privacy, comfort, and style.",
+                  title: "Improve well being", 
+                  description: "Reconnect with intimacy at the most luxurious couple massage center in Delhi, rekindle the warmth through soothing massage therapy.",
                   icon: "💆‍♀️"
                 },
                 { 
-                  title: "Professional Therapists", 
-                  description: "We have trained therapists who use proven massage techniques, delivering instant relief to people around the world. Their skill ensures that every session is more than just relaxation.",
+                  title: "Boost emotional strength", 
+                  description: "Build trust at an emotional level as you savour stress-free couple massage sessions.",
                   icon: "🧘‍♂️"
                 },
                 { 
-                  title: "Wide Range of Therapies", 
-                  description: "We have a mix of Swedish, Thai, Balinese, Deep Tissue, or Aromatherapy, all in one roof. All the massages are customized to fit your body.",
+                  title: "Deep relaxation ", 
+                  description: "Feel deeply recharged with a couple massages in Delhi every day.",
                   icon: "❤️"
                 },
                 { 
-                  title: "Luxury & Comfort", 
-                  description: "With relaxing smells, low music and high grade oils, we establish the ideal environment. The relaxed atmosphere gives you a chance to enjoy all the time you spend during the session.",
+                  title: "Boost health", 
+                  description: "Experience superior couple spa treatments to bring you to new levels of health.",
                   icon: "✨"
                 },
                 { 
-                  title: "Better Sleep & Mental Wellness", 
-                  description: "If you are having difficulty while sleeping then B2B Spa in Greater Kailash can be very helpful to you as it is the solution to those who are constantly under stress. It enhances sleep patterns, cleans the mind, and re-establishes the emotional balance.",
+                  title: "Sooth your mind and body", 
+                  description: "Enjoy your hassle-free vacation with soothing couple massage offers in Delhi.",
                   icon: "🌿"
                 },
                 { 
                   title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  description: "Exchange pleasant memories through the indulgent couple spa packages in an exclusive atmosphere.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -508,7 +509,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                        Our Most Demanded <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">B2B Massage in Delhi</span>
+                        Our Most Demanded <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Couple Massage in Delhi</span>
                       </motion.h2>
                       
                       <motion.p
@@ -517,7 +518,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Life in Delhi is full of rush and stress. Our Body to Body massage in Delhi will provide relief to many people.
+                        Experience Pampering and Care with Couple Massage at Luxury Spa.
                       </motion.p>
                       
                       <motion.div
@@ -545,7 +546,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                        <div className="bg-white p-6 rounded-2xl shadow-sm">
                          <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                            <img
-                               src="/images/6745.jpg" // Change path accordingly
+                               src="/images/hb3.jpg" // Change path accordingly
                                alt="Premium Body Spa"
                                className="w-full h-full object-cover rounded-xl"
                              />
@@ -566,23 +567,23 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                            <ul className="mt-4 space-y-2">
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Soothing touch therapy</span>
+                               <span className="text-stone-700">Romantic setup</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Natural essential oils</span>
+                               <span className="text-stone-700">Two therapists</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Hydrates & relaxes body</span>
+                               <span className="text-stone-700">Private couple suite</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Calm, private space</span>
+                               <span className="text-stone-700">Stress relief together</span>
                              </li>
                              <li className="flex items-center">
                                <span className="text-amber-600 mr-2">✓</span>
-                               <span className="text-stone-700">Personalized session</span>
+                               <span className="text-stone-700">Herbal welcome drink</span>
                              </li>
                            </ul>
                            
@@ -617,53 +618,56 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                  >
                    <div className="max-w-lg">
                      <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       The most requested B2B massage at Spa Delhi are the combination of soft techniques, pure essential oils, and personal care. Every session is both a physical relief and a calming effect. 
-                       {/* <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
+                       Spa Delhi is the first choice of individuals who want to experience the most sought-after <span className="font-medium text-stone-800">Couple Massage in Karol Bagh.</span>,
+                       With revitalizing massage sessions and romantic aromatherapy experiences, couples will receive an experience of relaxation they are not likely to forget. The relaxing environment, professional therapists, and therapeutic scents create a luxurious setting where you and your partner can relax and bond with each other in a deeper way. Be it a festive occasion, a weekend getaway, or a last-minute need to unwind, our couple massage packages are designed to create a tranquil and romantic getaway. Spa Delhi is where lovebirds regain the touch of togetherness through rejuvenation of the body, mind, and the soul. 
+                       
+                     </p>
+                     
+                     
+                     
+                     {/* <p className="text-stone-600 mb-6 leading-relaxed">
+                       We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
+                       <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                        and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                       designed private sanctuaries. */}
-                     </p>
-                     
-                     
-                     
-                     <p className="text-stone-600 mb-6 leading-relaxed">
-                       Your comfort is always in the mind of our therapists. Are you planning to unwind after work, refuel your energy, or simply take care of yourself, whatever the case we will be planning to make every session better than you could have imagined. That is why our customers continue to use us to relax and come back over and over.
-                     </p>
+                       designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
+                       Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
+                       of calm in the heart of Delhi.
+                     </p> */}
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
                        <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🌸</div>
-                        <h4 className="font-medium text-stone-800">Private Room</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🌹</div>
+                        <h4 className="font-medium text-stone-800">Couple Suite</h4>
                         <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🌿</div>
-                        <h4 className="font-medium text-stone-800"> Herbal & Natural Oils</h4>
+                        <div className="text-amber-600 text-2xl mb-2">🕯 </div>
+                        <h4 className="font-medium text-stone-800">Candlelight Ambience</h4>
                         <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">💆‍♂️</div>
-                        <h4 className="font-medium text-stone-800">Personalized Techniques</h4>
+                        <div className="text-amber-600 text-2xl mb-2">💆‍♀️ </div>
+                        <h4 className="font-medium text-stone-800">Customized Massage Choice</h4>
                         <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🧴</div>
-                        <h4 className="font-medium text-stone-800">Soft Lighting & Calm Music</h4>
+                        <div className="text-amber-600 text-2xl mb-2">☕ </div>
+                        <h4 className="font-medium text-stone-800">Complimentary Refreshments</h4>
                         <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
                       </div>
                      </div>
                      
                      <div className="flex flex-col sm:flex-row gap-4">
                       <a href='/massage-service-in-delhi'>
-                        <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                       <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          View Treatments
                        </button>
-                      </a>
+                       </a>
                        <a href=''>
-                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                       <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
                        </a>
-                       
                      </div>
                    
                    </div>
@@ -703,7 +707,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                       Our B2B <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Massage Techniques</span>
+                       Our Couple <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Massage Techniques</span>
                       </motion.h2>
                       
                       <motion.p
@@ -712,7 +716,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        We employ customized massage methods that give you the ultimate relaxation, relief and total comfort.
+                        We combine ancient and new methods, so each couple's massage at Spa Delhi is a relaxing, personalized experience with a holistic healing component.
                       </motion.p>
                       
                       <motion.div
@@ -819,10 +823,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Premium Wellness Experience
                                                </span>
                                                <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-6">
-                                                 Why Choose Spa Delhi for <span className="text-amber-600">Best B2B Massage Centre in Delhi?</span>
+                                                 Why Choose <span className="text-amber-600">Spa Delhi for the Best Couple </span>Massage Centre in Delhi?
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 Spa Delhi is known for its trusted therapists, professional service, and a luxury environment that guarantees satisfaction.
+                                                 Spa Delhi is best couple massage spa in Delhi, where we have a team of best massage therapist offering you most soothing massage using massage oils at luxurious space. 
                                                </p>
                                              </motion.div>
                                            </div>
@@ -846,15 +850,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Expert Therapists</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Luxury Spa Ambience for Couples</h3>
                                                        <p className="text-amber-700">
-                                                         Unmatched Expertise with Professional B2B Therapists in Delhi.
+                                                        Our couple spa centre in Delhi features the perfect ambience where you can experience the soft music and comfy  massage rooms, to make your massage private and luxurious.
                                                        </p>
                                                      </div>
                                                    </div>
-                                                   
+                                                   <h4 className='font-bold text-amber-800'>Luxury Spa Ambience for Couples</h4>
                                                    <p className="text-gray-700 mb-6">
-                                                     Our therapists are skilled and experienced in B2B massage. They create sessions that are both relaxing and refreshing. We respect your comfort and privacy, ensuring complete professionalism. From soothing strokes to luxury settings, everything is planned to make your visit memorable.
+                                                    At Spa Delhi, you get the best ambience so you can rest assured about the environment. Just focus on enjoying the deep relaxing couple massage in Karol Bagh and other areas without compromising the quality. Book your first massage session with us and improve bond with your soulmate.
                                                    </p>
                                                    
                                                    <div className="flex flex-wrap gap-3 mb-8">
@@ -868,7 +872,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  
                                                  <div className="relative h-96">
                                                    <Image 
-                                                     src="/images/6745.jpg"
+                                                     src="/images/446979.jpg"
                                                      alt="Expert therapist performing massage"
                                                      layout="fill"
                                                      objectFit="cover"
@@ -889,7 +893,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                <div className="bg-white rounded-2xl shadow-xl overflow-hidden border border-amber-100">
                                                  <div className="relative h-96">
                                                    <Image 
-                                                     src="/images/688824.jpg"
+                                                     src="/images/447701.jpg"
                                                      alt="Premium spa oils"
                                                      layout="fill"
                                                      objectFit="cover"
@@ -905,15 +909,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Oils & Blends</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Experienced and Professional Therapists</h3>
                                                        <p className="text-amber-700">
-                                                         Exclusive Spa Experience with Luxurious Ambience and Personalized Care.
+                                                         At Spa Delhi, our team of experienced and professional massage therapists is highly trained to provide personalized treatments, ensuring optimum comfort and relaxation.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
                                                    <p className="text-gray-700 mb-6">
-                                                     The spa interiors are built to calm your senses. From peaceful lighting to gentle fragrances, every detail creates the right atmosphere. The primary goal of personalized massage sessions is to make you feel refreshed and energetic.
+                                                     We have massage therapist from Russia, USA, India, Afghan and so on to provide you one of the top class couple massage in Delhi. Our team uses the best techniques to deliver exclusive couple massage in Paschim Vihar. No more waiting, book your session at a click via Telegram.
                                                    </p>
                                                    
                                                    <div className="mb-6">
@@ -998,14 +1002,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-amber-900 font-serif text-center mb-12">
-                                               Our Process for B2B Massage
+                                               How to Book Couple Massage in Delhi?
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Reach Out to Us via Telegram for Instant Booking Assistance",
-                                                   description: "Booking a B2B massage at Spa Delhi is quick and safe. Contact us on Telegram for instant confirmation.",
+                                                   title: "Reach out to us Via Telegram",
+                                                   description: "Book your preferred couple massage in Delhi via Telegram. All your details and booking will be private with complete confidentiality.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1013,8 +1017,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Consultation for Personalized B2B Massage Experience Tailored to Your Comfort",
-                                                   description: "We discuss your needs and preferences with you before the session. This conversation helps us to make the massage perfectly fit according to your needs.",
+                                                   title: "Customized Consultation Before Massage",
+                                                   description: "The therapists will first discuss with you what your preferences are and make the couple massage a personal and effective experience.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1022,8 +1026,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Step into Luxury with Our Relaxing and Stress-Free B2B Massage Environment",
-                                                   description: "As soon as you visit us, you feel a welcoming environment. The venue, the staffs, and everything you see is there to make you totally prepared for deep body relaxation.",
+                                                   title: "Private Couple Massage Rooms for Intimacy",
+                                                   description: "We offer rooms designed compassionately with a calming atmosphere, giving privacy and a tranquil environment to both partners.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1110,17 +1114,16 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
 
           <div className="flex flex-wrap gap-4 mb-8">
-            <a href='https://api.whatsapp.com/send?phone=918826482370'>
-              <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
-              Book Now
+            <a href='/spa-price-in-delhi'>
+            <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
+              Our pricing
             </button>
             </a>
-            <a href='/massage-service-in-delhi'>
-              <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
-              View More Services
+            <a href='/Spa-in-rohini'>
+            <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
+              Outlets
             </button>
             </a>
-            
           </div>
 
           <div className="flex items-center space-x-4">
@@ -1178,7 +1181,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.3, duration: 0.6 }}
                   >
-                    Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Centre for B2B Massage in Delhi</span>
+                    Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Centre for Couple Massage in Delhi
+</span>
                   </motion.h2>
                   
                   <motion.p
@@ -1187,7 +1191,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Spa Delhi is the safest bet when it comes to luxury and secret Body to Body massage in Delhi. We specialize in the development of customer satisfaction by personal care and quality service.
+                    Discover the finest treatments, a sensuous atmosphere, and the most proficient therapists at Spa Delhi, your preferred choice for couple massage in Delhi.
                   </motion.p>
                   
                   <motion.div
@@ -1202,26 +1206,25 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                            <h3 className="font-semibold text-amber-800 mb-4">Personalized B2B Massage Plans Crafted for Total Relaxation in Delhi</h3>
+                            <h3 className="text-xl font-semibold text-amber-800 mb-4">Couples Candlelight Massage in Delhi</h3>
                             <p className="text-gray-700 mb-6">
-                              We deliver customised massage sessions that appeal to your body and mind. Every massage technique is designed to provide you with the best experience. 
-        
+                             Ambience is key to couples. Experience ultimate intimacy in candlelit rooms, surrounded by fragrant oils and relaxing music, as you reconnect with your soul mate.
                             </p>
-                            <h3 className="font-semibold text-amber-800 mb-4">Professional Therapists Who Prioritize Comfort, Discretion, and Satisfaction</h3>
+                            <h4 className="text-xl font-semibold text-amber-800 mb-4">Luxury Couple Spa Packages for Stress-Free Getaways</h4>
                             <p className="text-gray-700 mb-6">
-                              Our therapists treat every client with care and respect. Privacy is a top priority, and your comfort comes first during every session. 
-        
+                             Select a couple of programs that include various treatments, beverages, and rest designed to give rejuvenation experiences in the top spa in Delhi.
                             </p>
-                            <h3 className="font-semibold text-amber-800 mb-4">Luxurious Spa Interiors That Create the Perfect Mood for Relaxation</h3>
-                            <p className="text-gray-700 mb-6">
-                              The interiors are warm and peaceful. The lighting, the design, and the music all come together to create the right mood for relaxation. 
-        
-                            </p>
+                          {/* Bullet Points instead of Image */}
+                          <ul className="list-disc list-inside text-gray-700 space-y-2">
+                            <li>Highly trained and certified therapists</li>
+                            <li>Wide range of massage techniques</li>
+                            <li>Focus on relaxation & stress relief</li>
+                            <li>Customized treatments for every client</li>
+                            <li>Professional and hygienic environment</li>
+                          </ul>
                           
-                          
-                          <h3 className="font-semibold text-amber-800 mb-4">Premium Quality Oils and Techniques That Enhance Every B2B Massage Experience</h3>
-                            <p className="text-gray-700 mb-6">
-                              We only use premium-grade oils and advanced massage methods. This makes each visit to the massage to be like a luxurious vacation. 
+                          <p className="text-gray-700 mb-6">
+                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhi's best spas offer a range of services tailored to suit every need.
         
                             </p>
                       </div>
@@ -1229,7 +1232,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="relative">
                         <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full min-h-[400px] flex items-center justify-center overflow-hidden">
                           <img
-                            src="/images/staff5.jpg"
+                            src="/images/staff2.jpg"
                             alt="Client Testimonial"
                             className="object-cover w-full h-full rounded-xl"
                           />
@@ -1241,31 +1244,19 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-amber-800 mb-4">Our Pricing Package for B2B Massage in Delhi</span>
+                        <span className="font-semibold text-amber-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
                         <p className="text-gray-700 mb-6">
-                          We keep our prices balanced. Our packages are cheap but will have the luxury feel of a five-star spa.                  
+                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If you're looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
                         </p>
-                        <span className="font-semibold text-amber-800 mb-4">Luxury Hotel Spa for B2B Massage in Delhi</span>
-                        <p className="text-gray-700 mb-6">
-                         Spa Delhi also provides services at the most premium hotels in Delhi. Each location offers complete privacy and comfort.
+                        <span className="font-semibold text-amber-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
+                        <p>
+                         The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
                         </p>
-                        {/* Bullet Points instead of Image */}
-                          <ul className="list-disc list-inside text-gray-700 space-y-2 mb-6">
-                            <li>Andaaz – Known for elite indulgence with luxury massages that stand out.</li>
-                            <li>The Park – Offers a rich spa journey with elegance and comfort.</li>
-                            <li>The Surya in NFC – Famous for holistic healing and premium spa sessions.</li>
-                            <li>Welcome by ITC in Dwarka – Combines remarkable luxury with ultimate relaxation in a private environment.</li>
-                            {/* <li>Professional and hygienic environment</li> */}
-                          </ul>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.
                         </p> */}
-                        <span className="font-semibold text-amber-800 mb-4">Book Your Escape to Wellness Today</span>
-                        <p>
-                         Your luxury B2B massage in Delhi is just a call away.”
-                        </p>
                         <div className="flex mt-6">
-                          {[ 'Eucalyptus', 'Rosemary', 'Sandalwood'].map((oil, index) => (
+                          {['Lavender', 'Eucalyptus', 'Rosemary', 'Sandalwood'].map((oil, index) => (
                             <div key={index} className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full text-sm mr-2">
                               {oil}
                             </div>
@@ -1301,7 +1292,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-amber-600">Pricing Packages</span>
+                    Our Pricing Packages <span className="text-amber-600">for Couple Massage in Delhi</span> 
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1310,7 +1301,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                    Unique luxury couple massage packages that take into consideration all budgets, so you can enjoy both high-end body care with your partner.
                   </motion.p>
                 </div>
         

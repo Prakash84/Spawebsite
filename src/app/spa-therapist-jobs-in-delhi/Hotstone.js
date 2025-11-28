@@ -6,7 +6,7 @@
   import Image from 'next/image';
   import { Check } from "lucide-react";
   // import WhatsappFloat from '../components/WhatsappFloat';
-  import WhatsappFloat from '../../components/WhatsappFloat';
+  import WhatsappFloat from '../components/WhatsappFloat';
   import { Briefcase, Sparkles, BadgeCheck, MapPin, Building2, IndianRupee, Gift, BusFront, GraduationCap, ShieldCheck } from "lucide-react";
   import { 
   FaSpa, 
