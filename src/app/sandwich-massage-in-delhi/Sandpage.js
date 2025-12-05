@@ -230,12 +230,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
 
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
         <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Sandwich Massage</span>
-        Ultimate Relaxation, 
-        <span className="block mt-2 font-medium">Top & Bottom <span className="text-rose-600">Therapy Blend</span></span>
+        in Delhi – 
+        <span className="block mt-2 font-medium">TDiscover the <span className="text-rose-600">Ultimate Relaxation</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        The Sandwich Massage is our luxurious, two-therapist experience that pampers you from both sides simultaneously. Warm oil, synchronized strokes, and expert techniques combine to provide deep relaxation and muscle relief, ensuring every inch of tension is gently melted away.
+        Sandwich Massage in Delhi is a blend of rejuvenation, luxury and comfort. The relaxation methods given at our Spa will ensure complete relaxation.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -413,7 +413,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative <span className="text-amber-600">Benefits</span>
+                    Transformative Benefits of <span className="text-amber-600">Sandwich Massage in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -422,7 +422,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Our signature oil therapy massage offers a holistic approach to wellness that addresses both physical and mental needs.
+                   Discover the healing powers of Sandwich Massage in Delhi and how it can elevate relaxation and stress-freedom to a whole new level.
                   </motion.p>
             </div>
             
@@ -430,32 +430,32 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               {[
                 { 
                   title: "Muscle Relief", 
-                  description: "Deep tissue manipulation combined with therapeutic oils helps relieve muscle tension and soreness effectively.",
+                  description: "Restore your body to all its vibrancy with a Sandwich Massage that returns health and harmony to the heart of Delhi.",
                   icon: "💆‍♀️"
                 },
                 { 
                   title: "Stress Reduction", 
-                  description: "Aromatherapy oils calm the nervous system, reducing anxiety and promoting mental clarity.",
+                  description: "Relax uncomfortable muscles and stress and ease them by undergoing our professional Sandwich Massage services in a state of complete relief.",
                   icon: "🧘‍♂️"
                 },
                 { 
                   title: "Improved Circulation", 
-                  description: "Massage techniques stimulate blood flow, enhancing oxygen delivery to tissues and organs.",
+                  description: "Enhance blood flow and elasticity of the body by getting a Sandwich Massage enrolment in the best spa centres in Delhi.",
                   icon: "❤️"
                 },
                 { 
                   title: "Skin Rejuvenation", 
-                  description: "Natural oils nourish and hydrate the skin, leaving it soft, supple, and radiant.",
+                  description: "Enhance sleep and mental concentration and feel the relaxing Sandwich Massage in the safest spas in Delhi.",
                   icon: "✨"
                 },
                 { 
                   title: "Detoxification", 
-                  description: "Stimulates the lymphatic system to flush toxins and boost natural immunity.",
+                  description: "Rejuvenate, feel free, and remove fatigue through the healing hands of our Sandwich Massage therapists in Delhi.",
                   icon: "🌿"
                 },
                 { 
                   title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  description: "Obtain total recovery and relaxation by using the skilled Sandwich Massage therapy in Delhi.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -509,7 +509,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                        Top Luxury Spa <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Outlets in Aerocity Delhi</span>
+                        Our Sandwich Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Techniques</span>
                       </motion.h2>
                       
                       <motion.p
@@ -518,7 +518,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Experience Pampering and Care with Sandwich Massage at Luxury Spa.
+                        Our Sandwich Massage therapists apply unique techniques that are a mixture of ancient discipline and modern treatments to bring unparalleled relaxation and rejuvenation.
                       </motion.p>
                       
                       <motion.div
@@ -617,46 +617,46 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                    className="w-full lg:w-1/2"
                  >
                    <div className="max-w-lg">
-                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
+                     {/* <p className="text-lg text-stone-600 mb-6 leading-relaxed">
                        Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
                        Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
                        of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
                        <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                        and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
                        designed private sanctuaries.
-                     </p>
+                     </p> */}
                      
                      
                      
-                     <p className="text-stone-600 mb-6 leading-relaxed">
+                     {/* <p className="text-stone-600 mb-6 leading-relaxed">
                        We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
                        <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                        and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
                        designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
                        Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
                        of calm in the heart of Delhi.
-                     </p>
+                     </p> */}
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
                        <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                         <div className="text-amber-600 text-2xl mb-2">★</div>
-                        <h4 className="font-medium text-stone-800">Warm Oil Application</h4>
-                        <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
+                        <h4 className="font-medium text-stone-800">Regulation of the Warm Oil</h4>
+                        <p className="text-sm text-stone-600 mt-1">These warmed oils are used by our therapists to nourish the skin and relax the muscles and stimulate an increased circulation that can improve the massage effects.</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                         <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                        <h4 className="font-medium text-stone-800">Muscle Recovery Focus</h4>
-                        <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
+                        <h4 className="font-medium text-stone-800">Consecutive Relaxation Pressure</h4>
+                        <p className="text-sm text-stone-600 mt-1">Both massaging with gentle strokes and applying force can make particular muscles to be massaged in a way they deserve to be massaged.</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                         <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                        <h4 className="font-medium text-stone-800">Luxury Room</h4>
-                        <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
+                        <h4 className="font-medium text-stone-800">Custom Aromatherapy Infusion</h4>
+                        <p className="text-sm text-stone-600 mt-1">A natural essential oil is added to every massage, taking you to a new level of relaxation and refreshment.</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
                         <div className="text-amber-600 text-2xl mb-2">🧖</div>
-                        <h4 className="font-medium text-stone-800">2 Therapists</h4>
-                        <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
+                        <h4 className="font-medium text-stone-800">Smooth Full Body Coverage</h4>
+                        <p className="text-sm text-stone-600 mt-1">Our method will not leave any area untouched, giving you a chance to relax in full.</p>
                       </div>
                      </div>
                      
@@ -826,10 +826,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Premium Wellness Experience
                                                </span>
                                                <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-6">
-                                                 Why Choose <span className="text-amber-600">Our Spa in Delhi?</span>
+                                                 Why Choose <span className="text-amber-600"> Spa in Delhi for Sandwich Massage Services Delhi?</span>
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care that revitalizes your mind, body and spirit.
+                                                 Spa Delhi is a place that offers luxurious Sandwich Massage sessions to give unwinding, refreshing, and an incomparable sensation of relaxation.
                                                </p>
                                              </motion.div>
                                            </div>
