@@ -1,10 +1,10 @@
 
 'use client';
 import React from 'react';
-import { Playfair_Display, Montserrat } from 'next/font/google';
+import { Playfair_Display, Raleway } from 'next/font/google';
 import { motion, AnimatePresence } from 'framer-motion';
 import Image from 'next/image';
-import { Playfair_Display, Raleway } from 'next/font/google'
+// import { Playfair_Display, Raleway } from 'next/font/google'
 import WhatsappFloat from '../components/WhatsappFloat';
 import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
 import { useState, useEffect } from "react";
@@ -15,12 +15,14 @@ import {  Star, MapPin, Sparkles, Hotel } from 'lucide-react';
 import {  FaHands, FaHeartbeat, FaClock, FaEye, FaBullseye, FaHandsHelping  } from 'react-icons/fa'
 
 
+const playfair = Playfair_Display({ subsets: ['latin'] });
+const raleway = Raleway({ subsets: ['latin'] });
 
-const raleway = Raleway({
-  subsets: ['latin'],
-  variable: '--font-raleway',
-  weight: ['300', '400']
-})
+// const raleway = Raleway({
+//   subsets: ['latin'],
+//   variable: '--font-raleway',
+//   weight: ['300', '400']
+// })
 
 // All FontAwesome icons from react-icons/fa
 import {
@@ -247,7 +249,7 @@ const specialFeatures = [
   },
 ];
 
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+// const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
 const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
 
 export default function Abpage({
