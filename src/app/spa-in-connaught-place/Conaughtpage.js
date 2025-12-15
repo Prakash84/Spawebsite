@@ -162,21 +162,25 @@ export default function Conaughtpage() {
       title: "B2B Massage",
       description: "Our Body-to-Body massage allows the guests to relax to the greatest extent possible because the professionals apply rich oils and tried techniques to combat fatigue, relax nervousness, and increase your energy levels throughout the body.",
       icon: "🌸",
+      url: "/b2b-massage-in-delhi",
     },
     {
       title: "Swedish Massage",
       description: "Swedish Massage remains to be well-known and popular because of its soft pressure and simple movements. It helps in supporting relaxed muscles, improved blood circulation and a calm mind.",
       icon: "💆‍♂️",
+      url: "/sandwich-massage-in-delhi",
     },
     {
       title: "Full Body Massage",
       description: "Full Body Massage covers all areas with smooth movements and warm oils. It’s a good way to loosen muscles, cleanse the body, and return to a peaceful state.",
       icon: "🪨",
+      url: "/full-body-massage-in-delhi",
     },
     {
       title: "Couple Massage",
       description: "Enjoy relaxing together with a Couple Massage—for those who want to bond in a peaceful, cozy space. It is an experience that is shared and serves as an important experience both physically and emotionally.",
       icon: "👫",
+      url: "/couples-massage-in-delhi",
     },
   ];
 {/* End Our Process */}
@@ -592,14 +596,23 @@ const topSteps = [
           <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
           <p className="text-gray-600 mb-6">{service.description}</p>
           <a
-            href="#"
-            className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-          >
-            Learn More
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </a>
+                href={service.url}
+                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+              >
+                Learn More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
         </motion.div>
       ))}
     </div>

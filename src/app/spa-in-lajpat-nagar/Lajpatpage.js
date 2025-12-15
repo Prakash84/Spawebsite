@@ -139,21 +139,25 @@ export default function Lajpatpage() {
       title: "Swedish Massage",
       description: "Swedish Massage involves slow and gentle movements that provide total relaxation and pain relief in the muscles, and are ideal to individuals who want a light and gentle treatment.",
       icon: "🌸",
+      url: "/sandwich-massage-in-delhi",
     },
     {
       title: "B2B Massage",
       description: "The Body-to-Body Massage spa in Lajpat Nagar at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
       icon: "💆‍♂️",
+      url: "/b2b-massage-in-delhi",
     },
     {
       title: "Full Body Massage",
       description: "Our team of experts leading Full body massage in Lajpat Nagar massages all parts of you and relieves stress, helps in blood circulation, and uplifts energy.",
       icon: "🪨",
+      url: "/full-body-massage-in-delhi",
     },
     {
       title: "Couple Massage",
       description: "Get closer and take a rest together with our Couple Massage, designed to allow two individuals to relax in the same room and enjoy a relaxing moment.",
       icon: "👫",
+      url: "/couples-massage-in-delhi",
     },
   ];
   const SERVICES_LEFT = [
@@ -569,14 +573,23 @@ const SERVICES_RIGHT = [
           <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
           <p className="text-gray-600 mb-6">{service.description}</p>
           <a
-            href="#"
-            className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-          >
-            Learn More
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </a>
+                href={service.url}
+                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+              >
+                Learn More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
         </motion.div>
       ))}
     </div>

@@ -140,21 +140,25 @@ export default function Noipage() {
       title: "B2B Massage",
       description: "Body-to-Body massage uses skin contact and premium oils to relax every part of you. Our trained professionals know exactly how to perform this treatment safely.",
       icon: "🌸",
+      url: "/b2b-massage-in-delhi",
     },
     {
       title: "Swedish Massage",
       description: "A classic massage style that uses smooth, flowing movements. The gentle pressure helps you relax completely and makes your whole body feel better.",
       icon: "💆‍♂️",
+      url: "/sandwich-massage-in-delhi",
     },
     {
       title: "Aromatherapy Massage",
       description: "We apply perfumed oils that scent well during this treatment. The nice scents make your mood better and your muscles are relaxed with the help of the massage",
       icon: "🪨",
+      url: "/massage-service-in-delhi",
     },
     {
       title: "Couples Massage",
       description: "This service lets two people enjoy massage at the same time in one room. It creates a shared moment of peace that brings partners closer together.",
       icon: "👫",
+      url: "/couples-massage-in-delhi",
     },
   ];
     const SERVICES_LEFT = [
@@ -573,14 +577,23 @@ We use quality oils and proven methods to help you feel better. Our therapists h
           <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
           <p className="text-gray-600 mb-6">{service.description}</p>
           <a
-            href="#"
-            className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-          >
-            Learn More
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </a>
+                href={service.url}
+                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+              >
+                Learn More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
         </motion.div>
       ))}
     </div>

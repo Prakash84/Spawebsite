@@ -152,21 +152,25 @@ export default function Gurpage() {
       title: "Full Body Massage",
       description: "Our full body massage boosts blood flow, stress relieving and your skin is left healthy and shiny. It is the most ideal way of taking a break and refreshing your body and mind when you are tired of a busy day in the city.",
       icon: "🌸",
+      url: "/full-body-massage-in-delhi",
     },
     {
       title: "Swedish Massage",
       description: "The archetypal option of people who want to find a soft, but powerful relaxation. It involves long, sweeping movements and is applied to aid circulation, relieve stress and increase flexibility.",
       icon: "💆‍♂️",
+      url: "/sandwich-massage-in-delhi",
     },
     {
       title: "Hot Stone Massage",
       description: "Hot stones are gently rubbed over specific areas of tension to promote deep muscle relaxation. This treatment helps ease stress, promotes better sleep, and fosters a balance in your body.",
       icon: "🪨",
+      url: "/couples-massage-in-delhi",
     },
     {
       title: "Thai Massage",
       description: "A combination of acupressure, stretching, and yoga-like moves is a traditional healing practice. An excellent way to build flexibility, reduce tension, and attain full body-mind balance.",
       icon: "👫",
+      url: "/massage-service-in-delhi",
     },
   ];
     const SERVICES_LEFT = [
@@ -590,14 +594,23 @@ whether you are here on business or for recreation; our services transform your 
           <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
           <p className="text-gray-600 mb-6">{service.description}</p>
           <a
-            href="#"
-            className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-          >
-            Learn More
-            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-            </svg>
-          </a>
+                href={service.url}
+                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+              >
+                Learn More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
         </motion.div>
       ))}
     </div>

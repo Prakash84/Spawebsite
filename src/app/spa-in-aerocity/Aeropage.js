@@ -10,6 +10,7 @@ import { FaHandSparkles, FaLeaf, FaHotTub } from 'react-icons/fa';
 import { AnimatePresence } from 'framer-motion';
 import { FaTelegram } from 'react-icons/fa';
 import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
+// import { link } from 'fs';
 
 
 
@@ -158,35 +159,37 @@ export default function Aeropage() {
   },
 ];
 {/* End Our Process */}
-  const services = [
-    {
-      title: "B2B Massage",
-      description: "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
-      icon: "💆‍♂️",
-    },
-    {
-      title: "Couples Massage",
-      description: "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
-      icon: "👫",
-    },
-    // {
-    //   title: "Thai Massage",
-    //   description: "With stretches, pressure points, and slow movements, Thai massage helps improve flexibility and restores natural body energy. It is an effective therapy that combines healing and relaxation.",
-    //   icon: "💆‍♀️🧘‍♀️",
-    // },
-    
-    {
-      title: "Aromatherapy",
-      description: "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
-      icon: "🌸",
-    },
-    {
-      title: "Hot Stone Therapy",
-      description: "Warm stones during this treatment are applied in a cautious manner over your body to eliminate muscle stiffness and enhance blood circulation. The warmth makes you feel relaxed totally, and the stress is relieved.",
-      icon: "🪨",
-    },
-    
-  ];
+  
+const services = [
+  {
+    title: "B2B Massage",
+    description:
+      "This therapy focuses on comfort and deep relaxation. The technique melts away stress and leaves you feeling revived and fresh.",
+    icon: "💆‍♂️",
+    url: "/b2b-massage-in-delhi",
+  },
+  {
+    title: "Couples Massage",
+    description:
+      "Our couple massage offers a shared moment of relaxation. Perfect for couples celebrating a trip or a special occasion, it builds emotional connection alongside complete body relaxation.",
+    icon: "👫",
+    url: "/couples-massage-in-delhi",
+  },
+  {
+    title: "Aromatherapy",
+    description:
+      "This soothing therapy combines soft techniques with essential oils. It creates a calming environment that lifts the mood and eases away stress.",
+    icon: "🌸",
+    url: "/massage-service-in-delhi",
+  },
+  {
+    title: "Hot Stone Therapy",
+    description:
+      "Warm stones are carefully placed on the body to reduce muscle stiffness and improve blood circulation. The soothing heat releases stress completely.",
+    icon: "🪨",
+    url: "/full-body-massage-in-delhi",
+  },
+];
   const services1 = [
   {
     id: 'swedish',
@@ -630,66 +633,98 @@ const topSteps = [
               </div>
             </section>
       {/* Services Section */}
-            <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-20">
-            <motion.p
-              className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              Our Premium Services
-            </motion.p>
-            <motion.h2
-              className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1 }}
-              viewport={{ once: true }}
-            >
-              Why Choose <span className="text-amber-500">Spa Delhi for Spa Services in Delhi</span>
-            </motion.h2>
-            <motion.p
-                      className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.4, duration: 0.5 }}
-                    >
-                      Spa Delhi is a blend of reliable spa treatment and luxury. Our services are guaranteed of top-quality comfort in high-quality hotels whether you are in Delhi as a tourist or to work or to relax.
-                    </motion.p>
-          </div>
-      
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {services.map((service, index) => (
-              <motion.div
-                key={index}
-                className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
-                initial={{ opacity: 0, y: 50 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.5, delay: index * 0.1 }}
-                viewport={{ once: true }}
-                whileHover={{ y: -15 }}
-              >
-                <div className="absolute -top-4 -right-4 w-16 h-16 bg-amber-500 rounded-full opacity-10 group-hover:opacity-20 transition-opacity duration-300"></div>
-                <div className="text-5xl mb-6 text-amber-500">{service.icon}</div>
-                <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.description}</p>
-                <a
-                  href="#"
-                  className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
-                >
-                  Learn More
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 group-hover:translate-x-1 transition-transform" viewBox="0 0 20 20" fill="currentColor">
-                    <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                  </svg>
-                </a>
-              </motion.div>
-            ))}
-          </div>
+            <section
+      id="services"
+      className="py-16 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative"
+    >
+      <div className="max-w-7xl mx-auto">
+        {/* Heading */}
+        <div className="text-center mb-20">
+          <motion.p
+            className="text-amber-500 uppercase font-semibold tracking-wider mb-4"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Our Premium Services
+          </motion.p>
+
+          <motion.h2
+            className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+            viewport={{ once: true }}
+          >
+            Why Choose{" "}
+            <span className="text-amber-500">
+              Spa Delhi for Spa Services in Delhi
+            </span>
+          </motion.h2>
+
+          <motion.p
+            className="text-amber-800/80 max-w-2xl mx-auto text-lg md:text-xl leading-relaxed"
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
+            Spa Delhi blends luxury with trusted spa treatments. Enjoy premium
+            relaxation in high-quality hotels whether you are visiting Delhi for
+            work, travel, or complete rejuvenation.
+          </motion.p>
         </div>
-             </section>
+
+        {/* Services Grid */}
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          {services.map((service, index) => (
+            <motion.div
+              key={service.title}
+              className="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 border border-amber-50 relative overflow-hidden group"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              viewport={{ once: true }}
+              whileHover={{ y: -12 }}
+            >
+              <div className="absolute -top-4 -right-4 w-16 h-16 bg-amber-500 rounded-full opacity-10 group-hover:opacity-20 transition-opacity duration-300" />
+
+              <div className="text-5xl mb-6 text-amber-500">
+                {service.icon}
+              </div>
+
+              <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">
+                {service.title}
+              </h3>
+
+              <p className="text-gray-600 mb-6">
+                {service.description}
+              </p>
+
+              <a
+                href={service.url}
+                className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
+              >
+                Learn More
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="h-4 w-4 transition-transform group-hover:translate-x-1"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+              </a>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
              {/* End Services Section */}
                  
       {/* content */}
