@@ -247,8 +247,8 @@ const specialFeatures = [
   },
 ];
 
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
-const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
+// const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-playfair' });
+// const montserrat = Montserrat({ subsets: ['latin'], variable: '--font-montserrat' });
 
 export default function Abpage({
   imageSrc = '/images/spa-hero.jpg',
