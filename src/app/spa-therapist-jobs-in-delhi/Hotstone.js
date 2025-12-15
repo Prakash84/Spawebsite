@@ -629,10 +629,12 @@ View All Cities
                 </div>
               </div>
             </div>
-            
-            <button className="mt-6 w-full bg-white text-amber-800 py-3 rounded-lg font-semibold hover:bg-amber-100 transition-colors">
+            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+              <button className="mt-6 w-full bg-white text-amber-800 py-3 rounded-lg font-semibold hover:bg-amber-100 transition-colors">
               Apply Now
             </button>
+            </a>
+            
           </motion.div>
         </div>
       </section>
@@ -737,9 +739,12 @@ View All Cities
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.6 }}
             >
-              <button className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">
+              <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                <button className="bg-amber-600 hover:bg-amber-700 text-white font-semibold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105">
                 Apply Now
               </button>
+              </a>
+              
               <p className="text-amber-700 text-sm mt-4">
                 Send your resume to: info@luxuryspacare.in
               </p>
@@ -812,7 +817,7 @@ View All Cities
 
         <div className="mt-8 text-center">
           <a
-            href="mailto:info@luxuryspacare.in?subject=Application%20for%20Spa%20Therapist"
+            href="https://api.whatsapp.com/send?phone=918826482370"
             className="inline-block px-8 py-3 rounded-full bg-amber-600 text-white font-semibold shadow-lg hover:brightness-95 transition"
             aria-label="Apply via email"
           >

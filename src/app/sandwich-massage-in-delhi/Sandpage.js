@@ -32,28 +32,28 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   });
   const services = [
     {
-      title: "Four-Hand Synchronized Flow",
+      title: "Regulation of the Warm Oil",
       image: "/images/Sandwich Massage.jpg",
-      description: "Two therapists move their hands together in the same pattern. This feels amazing and helps your body relax completely.",
+      description: "These warmed oils are used by our therapists to nourish the skin and relax the muscles and stimulate an increased circulation that can improve the massage effects.",
       // duration: "60 min"
     },
     {
-      title: "Deep Tissue Pressure Therapy",
+      title: "Consecutive Relaxation Pressure",
       image: "/images/Couple Massage.webp",
-      description: "If you like strong pressure, this is for you. The oil penetrates deep into your muscles, relieves tightness, and helps you feel light and energetic again.",
+      description: "Both massaging with gentle strokes and applying force can make particular muscles to be massaged in a way they deserve to be massaged.",
       // duration: "90 min"
     },
     
     {
-      title: "Alternate Wave Massage",
+      title: "Custom Aromatherapy Infusion",
       image: "/images/thaimassage.jpg",
-      description: "In this technique, two therapists use fast and slow movements simultaneously; one therapist is fast, and the other is slow. It feels like gentle waves on your body and is excellent for relieving mental fatigue.",
+      description: "A natural essential oil is added to every massage, taking you to a new level of relaxation and refreshment.",
       // duration: "60 min"
     },
     {
-      title: "Fusion Exotic Experience",
+      title: "Smooth Full Body Coverage",
       image: "/images/potliMassage.jpg",
-      description: "This is a blend of various massage styles like Swedish, Thai, and Balinese. It is tailored according to your body’s needs, providing both relaxation and healing in one session.",
+      description: "Our method will not leave any area untouched, giving you a chance to relax in full.",
       // duration: "60 min"
     }
   ];
@@ -96,33 +96,33 @@ const container = {
     
       const faqs = [
         {
-          question: "What exactly is a Sandwich Massage Spa in Delhi?",
-          answer: "In sandwich massage. Two therapists provide you synchronized motion for deeper, balanced stimulation. It enhances sensory relaxation and muscle release while maintaining professional consent and privacy standards in a private treatment room.",
+          question: "What is Sandwich Massage, and how is it helpful?",
+          answer: "Sandwich Massage is an exclusive body treatment that uses a combination of layers of massage strokes which relieves the body, enhances circulation and invigorates energies. It is perfect to relieve stress and achieve deep relaxation in the best spas of Delhi.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "How long is a sandwich massage session?",
-          answer: "Spa Delhi offers 60 to 120 min sandwich massage sessions for deep relaxation. You can customize it as per your preferences. Our 2 well trained therapists provide you non stop therapy at top hotels or spas.",
+          question: "What is the usual duration of a Sandwich Massage?",
+          answer: "A Sandwich Massage will typically take between 60-90 minutes since therapists will have enough time to massage the entire body and get the full relaxation effects.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "Are therapists specially trained for sandwich massage?",
-          answer: "Yes, Therapists are specially trained for sandwich massage. Not all therapists provide sandwich massage. We have a wide range of therapists who provide sandwich massage in Delhi.",
+          question: "Sandwich Massage suitable for all people?",
+          answer: "Yes, Sandwich Massage is safe for all adults generally. It is recommended, however, that persons with medical conditions seek medical advice before booking.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-          question: "How do I book a sandwich massage in Delhi online?",
-          answer: "You can book sandwich massages in Delhi from our official site. Just call us or drop a whatsapp message. Our team is ready to help you in getting a sandwich massage by certified therapists.",
+          question: "What makes Aerocity popular for Sandwich Massage in Delhi?",
+          answer: "Aerocity has been renowned for offering excellent hotels and luxurious spas, and as such, it is the best place to get Sandwich Massage experiences.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "Are there first-time offers for sandwich massages?",
-          answer: "Yes, We offer a first visit discount on sandwich massage to our clients in Delhi. check the Services page or homepage offers for current discounts and terms before booking your initial session. ",
+          question: "Do you give a Sandwich Massage in the luxury hotels?",
+          answer: "We have special Sandwich Massage services in Andaz, The Park, Surya,and  ITC Welcomhotel luxury hotels in Delhi.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "What is the cost of a Full Body Massage?",
-          answer: "The cost varies based on the treatment, with a special ₹1999 offer for first-time visitors.",
+          question: "Can I reserve a Sandwich Massage in Delhi?",
+          answer: "It is easy to book it. Get in touch with our spa directly or book through our hotel partners a Sandwich Massage in a luxurious way in Delhi.",
           icon: <FaHandSparkles className="text-teal-600" />
         },   
       ];
@@ -131,31 +131,35 @@ const container = {
      const highlights = [
     {
       icon: <Spa className="text-amber-600" />,
-      title: "Traditional Technique",
-      description: "Authentic Swedish methods using long gliding strokes"
+      title: "Luxury Spa Rooms Designed for Comfort",
+      description: "Enter into separate spa rooms with serene lighting, comfy decor and fragrant environment to promise a five-star experience."
     },
     {
       icon: <SelfImprovement className="text-amber-600" />,
-      title: "Deep Relaxation",
-      description: "Reduces stress hormones by up to 30% in a single session"
+      title: "Professional Therapists with Global Expertise",
+      description: "Our professional therapists are well cultured in order to offer full rejuvenation with international massage styles.",
+      points: ["Knowledge in multi-layer massage methods",
+        "Well-informed and personal service",
+        "Years of professional experience"]
+      
     },
-    {
-      icon: <HealthAndSafety className="text-amber-600" />,
-      title: "Muscle Tension Relief",
-      description: "Targets muscle knots and improves flexibility"
-    },
-    {
-      icon: <Air className="text-amber-600" />,
-      title: "Improved Circulation",
-      description: "Enhances blood flow and oxygen delivery to tissues"
-    }
+    // {
+    //   icon: <HealthAndSafety className="text-amber-600" />,
+    //   title: "Muscle Tension Relief",
+    //   description: "Targets muscle knots and improves flexibility"
+    // },
+    // {
+    //   icon: <Air className="text-amber-600" />,
+    //   title: "Improved Circulation",
+    //   description: "Enhances blood flow and oxygen delivery to tissues"
+    // }
   ];
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Oil Therapy",
+        title: "Soothing Oil Therapy in Delhi",
         description1:
-          "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
+          "At our spa we make your Sandwich Massage in Delhi more relaxing with oil treatment. Specially selected essential oils add another dimension to your massage, moisturising your skin, and increasing circulation. All oil blends are created to help you relax and unwind, de-stress and re-energize. Do you need the most relaxing garden scent of lavender, the feel-good muscle relief of eucalyptus, or the calming grounding scenery of sandalwood? Our professionals have developed the best oil-based therapy according to your needs. The luxury of lavish oils, combined with the sophisticated Sandwich Massage moves will guarantee that your spa experience is comfy and transformative.",
         image: "/images/137.jpg",
       },
       // {
@@ -231,7 +235,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <h1 className="text-4xl md:text-5xl font-light text-gray-800">
         <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Sandwich Massage</span>
         in Delhi – 
-        <span className="block mt-2 font-medium">TDiscover the <span className="text-rose-600">Ultimate Relaxation</span></span>
+        <span className="block mt-2 font-medium">Discover the <span className="text-rose-600">Ultimate Relaxation</span></span>
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
@@ -355,7 +359,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Sandwich <span className="text-amber-600">Massage Benefits</span>
+                    Our Sandwich Massage <span className="text-amber-600">Spa New Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -364,7 +368,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care.
+                   Spa Delhi is known as the best place to avail Sandwich Massage in Delhi with the ultimate luxury and wellness.
                   </motion.p>
       <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
     </div>
@@ -380,8 +384,15 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
           <h3 className="text-xl font-semibold text-amber-800 mb-3">{item.title}</h3>
           <p className="text-gray-700 leading-relaxed text-base">{item.description}</p>
+          <ul className="list-disc pl-5 text-gray-700 space-y-1">
+        {/* {item.points.map((point, i) => (
+          <li key={i}>{point}</li>
+        ))} */}
+      </ul>
         </div>
+        
       ))}
+                                                      
     </div>
 
     <div className="mt-16 flex justify-center">
@@ -509,7 +520,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.3, duration: 0.6 }}
                       >
-                        Our Sandwich Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Techniques</span>
+                        Most Demanding Sandwich <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Massage in Aerocity, Delhi</span>
                       </motion.h2>
                       
                       <motion.p
@@ -617,14 +628,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                    className="w-full lg:w-1/2"
                  >
                    <div className="max-w-lg">
-                     {/* <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                       Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                       of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
-                       <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
-                       and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                       designed private sanctuaries.
-                     </p> */}
+                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
+                       Aerocity, one of the most renowned wellness places within Delhi, has the best Sandwich Massage awaiting you to enjoy. Aerocity spa services package the best therapies, well-trained massage therapists, and a relaxing ambience so that you can relax your body and mind to the maximum. All sessions are designed to remove stress, balance inner energies, and feel energetic. Sandwich Massage in Aerocity is an indulgent massage available to both regular flight travelers and locals of Delhi. 
+                       {/* <span className="font-medium text-stone-800"> </span> */}
+                     </p>
                      
                      
                      
@@ -639,24 +646,24 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                      
                      <div className="grid grid-cols-2 gap-4 mb-8">
                        <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">★</div>
-                        <h4 className="font-medium text-stone-800">Regulation of the Warm Oil</h4>
-                        <p className="text-sm text-stone-600 mt-1">These warmed oils are used by our therapists to nourish the skin and relax the muscles and stimulate an increased circulation that can improve the massage effects.</p>
+                        <div className="text-amber-600 text-2xl mb-2">🌹</div>
+                        <h4 className="font-medium text-stone-800">Couple Suite</h4>
+                        <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">💆🏻</div>
-                        <h4 className="font-medium text-stone-800">Consecutive Relaxation Pressure</h4>
-                        <p className="text-sm text-stone-600 mt-1">Both massaging with gentle strokes and applying force can make particular muscles to be massaged in a way they deserve to be massaged.</p>
+                        <div className="text-amber-600 text-2xl mb-2">🕯 </div>
+                        <h4 className="font-medium text-stone-800">Candlelight Ambience</h4>
+                        <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                        <h4 className="font-medium text-stone-800">Custom Aromatherapy Infusion</h4>
-                        <p className="text-sm text-stone-600 mt-1">A natural essential oil is added to every massage, taking you to a new level of relaxation and refreshment.</p>
+                        <div className="text-amber-600 text-2xl mb-2">💆‍♀️ </div>
+                        <h4 className="font-medium text-stone-800">Customized Massage Choice</h4>
+                        <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
                       </div>
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                        <div className="text-amber-600 text-2xl mb-2">🧖</div>
-                        <h4 className="font-medium text-stone-800">Smooth Full Body Coverage</h4>
-                        <p className="text-sm text-stone-600 mt-1">Our method will not leave any area untouched, giving you a chance to relax in full.</p>
+                        <div className="text-amber-600 text-2xl mb-2">☕ </div>
+                        <h4 className="font-medium text-stone-800">Complimentary Refreshments</h4>
+                        <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
                       </div>
                      </div>
                      
@@ -719,7 +726,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                         whileInView={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.4, duration: 0.5 }}
                       >
-                        Experience tranquility with our curated selection of premium spa treatments, each designed to transport you to a state of complete relaxation.
+                        Our Sandwich Massage therapists apply unique techniques that are a mixture of ancient discipline and modern treatments to bring unparalleled relaxation and rejuvenation.
                       </motion.p>
                       
                       <motion.div
@@ -853,18 +860,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Expert Therapists</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">High-end luxury experience</h3>
                                                        <p className="text-amber-700">
-                                                         Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
+                                                         We are experts in offering international standards facilities, contemporary spa rooms, and skilled therapists to make your Sandwich Massage an unparalleled experience.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
-                                                   <p className="text-gray-700 mb-6">
-                                                     Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
-                                                     This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
-                                                     The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                                                   </p>
                                                    
                                                    <div className="flex flex-wrap gap-3 mb-8">
                                                      {['10+ Years Experience', 'Personalized Techniques', 'Deep Tissue Mastery'].map((item, index) => (
@@ -914,22 +916,22 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Oils & Blends</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Reputed Health Resort</h3>
                                                        <p className="text-amber-700">
-                                                         We use only cold-pressed, organic oils blended with therapeutic-grade essential oils for maximum benefit.
+                                                        Our spa is the preferred destination of customers in Delhi who want quality, luxury, and professional relaxation therapies.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
-                                                   <p className="text-gray-700 mb-6">
+                                                   {/* <p className="text-gray-700 mb-6">
                                                      The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. 
                                                      Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                                                   </p>
+                                                   </p> */}
                                                    
                                                    <div className="mb-6">
-                                                     <h4 className="text-lg font-bold text-amber-700 mb-3">Signature Oil Blends</h4>
+                                                     <h4 className="text-lg font-bold text-amber-700 mb-3">Our Services</h4>
                                                      <div className="grid grid-cols-2 gap-3">
-                                                       {['Lavender Dream', 'Eucalyptus Renewal', 'Rosemary Harmony', 'Sandalwood Serenity', 'Jasmine Bliss', 'Frankincense Balance'].map((oil, index) => (
+                                                       {['Foreign Therapist', 'Indian Therapist', 'B2B Massage', 'Sandwich Massage'].map((oil, index) => (
                                                          <div key={index} className="flex items-center">
                                                            <div className="w-2 h-2 rounded-full bg-amber-400 mr-2"></div>
                                                            <span className="text-amber-800">{oil}</span>
@@ -1008,14 +1010,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-amber-900 font-serif text-center mb-12">
-                                               Our Holistic Approach to Wellness
+                                              Our Approach to Sandwich Massage
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
                                                    title: "Mindful Relaxation",
-                                                   description: "Techniques that calm the mind and reduce stress through focused breathing and meditation",
+                                                   description: "Individual massage services, which are customized to the needs of your body to get fully cured and relaxed.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1024,7 +1026,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Body Rejuvenation",
-                                                   description: "Therapies that restore physical vitality and promote healing at the cellular level",
+                                                   description: "First-class spa environment with an atmosphere designed to achieve the utmost comfort and serenity.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1033,7 +1035,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Spiritual Balance",
-                                                   description: "Practices that align your energy centers and connect you with your inner self",
+                                                   description: "Professional therapists so each of the sessions is indugled, therapeutic and life-giving.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1290,7 +1292,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-amber-600">Pricing Packages</span>
+                    Our Pricing Package <span className="text-amber-600">for Sandwich Massage in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1299,7 +1301,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                    Affordable luxury meets world-class relaxation with our Sandwich Massage pricing packages in Delhi.
                   </motion.p>
                 </div>
         
@@ -1476,9 +1478,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-amber-700 to-amber-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready for Transformation?</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Book a Sandwich Massage in Delhi today!</h2>
             <p className="text-amber-100 max-w-2xl mx-auto mb-10 text-lg">
-              Book your oil therapy massage today and embark on a journey to complete relaxation and rejuvenation.
+              At Re-Vitalize Body-Soul-Spirit, welcome to rejuvenating your body, refreshing your mind, and restoring your spirit with us.
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a 
