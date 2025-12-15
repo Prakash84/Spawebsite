@@ -16,11 +16,11 @@ import {  FaHands, FaHeartbeat, FaClock, FaEye, FaBullseye, FaHandsHelping  } fr
 
 
 
-const raleway = Raleway({
-  subsets: ['latin'],
-  variable: '--font-raleway',
-  weight: ['300', '400']
-})
+// const raleway = Raleway({
+//   subsets: ['latin'],
+//   variable: '--font-raleway',
+//   weight: ['300', '400']
+// })
 
 // All FontAwesome icons from react-icons/fa
 import {
