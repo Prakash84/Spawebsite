@@ -982,7 +982,7 @@ const features2 = [
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6 font-serif">
-            Why We Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">The Best Massage </span> RCentre in Delhi?
+            Why We Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">The Best Massage </span> Centre in Delhi?
           </h2>
           
           <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
