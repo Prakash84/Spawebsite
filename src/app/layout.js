@@ -1,4 +1,4 @@
-import { Montserrat, Playfair_Display } from 'next/font/google';
+import { Montserrat, Playfair_Display } from 'next/font/google'
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -6,15 +6,18 @@ import TopBar from "./components/TopBar";
 import Analytics from "./components/Analytics";
 ;
 
-const montserrat = Montserrat({
+export const montserrat = Montserrat({
   subsets: ['latin'],
   variable: '--font-montserrat',
-});
+  display: 'swap',
+})
 
-const playfair = Playfair_Display({
+export const playfair = Playfair_Display({
   subsets: ['latin'],
   variable: '--font-playfair',
-});
+  display: 'swap',
+})
+
 
 export const metadata = {
   title: "creat",

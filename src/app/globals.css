@@ -36,6 +36,13 @@ body {
 .bg-spa-interior {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 800 600'%3E%3Crect fill='%230e4a6b' width='800' height='600'/%3E%3Crect fill='%23f8f5f0' x='200' y='150' width='400' height='300'/%3E%3C/svg%3E");
 }
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-playfair {
+  font-family: var(--font-playfair);
+}
 
 
 
