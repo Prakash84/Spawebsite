@@ -51,6 +51,30 @@ export default function Analytics() {
           }
           `}
         </Script>
+
+        {/* Organization Schema */}
+        <Script
+          id="organization-schema"
+          type="application/ld+json"
+          strategy="afterInteractive"
+        >
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "Spa Delhi",
+            "url": "https://www.spadelhi.com/",
+            "logo": "https://www.spadelhi.com/logo.png",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-9220961427",
+              "contactType": "customer support",
+              "areaServed": "IN",
+              "availableLanguage": ["English", "Hindi"]
+            }
+          }
+          `}
+        </Script>
     </>
   );
 }
