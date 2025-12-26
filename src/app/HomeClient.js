@@ -109,19 +109,19 @@ const outlets = [
     number: '01',
     title: 'Choose a Massage Service',
     description: 'Choose the type of massage service that suits your massage needs and requirements that fits your budget.',
-    image: '/images/239469.jpg',
+    image: '/images/239469.webp',
   },
   {
     number: '02',
     title: 'Appointment on Call or Telegram',
     description: 'Its easy to book and get quick confirmations via call or message us on Telegram with your massage needs.',
-    image: '/images/317.jpg',
+    image: '/images/317.webp',
   },
   {
     number: '03',
     title: 'Visit Spa/Hotel',
     description: 'At the time you choose, relax in one of our beautiful spa locations.',
-    image: '/images/Sandwich Massage.jpg',
+    image: '/images/Sandwich Massage.webp',
   },
 ];
 {/* End Our Process */}
@@ -268,18 +268,18 @@ const [isVisible, setIsVisible] = useState(false);
     {
       title: "Welcome to The Spa Delhi — Your One-Stop for Ultimate Relaxation",
       link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb1.jpg"
+      image: "/images/hb1.webp"
       
     },
     {
       title: "Explore Spa Delhi With 12+ Spa Outlets in Delhi NCR",
       link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb2.jpg"
+      image: "/images/hb2.webp"
     },
     {
       title: "Book Massage at the best massage centre in Delh",
       link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb3.jpg"
+      image: "/images/hb3.webp"
     },
   ];
   const services = [
@@ -844,7 +844,7 @@ const features2 = [
                     {/* <div className="bg-gradient-to-tr from-amber-200 to-rose-100 w-full h-full animate-pulse"></div> */}
                     <Image
                      loading="lazy"
-                      src="/images/3777.jpg"
+                      src="/images/3777.webp"
                       alt="Spa Interior"
                       layout="fill"
                       objectFit="cover"
