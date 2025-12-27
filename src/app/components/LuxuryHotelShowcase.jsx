@@ -62,7 +62,7 @@ const LuxuryHotelShowcase = () => {
            Luxury Hotel Spa for Couple Massage Delhi
           </h2>
           <p className="text-xl text-gray-700 max-w-2xl mx-auto">
-            We provide couple massage in Delhi to luxurious hotel right at your doorstep. Here are our list of luxury hotels where we bring to your best couple massage in Karol Bagh and other locations:
+            We provide <strong className="text-amber-600 font-medium"><a href='/couples-massage-in-delhi'>couple massage in Delhi</a></strong> to luxurious hotel right at your doorstep. Here are our list of luxury hotels where we bring to your best couple massage in Karol Bagh and other locations:
           </p>
         </div>
 

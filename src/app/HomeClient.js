@@ -20,6 +20,7 @@ import {  Star, MapPin, Sparkles, Hotel } from 'lucide-react';
 import { Clock, CheckCircle2 } from "lucide-react";
 import {  Globe } from "lucide-react";
 import Head from "next/head";
+import { WhatsApp } from "@mui/icons-material";
 
 
 
@@ -39,9 +40,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -49,9 +50,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -59,9 +60,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -69,9 +70,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
 ];
@@ -413,7 +414,7 @@ const testimonials = [
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
-    description: "We have our massage outlet available at Rohini location. If you want to experience spa experience in Rohini, we can deliver the best spa services in Delhi.",
+    description: "We have our massage outlet available at Rohini location. If you want to experience spa in Rohini, we can deliver the best spa services in Delhi.",
     link: "https://wa.me/8826482370"
   }
 ];
@@ -988,7 +989,7 @@ const features2 = [
           <div className="max-w-3xl mx-auto bg-white/80 backdrop-blur-sm p-6 rounded-xl shadow-md mb-8">
             <p className="text-amber-800/80 text-lg md:text-xl leading-relaxed">
               Spa Delhi is the best Massage centre in Delhi, bringing all visitors luxurious massage experiences at an affordable price. 
-              At Spa Delhi, we combine professionalism and indulgence to present the most reliable full-body massage in Delhi. 
+              At Spa Delhi, we combine professionalism and indulgence to present the most reliable <a href="/full-body-massage-in-delhi"><strong className="text-amber-900 font-medium">full-body massage in Delhi</strong></a>. 
               Our experienced massage therapists utilize effective massage techniques to address your custom massage expectations.
             </p>
           </div>
@@ -1531,7 +1532,7 @@ const features2 = [
             transition={{ delay: 0.2 }}
           >
             Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
-            Check our affordable <a href="/spa-price-in-delhi">spa price in Delhi.</a>
+            Check our affordable <strong className="text-amber-600 font-medium"><a href="/spa-price-in-delhi">spa price in Delhi.</a></strong> 
           </motion.p>
         </div>
 
@@ -1667,7 +1668,7 @@ const features2 = [
                           </span>
                         </motion.h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-            Spa Delhi is the best massage centre in Delhi offering wide range of premium massage services to help you experience the soothing the relaxation after a long stressful day. We have a team of best massage therapist from across the globe. Whether you need b2b massage, full body massage or couple massage, our team of foreign massage therapist is here to fulfill all your needs. Our <span className="font-semibold text-amber-700">massage spa in Delhi </span> comes at a very affordable pricing package without compromising on the quality and services. At Spa Delhi, we offer hotel massage to home massage so whatever the occasion, our team will always be ready to serve you the best. Contact us today and let our team of therapist bring to you the pleasure you have dreamed of.
+            Spa Delhi is the best massage centre in Delhi offering wide range of premium massage services to help you experience the soothing the relaxation after a long stressful day. We have a team of best massage therapist from across the globe. Whether you need b2b massage, full body massage or <span className="font-semibold text-amber-700"><a href="/couples-massage-in-delhi">couple massage in delhi</a></span>, our team of foreign massage therapist is here to fulfill all your needs. Our massage spa in Delhi comes at a very affordable pricing package without compromising on the quality and services. At Spa Delhi, we offer hotel massage to home massage so whatever the occasion, our team will always be ready to serve you the best. Contact us today and let our team of therapist bring to you the pleasure you have dreamed of.
 
 
               
@@ -1696,8 +1697,8 @@ const features2 = [
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                           </span>
                         </motion.h2>
-            <p className="text-gray-600 text-lg leading-Spa Outlets in Delhirelaxed">
-            Our full-body massage in Connaught Place is the perfect place to relax and refresh yourself. In our spa in Delhi we have combined modern massage with the traditional healing practices in order to come up with therapy plans that are in line with your body and lifestyle. Our mission to offer peace, comfort, and the best massage experience to all those who come has been our goal since the set up of our establishment some years ago. We are referred to as one of the most relied spas in Delhi at Luxury Spa due to our professional therapists, exquisite oils and customized treatments. Visit and have a relaxing time that leaves you in full relaxation and rejuvenated.
+            <p className="text-gray-600 text-lg leading-relaxed">
+            Our full-body massage at <span className="font-semibold text-amber-700"><a href="/spa-in-connaught-place">spa in Connaught Place</a></span> is the perfect place to relax and refresh yourself. In our spa in Delhi we have combined modern massage with the traditional healing practices in order to come up with therapy plans that are in line with your body and lifestyle. Our mission to offer peace, comfort, and the best massage experience to all those who come has been our goal since the set up of our establishment some years ago. We are referred to as one of the most relied spas in Delhi at Luxury Spa due to our professional therapists, exquisite oils and customized treatments. Visit and have a relaxing time that leaves you in full relaxation and rejuvenated.
             </p>
           </motion.div>
 
@@ -1740,7 +1741,7 @@ const features2 = [
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
           >
-           Find the perfect spa outlet near you for effortless access to world-class relaxation.
+           Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="Spa-in-rohini">Spa in Rohini</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
           </motion.p>
         </div>
 
@@ -2103,9 +2104,9 @@ const features2 = [
                   </div>
                 </div>
                 <div className="flex justify-center gap-4 mt-4 pb-4">
-                  <a href={member.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaFacebookF /></a>
+                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
                   <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                  <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a>
+                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
                 </div>
               </motion.div>
             ))}

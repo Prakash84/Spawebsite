@@ -13,6 +13,7 @@ import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
   import { AnimatePresence } from "framer-motion";
   import { FaTelegram } from "react-icons/fa";
   import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+  import { FaWhatsapp } from "react-icons/fa";
 
 
 const specialFeatures = [
@@ -175,9 +176,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -185,9 +186,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -195,9 +196,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -205,9 +206,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
 ];
@@ -377,14 +378,14 @@ export default function Outpage() {
           {/* CTA Buttons */}
           <div className="flex items-center gap-4">
             <a
-              href="tel:+00123456789"
+              href="tel:+919217255113"
               className="flex items-center gap-2 text-amber-800 hover:text-amber-600 transition"
             >
-              📞 +00 123 456 789
+              📞 +91 9217255113
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=918826482370"
+              href="https://api.whatsapp.com/send?phone=919217255113"
               className="px-6 py-3 rounded-xl bg-amber-600 text-white font-medium shadow-md hover:bg-amber-700 transition"
             >
               Book Now
@@ -392,12 +393,12 @@ export default function Outpage() {
           </div>
 
           <a
-            href="https://www.website.com"
+            href="https://spadelhi.com/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm text-gray-500 hover:text-amber-600"
           >
-            🌐 www.website.com
+            🌐 www.spadelhi.com
           </a>
         </motion.div>
 
@@ -545,7 +546,7 @@ View All Services
 
             {/* Book Now Button */}
             <a
-              href="https://api.whatsapp.com/send?phone=918826482370"
+              href="https://api.whatsapp.com/send?phone=919217255113"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block mt-auto px-5 py-2 rounded-full bg-amber-500 text-white text-sm font-semibold hover:bg-amber-600 shadow-md hover:shadow-xl transition-all duration-300 text-center"
@@ -655,7 +656,7 @@ View All Services
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          <a href='https://api.whatsapp.com/send?phone=918826482370'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                          <a href='https://api.whatsapp.com/send?phone=919217255113'><button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
                           </button></a>
                           
@@ -717,7 +718,7 @@ View All Services
                         Our Packages
                       </button>
                       </a>
-                      <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                      <a href='https://api.whatsapp.com/send?phone=919217255113'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -1310,10 +1311,10 @@ We have a team of 23 professional therapists, each with 500+ hours of certified 
                   </div>
                 </div>
                 <div className="flex justify-center gap-4 mt-4 pb-4">
-                  <a href={member.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaFacebookF /></a>
-                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                  <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a>
-                </div>
+                                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
+                                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
+                                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
+                                </div>
               </motion.div>
             ))}
           </div>

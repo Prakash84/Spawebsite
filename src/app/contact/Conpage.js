@@ -37,25 +37,25 @@ export default function Conpage() {
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
     description: "Discover the tranquility of our luxurious spa at Lajpat Nagar.",
-    link: "https://wa.me/1234567890"
+    link: "https://wa.me/919217255113"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.jpeg",
     description: "Relax and unwind with our premium services at Aerocity.",
-    link: "https://wa.me/1234567890"
+    link: "https://wa.me/919217255113"
   },
   {
     name: "Paschim Vihar",
     image: "/images/TheParkConnaughtPlace.jpg",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
-    link: "https://wa.me/1234567890"
+    link: "https://wa.me/919217255113"
   },
   {
     name: "Rohini",
     image: "/images/TheGrandNewDelhi.jpg",
     description: "Escape to serenity at our luxurious spa in Rohini.",
-    link: "https://wa.me/1234567890"
+    link: "https://wa.me/919217255113"
   }
 ];
 
@@ -82,7 +82,7 @@ export default function Conpage() {
           </p>
 
           <a
-            href="tel:+919211235800"
+            href="tel:+919217255113"
             className="mt-10 inline-block px-8 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-semibold rounded-full shadow-lg hover:scale-105 transition-transform duration-300"
           >
             Book Your Session Now
@@ -173,12 +173,12 @@ export default function Conpage() {
           <div className="flex flex-col items-center text-center">
             <FaMapMarkerAlt className="text-amber-600 text-3xl mb-4" />
             <h3 className="text-xl font-semibold text-amber-800 mb-2">Our Outlet</h3>
-            <p className="text-gray-600">Lajpat Nagar Delhi</p>
+            <p className="text-gray-600">Indira gandhi international airport assets 6, IGI Road, Near Lemon Tree Aerocity, New Delhi, Delhi - 110037</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <FaPhoneAlt className="text-amber-600 text-3xl mb-4" />
             <h3 className="text-xl font-semibold text-amber-800 mb-2">Contact</h3>
-            <p className="text-gray-600">+91-9220961427</p>
+            <p className="text-gray-600">+91-9217255113</p>
           </div>
           <div className="flex flex-col items-center text-center">
             <FaEnvelope className="text-amber-600 text-3xl mb-4" />
@@ -192,8 +192,8 @@ export default function Conpage() {
             className="w-full h-96 rounded-xl"
             loading="lazy"
             src="https://maps.google.com/maps?q=Lajpat%20Nagar%20Delhi&t=m&z=13&output=embed&iwloc=near"
-            title="Lajpat Nagar Delhi"
-            aria-label="Lajpat Nagar Delhi"
+            title="Indira gandhi international airport assets 6, IGI Road, Near Lemon Tree Aerocity, New Delhi, Delhi - 110037"
+            aria-label="Indira gandhi international airport assets 6, IGI Road, Near Lemon Tree Aerocity, New Delhi, Delhi - 110037"
           ></iframe>
 
           <form onSubmit={handleSubmit} className="bg-yellow-50 rounded-xl p-8 shadow-md space-y-6">

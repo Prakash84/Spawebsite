@@ -6,7 +6,7 @@
   import Image from 'next/image';
   import { Check } from "lucide-react";
   import WhatsappFloat from '../components/WhatsappFloat';
-  import { FaHotel, FaHome, FaMapMarkerAlt   } from "react-icons/fa";
+  import { FaHotel, FaHome, FaMapMarkerAlt, FaWhatsapp   } from "react-icons/fa";
   import { FaTelegram } from "react-icons/fa";
   import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
   import { FaSpa, FaHotTub } from 'react-icons/fa';
@@ -25,9 +25,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -35,9 +35,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -45,9 +45,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -55,9 +55,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
 ];
@@ -325,7 +325,7 @@ const faqs = [
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At LuxeSpa, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
+            At Spa Delhi, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -483,7 +483,7 @@ const faqs = [
             transition={{ duration: 0.8 }}
             style={{ fontFamily: "'Playfair Display', serif" }}
           >
-             What we offer in our spa service 
+             What we offer in our spa service in Delhi 
           </motion.h2>
 
           {/* Divider */}
@@ -899,7 +899,7 @@ const faqs = [
                             viewport={{ once: true }}
                           >
                             <p className="text-gray-600 text-lg leading-relaxed">
-                              Welcome to <a href='/'><strong className="text-amber-600 font-medium">Spa Delhi</strong></a>, where we offer a range of <strong className="text-amber-600 font-medium">luxury spa</strong> treatments including <strong className="text-amber-600 font-medium">female to male spa</strong>, <strong className="text-amber-600 font-medium">couple massages</strong>, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
+                              Welcome to <a href='/'><strong className="text-amber-600 font-medium">Spa in delhi</strong></a>, where we offer a range of luxury spa treatments including female to male spa, <a href='/couples-massage-in-delhi'><strong className="text-amber-600 font-medium">couple massages in Delhi</strong></a>, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
                               Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
                             </p>
                             {/* <p className="text-gray-600 text-lg leading-relaxed">
@@ -1095,7 +1095,7 @@ const faqs = [
                       Experience our Premium <span className="text-amber-600">Massage Services in Lajpat Nagar or Karol Bagh</span>
                     </h2>
                     <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                      We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care that revitalizes your mind, body and spirit.
+                      We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care that revitalizes your mind, body and spirit. Try our highly suggensted <a href='/Spa-in-rohini'><strong className="text-amber-600 font-medium">Spa in rohini</strong></a> for best experience.
                     </p>
                   </motion.div>
                 </div>
@@ -1563,14 +1563,15 @@ const faqs = [
                                                            </p>
                                                          </div>
                                                          <div className="flex justify-center">
+                                                          
                                                            <a 
-                                                               href="https://t.me/Tanuspa" 
+                                                               href='https://api.whatsapp.com/send?phone=919217255113'
                                                                target="_blank"
                                                                rel="noopener noreferrer"
                                                                className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                                                              >
-                                                               <FaTelegram className="text-xl mr-3" />
-                                                               Join Telegram Channel
+                                                               <FaWhatsapp className="text-xl mr-3" />
+                                                               Book Your Session Now
                                                              </a>
                                                          </div>
                                                        </div>
@@ -1728,11 +1729,11 @@ const faqs = [
                                   <p className="text-yellow-300">{member.designation}</p>
                                 </div>
                               </div>
-                              <div className="flex justify-center gap-4 mt-4 pb-4">
-                                <a href={member.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaFacebookF /></a>
-                                <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                                <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a>
-                              </div>
+                               <div className="flex justify-center gap-4 mt-4 pb-4">
+                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
+                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
+                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
+                </div>
                             </motion.div>
                           ))}
                         </div>
@@ -1749,7 +1750,7 @@ const faqs = [
                   </h2>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-3">
-                    Take advantage of our exclusive first visit offer for only ₹1999! Experience our luxurious treatments and discover ultimate relaxation at an unbeatable price.
+                    Take advantage of our Affordable <a href='/spa-price-in-delhi'><strong className="text-amber-600 font-medium">spa price in delhi</strong></a> and claim exclusive first visit offer for only ₹1999! Experience our luxurious treatments and discover ultimate relaxation at an unbeatable price.
                   </p>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-8">

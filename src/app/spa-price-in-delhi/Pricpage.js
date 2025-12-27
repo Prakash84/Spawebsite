@@ -91,7 +91,7 @@ export default function Pricpage() {
         description: "Perfect for individual relaxation sessions",
         features: ["Oil Massage", "Cream Massage", "Dry Massage", "30 min Consultation"],
         highlight: false,
-        ctaLink: "http://wa.link/njldxn",
+        ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
         icon: <FaSpa className="text-amber-500" />
       },
       {
@@ -100,7 +100,7 @@ export default function Pricpage() {
         description: "Premium experience with luxury amenities",
         features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
         highlight: true,
-        ctaLink: "http://wa.link/u061wi",
+        ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
         icon: <FaHotel className="text-amber-500" />
       },
       {
@@ -109,7 +109,7 @@ export default function Pricpage() {
         description: "Comprehensive spa experience with added treatments",
         features: ["Massage + Steam", "Aromatherapy", "Facial Session", "60 min Session"],
         highlight: false,
-        ctaLink: "#",
+        ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
         icon: <FaCrown className="text-amber-500" />
       }
     ];
@@ -145,9 +145,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -155,9 +155,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -165,9 +165,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
   {
@@ -175,9 +175,9 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.jpg",
     socials: {
-      facebook: "https://facebook.com",
-      instagram: "https://instagram.com",
-      twitter: "https://twitter.com",
+      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
+      instagram: "https://www.instagram.com/delhi.luxury_spa/",
+      // twitter: "https://twitter.com",
     },
   },
 ];
@@ -600,7 +600,7 @@ const teamMembers = [
                               <span className="text-stone-700">Aromatherapy</span>
                             </li>
                           </ul>
-                          <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                          <a href='https://api.whatsapp.com/send?phone=919217255113'>
                             <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
                             Book Now
                           </button>
@@ -673,7 +673,7 @@ const teamMembers = [
                         View Treatments
                       </button>
                       </a>
-                      <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                      <a href='https://api.whatsapp.com/send?phone=919217255113'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                         Book Appointment
                       </button>
@@ -1118,10 +1118,10 @@ const teamMembers = [
                               </div>
                             </div>
                             <div className="flex justify-center gap-4 mt-4 pb-4">
-                              <a href={member.socials.facebook} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaFacebookF /></a>
-                              <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                              <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a>
-                            </div>
+                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
+                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
+                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
+                </div>
                           </motion.div>
                         ))}
                       </div>

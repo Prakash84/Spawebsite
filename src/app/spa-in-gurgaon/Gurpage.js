@@ -332,7 +332,7 @@ const SERVICES_RIGHT = [
                 </svg>
               </button>
               </a>
-              <a href='https://api.whatsapp.com/send?phone=918826482370'>
+              <a href='https://api.whatsapp.com/send?phone=919217255113'>
                 <button className="px-6 py-3 bg-white text-amber-800 rounded-sm border border-amber-200 hover:bg-amber-50 transition-colors duration-300 flex items-center space-x-2">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -783,7 +783,7 @@ whether you are here on business or for recreation; our services transform your 
                   View Packages
                 </button>
                 </a>
-                <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                <a href='https://api.whatsapp.com/send?phone=919217255113'>
                   <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                   Book Appointment
                 </button>
@@ -865,7 +865,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                   {s.time} • {s.price}
                                                                                                 </span>
                                                                                                 <a
-                                                                                                  href="https://api.whatsapp.com/send?phone=918826482370"
+                                                                                                  href="https://api.whatsapp.com/send?phone=919217255113"
                                                                                                   target="_blank"
                                                                                                   rel="noreferrer"
                                                                                                   className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -916,7 +916,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                   {s.time} • {s.price}
                                                                                                 </span>
                                                                                                 <a
-                                                                                                  href="https://api.whatsapp.com/send?phone=918826482370"
+                                                                                                  href="https://api.whatsapp.com/send?phone=919217255113"
                                                                                                   target="_blank"
                                                                                                   rel="noreferrer"
                                                                                                   className="inline-flex items-center gap-2 px-4 py-2 bg-amber-600 hover:bg-amber-700 text-white rounded-full text-sm font-semibold shadow focus:outline-none focus:ring-2 focus:ring-amber-200"
@@ -968,7 +968,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                     transition={{ duration: 0.6, delay: 0.08 }}
                                                                                   >
                                                                                     <a
-                                                                                      href="https://api.whatsapp.com/send?phone=918826482370"
+                                                                                      href="https://api.whatsapp.com/send?phone=919217255113"
                                                                                       className="inline-flex items-center gap-3 px-6 py-3 rounded-full bg-amber-600 hover:bg-amber-700 text-white font-semibold shadow-lg focus:outline-none focus:ring-2 focus:ring-amber-200"
                                                                                     >
                                                                                       Book a Personalized Journey
@@ -1045,7 +1045,7 @@ At a place such as Gurgaon, where business people meet urbanization, leisure is 
                                                                                                                        {/* CTA */}
                                                                                                                        <div className="mt-12 text-center">
                                                                                                                          <a
-                                                                                                                           href="https://api.whatsapp.com/send?phone=918826482370"
+                                                                                                                           href="https://api.whatsapp.com/send?phone=919217255113"
                                                                                                                            target="_blank"
                                                                                                                            rel="noopener noreferrer"
                                                                                                                            className="inline-block px-8 py-3 rounded-full bg-gradient-to-r from-amber-600 to-amber-500 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transition"
