@@ -122,7 +122,7 @@ const teamMembers = [
     },
     {
       title: "Full-body Massage",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/happy-woman-in-spa-salon.jpg",
       description: "Our full-body massage spa in Delhi offers a complete relaxation experience for both your mind and body. Our massage center in Delhi targets major muscle groups such as your back, shoulders, arms, legs, and neck using techniques like kneading, stroking, and pressure.",
       duration: "60 min"
     },
