@@ -360,7 +360,7 @@ const testimonials = [
       description: "Perfect for individual relaxation sessions",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
       highlight: false,
-      ctaLink: "http://wa.link/njldxn",
+      ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
       icon: <FaSpa className="text-amber-500" />
     },
     {
@@ -369,7 +369,7 @@ const testimonials = [
       description: "Premium experience with luxury amenities",
       features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
       highlight: true,
-      ctaLink: "http://wa.link/u061wi",
+      ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
       icon: <FaHotel className="text-amber-500" />
     },
     {
@@ -378,7 +378,7 @@ const testimonials = [
       description: "Comprehensive spa experience with added treatments",
       features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
       highlight: false,
-      ctaLink: "#",
+      ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
       icon: <FaCrown className="text-amber-500" />
     }
   ];
@@ -1995,7 +1995,7 @@ const features2 = [
               
               <div className="flex flex-col sm:flex-row gap-4">
                 <a
-                  href="https://api.whatsapp.com/send?phone=918826482370"
+                  href="https://api.whatsapp.com/send?phone=919217255113"
                   className="flex-1 inline-flex items-center justify-center bg-gradient-to-r from-amber-600 to-amber-700 text-white px-6 py-4 rounded-full text-lg font-medium hover:from-amber-700 hover:to-amber-800 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1"
                 >
                   <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24">

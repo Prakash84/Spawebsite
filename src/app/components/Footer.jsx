@@ -12,7 +12,7 @@ export default function Footer() {
     { 
     name: "WhatsApp", 
     icon: <WhatsApp className="text-green-500 w-6 h-6" />, 
-    link: "https://wa.me/919876543210" // apna number daalna
+    link: "https://api.whatsapp.com/send?phone=919217255113" // apna number daalna
   },
   { 
     name: "LinkedIn", 

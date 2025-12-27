@@ -19,6 +19,8 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   import Head from 'next/head';
 
 
+
+
   const playfair = Playfair_Display({
     subsets: ['latin'],
     weight: ['400', '500', '600', '700'],
@@ -129,31 +131,32 @@ const container = {
 
     const [activeHotel, setActiveHotel] = useState(1);
      const highlights = [
-    {
-      icon: <Spa className="text-amber-600" />,
-      title: "Luxury Spa Rooms Designed for Comfort",
-      description: "Enter into separate spa rooms with serene lighting, comfy decor and fragrant environment to promise a five-star experience."
-    },
-    {
-      icon: <SelfImprovement className="text-amber-600" />,
-      title: "Professional Therapists with Global Expertise",
-      description: "Our professional therapists are well cultured in order to offer full rejuvenation with international massage styles.",
-      points: ["Knowledge in multi-layer massage methods",
-        "Well-informed and personal service",
-        "Years of professional experience"]
+  {
+    icon: <Spa className="text-amber-600" />,
+    title: "Luxury Spa Rooms Designed for Comfort",
+    description:
+      "Enter into separate spa rooms with serene lighting, comfy decor and fragrant environment to promise a five-star experience.",
+    points: [
+      "State of the art relaxation lounges",
+      "Custom-inexperienced massage tables",
+      "Relaxing aroma diffusion",
       
-    },
-    // {
-    //   icon: <HealthAndSafety className="text-amber-600" />,
-    //   title: "Muscle Tension Relief",
-    //   description: "Targets muscle knots and improves flexibility"
-    // },
-    // {
-    //   icon: <Air className="text-amber-600" />,
-    //   title: "Improved Circulation",
-    //   description: "Enhances blood flow and oxygen delivery to tissues"
-    // }
-  ];
+    ],
+  },
+  {
+    icon: <SelfImprovement className="text-amber-600" />,
+    title: "Professional Therapists with Global Expertise",
+    description:
+      "Our professional therapists are well cultured in order to offer full rejuvenation with international massage styles.",
+    points: [
+      "Knowledge in multi-layer massage methods",
+      "Well-informed and personal service",
+      "Years of professional experience",
+      
+    ],
+  },
+];
+
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
@@ -186,7 +189,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Perfect for individual relaxation sessions",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
           highlight: false,
-          ctaLink: "http://wa.link/njldxn",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaSpa className="text-amber-500" />
         },
         {
@@ -195,7 +198,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Premium experience with luxury amenities",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
           highlight: true,
-          ctaLink: "http://wa.link/u061wi",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaHotel className="text-amber-500" />
         },
         {
@@ -204,7 +207,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Comprehensive spa experience with added treatments",
           features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
           highlight: false,
-          ctaLink: "#",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaCrown className="text-amber-500" />
         }
       ];
@@ -313,7 +316,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     <div className="relative h-80 md:h-96 lg:h-[450px]">
       <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
         <img
-          src="/images/Sandwich Massage.jpg"
+          src="/images/Sandwich Massage.webp"
           alt="Sandwich Massage Spa"
           className="w-full h-full object-cover"
         />
@@ -373,28 +376,41 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 max-w-[100%] mx-auto">
+ <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-6xl mx-auto">
       {highlights.map((item, index) => (
-        <div 
+        <div
           key={index}
           className="bg-white rounded-2xl shadow-lg p-8 hover:shadow-2xl transition-all duration-300 border border-amber-100"
         >
+          {/* Icon */}
           <div className="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-5 text-amber-800 text-2xl">
             {item.icon}
           </div>
-          <h3 className="text-xl font-semibold text-amber-800 mb-3">{item.title}</h3>
-          <p className="text-gray-700 leading-relaxed text-base">{item.description}</p>
-          <ul className="list-disc pl-5 text-gray-700 space-y-1">
-        {/* {item.points.map((point, i) => (
-          <li key={i}>{point}</li>
-        ))} */}
-      </ul>
-        </div>
-        
-      ))}
-                                                      
-    </div>
 
+          {/* Title */}
+          <h3 className="text-xl font-semibold text-amber-800 mb-3">
+            {item.title}
+          </h3>
+
+          {/* Description */}
+          <p className="text-gray-700 leading-relaxed text-base mb-6">
+            {item.description}
+          </p>
+
+          {/* Bullet Points */}
+          <ul className="space-y-3">
+            {item.points.map((point, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <FaCheckCircle className="w-5 h-5 text-amber-600 mt-1 flex-shrink-0" />
+                <p className="text-gray-700 text-sm leading-relaxed">
+                  {point}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
     <div className="mt-16 flex justify-center">
   <a
     href="https://t.me/Tanuspa" 
@@ -557,7 +573,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                        <div className="bg-white p-6 rounded-2xl shadow-sm">
                          <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                            <img
-                               src="/images/hb3.jpg" // Change path accordingly
+                               src="/images/hb3.webp" // Change path accordingly
                                alt="Premium Body Spa"
                                className="w-full h-full object-cover rounded-xl"
                              />
@@ -673,7 +689,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                          View packages
                        </button>
                        </a>
-                       <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                       <a href='https://api.whatsapp.com/send?phone=919217255113'>
                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
@@ -1066,7 +1082,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
                                            >
-                                            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                                            <a href='https://api.whatsapp.com/send?phone=919217255113'>
                                              <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Appointment Now
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -1121,7 +1137,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
 
           <div className="flex flex-wrap gap-4 mb-8">
-            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+            <a href='https://api.whatsapp.com/send?phone=919217255113'>
             <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
               Book Now
             </button>
@@ -1493,7 +1509,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                       Chat On Telegram
                                                     </a>
               <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
-                Call: +91 98765 43210
+                Call: +91 9217255113
               </button>
             </div>
           </div>
@@ -1523,7 +1539,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
     </p>
 
     <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
-      <a href="https://api.whatsapp.com/send?phone=918826482370">
+      <a href="https://api.whatsapp.com/send?phone=919217255113">
         <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-medium py-3 px-6 sm:py-4 sm:px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex items-center justify-center gap-2 group">
           Book Your Session
           <ArrowRight className="h-5 w-5 transition-transform duration-300 group-hover:translate-x-1" />

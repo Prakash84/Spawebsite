@@ -696,7 +696,7 @@ export default function Abpage({
             {/* CTA row */}
             <div className="mt-8 flex items-center gap-4">
               <a
-                href="https://api.whatsapp.com/send?phone=919211059033"
+                href="https://api.whatsapp.com/send?phone=919217255113"
                 className="inline-block px-6 py-3 rounded-full bg-amber-600 text-white font-semibold shadow hover:scale-[1.02] transition-transform"
               >
                 Book a Session

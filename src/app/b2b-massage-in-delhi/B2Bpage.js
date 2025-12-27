@@ -182,7 +182,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Perfect for individual relaxation sessions",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
           highlight: false,
-          ctaLink: "http://wa.link/njldxn",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaSpa className="text-amber-500" />
         },
         {
@@ -191,7 +191,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Premium experience with luxury amenities",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
           highlight: true,
-          ctaLink: "http://wa.link/u061wi",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaHotel className="text-amber-500" />
         },
         {
@@ -200,7 +200,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Comprehensive spa experience with added treatments",
           features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
           highlight: false,
-          ctaLink: "#",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaCrown className="text-amber-500" />
         }
       ];
@@ -658,7 +658,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                          View Treatments
                        </button>
                       </a>
-                       <a href=''>
+                       <a href='https://api.whatsapp.com/send?phone=919217255113'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
@@ -1054,7 +1054,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
                                            >
-                                            <a href='/massage-service-in-delhi'>
+                                            <a href='https://api.whatsapp.com/send?phone=919217255113'>
                                               <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Rejuvenating Experience
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -1110,7 +1110,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           </div>
 
           <div className="flex flex-wrap gap-4 mb-8">
-            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+            <a href='https://api.whatsapp.com/send?phone=919217255113'>
               <button className="px-6 py-3 bg-gradient-to-r from-amber-500 to-amber-600 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-[1.03] transform">
               Book Now
             </button>
@@ -1499,10 +1499,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                     >
                                                       <FaTelegram className="text-xl mr-3" />
                                                       Chat On Telegram
-                                                    </a>
-              <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
-                Call: +91 98765 43210
+                                                  </a>
+                                                  <a href='https://api.whatsapp.com/send?phone=919217255113'>
+                                                    <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
+                Call: +91 919217255113
               </button>
+
+                                                  </a>
+              
             </div>
           </div>
         </section>

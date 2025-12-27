@@ -39,19 +39,19 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
     },
     {
       title: "Deep Tissue Therapy for Pain and Muscle Relief",
-      image: "/images/19-2-1024x427.png",
+      image: "/images/SpecializedTreatments.jpg",
       description: "Deep tissue massage hits the harder parts of the muscle to eliminate any pain or stiffness. It also serves to loosen knots and enhance the mobility of the body.",
       // duration: "75 min"
     },
     {
       title: "Aromatherapy Massage for Stress Relief",
-      image: "/images/Full Body Massage.webp",
+      image: "/images/fpkdl.com_750_1758780005_man-lying-spa-table-with-therapist-applying-hydrating-body-scrub-surrounded-by-calming-d_1314467-217658.jpg",
       description: "With light massage movements, essential oils can be used to relieve stress and enable your mind to feel calmer.",
       // duration: "90 min"
     },
     {
       title: "Hot Stone Massage for Complete Healing",
-      image: "/images/Full Body Massage.jpg",
+      image: "/images/19-2-1024x427.png",
       description: "Warm stones are placed on special points of your body to help muscles relax, tensions melt, and to create balance through hands-on techniques.",
       // duration: "60 min"
     },
@@ -193,7 +193,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Perfect for individual relaxation sessions",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
           highlight: false,
-          ctaLink: "http://wa.link/njldxn",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaSpa className="text-amber-500" />
         },
         {
@@ -202,7 +202,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Premium experience with luxury amenities",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
           highlight: true,
-          ctaLink: "http://wa.link/u061wi",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaHotel className="text-amber-500" />
         },
         {
@@ -211,7 +211,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Comprehensive spa experience with added treatments",
           features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
           highlight: false,
-          ctaLink: "#",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaCrown className="text-amber-500" />
         }
       ];
@@ -558,7 +558,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                        <div className="bg-white p-6 rounded-2xl shadow-sm">
                          <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                            <img
-                               src="/images/hb3.jpg" // Change path accordingly
+                               src="/images/hb3.webp" // Change path accordingly
                                alt="Premium Body Spa"
                                className="w-full h-full object-cover rounded-xl"
                              />
@@ -676,7 +676,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                          View Treatments
                        </button>
                       </a>
-                       <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                       <a href='https://api.whatsapp.com/send?phone=919217255113'>
                         <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
@@ -1075,7 +1075,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              viewport={{ once: true }}
                                              transition={{ duration: 0.8, delay: 0.3 }}
                                            >
-                                            <a href='https://api.whatsapp.com/send?phone=918826482370'>
+                                            <a href='https://api.whatsapp.com/send?phone=919217255113'>
                                               <button className="bg-gradient-to-r from-amber-600 to-amber-800 text-white font-bold py-5 px-10 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-amber-500 focus:ring-offset-2">
                                                Book Your Rejuvenating Experience
                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline-block ml-2" viewBox="0 0 20 20" fill="currentColor">
@@ -1136,7 +1136,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               Our Packages
             </button>
             </a>
-           <a href='/https://api.whatsapp.com/send?phone=918826482370'>
+           <a href='/https://api.whatsapp.com/send?phone=919217255113'>
             <button className="px-6 py-3 bg-white text-amber-700 border border-amber-300 font-medium rounded-full shadow-sm hover:shadow transition-all duration-300">
               Book Now
             </button>
@@ -1504,7 +1504,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                       Chat On Telegram
                                                     </a>
               <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
-                Call: +91 98765 43210
+                Call: +91 9217255113
               </button>
             </div>
           </div>

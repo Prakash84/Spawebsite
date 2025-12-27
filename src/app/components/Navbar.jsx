@@ -60,7 +60,7 @@ export default function Navbar() {
         className="hidden md:flex justify-between items-center text-sm text-white px-6 py-2 shadow-sm z-50"
         style={{ backgroundColor: "#c58940" }}
       >
-        <p className="font-medium">📞 +91-9220961427</p>
+        <p className="font-medium">📞 +91-9217255113</p>
         <p className="font-semibold">
           Book Your Appointment : Delhi | Noida | Gurgaon | Ghaziabad
         </p>
@@ -192,7 +192,7 @@ export default function Navbar() {
             </a>
 
             <a
-              href="https://api.whatsapp.com/send?phone=919211059033"
+              href="https://api.whatsapp.com/send?phone=919217255113"
               className="bg-amber-600 text-white px-6 py-2 rounded-full font-medium text-sm hover:bg-amber-700 transition shadow-md"
             >
               Book Appointment

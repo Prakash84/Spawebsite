@@ -40,7 +40,7 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
    
     {
       title: "Swedish Couple Massage Rejuvenating",
-      image: "/images/Couple Massage.jpg",
+      image: "/images/Couple Massage.webp",
       description: "Based on pure relaxation, the techniques of a Swedish massage enhance blood flow, relieve tension, and set a serene atmosphere for you and your partner to relax simultaneously.",
       // duration: "60 min"
     },
@@ -182,7 +182,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Perfect for individual relaxation sessions",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "60 min Consultation", "shower"],
           highlight: false,
-          ctaLink: "http://wa.link/njldxn",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaSpa className="text-amber-500" />
         },
         {
@@ -191,7 +191,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Premium experience with luxury amenities",
           features: ["Oil Massage", "Cream Massage", "Dry Massage", "Private Suite", "Complimentary Refreshments", "90 min Session"],
           highlight: true,
-          ctaLink: "http://wa.link/u061wi",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaHotel className="text-amber-500" />
         },
         {
@@ -200,7 +200,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
           description: "Comprehensive spa experience with added treatments",
           features: ["Foreigner Therapist", "5 Start Property", "Private Sweets", "Aromatherapy", "120 min Session"],
           highlight: false,
-          ctaLink: "#",
+          ctaLink: "https://api.whatsapp.com/send?phone=919217255113",
           icon: <FaCrown className="text-amber-500" />
         }
       ];
@@ -546,7 +546,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                        <div className="bg-white p-6 rounded-2xl shadow-sm">
                          <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                            <img
-                               src="/images/hb3.jpg" // Change path accordingly
+                               src="/images/hb3.webp" // Change path accordingly
                                alt="Premium Body Spa"
                                className="w-full h-full object-cover rounded-xl"
                              />
@@ -663,7 +663,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                          View Treatments
                        </button>
                        </a>
-                       <a href=''>
+                       <a href='https://api.whatsapp.com/send?phone=919217255113'>
                        <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
                          Book Appointment
                        </button>
@@ -1490,10 +1490,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                     >
                                                       <FaTelegram className="text-xl mr-3" />
                                                       Chat On Telegram
-                                                    </a>
-              <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
-                Call: +91 98765 43210
+                                              </a>
+              <a href='https://api.whatsapp.com/send?phone=919217255113'>
+                <button className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full text-lg font-medium transition-colors">
+                Call: +91 9217255113
               </button>
+              </a>
             </div>
           </div>
         </section>
