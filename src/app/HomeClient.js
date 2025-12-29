@@ -700,7 +700,7 @@ const features2 = [
             </motion.div>
 
             <motion.h1
-              className="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+              className="text-3xl md:text-3xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -932,7 +932,7 @@ const features2 = [
         Our Luxury Massage Services
       </motion.p>
       <motion.h2
-        className="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
+        className="text-3xl md:text-5xl font-bold text-gray-800 leading-tight mb-6 font-serif"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5, delay: 0.1 }}
@@ -981,7 +981,7 @@ const features2 = [
             <span className="text-amber-700 font-medium tracking-wider text-sm">PREMIUM SPA SERVICES</span>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-bold text-amber-900 mb-6 font-serif">
+          <h2 className="text-3xl md:text-5xl font-bold text-amber-900 mb-6 font-serif">
             Why We Are <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">The Best Massage </span> Centre in Delhi?
           </h2>
           
@@ -1231,7 +1231,7 @@ const features2 = [
           </motion.div>
           
           <motion.h2
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+            className="text-3xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
@@ -1357,7 +1357,7 @@ const features2 = [
           </motion.div>
           
           <motion.h2
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+            className="text-3xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
@@ -1515,7 +1515,7 @@ const features2 = [
             Affordable Luxury
           </motion.div>
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1655,7 +1655,7 @@ const features2 = [
             className="bg-white shadow-lg p-8 rounded-xl"
           >
             <motion.h2
-                          className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
+                          className="text-3xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
                           initial={{ opacity: 0, y: 20 }}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.3 }}
@@ -1685,7 +1685,7 @@ const features2 = [
             className="bg-white shadow-lg p-8 rounded-xl order-2 md:order-1"
           >
             <motion.h2
-                          className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
+                          className="text-3xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
                           initial={{ opacity: 0, y: 20 }}
                           whileInView={{ opacity: 1, y: 0 }}
                           transition={{ delay: 0.3 }}
@@ -1726,7 +1726,7 @@ const features2 = [
         {/* Section Title */}
         <div className="text-center mb-12">
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -1900,7 +1900,7 @@ const features2 = [
               <div className="relative rounded-2xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-all duration-300 group">
                 <div className="relative h-56">
                   <Image 
-                    src="/images/hb1.jpg" 
+                    src="/images/hb1.webp" 
                     alt="Spa Ambience"
                     layout="fill"
                     objectFit="cover"
@@ -2061,7 +2061,7 @@ const features2 = [
           </motion.p>
           
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -2129,7 +2129,7 @@ const features2 = [
           </motion.p>
           
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -2317,7 +2317,7 @@ const features2 = [
               Client Experiences
             </motion.p>
           <motion.h2
-            className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
+            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
@@ -2429,7 +2429,7 @@ const features2 = [
               <FaStar className="text-amber-500" />
               Questions? We’re here to help
             </motion.div>
-            <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
+            <h2 className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4">
               Frequently Asked <span className="text-amber-600">Questions</span>
             </h2>
             <p className="text-amber-800 max-w-2xl mx-auto text-lg">
