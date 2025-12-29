@@ -394,25 +394,25 @@ const testimonials = [
   const locations = [
   {
     name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
+    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
     description: "We have luxury massage outlets in Lajpat Nagar, so whenever you are in Lajpat Nagar want you can de-stress with a home and massage service. Reach out to us.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/NovotelNewDelhiAerocity.webp",
     description: "Our team provide b2b massage in Aerocity most luxurious locations. Whenever you choose us for your massage service in Aerocity, we will never disappoint.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Paschim Vihar",
-    image: "/images/TheParkConnaughtPlace.jpg",
+    image: "/images/TheParkConnaughtPlace.webp",
     description: "Choose Spa Delhi to enjoy the best massage services in Paschim Vihar. Have the most comfortable massage in an outlet of ideal ambience.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Rohini",
-    image: "/images/TheGrandNewDelhi.jpg",
+    image: "/images/TheGrandNewDelhi.webp",
     description: "We have our massage outlet available at Rohini location. If you want to experience spa in Rohini, we can deliver the best spa services in Delhi.",
     link: "https://wa.me/8826482370"
   }
