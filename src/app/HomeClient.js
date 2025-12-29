@@ -81,26 +81,25 @@ const outlets = [
   {
     title: 'Hotel Spa in Aerocity',
     description: 'Enjoy the best spa in Aerocity with relaxing body massage services at 5-star hotels like Lemon Tree, Andaz, IBIS and more for a truly peaceful experience.',
-    image: '/images/NovotelNewDelhiAerocity.jpeg',
-
+    image: '/images/NovotelNewDelhiAerocity.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
     title: 'Hotel Spa in Defence Colony',
     description: 'Relax at our spa in Defence Colony with expert body massage services to refresh your mind and body, serving hotel guests in NFC at places like The Suryaa for complete comfort and relaxation.',
-    image: '/images/TheSuryaaNewDelhi(NFC).jpg',
+    image: '/images/TheSuryaaNewDelhi(NFC).webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
     title: 'Hotel Spa in Connaught Place',
     description: 'Enjoy a relaxing experience at our spa in Connaught Place with professional body massage services, serving top hotels like Radisson Blu, The Lalit, The Park and more for your complete comfort and relaxation.',
-    image: '/images/TheParkConnaughtPlace.jpg',
+    image: '/images/TheParkConnaughtPlace.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
     title: 'Hotel Spa in Dwarka',
     description: 'Feel at ease in our spa in Dwarka with professional massage therapists who come to your hotel room where you can have on-demand hotel spa to have a serene and relaxing stay at the hotel.',
-    image: '/images/TheGrandNewDelhi.jpg',
+    image: '/images/TheGrandNewDelhi.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
 ];
@@ -267,7 +266,7 @@ const [isVisible, setIsVisible] = useState(false);
 
   const slides = [
     {
-      title: "Welcome to The Spa Delhi — Your One-Stop for Ultimate Relaxation",
+      title: "Welcome to The Spa Delhi — 5 Star Hotel Spa In Delhi",
       link: "https://api.whatsapp.com/send?phone=918826482370",
       image: "/images/hb1.webp"
       
@@ -584,7 +583,7 @@ const features2 = [
                     transition={{ delay: 0.5 }}
                   >
                     <a 
-                        href="https://t.me/Tanuspa" 
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -697,11 +696,11 @@ const features2 = [
               transition={{ delay: 0.2 }}
               viewport={{ once: true }}
             >
-              <span className="mr-2">✦</span> About Our Luxury Spa
+              <span className="mr-2">✦</span> About Our Spa Delhi
             </motion.div>
 
             <motion.h1
-              className="text-4xl md:text-5xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
+              className="text-4xl md:text-3xl lg:text-5xl font-bold text-gray-800 leading-tight mb-8"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
@@ -817,7 +816,7 @@ const features2 = [
                 </a>
               </motion.a> */}
               <a 
-                        href="https://t.me/Tanuspa" 
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1450,7 +1449,7 @@ const features2 = [
                       <span className="font-medium tracking-wide">Book on WhatsApp</span>
                     </a> */}
                     <a 
-                        href="https://t.me/Tanuspa" 
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1640,7 +1639,7 @@ const features2 = [
             transition={{ duration: 0.6 }}
           >
             <Image
-              src="/images/80535.jpg"
+              src="/images/80535.webp"
               alt="Luxury Spa in Delhi"
               width={600}
               height={400}
@@ -1710,7 +1709,7 @@ const features2 = [
             className="order-1 md:order-2"
           >
             <Image
-              src="/images/453.jpg"
+              src="/images/453.webp"
               alt="Full Body Massage in Connaught Place"
               width={600}
               height={400}
@@ -1784,7 +1783,7 @@ const features2 = [
                   Book on WhatsApp
                 </a> */}
                 <a 
-                        href="https://t.me/Tanuspa" 
+                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
