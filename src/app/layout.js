@@ -20,11 +20,8 @@ export const playfair = Playfair_Display({
 
 
 export const metadata = {
-  title: "creat",
-  description:
-    "Looking for a relaxing Spa in Delhi? Experience the best full body, sandwich massage, Couple massages at the top massage parlour in Delhi. Book Your Session Now.",
-  icons: {
-    icon: "/images/luxuryspaicon.png", // 👈 yahan path diya favicon ka
+  verification: {
+    google: "O30WbPyf0dfqhA8OsJQzIrJzej3_esZlxTAaeC_3EaE",
   },
 };
 

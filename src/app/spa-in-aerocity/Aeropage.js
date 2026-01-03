@@ -561,7 +561,7 @@ const topSteps = [
                     BOOK NOW
                   </a> */}
                   <a 
-                                                          href="https://t.me/Tanuspa" 
+                                                          href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                                                           target="_blank"
                                                           rel="noopener noreferrer"
                                                           className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -826,7 +826,7 @@ const topSteps = [
                       Book Now
                     </button> */}
                     <a 
-                                                            href="https://t.me/Tanuspa" 
+                                                            href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                                                             target="_blank"
                                                             rel="noopener noreferrer"
                                                             className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
@@ -1058,7 +1058,7 @@ const topSteps = [
                 </div>
                 <div className="flex gap-3">
                   <a
-                    href="https://t.me/Tanuspa"
+                    href="https://t.me/+a5Bu6FBPN9FlOWM9"
                     target="_blank"
                     rel="noreferrer"
                     className="inline-flex items-center gap-3 bg-white/10 hover:bg-white/20 px-4 py-2 rounded-full font-medium shadow-sm transition"
@@ -1275,7 +1275,7 @@ const topSteps = [
                           Book Now
                         </a> */}
                         <a 
-                                                                href="https://t.me/Tanuspa" 
+                                                                href="https://t.me/+a5Bu6FBPN9FlOWM9" 
                                                                 target="_blank"
                                                                 rel="noopener noreferrer"
                                                                 className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
