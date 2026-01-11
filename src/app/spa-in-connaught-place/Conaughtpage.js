@@ -96,7 +96,7 @@ export default function Conaughtpage() {
   },
   {
     title: "Shangri-La Eros, New Delhi",
-    image: "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.AVIF",
+    image: "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.webp",
     description:
       "Shangri-La Eros welcomes Spa Delhi’s team for deep tissue and aromatherapy massages. The peaceful atmosphere and expert care help clients recharge in a world-class hotel setting.",
   },
@@ -362,7 +362,7 @@ const topSteps = [
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
                 <img
-                  src="/images/TheParkConnaughtPlace.jpg" // ✅ Yahan apna image path daal
+                  src="/images/TheParkConnaughtPlace.webp" // ✅ Yahan apna image path daal
                   alt="Spa Environment"
                   className="w-full h-full object-cover"
                 />

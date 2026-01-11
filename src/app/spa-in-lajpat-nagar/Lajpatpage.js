@@ -66,7 +66,7 @@ export default function Lajpatpage() {
   },
   {
     title: "The Oberoi Lajpat Nagar",
-    image: "/images/TheOberoi_Lajpatnagar.jpg",
+    image: "/images/TheOberoi_Lajpatnagar.webp",
     description:
       "The Oberoi is a place for classy comfort, and Spa Delhi adds its own touch with tailored spa sessions. Mixing old ways with modern choices, these therapies help you fully relax.",
   },
@@ -202,7 +202,7 @@ const SERVICES_RIGHT = [
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
-    image: '/images/Sandwich Massage.jpg',
+    image: '/images/Sandwich Massage.webp',
   },
   {
     id: 'packages',

@@ -839,7 +839,7 @@ export default function Abpage({
           >
             <div className="relative w-full h-80 sm:h-[420px] lg:h-[520px]">
               <Image
-                src="/images/80535.jpg"
+                src="/images/80535.webp"
                 alt="Relaxing spa interior"
                 fill
                 className="object-cover"

@@ -41,13 +41,13 @@ const hotelOutlets = [
   },
   {
     title: "Novotel New Delhi Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/NovotelNewDelhiAerocity.webp",
     description:
       "The ultimate relaxation with Spa Delhi massage therapies, a combination of luxury oils and professional skills in the modern space of Novotel.",
   },
   {
     title: "The Grand New Delhi",
-    image: "/images/TheGrandNewDelhi.jpg",
+    image: "/images/TheGrandNewDelhi.webp",
     description:
       "Have a splendid experience of the SpA Delhi massage services that are provided at the Grand New Delhi hotel where you can enjoy total relaxation and wellness in the luxurious surroundings of The Grand.",
   },
@@ -59,13 +59,13 @@ const hotelOutlets = [
   },
   {
     title: "The Park Connaught Place",
-    image: "/images/TheParkConnaughtPlace.jpg",
+    image: "/images/TheParkConnaughtPlace.webp",
     description:
       "Find a pleasant getaway with Spa Delhi luxury massages, which relaxes the body and uplift your senses.",
   },
   {
     title: "The Suryaa New Delhi (NFC)",
-    image: "/images/TheSuryaaNewDelhi(NFC).jpg",
+    image: "/images/TheSuryaaNewDelhi(NFC).webp",
     description:
       "Experience Spa Delhi specializes in massage services at The Suryaa, where customers receive personalized well-being and ultimate relaxation in the massage salon.",
   },
@@ -123,49 +123,49 @@ const hotelOutlets = [
 const locations = [
   {
     name: "Lajpat Nagar",
-    image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
+    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
     description: "Lajpat Nagar the city is regarded to be the place of the most excellent massage treatments with professional attention and relaxing environment.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/NovotelNewDelhiAerocity.webp",
     description: "Spa in Aerocity, in which Spa Delhi provides a wide range of luxury services and well-being to all clients.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Paschim Vihar",
-    image: "/images/TheParkConnaughtPlace.jpg",
+    image: "/images/TheParkConnaughtPlace.webp",
     description: "Take a break and refuel at Paschim Vihar with Spa Delhi through a special massage session to regain your lost energy.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Rohini",
-    image: "/images/TheGrandNewDelhi.jpg",
+    image: "/images/TheGrandNewDelhi.webp",
     description: "Experience a serene escape in Rohini with Spa Delhi’s expertly delivered massage services for body and mind.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Paharganj",
-    image: "/images/TheSuryaaNewDelhi(NFC).jpg", // Replace with actual image URL
+    image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
     description: "Get the high-quality spa in Paharganj, which are stress reliever and soothing.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Pitampura",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/NovotelNewDelhiAerocity.webp",
     description: "At Spa Delhi, we have a team of massage therapists offering massage spa services in Pitampura, allowing you to enjoy a luxury getaway right at your doorstep.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Paschim Vihar",
-    image: "/images/TheParkConnaughtPlace.jpg",
+    image: "/images/TheParkConnaughtPlace.webp",
     description: "Experience rejuvenation at our elegant Paschim Vihar location.",
     link: "https://wa.me/8826482370"
   },
   {
     name: "Rohini",
-    image: "/images/TheGrandNewDelhi.jpg",
+    image: "/images/TheGrandNewDelhi.webp",
     description: "Escape to serenity at our luxurious spa in Rohini.",
     link: "https://wa.me/8826482370"
   }

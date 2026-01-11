@@ -35,7 +35,7 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
   const services = [
     {
       title: "Regulation of the Warm Oil",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/Sandwich Massage.webp",
       description: "These warmed oils are used by our therapists to nourish the skin and relax the muscles and stimulate an increased circulation that can improve the massage effects.",
       // duration: "60 min"
     },

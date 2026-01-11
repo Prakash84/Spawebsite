@@ -73,7 +73,7 @@ export default function Aeropage() {
   },
   {
     title: "Novotel New Delhi Aerocity",
-    image: "/images/NovotelNewDelhiAerocity.jpeg",
+    image: "/images/NovotelNewDelhiAerocity.webp",
     description:
       "Novotel Aerocity is a convenient and luxurious place to stay, and our spa services are an added bonus to your stay. Whether it is reviving full-body massage or relaxing treatments aimed at alleviating stress, each of the services makes you feel refreshed. Your stay will be something to remember with the help of our therapists.",
   },
