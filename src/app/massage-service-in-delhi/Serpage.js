@@ -104,7 +104,7 @@ const teamMembers = [
     },
     {
       title: "Sandwich Massage",
-      image: "/images/Sandwich Massage.jpg",
+      image: "/images/Sandwich Massage.webp",
       description: "Rebalance your energy with our soothing Sandwich Massage therapy. A layered, deeply relaxing treatment for full-body stress relief.",
       duration: "60 min"
     },

@@ -299,7 +299,7 @@ const SERVICES_RIGHT = [
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
-    image: '/images/Sandwich Massage.jpg',
+    image: '/images/Sandwich Massage.webp',
   },
   {
     id: 'packages',

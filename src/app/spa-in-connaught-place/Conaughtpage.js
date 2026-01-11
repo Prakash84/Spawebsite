@@ -96,7 +96,7 @@ export default function Conaughtpage() {
   },
   {
     title: "Shangri-La Eros, New Delhi",
-    image: "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.webp",
+    image: "/images/shangri-la-s-eros-hotel-connaught-place-delhi-5-star-hotels-2zj8oj1.avif",
     description:
       "Shangri-La Eros welcomes Spa Delhi’s team for deep tissue and aromatherapy massages. The peaceful atmosphere and expert care help clients recharge in a world-class hotel setting.",
   },
@@ -226,7 +226,7 @@ const SERVICES_RIGHT = [
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
-    image: '/images/Sandwich Massage.jpg',
+    image: '/images/Sandwich Massage.webp',
   },
   {
     id: 'packages',

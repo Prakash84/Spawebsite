@@ -8,7 +8,7 @@ const galleryImages = [
   "/images/SpecializedTreatments.jpg",
   "/images/Sandwich Massage.webp",
   "/images/SkincareTreatments.jpg",
-  "/images/pexels-olly-3760262.webp",
+  "/images/453.webp",
   "/images/potliMassage.jpg",
   "/images/outletsBanner.jpeg",
   "/images/haboutus.jpg",
