@@ -41,7 +41,7 @@ import LuxuryHotelShowcase from '../components/LuxuryHotelShowcase';
     {
       title: "Swedish Couple Massage Rejuvenating",
       image: "/images/Couple Massage.webp",
-      description: "Based on pure relaxation, the techniques of a Swedish massage enhance blood flow, relieve tension, and set a serene atmosphere for you and your partner to relax simultaneously.",
+      description: "Couple massage at home in Delhi gives gentle Swedish strokes with warm oil; you and partner lie side-by-side, talk, laugh, feel fresh, light, happy again in just sixty calm minutes.",
       // duration: "60 min"
     },
     {
@@ -142,7 +142,7 @@ const container = {
     {
       icon: <HealthAndSafety className="text-amber-600" />,
       title: "Builds bond",
-      description: "Encourages open communication and bonding while enjoying a calming, rejuvenating experience together."
+      description: "You two talk freely, laugh softly, and become best friends again while our oil makes you both fresh and happy."
     },
     {
       icon: <Air className="text-amber-600" />,
@@ -155,7 +155,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       {
         title: "Soothing Oil Therapy for Couple Massage in Delhi",
         description1:
-          "Spa Delhi is best couple spa in Paschim Vihar where our team of therapist utilized high-quality oils for soothing oil therapy. Luxury oils of lavender, sandalwood, and eucalyptus are selected to help deepen the relaxation and renew the body. Not only does this therapy relieve stress, but it also hydrates your skin, leaving both you and your partner with a rejuvenated and glowing complexion. As you are massaged in synchronisation with aromatic oils, it makes the couple massage experience truly memorable and more emotionally fulfilling. It is the high-quality therapy that couples may enjoy, trying to gain physical relaxation and emotional fondness in the best spa centre in Delhi.",
+          "Enjoy our special oil therapy with your partner during Couple Massage in Delhi. We bring warm jasmine-coconut oil to your room, rub head-to-toe till stress melts. Same-time strokes make heartbeat match; you feel close, happy, light. Too lazy to travel? Book Couple massage at home in Delhi—therapists come with fresh sheets, oils, candles; set spa mood in your own bedroom. No traffic, no extra cost, full privacy. After 60 min we leave you two soft, shiny, smelling sweet. Great for anniversary, date or just because. One call, both relax—simple!",
         image: "/images/137.jpg",
       },
       // {
@@ -618,8 +618,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                  >
                    <div className="max-w-lg">
                      <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                       Spa Delhi is the first choice of individuals who want to experience the most sought-after <span className="font-medium text-stone-800">Couple Massage in Karol Bagh.</span>,
-                       With revitalizing massage sessions and romantic aromatherapy experiences, couples will receive an experience of relaxation they are not likely to forget. The relaxing environment, professional therapists, and therapeutic scents create a luxurious setting where you and your partner can relax and bond with each other in a deeper way. Be it a festive occasion, a weekend getaway, or a last-minute need to unwind, our couple massage packages are designed to create a tranquil and romantic getaway. Spa Delhi is where lovebirds regain the touch of togetherness through rejuvenation of the body, mind, and the soul. 
+                       Want to share chill time with your person? Book our <a><span className="font-medium text-stone-800">Couple massage in Delhi</span></a> and lie side-by-side on soft beds in one private room. We light rose candles, play slow Bollywood love songs, and two expert aunties work on your backs with warm almond oil—one presses your shoulders, the other presses your partner’s, same beat, same relax. No shy, only cosy vibes; you can even hold hands while knots open. After 60 minutes we give free chocolate and ginger tea so you both leave smiling, smelling good, and ready for nice dinner. Many boyfriends, girlfriends, and even mummy-papa come for anniversary surprise. Price is friendly, towels fresh, room fully safe. Try once and you will say, “Yaar, this Couple massage in Delhi is best date plan ever!”
                        
                      </p>
                      
@@ -1191,7 +1190,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.4, duration: 0.5 }}
                   >
-                    Discover the finest treatments, a sensuous atmosphere, and the most proficient therapists at Spa Delhi, your preferred choice for couple massage in Delhi.
+                   Spa Delhi gives best couple massage in Delhi—nice smell room, soft light, good hands that know every pain point. Come once, feel happy-close again.
                   </motion.p>
                   
                   <motion.div
@@ -1224,8 +1223,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                           </ul>
                           
                           <p className="text-gray-700 mb-6">
-                              When it comes to indulgent relaxation and rejuvenation, Delhi spa centers stand out for their exceptional massage therapies. Among the most popular and sought-after treatments are erotic massage, nuru massage, thai massage, sandwich massage, and full body massage. Whether you seek pure relaxation, therapeutic relief, or something more sensual, Delhi's best spas offer a range of services tailored to suit every need.
-        
+                              Delhi spa centres give best massage in whole NCR. People love full-body massage, Thai stretch, sandwich four-hand, and good oil rub for pain and stress. Just tell what you need—relax, relief or little extra smile—our friendly staff fix it quick, price clear, room clean.
                             </p>
                       </div>
                       
@@ -1244,13 +1242,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         
                       
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
-                        <span className="font-semibold text-amber-800 mb-4">Erotic Massage in Delhi: An Intimate Experience</span>
+                        <span className="font-semibold text-amber-800 mb-4">Sweet Couple Massage at Home in Delhi – Feel Closer Together</span>
                         <p className="text-gray-700 mb-6">
-                          The erotic massage in Delhi is a highly specialized and intimate therapy that offers a combination of relaxation and sensuality. Ideal for those who wish to experience heightened pleasure while relieving stress, this service is carried out by expert therapists who understand how to deliver a soothing, yet deeply stimulating experience. If you're looking for something beyond the usual therapeutic massage, the erotic massage is a great choice, enhancing both emotional and physical well-being. This service is performed with care and professionalism, ensuring you receive the highest quality relaxation.                  
+                         Why go out when Couple massage at home in Delhi can come to you? Just WhatsApp your address, we reach in 45 minutes with clean sheets, warm rose oil, and one tiny candle. Both of you lie on your own bed, therapists work same-time on back, neck, legs—like mirror dance. Room smells sweet, music soft, no outside noise; you can even hold hands or giggle between strokes. After one hour we pack up, leave you two loose, shiny, and hugging more. Safe, private, no travel, same price. Book tonight, make tomorrow happy.                  
                         </p>
-                        <span className="font-semibold text-amber-800 mb-4">Nuru Massage in Delhi: A Luxurious Sensation</span>
+                        <span className="font-semibold text-amber-800 mb-4">Hot Stone Massage in Delhi: Warm Stones, Cool Vibes</span>
                         <p>
-                         The nuru massage in Delhi is a uniquely sensual experience that has gained popularity for its exotic, slippery, and intimate nature. This Japanese massage style uses a special gel derived from seaweed, which makes the skin glide smoothly, allowing for a deep body-to-body connection between the therapist and the client. It’s a treatment that blends relaxation with sensual indulgence, making it ideal for individuals seeking a luxurious and intimate spa experience. Nuru massage offers a heightened sense of intimacy while still ensuring ultimate relaxation and stress relief.
+                         Feel tired? Try hot stone massage in Delhi. We heat smooth black stones, put on your back; warmth goes inside, melts pain like butter on tawa. Stones slide slow, muscles open, blood runs fast—no ache, only calm. Room smells mint, music slow, you sleep like baby. One hour only, price friendly, towel fresh. Come in lunch break or after flight; step out light, cool, smiling. Book now, feel the heat!
                         </p>
                         {/* <p>
                           Perfect for individuals suffering from stress, muscle pain, or hormonal imbalance, this massage harmonizes body rhythms and enhances immunity. The continuous motion and warm oil offer a meditative experience.

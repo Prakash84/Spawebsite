@@ -107,23 +107,23 @@ const container = {
     
       const faqs = [
         {
-          question: "What is included in a Full body massage in Delhi?",
-          answer: "In our Full Body Massage in Delhi. It includes the head, neck, shoulders, back, arms and legs. Our certified therapists provide top-notch full body massage in Delhi.",
+          question: "What makes your full body massage in Delhi different?",
+          answer: "Our massages focus on quality and use special oils in relaxing spaces so you get pain relief, better mood, and real wellness every time.",
           icon: <FaSpa className="text-teal-600" />
         },
         {
-          question: "Is full body massage available in Karol bagh?",
-          answer: "Yes, Our spa is available in Karol Bagh to give you perfect relaxation. Experience Full body massage in Aerocity with experienced therapists and optional hotel-room packages tailored for travelers and guests seeking quality services.",
+          question: "Which oils do you use for full body massage sessions?",
+          answer: "The oils are picked for their power to hydrate, help blood move, relax muscles, and support full wellness.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
-          question: "Are oil choices offered in full body massage packages?",
-          answer: "Yes. We use professional oils and essential blends, including unscented options for sensitive skin. Mention oil preferences or allergies during booking or at session start. We maintain proper cleanliness at our spa session.",
+          question: "Can I book a full body massage at my preferred time?",
+          answer: "Yes, you can choose your time slot. Booking is easy using Telegram or by visiting our spa front desk.",
           icon: <FaHotTub className="text-teal-600" />
         },
         {
-          question: "Can I have a full body massage at home?",
-          answer: "Yes, We offer full body massage at home in Delhi service by our certified therapists. our home full body service includes trained therapists bringing oils, linens and equipment.",
+          question: "Do your massage therapies help with stress relief?",
+          answer: "Every massage style is made to lower stress, stop tension, and deliver deep relaxation so you finish feeling calm and comfortable.",
           icon: <FaLeaf className="text-teal-600" />
         },
         {
@@ -164,9 +164,9 @@ const container = {
 const [isMenuOpen, setIsMenuOpen] = useState(false);
     const sections = [
       {
-        title: "Oil Therapy",
+        title: "Soothing Oil Therapy for Full Body Massage in Delhi",
         description1:
-          "Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation. The application of gentle pressure with warm oil improves lymphatic drainage, detoxifies the body, and boosts energy flow. Whether you're dealing with fatigue, anxiety, or physical stiffness, oil therapy helps restore balance to your mind and body. It's especially beneficial for those seeking natural healing rooted in ancient Ayurvedic principles. The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Ayurvedic oil massage, also known as Abhyanga, uses herbal oils that balance the body's doshas—Vata, Pitta, and Kapha. The warm oil is massaged into the skin to energize vital points, improve blood circulation, and promote internal healing. This therapy not only revitalizes the skin but also clears toxins stored in deeper tissues.",
+          "Oil therapy makes the full body massage even better. Special oils feed the skin, help ease tight muscles, and let your body feel proper energy flow. Herbal and scented oils are chosen for their ability to hydrate and fix tissues. The gentle strokes encourage muscle release, while the oils help bring balance back to your senses. Every session should leave you feeling brand new with soft, relaxed skin.",
         image: "/images/137.jpg",
       },
       // {
@@ -246,7 +246,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Looking to treat yourself to a full body massage which makes you feel more relaxed and comfortable in Delhi? Massage sessions in Delhi are designed to assist you in relaxing, clearing your mind and feeling physically and emotionally better.
+        Want full-body massage in Delhi? Come, lie on soft bed, our expert aunties rub warm oil from head to toe, press pain points slow-slow; office stress, back ache, head heaviness all run away. Mind becomes clear, body light, mood happy; you sleep tight at night and wake fresh.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -367,7 +367,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Benefits of our Full Body <span className="text-amber-600">Massage Service in Delhi</span>
+                    Transformative Benefits of <span className="text-amber-600">Full Body Massage in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -376,7 +376,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    You can notice a big difference when you try our specialized massage services made to help and repair your body.
+                    Full body massage in Delhi will make you relaxed, eliminates any pains, and rejuvenates your energy. The treatments available will make you feel lighter on the inside, and the outside.
                   </motion.p>
       <div className="w-24 h-1 bg-amber-500 mx-auto"></div>
     </div>
@@ -425,7 +425,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Transformative <span className="text-amber-600">Benefits</span>
+                    Benefits of our <span className="text-amber-600">Full Body Massage Service in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -434,7 +434,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                     Our signature oil therapy massage offers a holistic approach to wellness that addresses both physical and mental needs.
+                     You can notice a big difference when you try our specialized massage services made to help and repair your body.
                   </motion.p>
             </div>
             
@@ -837,10 +837,10 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  Premium Wellness Experience
                                                </span>
                                                <h2 className="text-4xl md:text-5xl font-bold text-amber-900 font-serif mb-6">
-                                                 Why Choose <span className="text-amber-600">Our Spa in Delhi?</span>
+                                                 Why Choose Spa Delhi <span className="text-amber-600">for Best Full Body Massage Centre in Delhi?</span>
                                                </h2>
                                                <p className="text-amber-800 text-lg md:text-xl leading-relaxed">
-                                                 We stand apart through our commitment to authentic techniques, premium ingredients, and personalized care that revitalizes your mind, body and spirit.
+                                                Spa Delhi is a top option in the city for those who want a great massage in a clean and comfortable space, handled by professionals.
                                                </p>
                                              </motion.div>
                                            </div>
@@ -864,18 +864,18 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Expert Therapists</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Luxury Spa Experience with Personalized Care</h3>
                                                        <p className="text-amber-700">
-                                                         Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
+                                                         The spa has elegant interiors, soft music, and professional therapists who ensure that all massages are perfect for you. Whether you want to be deeply relaxed or simply spend some time in silence, all the details have been untangled to suit your desire. Cleanliness is the number one priority, with the oils used being selected to perform optimally. The customers come back again since it is always a special experience.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
-                                                   <p className="text-gray-700 mb-6">
+                                                   {/* <p className="text-gray-700 mb-6">
                                                      Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
                                                      This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
                                                      The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                                                   </p>
+                                                   </p> */}
                                                    
                                                    <div className="flex flex-wrap gap-3 mb-8">
                                                      {['10+ Years Experience', 'Personalized Techniques', 'Deep Tissue Mastery'].map((item, index) => (
@@ -925,17 +925,18 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                        </svg>
                                                      </div>
                                                      <div>
-                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Oils & Blends</h3>
+                                                       <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Expert Therapists Delivering Tailored Massage Services</h3>
                                                        <p className="text-amber-700">
-                                                         We use only cold-pressed, organic oils blended with therapeutic-grade essential oils for maximum benefit.
+                                                       Experts of Spa Delhi learn various massage methods to ensure that everyone leave satisfied. In case you need sore muscle therapy, improved circulation, or a radiant complexion, these therapists can get you there. Spa Delhi does not believe in a quick fix, and that’s why all the therapies have both the traditional and the modern touches.
+
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
-                                                   <p className="text-gray-700 mb-6">
+                                                   {/* <p className="text-gray-700 mb-6">
                                                      The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. 
                                                      Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                                                   </p>
+                                                   </p> */}
                                                    
                                                    <div className="mb-6">
                                                      <h4 className="text-lg font-bold text-amber-700 mb-3">Signature Oil Blends</h4>
@@ -1019,14 +1020,14 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              transition={{ duration: 0.6, delay: 0.2 }}
                                            >
                                              <h3 className="text-3xl font-bold text-amber-900 font-serif text-center mb-12">
-                                               Our Holistic Approach to Wellness
+                                               Our Process for Full Body Massage
                                              </h3>
                                              
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Mindful Relaxation",
-                                                   description: "Techniques that calm the mind and reduce stress through focused breathing and meditation",
+                                                   title: "Reach Out to Us via Telegram for Instant Bookings",
+                                                   description: "Booking is simple—a quick message on Telegram or talking to the spa desk gets you an appointment fast and with no fuss.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1034,8 +1035,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Body Rejuvenation",
-                                                   description: "Therapies that restore physical vitality and promote healing at the cellular level",
+                                                   title: "Warm and Welcoming Spa Ambiance with Aromatic Scents",
+                                                   description: "The spa feels calm the moment you walk in, with soft smells and quiet décor that relaxes you straight away.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1043,8 +1044,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                    )
                                                  },
                                                  {
-                                                   title: "Spiritual Balance",
-                                                   description: "Practices that align your energy centers and connect you with your inner self",
+                                                   title: "Professional Consultation to Customize Your Massage Experience",
+                                                   description: "Therapists make sure they know exactly what you need before starting, tailoring each session for your body and comfort level.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -1304,7 +1305,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.1 }}
                   >
-                    Our <span className="text-amber-600">Pricing Packages</span>
+                    Our Pricing Package <span className="text-amber-600">for Full Body Massage in Delhi</span>
                   </motion.h2>
                   <motion.p
                     className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -1313,7 +1314,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                     viewport={{ once: true }}
                     transition={{ delay: 0.2 }}
                   >
-                    Tailored spa experiences starting from just ₹1999. Choose from our exclusive massage options, designed for your total relaxation and rejuvenation.
+                   Prices are made fair so anyone wanting a luxury treatment can get it at a good rate and top care standards.
                   </motion.p>
                 </div>
         
@@ -1489,9 +1490,9 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
         {/* CTA Section */}
         <section className="py-20 bg-gradient-to-r from-amber-700 to-amber-800 text-white">
           <div className="container mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Ready for Transformation?</h2>
+            <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">Book Your Full Body Massage in Delhi Today!</h2>
             <p className="text-amber-100 max-w-2xl mx-auto mb-10 text-lg">
-              Book your oil therapy massage today and embark on a journey to complete relaxation and rejuvenation.
+              "Relax more, feel fresh, and recover your energy through top full body massage service in Delhi."
             </p>
             <div className="flex flex-col sm:flex-row justify-center gap-4">
               <a 

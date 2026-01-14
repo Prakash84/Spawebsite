@@ -93,7 +93,7 @@ const teamMembers = [
     {
       title: "Stone Therapy",
       image: "/images/19-2-1024x427.png",
-      description: "Rebalance your energy with our soothing Stone Therapy. Using heated stones, this therapeutic treatment melts away tension and promotes deep relaxation.",
+      description: "Our spa service in Delhi gives best stone therapy; warm stones remove back pain, cool stones calm stress, feel fresh and sleep tight same day.",
       duration: "75 min"
     },
     {
@@ -111,7 +111,7 @@ const teamMembers = [
     {
       title: "Thai Massage",
       image: "/images/thaimassage.jpg",
-      description: "Thai massage is ideal for those seeking an active form of massage to relieve pain and stress, offered at our luxury spa in Delhi. This massage helps with flexibility, circulation, and energy levels.",
+      description: "Book our spa home service in Delhi for real Thai massage; lady therapist stretches your full body, kills pain, boosts energy, no need to step out.",
       duration: "60 min"
     },
     {
@@ -123,7 +123,7 @@ const teamMembers = [
     {
       title: "Full-body Massage",
       image: "/images/happy-woman-in-spa-salon.jpg",
-      description: "Our full-body massage spa in Delhi offers a complete relaxation experience for both your mind and body. Our massage center in Delhi targets major muscle groups such as your back, shoulders, arms, legs, and neck using techniques like kneading, stroking, and pressure.",
+      description: "Full-body massage in Delhi spa gives full relax from head to toe. Our good hands remove all pain, stress and tiredness. You feel fresh like new. Come once, you will say wow. Best price, clean place, happy feeling every time.",
       duration: "60 min"
     },
     {
@@ -135,13 +135,13 @@ const teamMembers = [
     {
       title: "B2B Massage",
       image: "/images/SkincareTreatments.jpg",
-      description: "High-end spas in Delhi offer a wide range of treatments to enhance the health and beauty of your skin. These treatments often include facials that cleanse, exfoliate, and moisturize your skin.",
+      description: "B2B massage in Delhi spa is special skin-to-skin therapy for business friends. Our trained girls use warm oil and soft body slides to take away all office tension. Private rooms, safe place, good rate. Book quickly, feel super light and happy again.",
       duration: "90-120 min"
     },
     {
       title: "Reflexology",
       image: "/images/Reflexology.jpg",
-      description: "Another holistic health practice popularized in the United States around the 1930s is Reflexology, offered by our luxury spa in Delhi. The process involves stimulating acupressure on both hands and feet to promote health and well-being..",
+      description: "Reflexology in Delhi spa presses right foot points to heal full body. No medicine, only thumb and finger magic—headache, back pain, sleep problem all gone in 30 min. Clean rooms, sweet smell, happy faces. Come for free tea, leave with light steps and big smile every time.",
       duration: "60 min"
     }
     
@@ -528,7 +528,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Hotel Spa</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  Our unique blend of techniques designed to melt away tension and restore balance to your body and mind.
+                  We mix little Thai stretch, little Kerala oil, little candle warmth—like making kadhai for your body. Knots open, head cool, mood happy; you feel light like feather, sleep like baby.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">60-90 min</span>
@@ -623,7 +623,7 @@ const faqs = [
               transition={{ delay: 0.2 }}
               className="max-w-2xl mx-auto text-lg text-amber-800"
             >
-              Experience tranquility with our curated selection of premium spa treatments, each designed to transport you to a state of complete relaxation.
+              Our massage service in Delhi gives full body pain relief with expert therapists at low price, 24/7 open.
             </motion.p>
           </div>
 
@@ -899,10 +899,10 @@ const faqs = [
                             viewport={{ once: true }}
                           >
                             <p className="text-gray-600 text-lg leading-relaxed">
-                              Welcome to <a href='/'><strong className="text-amber-600 font-medium">Spa in delhi</strong></a>, where we offer a range of luxury spa treatments including female to male spa, <a href='/couples-massage-in-delhi'><strong className="text-amber-600 font-medium">couple massages in Delhi</strong></a>, and much more. Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
-                              Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
+                            Feel fresh fast—get a full-body massage at our Aerocity spa, the trusted Spa service in Delhi. Gentle hands, warm oils, quiet room melt pain and stress in 30 min. Good rate, free tea, happy vibes. Step out light, sleep tight, face tomorrow bright.
+                              <a href='/'><strong className="text-amber-600 font-medium"></strong></a>
                             </p>
-                            {/* <p className="text-gray-600 text-lg leading-relaxed">
+                            {/* <p className="text-gray-600 text-lg leading-relaxed">Escape the hustle of Delhi and immerse yourself in rejuvenating treatments tailored to your needs.
                               Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
                             </p> */}
                           </motion.div>
@@ -1120,20 +1120,17 @@ const faqs = [
                           </div>
                           <div>
                             <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Expert Therapists</h3>
-                            <p className="text-amber-700">
+                            {/* <p className="text-amber-700">
                               Our therapists are trained in traditional Ayurvedic techniques with over 10 years of experience in therapeutic massage.
-                            </p>
+                            </p> */}
                           </div>
                         </div>
                         
                         <p className="text-gray-700 mb-6">
-                          Oil therapy is a traditional wellness practice that uses warm, herb-infused oils tailored to your skin type and body condition. 
-                          This technique not only moisturizes and nourishes your skin but also stimulates deep tissue relaxation.
-                        
+                         Our massage staff are real experts—each one has ten-plus years of working hands in old Kerala and Delhi spas. They know which warm herbal oil fits your body type, how much pressure your back enjoys, and where the hidden pain points sleep. Tell them neck is stiff or legs feel heavy; they smile, press the right spots, and pain runs away like Delhi traffic at midnight. 
                         </p>
                         <p className="text-gray-700 mb-6">
-                          Each session is customized to your unique needs, ensuring you receive the maximum benefit from your treatment. 
-                          Whether you're seeking relief from muscle tension, improved circulation, or simply a moment of tranquility, our expert therapists are here to guide you on your wellness journey.
+                         They speak simple Hindi-English, never hurry, always ask “comfortable?” After one hour you stand up light, skin shiny, mind cool. Come once, you will say “yaar, these aunties-uncles have magic fingers!
                         </p>
                         
                         <div className="flex flex-wrap gap-3 mb-8">
@@ -1186,15 +1183,15 @@ const faqs = [
                           <div>
                             <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Services</h3>
                             <p className="text-amber-700">
-                              We use only cold-pressed, organic oils blended with therapeutic-grade essential oils for maximum benefit.
+                              Want VIP feeling? Book our premium room—big soft bed, light aroma, your own shower, free green tea. Choose hot stone, chocolate scrub or four-hand massage; two therapists work together like Bollywood dance. We use imported almond-rose oil, fresh towels every time, and keep 100% privacy. Phone stay outside, only calm music inside. After treatment we give complimentary fruit bowl and ten-minute extra head massage. Price little higher, but you leave like five-star guest—fresh, glowing, ready for airport or board meeting.
                             </p>
                           </div>
                         </div>
                         
-                        <p className="text-gray-700 mb-6">
+                        {/* <p className="text-gray-700 mb-6">
                           The calming aroma of essential oils adds a therapeutic layer, relieving stress and enhancing your overall sense of well-being. 
                           Regular sessions can improve flexibility, deepen sleep, and support emotional stability.
-                        </p>
+                        </p> */}
                         
                         <div className="mb-6">
                           <h4 className="text-lg font-bold text-amber-700 mb-3">Signature Oil Blends</h4>
@@ -1554,13 +1551,11 @@ const faqs = [
                                                      >
                                                        <div className="grid md:grid-cols-2 gap-8 items-center">
                                                          <div>
-                                                           <h3 className="text-2xl font-bold mb-4">Personalized Spa Journeys</h3>
+                                                           <h3 className="text-2xl font-bold mb-4">Heading: Get Home Massage Service Delhi Today – Book Now & Relax Tonight!</h3>
                                                            <p className="mb-4 opacity-90">
-                                                             Every visit begins with a confidential wellness consultation where our specialists listen to your concerns and goals. We consider your lifestyle, stress levels, and any physical discomfort to create a truly personalized treatment plan.
+                                                             Stop bearing pain and stress; book our home massage service Delhi now and let certified therapists reach your flat in just 30 minutes. We work 24/7, serve both men and women, carry clean sheets, warm oils, and give relaxing full-body sessions at no extra travel cost. Pay cash or Paytm after service, enjoy instant pain relief, better sleep, fresh mood; one quick call is enough, so ring today and feel light tonight!
                                                            </p>
-                                                           <p className="opacity-90">
-                                                             Our exclusive loyalty program offers priority booking, complimentary upgrades, and special members-only events. Corporate wellness packages are available for businesses looking to invest in their team's wellbeing.
-                                                           </p>
+                                                           
                                                          </div>
                                                          <div className="flex justify-center">
                                                           
@@ -1750,11 +1745,11 @@ const faqs = [
                   </h2>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-3">
-                    Take advantage of our Affordable <a href='/spa-price-in-delhi'><strong className="text-amber-600 font-medium">spa price in delhi</strong></a> and claim exclusive first visit offer for only ₹1999! Experience our luxurious treatments and discover ultimate relaxation at an unbeatable price.
+                    Take advantage of our Affordable <a href='/spa-price-in-delhi'><strong className="text-amber-600 font-medium">spa price in delhi</strong></a> and claim exclusive first visit offer for only ₹1999! Experience our luxurious treatments and Find Complete relaxation at an cheap & affordable price.
                   </p>
 
                   <p className="text-gray-600 text-base sm:text-lg mb-8">
-                    Relax and rejuvenate with our tailored spa experiences at the finest 4, 5, and 7-star hotels across Delhi NCR. Indulge in world-class treatments designed to revitalize your mind, body, and soul.
+                   Relax with our hotel spa service in Delhi NCR—we bring full-body massage to your 4, 5, 7-star room. Enjoy Ayurvedic oil therapy, stress relief, and jet-lag treatment without stepping out. Premium spa near airport, Aerocity, Gurgaon; 24-hour open, doorstep service, best price. Book once, sleep deep, wake fresh.
                   </p>
 
                   <ul className="flex justify-center gap-6 flex-wrap text-gray-800 font-medium text-base mb-10">
