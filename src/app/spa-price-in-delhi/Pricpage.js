@@ -540,7 +540,7 @@ const teamMembers = [
                             whileInView={{ opacity: 1, y: 0 }}
                             transition={{ delay: 0.3, duration: 0.6 }}
                           >
-                            Full Body Massage Price <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">in Karol Bagh by Female Therapists.</span>
+                            Spa Price in Delhi – First Visit Only ₹1999 | <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Spa in Delhi with Price & Offers.</span>
                           </motion.h2>
                 <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
               </div>
@@ -625,24 +625,23 @@ const teamMembers = [
                 >
                   <div className="max-w-lg">
                     <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                      Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
-                      Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
-                      of calm in the heart of Delhi.We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
+                      If you are searching best spa price in Delhi, your hunt ends here. We are famous spa in Delhi with price that makes every pocket happy. First-time guest pays only 1999 rupees for any 60-minute therapy—Swedish, aroma, deep-tissue or Thai—you choose, same rate. This spa price in Delhi already includes steam shower, clean towel, herbal tea and five-minute head massage, so zero hidden cost. Friendly female and male therapists are CIDESCO trained, rooms sanitized after every client, fresh linen promised. Couples can also enjoy together; two people, still 1999 each. We sit in safe South Delhi spot, metro only five-minute walk, parking free. Open 11 am to 10 pm, last booking 9 pm. Reserve seat by call or WhatsApp, we confirm in two minutes. After first visit, join membership and keep spa price in Delhi low for whole year. Offer till 31 March, slots filling fast, book now and feel light.
+                     {/* <span className="font-medium text-stone-800">hot stone massage</span>, 
                       <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                       and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
-                      designed private sanctuaries.
+                      designed private sanctuaries. */}
                     </p>
                     
                     
                     
-                    <p className="text-stone-600 mb-6 leading-relaxed">
+                    {/* <p className="text-stone-600 mb-6 leading-relaxed">
                       We specialize in world-class therapies including <span className="font-medium text-stone-800">hot stone massage</span>, 
                       <span className="font-medium text-stone-800"> couple experiences</span>, <span className="font-medium text-stone-800">Thai techniques</span>, 
                       and <span className="font-medium text-stone-800">signature oil treatments</span> - all delivered in beautifully 
                       designed private sanctuaries.Escape the city's hustle and indulge in a tranquil haven where serenity meets sophistication. 
                       Our premium spa is nestled within Aerocity's most luxurious 5-star hotels, offering an oasis 
                       of calm in the heart of Delhi.
-                    </p>
+                    </p> */}
                     
                     <div className="grid grid-cols-2 gap-4 mb-8">
                       <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
@@ -708,7 +707,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.1 }}
                     >
-                      Experience <span className="text-amber-600">True Relaxation</span>
+                      Best Spa in Delhi with Price <span className="text-amber-600">– Spa Price in Delhi that Fits Your Pocket</span>
                     </motion.h2>
                     <motion.p
                       className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
@@ -717,8 +716,7 @@ const teamMembers = [
                       viewport={{ once: true }}
                       transition={{ delay: 0.2 }}
                     >
-                      Choose from our carefully curated spa treatments designed to refresh 
-          your body, calm your mind, and rejuvenate your soul.
+                      Thai, Couple & Full Body Massage in Delhi Price List with Free Steam
                     </motion.p>
                     <motion.div
                        className="flex justify-center mt-10"
@@ -739,10 +737,7 @@ const teamMembers = [
             <Flower2 className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Aroma Therapy</h3>
             <p className="text-gray-900">
-              Soothing essential oils to relax your senses and restore balance.
-              Soothing essential oils to relax your senses and restore balance.
-              Soothing essential oils to relax your senses and restore balance.
-              Gentle hands that relieve stress, improve circulation, and heal.
+            Sweet smell oils like lavender and lemongrass go into skin, head feels light and mood turns happy. 60-minute aroma therapy is only ₹1,999 first visit, plus free steam. Search “spa price in Delhi” and you will see we are top.
             </p>
           </div>
 
@@ -750,10 +745,7 @@ const teamMembers = [
             <Bath className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Luxury Spa Bath</h3>
             <p className="text-gray-900">
-              Indulge in warm hydrotherapy with calming fragrances and care.
-              Indulge in warm hydrotherapy with calming fragrances and care.
-              Indulge in warm hydrotherapy with calming fragrances and care.
-              Gentle hands that relieve stress, improve circulation, and heal.
+              Big tub, warm water, rose petals and jet spray on back; feels like Goa holiday. We add free head massage. First-time guest pays only ₹1,999, so when you type “best spa in Delhi with price” you find this deal again.
             </p>
           </div>
 
@@ -761,10 +753,7 @@ const teamMembers = [
             <HeartHandshake className="w-12 h-12 text-amber-600 mb-3" />
             <h3 className="text-xl font-semibold text-amber-900 mb-2">Healing Massage</h3>
             <p className="text-gray-900">
-              Gentle hands that relieve stress, improve circulation, and heal.
-              Gentle hands that relieve stress, improve circulation, and heal.
-              Gentle hands that relieve stress, improve circulation, and heal.
-              Gentle hands that relieve stress, improve circulation, and heal.
+              Strong but sweet hands press knots, blood runs fast and pain runs away. 60-minute healing massage costs ₹1,999 today, upgrade to 90 min only ₹499 extra. Google “full body massage in Delhi price” and our name pops first.
             </p>
           </div>
 
@@ -785,29 +774,20 @@ const teamMembers = [
           viewport={{ once: true }}
           className="space-y-6"
         >
-          <h2 className="text-4xl md:text-5xl font-extrabold text-amber-900 leading-tight">
-            Our Transparent B2B <span className="text-amber-600">Massage Price in Connaught Place</span>
+          <h2 className="text-3xl md:text-4xl font-extrabold text-amber-900 leading-tight">
+            Best Spa in Delhi with Price <span className="text-amber-600">– Clear Spa Price in Delhi for Thai, Couple & Full Body Massage</span>
           </h2>
           <p className="text-gray-600 text-lg leading-relaxed">
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
-            A Delhi Girl is more than just a style icon — she’s the perfect
-            blend of elegance and boldness. From morning coffee dates in Khan
-            Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
-            every moment. Her lifestyle is a mix of fashion, culture, and
-            unstoppable confidence.
+            If you keep typing “spa price in Delhi” and still get confuse, come to the best spa in Delhi with price card written big on white board. We swear no hidden bill. Thai massage price in Delhi is flat ₹1,999 for 60-minute real stretch; therapist uses knees, elbows and gentle pull so your back feels open like window. Google spa in Delhi with price and you will see our name again because we give free steam shower and clean towel. Couple spa in Delhi price is only ₹3,998 for two people, same room, soft music and rose smell, perfect for anniversary surprise. Search body spa in Delhi with price and every option—Swedish, aroma, deep-tissue—shows same ₹1,999 first visit, so you pick mood not pocket. Need more time? Full body massage in Delhi price for 90-minute upgrade is just ₹499 extra, still cheapest in town. We open 11 am to 10 pm, metro 5-minute walk, parking free. Book on WhatsApp, pay after service, feel light for full week.
           </p>
-          <p className="text-gray-600 text-lg leading-relaxed">
+          {/* <p className="text-gray-600 text-lg leading-relaxed">
             A Delhi Girl is more than just a style icon — she’s the perfect
             blend of elegance and boldness. From morning coffee dates in Khan
             Market ☕ to vibrant nightlife in Hauz Khas ✨, she knows how to own
             every moment. Her lifestyle is a mix of fashion, culture, and
             unstoppable confidence.
             
-          </p>
+          </p> */}
           {/* <p className="text-gray-600 text-lg leading-relaxed">
             A Delhi Girl is more than just a style icon — she’s the perfect
             blend of elegance and boldness. From morning coffee dates in Khan
@@ -960,21 +940,18 @@ const teamMembers = [
                   className="space-y-6"
                 >
                   <h2 className="text-3xl md:text-4xl font-bold text-amber-900 font-serif">
-                   Massage with Full Service Price in Delhi. Get All-in-One Relaxation at an 
-                  Affordable Price
+                   Massage with Full Service Price in Delhi – Only ₹1,999, Best Spa in Delhi with Price
 
                   </h2>
                   <p className="text-gray-700 text-lg">
-                    Step into a world of peace at our Delhi body spa, where luxury meets comfort. From calming interiors to soothing treatments, every detail is designed to relax your body and refresh your mind.
-                     From full-body massages to specialized therapies, each session is designed to relax the mind, soothe the body, and uplift the spirit.
-                     Step into a world of peace at our Delhi body spa, where luxury meets comfort.
+                    If you keep googling “massage with full service price in Delhi” and still feel confuse, just walk into our spa in Delhi with price written big on white board at gate. We promise no hidden cost, no tip force. For only ₹1,999 you get full 60-minute therapy—pick Swedish, aroma, deep-tissue or Thai—plus free steam shower, fresh towel and lemon-honey water. That is why Google shows us when you type best spa in Delhi with price again and again. Search full body massage in Delhi price and you will see our name on top because we give real muscle work, not just oil rub. Couples hunting couple spa in Delhi price pay only ₹3,998 for two people, same clean room, rose petals on table, soft music playing. Need longer time? 90-minute upgrade is just ₹499 extra, still cheapest body spa in Delhi with price you can find. We open 11 am to 10 pm, metro station only 5-minute walk, parking free. Friendly boys and girls at reception speak Hindi, English and Punjabi. Book on WhatsApp, get confirm in two minutes, pay after massage finish. Come once, feel light for full week—that is our simple promise.
                   </p>
                   
-                  <p className="text-gray-700 text-lg">
+                  {/* <p className="text-gray-700 text-lg">
                     Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
                      From full-body massages to specialized therapies, each session is designed to relax the mind, soothe the body, and uplift the spirit.
                      Whether you seek relaxation, stress relief, or wellness therapy, Luxury Body Spa is your ultimate destination for holistic care and comfort.
-                  </p>
+                  </p> */}
                 </motion.div>
       
                 <motion.div
