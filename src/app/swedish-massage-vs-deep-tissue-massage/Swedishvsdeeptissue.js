@@ -104,7 +104,7 @@ export default function Swedishvsdeeptissue() {
         {/* FEATURED IMAGE */}
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
           <Image
-            src="/images/spaoutletbanner.jpg"
+            src="/images/80535.jpg"
             alt="Swedish Massage vs Deep Tissue Massage"
             fill
             className="object-cover"
@@ -129,6 +129,15 @@ export default function Swedishvsdeeptissue() {
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
           What is Swedish Massage?
         </h2>
+        <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
+          <Image
+            src="/images/185.jpg"
+            alt="Swedish Massage vs Deep Tissue Massage"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         <p className="text-gray-700 leading-8 mb-6">
           Swedish massage is the tried-and-true “relaxation massage” most people are familiar with when they think of spa treatments and massage therapy. It applies gentle to moderate pressure and long flowing strokes to help calm the nervous system.
         </p>
@@ -169,6 +178,15 @@ export default function Swedishvsdeeptissue() {
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
           What is Deep Tissue Massage?
         </h2>
+        <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
+          <Image
+            src="/images/151.jpg"
+            alt="Swedish Massage vs Deep Tissue Massage"
+            fill
+            className="object-cover"
+            priority
+          />
+        </div>
         <p className="text-gray-700 leading-8 mb-6">
           Deep tissue massage therapy focuses on realigning deeper layers of muscles and connective tissue. It’s frequently applied when people have stubborn areas of pain, tightness, or discomfort that don’t respond to gentler pressure.
         </p>
@@ -176,7 +194,7 @@ export default function Swedishvsdeeptissue() {
           Unlike a Swedish massage, where you tend to lie still under the towel for most of the time, deep tissue work can be slower because the strokes are targeted toward the areas they are trying to improve.
         </p>
         <p className="text-gray-700 leading-8 mb-6">
-          Looking for the best spa in Lajpat Nagar? Unwind with premium Swedish massage and deep tissue massage for total relaxation and pain relief.
+          Looking for the best <a href="/spa-in-lajpat-nagar" className="text-[#c65a00] hover:underline">spa in Lajpat Nagar</a>? Unwind with premium Swedish massage and deep tissue massage for total relaxation and pain relief.
         </p>
 
         <h3 className="text-xl font-semibold mb-3 text-gray-800">

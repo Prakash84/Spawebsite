@@ -15,7 +15,7 @@ const blogs = [
     title: "Swedish Massage vs Deep Tissue Massage: Which Massage Should You Choose?",
     description:
       "If you’ve ever perused a spa or clinic’s menu, you probably know the two most popular massage options: Swedish and deep tissue. They may sound alike, but they’re made for different purposes and feel quite unlike one another on the body. Getting the right one can be the difference between leaving your session blissfully relaxed — or feeling like you’ve been hit in the gut with a brick.",
-    image: "/images/blog1.jpg",
+    image: "/images/80535.webp",
     link: "/swedish-massage-vs-deep-tissue-massage",
   },
   {
