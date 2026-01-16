@@ -104,7 +104,7 @@ export default function Swedishvsdeeptissue() {
         {/* FEATURED IMAGE */}
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
           <Image
-            src="/images/80535.jpg"
+            src="/images/6745.jpg"
             alt="Swedish Massage vs Deep Tissue Massage"
             fill
             className="object-cover"
@@ -408,13 +408,13 @@ export default function Swedishvsdeeptissue() {
         </div>
 
         {/* FINAL CTA */}
-        <div className="text-center pt-6">
+        {/* <div className="text-center pt-6">
           <p className="text-lg font-medium text-gray-800">
             Searching for the best <a href="/" className="text-[#c65a00] hover:underline">spa in Delhi</a>? Experience expert massage
             therapy that melts stress, eases muscle tension, and leaves you
             refreshed.
           </p>
-        </div>
+        </div> */}
 
          {/* WHICH ONE */}
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
@@ -429,7 +429,7 @@ export default function Swedishvsdeeptissue() {
         {/* CTA */}
         <div className="bg-[#fff3e8] border-l-4 border-[#c65a00] p-6 rounded">
           <p className="text-gray-800 font-medium">
-            Searching for the best spa in Delhi? Experience expert Swedish and
+            Searching for the <a href="/" className="text-[#c65a00] hover:underline">spa in Delhi</a>? Experience expert Swedish and
             deep tissue massage therapy that melts stress and eases muscle
             tension.
           </p>
