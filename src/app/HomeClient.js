@@ -546,6 +546,12 @@ const locations2 = [
   { name: " B2B Massage", link: "/b2b-massage-in-delhi" },
   { name: "Spa Jobs in Delhi", link: "/spa-therapist-jobs-in-delhi" },
   { name: "Full Body Massage", link: "/full-body-massage-in-delhi" },
+  
+  { name: "Aerocity ", link: "/spa-in-aerocity" },
+  { name: "Connaught Place", link: "/spa-in-connaught-place" },
+  { name: " Lajpat Nagar", link: "/spa-in-lajpat-nagar " },
+  { name: "Gurugram", link: "/spa-in-gurgaon" },
+  { name: "Noida ", link: "/spa-in-noida" },
 ];
 
 
