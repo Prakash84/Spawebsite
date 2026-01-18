@@ -706,8 +706,8 @@ const features2 = [
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
             >
-              Experience Our Spa in <span className="relative">
-                <span className="text-amber-600 z-10 relative">Delhi For Professional Massage Services</span>
+              Experience Our Spa in Delhi <span className="relative">
+                <span className="text-amber-600 z-10 relative">– Professional Massage Services</span>
                 <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
               </span>
             </motion.h1> 
@@ -720,7 +720,7 @@ const features2 = [
               viewport={{ once: true }}
             >
               <p className="text-gray-600 text-lg leading-relaxed">
-                Discover the best <a href="/massage-service-in-delhi"><strong className="text-amber-600 font-medium">massage service in Delhi,</strong></a>where every therapist utilizes their exceptional skills and personalized care to rejuvenate your body and soul. Whether you prefer deep tissue massage, B2B massage, or aromatherapy massage, our high-end treatments will leave you feeling completely satisfied, with a sense of ultimate relaxation and rejuvenation 
+                Discover the <a href="/massage-service-in-delhi"><strong className="text-amber-600 font-medium">best massage services at a premium Delhi spa</strong></a>, where every therapist uses exceptional expertise and personalized care to rejuvenate your body and soul. Whether you prefer a deep tissue massage, B2B massage, or aromatherapy massage, our high-end spa treatments in Delhi are designed to deliver complete relaxation, deep comfort, and total rejuvenation—leaving you fully refreshed and satisfied. 
               </p>
               {/* <p className="text-gray-600 text-lg leading-relaxed">
                 Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
@@ -2304,6 +2304,54 @@ const features2 = [
         </div>
       </section>      */}
       {/* end */}
+      <section className="w-full bg-[#f8f6f3] py-20 px-4">
+      <div className="max-w-7xl mx-auto">
+
+        {/* Heading */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
+            Why Choose Us
+          </h2>
+          <p className="text-[#6b6b6b] max-w-2xl mx-auto">
+            Trusted luxury spa experiences backed by premium locations, world-class
+            hotel partnerships, and thousands of satisfied clients.
+          </p>
+        </div>
+
+        {/* Stats */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+          
+          {/* Outlets */}
+          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">24+</h3>
+            <p className="text-lg text-[#2c2c2c] font-medium">Outlets</p>
+            <p className="text-sm text-[#6b6b6b] mt-2">
+              Premium spa outlets across top locations
+            </p>
+          </div>
+
+          {/* Hotel Partners */}
+          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">5★</h3>
+            <p className="text-lg text-[#2c2c2c] font-medium">Hotel Partners</p>
+            <p className="text-sm text-[#6b6b6b] mt-2">
+              Collaborations with luxury five-star hotels
+            </p>
+          </div>
+
+          {/* Happy Clients */}
+          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">100k+</h3>
+            <p className="text-lg text-[#2c2c2c] font-medium">Happy Clients</p>
+            <p className="text-sm text-[#6b6b6b] mt-2">
+              Thousands trust us for relaxation & wellness
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+      {/* // */}
       <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-[#FFF9F0] via-[#fcf5e9] to-[#f9f1e2]">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
@@ -2409,7 +2457,60 @@ const features2 = [
           </button>
         </div> */}
       </div>
-    </section>     
+    </section> 
+     {/* Testimonials */}
+                  <section className="mt-20 py-18 px-16 md:px-16 bg-gradient-to-br from-amber-900 to-amber-700 relative overflow-hidden rounded-3xl shadow-xl">
+              {/* Decorative Pattern Background */}
+              <div className="absolute inset-0 opacity-5">
+                <div className="pattern-dots pattern-amber-500 pattern-bg-transparent pattern-opacity-100 pattern-size-4 w-full h-full"></div>
+              </div>
+    
+              {/* Main Content Container */}
+              <div className="max-w-7xl mx-auto relative z-10 text-center">
+                {/* Heading and Subheading */}
+                <motion.h2
+                  className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6 font-serif"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5, delay: 0.1 }}
+                  viewport={{ once: true }}
+                >
+                  Relax Your Body. <span className="text-amber-300">Refresh Your Mind. Renew Your Soul.</span>
+                </motion.h2>
+    
+                <motion.p
+                  className="text-amber-300 uppercase font-semibold tracking-wider mb-12"
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.5 }}
+                  viewport={{ once: true }}
+                >
+                   Experience world-class spa therapies at Delhi’s most trusted luxury spa destinations.
+                </motion.p>
+    
+                {/* CTA Buttons */}
+                <div className="grid md:grid-cols-3 gap-6 justify-center items-center">
+                  <a
+                    href="tel:+919217255113"
+                    className="bg-white text-amber-700 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-100 transition-all duration-300"
+                  >
+                    📞 Call to Book: +91 9217255113
+                  </a>
+                  <a
+                    href="/contact"
+                    className="border-2 border-white text-white px-8 py-4 rounded-full font-bold shadow-md hover:bg-white/10 transition-all duration-300"
+                  >
+                    ✉️ Send Inquiry
+                  </a>
+                  <a
+                    href="/Spa-in-rohini"
+                    className="bg-amber-300 text-amber-900 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-400 transition-all duration-300"
+                  >
+                    💆‍♀️ View Outlets
+                  </a>
+                </div>
+              </div>
+                  </section>    
       {/* F&Q Section */}
       <section className="py-16 bg-gradient-to-b from-amber-50 to-white">
         <div className="max-w-5xl mx-auto px-4">
