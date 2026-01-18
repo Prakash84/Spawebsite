@@ -836,7 +836,7 @@ const locations2 = [
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
-                        Stay Updated on Telegram
+                        Available Therapists
                       </a>
             </motion.div>
           </motion.div>
