@@ -21,6 +21,7 @@ import { Clock, CheckCircle2 } from "lucide-react";
 import {  Globe } from "lucide-react";
 import Head from "next/head";
 import { WhatsApp } from "@mui/icons-material";
+import Link from "next/link";
 
 
 
@@ -539,6 +540,13 @@ const features2 = [
   },
 ];
 
+const locations2 = [
+  { name: "Sandwich Massage", link: "/sandwich-ma ssage-in-delhi" },
+  { name: "Couple Massage", link: "/couples-massage-in-delhi" },
+  { name: " B2B Massage", link: "/b2b-massage-in-delhi" },
+  { name: "Spa Jobs in Delhi", link: "/spa-therapist-jobs-in-delhi" },
+  { name: "Full Body Massage", link: "/full-body-massage-in-delhi" },
+];
 
 
   return (
@@ -2626,6 +2634,31 @@ const features2 = [
         </div>
       </section>
     {/* End F&Q Section */}
+    {/* //// */}
+<section className="py-16">
+  <div className="max-w-7xl mx-auto px-6 text-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+
+      {locations2.map((location, i) => (
+        <motion.div
+          key={i}
+          initial={{ opacity: 0, scale: 0.9 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.4, delay: i * 0.05 }}
+          whileHover={{ scale: 1.05 }}
+        >
+          <Link
+            href={location.link}
+            className="block bg-red-800 text-white font-semibold text-lg py-4 rounded-xl shadow-md hover:bg-red-700 transition duration-300"
+          >
+            {location.name}
+          </Link>
+        </motion.div>
+      ))}
+
+    </div>
+  </div>
+</section>
     {/* CTA Section */}
       {/* <section className="py-24 px-6 md:px-16 relative">
         <div className="max-w-5xl mx-auto bg-gradient-to-r from-amber-700 to-amber-800 rounded-3xl shadow-2xl overflow-hidden">
