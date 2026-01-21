@@ -19,11 +19,11 @@ const blogs = [
     link: "/swedish-massage-vs-deep-tissue-massage",
   },
   {
-    title: "Hot Stone Therapy Explained",
+    title: "Health Benefits of Sandwich Massage: Circulation, Muscle Recovery & Mood",
     description:
-      "Learn the science and magic behind hot stone treatments and how they soothe your muscles deeply.",
-    image: "/images/blog2.jpg",
-    link: "/blog/hot-stone-therapy",
+      "In our fast-paced lifestyle, with increased stress on muscles and no time for post workout care, the neck mess is all so common these days. Although classic massage therapies are still widely popular, the latter now has several new and more immersive counterparts which cater to today’s well-being requirements. And so for another time-honored technique, there’s sandwich massage, where simultaneous contact and gentle rhythmic pressure provides you.",
+    image: "/images/hb1.webp",
+    link: "/health-benefits-of-sandwich-massage",
   },
   {
     title: "Why Choose a Couple Massage?",
