@@ -319,13 +319,13 @@ const faqs = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Book Best</span>
-            Massage service
-              <span className="block mt-2 font-medium">in Delhi by <span className="text-rose-600"> Foreigner Therapists</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best</span>
+            Spa Service in Delhi
+              <span className="block mt-2 font-medium">with <span className="text-rose-600"> Foreigner Therapists</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            At Spa Delhi, we offer a sanctuary where each treatment is a journey. Our expert therapists craft personalized experiences using premium products and techniques that honor both tradition and innovation.
+           Our Spa service in Delhi is your calm corner in the busy city; here every session feels like a small holiday as trained staff use good-quality oils and gentle hands to mix old-style and new-style touches, so your body gets full rest and fresh energy for the whole week ahead.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">

@@ -80,25 +80,25 @@ const teamMembers = [
 
 const outlets = [
   {
-    title: 'Hotel Spa in Aerocity',
+    title: 'Spa in Aerocity',
     description: 'Enjoy the best spa in Aerocity with relaxing body massage services at 5-star hotels like Lemon Tree, Andaz, IBIS and more for a truly peaceful experience.',
     image: '/images/NovotelNewDelhiAerocity.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
-    title: 'Hotel Spa in Defence Colony',
+    title: 'Spa in Defence Colony',
     description: 'Relax at our spa in Defence Colony with expert body massage services to refresh your mind and body, serving hotel guests in NFC at places like The Suryaa for complete comfort and relaxation.',
     image: '/images/TheSuryaaNewDelhi(NFC).webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
-    title: 'Hotel Spa in Connaught Place',
+    title: 'Spa in Connaught Place',
     description: 'Enjoy a relaxing experience at our spa in Connaught Place with professional body massage services, serving top hotels like Radisson Blu, The Lalit, The Park and more for your complete comfort and relaxation.',
     image: '/images/TheParkConnaughtPlace.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
-    title: 'Hotel Spa in Dwarka',
+    title: 'Spa in Dwarka',
     description: 'Feel at ease in our spa in Dwarka with professional massage therapists who come to your hotel room where you can have on-demand hotel spa to have a serene and relaxing stay at the hotel.',
     image: '/images/TheGrandNewDelhi.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
@@ -603,7 +603,7 @@ const locations2 = [
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
-                        Join Telegram Channel
+                        Join for latest staff updates
                       </a>
 
                      {/* <a href={slide.link} className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 shadow-lg hover:shadow-xl">
@@ -1469,7 +1469,7 @@ const locations2 = [
                         className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
                       >
                         <FaTelegram className="text-xl mr-3" />
-                       Book On Telegram 
+                       Chat on Telegram
                       </a>
                     
                     <div className="text-center sm:text-right">
