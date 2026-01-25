@@ -26,11 +26,11 @@ const blogs = [
     link: "/health-benefits-of-sandwich-massage",
   },
   {
-    title: "Why Choose a Couple Massage?",
+    title: "How a Hot Stone Massage Works and What it Is?",
     description:
-      "Bonding and wellness go hand in hand with couple massages — here’s why you should try it.",
-    image: "/images/blog3.jpg",
-    link: "/blog/couple-massage",
+      "We all have stress, we all struggle with tense muscles and exhaustion thanks to today’s busy lifestyle. As awareness of natural treatment and holistic remedies has increased, so has the importance of effective, non-invasive ancient therapeutic treatments that are deeply relaxing. This time-tested therapy has helped people for countless decades unwind physically and mentally, soothing away the cares of the day. It does so with the use of heat and expert touch techniques.",
+    image: "/images/1627.jpg",
+    link: "/how-hot-stone-massage-works-in-delhi-spa",
   },
 ];
 
