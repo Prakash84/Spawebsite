@@ -569,17 +569,17 @@ const features2 = [
 ];
 
 const locations2 = [
-  { name: "Sandwich Massage", link: "/sandwich-ma ssage-in-delhi" },
+  { name: "Sandwich Massage", link: "/sandwich-massage-in-delhi" },
   { name: "Couple Massage", link: "/couples-massage-in-delhi" },
   { name: " B2B Massage", link: "/b2b-massage-in-delhi" },
   { name: "Spa Jobs in Delhi", link: "/spa-therapist-jobs-in-delhi" },
   { name: "Full Body Massage", link: "/full-body-massage-in-delhi" },
   
-  { name: "Aerocity ", link: "/spa-in-aerocity" },
-  { name: "Connaught Place", link: "/spa-in-connaught-place" },
-  { name: " Lajpat Nagar", link: "/spa-in-lajpat-nagar " },
-  { name: "Gurugram", link: "/spa-in-gurgaon" },
-  { name: "Noida ", link: "/spa-in-noida" },
+  { name: "Spa in Aerocity ", link: "/spa-in-aerocity" },
+  { name: "Spa in Connaught Place", link: "/spa-in-connaught-place" },
+  { name: "Spa in Lajpat Nagar", link: "/spa-in-lajpat-nagar " },
+  { name: "Spa in Gurugram", link: "/spa-in-gurgaon" },
+  { name: "Spa in Noida ", link: "/spa-in-noida" },
 ];
 
 
