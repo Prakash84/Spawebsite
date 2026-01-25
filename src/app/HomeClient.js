@@ -1946,13 +1946,12 @@ const locations2 = [
                   🌿
                 </div>
                 <h2 className="text-3xl sm:text-4xl font-bold text-gray-800 ml-4 font-serif">
-                  Best B2B Spa in Delhi with Uzbek, Russian & Thai Staff
+                  Relaxing Body to Body Massage in Delhi With Female Therapists
                 </h2>
               </div>
-              <span className="font-semibold text-amber-600">24+ Exclusive Body Spa Outlets.</span>
+              <span className="font-semibold text-amber-600">Exclusive Body Spa Outlets.</span>
               <p className="text-gray-700 text-lg mb-8 leading-relaxed">
-                Each spa designed to provide an immersive, relaxing sanctuary for your mind and body.
-                Experience the finest massages across Delhi with unmatched comfort and luxury.
+                Want Full body to body massage in Delhi? Book Spa Delhi with professional female therapists for your deep relaxation. Our therapists focus on 100% safety & Privacy during your session. We have 24+ spa outlets, including 5-star hotels in Delhi. Whenever you are feeling stressed and want some enjoyable time. Book Body to body massage in Delhi with female therapists.
               </p>
               {/* <span className="font-semibold text-amber-600">Ultimate Choice for Best Body Massage in Delhi</span> */}
               
@@ -1994,15 +1993,15 @@ const locations2 = [
                 
                 <div className="prose prose-amber max-w-none mb-8">
                   <p className="text-gray-700 mb-4">
-                    Trying to relax tensions, improve circulation, and be healthy, our professional therapists apply old and new approaches to the task. Once you enter one of our outlets, you will be warmly greeted by the air of hospitality, experienced therapists, and massage service, which will restore your energy and your thoughts.
+                    Trying to remove tensions and anxiety and improve circulation. Our professional therapists apply old and new techniques for your amazing body-to-body massage in Delhi. Once you enter one of our outlets, you will be warmly greeted by the air of hospitality, experienced therapists, and massage service, which will restore your energy and your thoughts.
                   </p>
                   
                   <p className="text-gray-700">
-                   If you want to reduce chronic pain, or need to relax after a workout, take a break in the city, we provide the experience that suits your needs.
+                   All sessions are created for your complete comfort and satisfaction. Our female therapists come and give you a relaxing massage experience during your session. We maintain proper hygiene and cleanliness.
                   </p>
-                  <p className="text-gray-700">
+                  {/* <p className="text-gray-700">
                    All sessions are created with your complete comfort and satisfaction in mind, including hygienic interior and customized treatment. Spa Delhi is where you can rejuvenate and relax your body in the most convenient places at low costs.
-                  </p>
+                  </p> */}
                 </div>
               </div>
               
@@ -2079,7 +2078,7 @@ const locations2 = [
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            Our Best<span className="text-amber-600"> Massage Therapist</span>
+            Expert Therapists at <span className="text-amber-600"> Our Massage Parlour in Delhi</span>
           </motion.h2>
           
           <motion.p
@@ -2089,7 +2088,7 @@ const locations2 = [
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
           >
-             World-class therapists dedicated to your wellness.
+             We have indian and foreign therapists at our premium massage parlour in Delhi. Our therapists come from Russia, Afghanistan, Thailand, and Uzbekistan. They have many years of experience giving massage services.
           </motion.p>
         </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
@@ -2147,7 +2146,7 @@ const locations2 = [
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            Physical and Spiritual <span className="text-amber-600"> Advantages of Massage</span> Spa in Noida, Delhi and Gurgaon.
+            Benefits Of <span className="text-amber-600"> Choosing Our</span> Massage Spa in Delhi
           </motion.h2>
           
           <motion.p
@@ -2157,7 +2156,7 @@ const locations2 = [
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
           >
-            Feel the immense change in the physical and spiritual alignment by our special treatments.
+            By choosing us you will improve sleep quality, blood circulation, and skin tone. Our massage spa in Delhi has certified therapists for your relaxing massage service.
           </motion.p>
         </div>
 
@@ -2323,11 +2322,10 @@ const locations2 = [
         {/* Heading */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
-            Why Choose Us
+            Why Choose Spa Delhi?
           </h2>
           <p className="text-[#6b6b6b] max-w-2xl mx-auto">
-            Trusted luxury spa experiences backed by premium locations, world-class
-            hotel partnerships, and thousands of satisfied clients.
+           We made thousands of trusted customers by giving professional massage service in Delhi. We have 24+ luxury spa outlets all over Delhi and the NCR Regions.
           </p>
         </div>
 
@@ -2383,7 +2381,7 @@ const locations2 = [
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
           >
-            What Our Clients<span className="text-amber-600"> Say About Spa Delhi</span>
+            What Customers Said <span className="text-amber-600"> About our Spa in Delhi?</span>
           </motion.h2>
           <motion.p
             className="text-gray-600 max-w-2xl mx-auto text-lg"
@@ -2392,7 +2390,7 @@ const locations2 = [
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
           >
-             Discover why so many customers choose Delhi Body Spa for a relaxing and luxury spa experience. Our clients love the peaceful environment, professional staff, and the way we make them feel refreshed every time.
+             During our service, our therapists focus on how to make customers satisfied with the service. For this reason, we are the most reputable spa in Delhi for premium massage service.
           </motion.p>
         </div>
         {/* Section Header */}
@@ -2488,7 +2486,7 @@ const locations2 = [
                   transition={{ duration: 0.5, delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                  Relax Your Body. <span className="text-amber-300">Refresh Your Mind. Renew Your Soul.</span>
+                  Book a massage <span className="text-amber-300">spa in Delhi Instantly</span>
                 </motion.h2>
     
                 <motion.p
@@ -2498,7 +2496,7 @@ const locations2 = [
                   transition={{ duration: 0.5 }}
                   viewport={{ once: true }}
                 >
-                   Experience world-class spa therapies at Delhi’s most trusted luxury spa destinations.
+                  For stress relief and removing muscle pain. Book a massage spa in Delhi at 24+ locations.
                 </motion.p>
     
                 {/* CTA Buttons */}
