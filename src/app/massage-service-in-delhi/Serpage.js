@@ -319,13 +319,13 @@ const faqs = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best</span>
-            Spa Service in Delhi
-              <span className="block mt-2 font-medium">with <span className="text-rose-600"> Foreigner Therapists</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Book</span>
+            Massage Service in Delhi
+              <span className="block mt-2 font-medium">With <span className="text-rose-600"> Foreigner Therapists</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           Our Spa service in Delhi is your calm corner in the busy city; here every session feels like a small holiday as trained staff use good-quality oils and gentle hands to mix old-style and new-style touches, so your body gets full rest and fresh energy for the whole week ahead.
+          Our massage service in Delhi give complete rest from busy & stress life of Delhi. At Spa Delhi every session feels like a small holiday with trained staff. We use good-quality oils and gentle hands to mix old-style and new-style touches, so your body gets full rest and fresh energy for the whole week ahead.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -503,7 +503,7 @@ const faqs = [
             transition={{ duration: 0.8, delay: 0.5 }}
             style={{ fontFamily: "'Montserrat', sans-serif" }}
           >
-            You deserve better than a rushed massage by a rookie therapist in a place that makes you feel more stressed.
+            Your body deserves best therapies for your complete relaxation. For this we offer top rated massage service in Delhi with popular therapies like B2B massage, Couples massage, and sandwich massage with trusted female therapists.
           </motion.p>
           
           {/* Services Cards */}
@@ -528,7 +528,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Hotel Spa</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  We mix little Thai stretch, little Kerala oil, little candle warmth—like making kadhai for your body. Knots open, head cool, mood happy; you feel light like feather, sleep like baby.
+                 We offer 5 star hotel spa service in Delhi with Indian and Foreigner therapists. All our therapists are experinced and give professional massage service.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">60-90 min</span>
@@ -553,7 +553,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Home Spa</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  Rejuvenating treatments using premium organic ingredients to reveal your most radiant complexion.
+                  If you want massage at home in Delhi. Don't worry we are here for you. Spa Delhi offer home massage services with trusted and verified therapists. Our therapists come to your home and give professional massage therapy.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">75-120 min</span>
@@ -578,7 +578,7 @@ const faqs = [
                 </div>
                 <h3 className="text-2xl font-light text-amber-900 mb-4" style={{ fontFamily: "'Playfair Display', serif" }}>Spa OutLet</h3>
                 <p className="text-amber-700 mb-6 leading-relaxed">
-                  Purify and renew your body with our specialized detox treatments for complete rejuvenation.
+                  Spa Delhi have 24+ spa outlets in all over Delhi NCR. Our spa outlets maintain full privacy and safety during your session. They use 100% authentic methoods and techniques for your massage service in Delhi.
                 </p>
                 <div className="flex items-center justify-between mt-8">
                   <span className="text-amber-600 font-medium">90-150 min</span>
