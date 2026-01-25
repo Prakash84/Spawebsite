@@ -1677,16 +1677,13 @@ const locations2 = [
                           transition={{ delay: 0.3 }}
                           viewport={{ once: true }}
                         >
-                          Enjoy Premium Massage <span className="relative">
-                            <span className="text-amber-600 z-10 relative">Therapies At Our Spa in Delhi</span>
+                          Visit Our Massage Centre <span className="relative">
+                            <span className="text-amber-600 z-10 relative">in Delhi for Deep Relaxation</span>
                             <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
                           </span>
                         </motion.h2>
             <p className="text-gray-600 text-lg leading-relaxed">
-            Spa Delhi is the best massage centre in Delhi offering wide range of premium massage services to help you experience the soothing the relaxation after a long stressful day. We have a team of best massage therapist from across the globe. Whether you need b2b massage, full body massage or <span className="font-semibold text-amber-700"><a href="/couples-massage-in-delhi">couple massage in delhi</a></span>, our team of foreign massage therapist is here to fulfill all your needs. Our massage spa in Delhi comes at a very affordable pricing package without compromising on the quality and services. At Spa Delhi, we offer hotel massage to home massage so whatever the occasion, our team will always be ready to serve you the best. Contact us today and let our team of therapist bring to you the pleasure you have dreamed of.
-
-
-              
+              At the massage centre in Delhi, we offer a wide range of premium massage services to help you experience soothing relaxation after a long, stressful working day. We have a team of Indian and International massage therapists from all over the world. Whenever you need a b2b massage, a full body massage, or a <span className="font-semibold text-amber-700"><a href="/couples-massage-in-delhi">couples massage in delhi</a></span>, our team of certified massage therapists is here to fulfil all your needs. Our massage spa in Delhi offers a very affordable package without compromising on quality or services. At Spa Delhi, we offer hotel massage to home massage, so whatever the occasion, our team will always be ready to serve you the best. Contact us today and let our team of therapists bring you the pleasure you have dreamed of.
             </p>
           </motion.div>
         </div>
