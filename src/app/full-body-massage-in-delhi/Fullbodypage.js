@@ -143,12 +143,12 @@ const container = {
     {
       icon: <Spa className="text-amber-600" />,
       title: "Blood Circulation",
-      description: "Massage helps blood move better, which makes you feel less tired. It also helps your body heal by balancing your energy."
+      description: "Massage helps blood circulation, and this makes you feel fresh and not tired. Your body can also heal when massage brings balance in your energy."
     },
     {
       icon: <SelfImprovement className="text-amber-600" />,
       title: "Release tension",
-      description: "When muscles are tight, or you feel stressed, a massage works on deep tension, loosening stiff areas and helping your mind focus for a while instead of worrying."
+      description: "A massage also works on tight muscles, or when one is stressed, releasing tightness to allow your mind to concentrate on one thing and not think about other things."
     },
     {
       icon: <HealthAndSafety className="text-amber-600" />,
@@ -158,7 +158,7 @@ const container = {
     {
       icon: <Air className="text-amber-600" />,
       title: "Better Sleep",
-      description: "People who get regular massages often sleep better and have fewer headaches. These therapies use relaxing movements and pleasant oils to help with total health."
+      description: "People who have massages often have better rest and less headaches. These activities involve soothing motions and pleasant scents, helping individuals with total well-being."
     }
   ];
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -442,7 +442,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
               {[
                 { 
                   title: "Release muscle stiffness", 
-                  description: "A full body massage in Delhi focuses on easing tight muscles and bringing the body back to a steady, comfortable state. Professional techniques involved in the practice are very comforting and relieving.",
+                  description: "A full body massage in Delhi will help to alleviate tensed muscles. The goal is to get your body to a stable condition of comfort. The professional techniques used during practice are extremely comforting.",
                   icon: "💆‍♀️"
                 },
                 { 
@@ -457,7 +457,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 },
                 { 
                   title: "Relax Mind", 
-                  description: "The premium full body massage not only eases sore spots but also relaxes your mind. It makes your body energy flow better so you feel refreshed right away.",
+                  description: "The premium full body massage is one that not only makes sore areas feel comfortable but also calms down your mind. It makes your energy flow smoothly, hence making you feel refreshed instantly.",
                   icon: "✨"
                 },
                 { 
@@ -866,7 +866,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Luxury Spa Experience with Personalized Care</h3>
                                                        <p className="text-amber-700">
-                                                         The spa has elegant interiors, soft music, and professional therapists who ensure that all massages are perfect for you. Whether you want to be deeply relaxed or simply spend some time in silence, all the details have been untangled to suit your desire. Cleanliness is the number one priority, with the oils used being selected to perform optimally. The customers come back again since it is always a special experience.
+                                                        The spa has beautiful interiors, soft music, and professional therapists, all assuring that every massage is perfect for you. Whether one wishes to relax completely or simply unwind surrounded by silence, all details have been untangled for your desired pleasure. Hygiene is, of course, topmost on the list, and the oils used are chosen for optimal performance. The clients go back again because every visit is a special experience.
                                                        </p>
                                                      </div>
                                                    </div>
@@ -1026,8 +1026,8 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                              <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                                                {[
                                                  {
-                                                   title: "Reach Out to Us via Telegram for Instant Bookings",
-                                                   description: "Booking is simple—a quick message on Telegram or talking to the spa desk gets you an appointment fast and with no fuss.",
+                                                   title: "Reach out to us via Telegram for instant bookings",
+                                                   description: "Arranging a booking is easy—you can do it by sending a message on the messaging app Telegram or by speaking with the spa reception direct.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
@@ -1036,7 +1036,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Warm and Welcoming Spa Ambiance with Aromatic Scents",
-                                                   description: "The spa feels calm the moment you walk in, with soft smells and quiet décor that relaxes you straight away.",
+                                                   description: "The spa immediately makes you feel at ease when you step inside with its soft smell and calming colors.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
@@ -1045,7 +1045,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                  },
                                                  {
                                                    title: "Professional Consultation to Customize Your Massage Experience",
-                                                   description: "Therapists make sure they know exactly what you need before starting, tailoring each session for your body and comfort level.",
+                                                   description: "Therapists ensure that they know precisely what you need before they begin, so each session is tailored to your physical needs and comfort levels.",
                                                    icon: (
                                                      <svg xmlns="http://www.w3.org/2000/svg" className="h-10 w-10 text-amber-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />

@@ -2375,7 +2375,7 @@ const locations2 = [
 
           {/* Happy Clients */}
           <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
-            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">100k+</h3>
+            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">20k+</h3>
             <p className="text-lg text-[#2c2c2c] font-medium">Happy Clients</p>
             <p className="text-sm text-[#6b6b6b] mt-2">
               Thousands trust us for relaxation & wellness

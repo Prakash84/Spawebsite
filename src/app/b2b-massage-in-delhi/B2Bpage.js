@@ -147,7 +147,7 @@ const container = {
     {
       icon: <Air className="text-amber-600" />,
       title: "Detoxification & Skin Glow",
-      description: "Massage speeds up the lymph movement. A good lymph movement removes toxins from your body and gives your skin a fresh and healthy look."
+      description: "Massage increases the speed of lymph movement. Adequate movement of lymph ensures that toxins leave the body, giving your skin an energizing look."
     }
   ];
 const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -234,7 +234,7 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
       </h1>
 
       <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-        Feel the luxury and calmness at the best Body to Body massage in Delhi. Each massage session is designed to provide you with unparalleled comfort and relaxation. Come to us if you want to experience something which is much more than an ordinary spa massage.
+       Experience the luxury and comfort in one of the best Body to Body massage in Delhi. We offer you a massage session that will give you unparalleled comfort and relaxation. If you want to have a massage that is way too different from a normal massage, then look no further.
       </p>
 
       <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -449,12 +449,12 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                 },
                 { 
                   title: "Better Sleep & Mental Wellness", 
-                  description: "If you are having difficulty while sleeping then B2B Spa in Greater Kailash can be very helpful to you as it is the solution to those who are constantly under stress. It enhances sleep patterns, cleans the mind, and re-establishes the emotional balance.",
+                  description: "If you have sleep problems, then B2B Spa located in Greater Kailash can be of great help because it is the solution for those who are under continuous stress. It improves sleeping habits, purifies your mind, and regains the lost emotional balance.",
                   icon: "🌿"
                 },
                 { 
                   title: "Better Sleep", 
-                  description: "Promotes relaxation that leads to deeper, more restorative sleep patterns.",
+                  description: "Promotes relaxation that decreases lighter sleep patterns and increases more restorative sleep.",
                   icon: "😴"
                 }
               ].map((benefit, index) => (
@@ -907,13 +907,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                                                      <div>
                                                        <h3 className="text-2xl font-bold text-amber-800 font-serif mb-2">Premium Oils & Blends</h3>
                                                        <p className="text-amber-700">
-                                                         Exclusive Spa Experience with Luxurious Ambience and Personalized Care.
+                                                         Exclusive Spa Experience- Luxurious Ambiance and Care.
                                                        </p>
                                                      </div>
                                                    </div>
                                                    
                                                    <p className="text-gray-700 mb-6">
-                                                     The spa interiors are built to calm your senses. From peaceful lighting to gentle fragrances, every detail creates the right atmosphere. The primary goal of personalized massage sessions is to make you feel refreshed and energetic.
+                                                    The interiors of spas are constructed in such a way that they calm your senses. Be it light, peaceful lighting or soft fragrances; everything sends you to the right atmosphere. The main intention of different personalized sessions of massage is to keep you fresh and energetic.
                                                    </p>
                                                    
                                                    <div className="mb-6">
@@ -1204,15 +1204,13 @@ const [isMenuOpen, setIsMenuOpen] = useState(false);
                       <div className="bg-white p-8 rounded-2xl shadow-sm">
                             <h3 className="font-semibold text-amber-800 mb-4">Personalized B2B Massage Plans Crafted for Total Relaxation in Delhi</h3>
                             <p className="text-gray-700 mb-6">
-                              We deliver customised massage sessions that appeal to your body and mind. Every massage technique is designed to provide you with the best experience. 
-        
+                              We provide you with customized massage sessions tailored to appeal to your mind and body. Each form of massage is designed to give you the best out of it.
                             </p>
-                            <h3 className="font-semibold text-amber-800 mb-4">Professional Therapists Who Prioritize Comfort, Discretion, and Satisfaction</h3>
+                            <h3 className="font-semibold text-amber-800 mb-4">Expert Therapists Caring for Your Comfort, Discretion, and Satisfaction</h3>
                             <p className="text-gray-700 mb-6">
-                              Our therapists treat every client with care and respect. Privacy is a top priority, and your comfort comes first during every session. 
-        
+                              Our therapists treat every client with attention and respect. Every client’s privacy is of paramount concern, with his or her comfort being of primary importance during each session.
                             </p>
-                            <h3 className="font-semibold text-amber-800 mb-4">Luxurious Spa Interiors That Create the Perfect Mood for Relaxation</h3>
+                            <h3 className="font-semibold text-amber-800 mb-4">Luxurious Spa Interiors That Create The Perfect Mood For Relaxation</h3>
                             <p className="text-gray-700 mb-6">
                               The interiors are warm and peaceful. The lighting, the design, and the music all come together to create the right mood for relaxation. 
         
