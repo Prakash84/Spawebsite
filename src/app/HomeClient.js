@@ -401,19 +401,42 @@ const testimonials = [
   {
     name: "Lajpat Nagar",
     image: "/images/TheSuryaaNewDelhi(NFC).webp", // Replace with actual image URL
-    description: "We have luxury massage outlets in Lajpat Nagar, so whenever you are in Lajpat Nagar want you can de-stress with a home and massage service. Reach out to us.",
+   description: (
+  <>
+    We have a Luxury{" "}
+    <a
+      href="/spa-in-lajpat-nagar"
+      className="text-teal-600 font-semibold underline"
+    >
+      spa in Lajpat Nagar
+    </a>
+    . So whenever you are in Lajpat Nagar, you can de-stress with a home and
+    massage service. Reach out to us.
+  </>
+),
     link: "https://wa.me/8826482370"
   },
   {
     name: "Aerocity",
     image: "/images/NovotelNewDelhiAerocity.webp",
-    description: "Our team provide b2b massage in Aerocity most luxurious locations. Whenever you choose us for your massage service in Aerocity, we will never disappoint.",
+    description: (
+  <>
+    Visit 5 star{" "}
+    <a
+      href="/spa-in-aerocity"
+      className="text-teal-600 font-semibold underline"
+    >
+      spa in Aerocity
+    </a>
+    . Get perfect massage service near Delhi airport. At Aerocity, we have
+    foreign therapists from all across the world.
+  </>),
     link: "https://wa.me/8826482370"
   },
   {
-    name: "Paschim Vihar",
+    name: "Connaught Place",
     image: "/images/TheParkConnaughtPlace.webp",
-    description: "Choose Spa Delhi to enjoy the best massage services in Paschim Vihar. Have the most comfortable massage in an outlet of ideal ambience.",
+    description: "Looking for a spa in central Delhi? We have a spa in Connaught Place for giving extra ordinary massage service in the heart of Delhi.",
     link: "https://wa.me/8826482370"
   },
   {
