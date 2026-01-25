@@ -25,6 +25,7 @@ import Link from "next/link";
 
 
 
+
 const specialFeatures = [
   "Private Room",
   "Jacuzzi Bath",
@@ -285,24 +286,28 @@ const [isVisible, setIsVisible] = useState(false);
   ];
   const services = [
     {
-      title: "Aromatherapy",
-      description: "Healing essential oils calm the senses.",
+      title: "B2B Massage in Delhi",
+      description: "Get deep relaxation with trained female therapists.",
       icon: "🌸",
+      link: "/b2b-massage-in-delhi",
     },
     {
-      title: "Deep Tissue",
-      description: " Relieves long-term muscular tension",
+      title: "Sandwich massage in Delhi",
+      description: "Experience sandwich massage with Two Professional therapists.",
       icon: "💆‍♂️",
+      link: "/sandwich-massage-in-delhi",
     },
     {
-      title: "Hot Stone Therapy",
-      description: "A sensual, professional way to connect with your body",
+      title: "Full body massage in Delhi",
+      description: "Full body massage at just 1999 with expert therapists",
       icon: "🪨",
+      link: "/full-body-massage-in-delhi",
     },
     {
       title: "Couples Massage",
       description: "A romantic way to relax and feel good together",
       icon: "👫",
+      link: "/couples-massage-in-delhi",
     },
   ];
   const testimonials1 = [
@@ -565,9 +570,6 @@ const locations2 = [
         <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-amber-300/15 blur-3xl" />
       </div>
       {/* //// */}
-      
-
-
       {/* Hero Slider */}
       <section className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh]">
         <Swiper
@@ -734,7 +736,7 @@ const locations2 = [
               viewport={{ once: true }}
             >
               <p className="text-gray-600 text-lg leading-relaxed">
-                Discover the <a href="/massage-service-in-delhi"><strong className="text-amber-600 font-medium">best massage services at a premium Delhi spa</strong></a>, where every therapist uses exceptional expertise and personalized care to rejuvenate your body and soul. Whether you prefer a deep tissue massage, B2B massage, or aromatherapy massage, our high-end spa treatments in Delhi are designed to deliver complete relaxation, deep comfort, and total rejuvenation—leaving you fully refreshed and satisfied. 
+                Want a relaxing massage in Delhi? Visit our best <strong className="text-amber-600 font-medium">spa in Delhi</strong> for exceptional experiences and deep relaxation. We offer many types of popular massage therapies, like B2B massage, sandwich massage, and couples massage with trained therapists. We help you to remove your daily stress and body pain. Our team of experts is ready to provide a luxurious and healing experience. Transform your spa experience at 24+ spa outlets in Delhi. We also offer our massage service at 5-star hotels with foreign therapists.
               </p>
               {/* <p className="text-gray-600 text-lg leading-relaxed">
                 Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
@@ -972,7 +974,7 @@ const locations2 = [
           <h3 className="text-xl font-bold text-gray-800 mb-3 font-serif">{service.title}</h3>
           <p className="text-gray-600 mb-6">{service.description}</p>
           <a
-            href="/massage-service-in-delhi"
+            href={service.link}
             className="text-amber-600 font-medium flex items-center gap-2 group-hover:underline"
           >
             Learn More
@@ -1250,7 +1252,7 @@ const locations2 = [
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3, duration: 0.6 }}
           >
-            Our Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Booking Process</span>
+            How To Book a <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Spa in Delhi?</span>
           </motion.h2>
           
           {/* <motion.p
@@ -1535,7 +1537,7 @@ const locations2 = [
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            Affordable luxury <span className="text-amber-600">Spa In Gurgaon, Delhi And Noida</span>
+            Budget-Friendly <span className="text-amber-600">Spa Prices in Delhi for a Luxury Experience</span>
           </motion.h2>
           <motion.p
             className="text-amber-800 max-w-3xl mx-auto text-lg leading-relaxed"
