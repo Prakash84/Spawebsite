@@ -1410,7 +1410,7 @@ const locations2 = [
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.5 }}
           >
-            Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/Spa-in-rohini">Hotels Spa In Delhi</a>
+            Our exclusive spa Delhi outlets offer world-class therapies In 5 Star <a href="/spa-in-rohini">Hotels Spa In Delhi</a>
           </motion.p>
           
           <motion.div
@@ -1519,7 +1519,7 @@ const locations2 = [
           viewport={{ once: true }}
         >
           <button className="relative inline-flex items-center gap-3 group">
-            <a href="/Spa-in-rohini"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
+            <a href="/spa-in-rohini"><span className="text-amber-800 font-medium text-lg tracking-wider group-hover:text-amber-900 transition-colors">
               VIEW ALL OUTLETS
             </span></a>
             <div className="relative h-0.5 bg-amber-800/30 overflow-hidden w-24">
@@ -2537,7 +2537,7 @@ const locations2 = [
                     ✉️ Send Inquiry
                   </a>
                   <a
-                    href="/Spa-in-rohini"
+                    href="/spa-in-rohini"
                     className="bg-amber-300 text-amber-900 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-400 transition-all duration-300"
                   >
                     💆‍♀️ View Outlets
