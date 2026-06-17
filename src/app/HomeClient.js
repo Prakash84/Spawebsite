@@ -1776,7 +1776,7 @@ const locations2 = [
             transition={{ delay: 0.1 }}
             viewport={{ once: true }}
           >
-           Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="Spa-in-rohini">Spa in Rohini</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
+           Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="spa-in-rohini">Spa in Rohini</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
           </motion.p>
         </div>
 
