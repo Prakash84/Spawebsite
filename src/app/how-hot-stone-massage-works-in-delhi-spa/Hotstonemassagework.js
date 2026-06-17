@@ -201,9 +201,15 @@ export default function Swedishvsdeeptissue() {
           <li>Lessens spasms in the muscles</li>
           <li>Soothes the nervous system.</li>
         </ul>
-         <p className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
+         <p className="list-disc text-gray-700 mb-8">
            It shows they do such a damn good job of reducing physical and emotional stress.
         </p>
+        <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/health-benefits-of-sandwich-massage">Health Benefits of Sandwich massage</a>
+                </p>
 
         {/* DEEP TISSUE */}
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
@@ -372,6 +378,12 @@ export default function Swedishvsdeeptissue() {
 
         {/* WHAT TO EXPECT */}
         <div>
+          <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/swedish-massage-vs-deep-tissue-massage">Swedish Massage vs Deep Tissue Massage</a>
+                </p>
           
             <h2 className="text-2xl md:text-3xl font-semibold text-[#c65a00] mb-4">
             What is the Purpose of Hot Stone Massage? 
