@@ -36,7 +36,7 @@ const teamMembers = [
   {
     name: "Chelsea Foster",
     designation: "Spa Therapist",
-    image: "/images/spamodel.jpg",
+    image: "/images/spamodel.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -56,7 +56,7 @@ const teamMembers = [
   {
     name: "Haven West",
     designation: "Spa Therapist",
-    image: "/images/spamodel2.jpg",
+    image: "/images/spamodel2.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -66,7 +66,7 @@ const teamMembers = [
   {
     name: "Avery Grace",
     designation: "Spa Therapist",
-    image: "/images/spaExpert4.jpg",
+    image: "/images/spaExpert4.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -1347,7 +1347,7 @@ const locations2 = [
           {/* 18+ Section */}
           <section 
   className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
-  style={{ backgroundImage: "url('/images/18+bodyspa.avif')" }}
+  style={{ backgroundImage: "url('/images/18+bodyspa.webp')" }}
 >
   {/* Enhanced gradient overlay with subtle grain texture */}
   <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />
@@ -1430,7 +1430,7 @@ const locations2 = [
             <div className="relative rounded-3xl overflow-hidden shadow-xl transform hover:scale-[1.02] transition-all duration-300 group">
               <div className="relative h-96">
                 <Image 
-                  src="/images/haboutus.jpg" 
+                  src="/images/haboutus.webp" 
                   alt="Relaxing Spa Massage"
                   layout="fill"
                   objectFit="cover"
@@ -1458,7 +1458,7 @@ const locations2 = [
               <div className="relative rounded-2xl overflow-hidden shadow-lg transform hover:scale-[1.02] transition-all duration-300 group">
                 <div className="relative h-56">
                   <Image 
-                    src="/images/steptodown.com870307.jpg" 
+                    src="/images/steptodown.com870307.webp" 
                     alt="Spa Ambience"
                     layout="fill"
                     objectFit="cover"
