@@ -179,6 +179,12 @@ export default function Healthbenefits() {
          <p className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
            It is these and many more unique reasons that make Sandwich Massage one of the healthiest massage therapy known today.
         </p>
+        <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/how-hot-stone-massage-works-in-delhi-spa">How Hot Stone Massage Works In Delhi Spa</a>
+                </p>
 
         {/* DEEP TISSUE */}
         <h2 className="text-3xl font-semibold text-[#c65a00] mb-4">
@@ -326,6 +332,12 @@ export default function Healthbenefits() {
           <p className="text-gray-700 leading-8 mt-6">
            Sandwich massage reduces the stress hormones and increases the circulation of immune cells in your body.
           </p>
+          <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/swedish-massage-vs-deep-tissue-massage">Swedish Massage vs Deep Tissue Massage</a>
+                </p>
         </div>
 
         {/* WHICH MASSAGE SHOULD YOU CHOOSE */}

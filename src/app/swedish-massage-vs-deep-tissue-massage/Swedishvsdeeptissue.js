@@ -173,6 +173,12 @@ export default function Swedishvsdeeptissue() {
         <p className="list-disc pl-6 space-y-2 text-gray-700 mb-8">
             It’s often chosen for stress relief, general muscle tension, and full-body relaxation.
         </p>
+        <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/health-benefits-of-sandwich-massage">Health Benefits Of Sandwich Massage</a>
+                </p>
 
         {/* DEEP TISSUE */}
         <h2 className="text-2xl font-semibold text-[#c65a00] mb-4">
@@ -282,6 +288,12 @@ export default function Swedishvsdeeptissue() {
             Many people choose Swedish massage when they’re feeling tense from
             travel, stress, or long hours behind the computer.
           </p>
+          <p
+                  href="/"
+                  className="inline-block text-amber-600 hover:text-amber-800 text-sm font-medium"
+                >
+                  Read More → <a href="/how-hot-stone-massage-works-in-delhi-spa">How Hot Stone Massage Works In Delhi Spa</a>
+                </p>
         </div>
 
         {/* BENEFITS OF DEEP TISSUE */}
