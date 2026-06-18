@@ -188,9 +188,6 @@ const [isVisible, setIsVisible] = useState(false);
       desc: "Our team of massage therapists comes across borders, including India, Russia, Afghanistan, and more. When you choose us, you will be surprised with a wide range of massage therapist options available to serve you with your preferred star massage services in Aerocity.",
     },
   ];
-
-
-
   const services = [
     {
       title: "B2B Massage in Delhi",
@@ -329,7 +326,6 @@ const testimonials = [
     link: "https://wa.me/8826482370"
   }
 ];
-
  // Physical Benefits Data
   const physicalBenefits = [
     { 
@@ -363,7 +359,6 @@ const testimonials = [
       icon: "🛡️"
     }
   ];
-
   // Spiritual Benefits Data
   const spiritualBenefits = [
     { 
@@ -397,7 +392,6 @@ const testimonials = [
       icon: "🌀"
     }
   ];
-
 const locations2 = [
   { name: "Sandwich Massage", link: "/sandwich-massage-in-delhi" },
   { name: "Couple Massage", link: "/couples-massage-in-delhi" },
@@ -411,8 +405,6 @@ const locations2 = [
   { name: "Spa in Gurugram", link: "/spa-in-gurgaon" },
   { name: "Spa in Noida ", link: "/spa-in-noida" },
 ];
-
-
   return (
     <main>
     <div className="font-sans overflow-hidden">
@@ -423,7 +415,7 @@ const locations2 = [
         <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-amber-300/15 blur-3xl" />
       </div>
       {/* //// */}
-     <HomeBanner/>
+     <HomeBanner />
     
       {/* About Section */}
       <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
