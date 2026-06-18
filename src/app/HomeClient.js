@@ -1,9 +1,6 @@
 "use client";
-
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
 import { motion, AnimatePresence } from 'framer-motion';
-
+import HomeBanner from './components/HomeBanner';
 import { useState, useEffect } from "react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -193,34 +190,7 @@ const [isVisible, setIsVisible] = useState(false);
   ];
 
 
-  const [isScrolled, setIsScrolled] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 50);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
-  const slides = [
-    {
-      title: "Welcome to The Spa Delhi — 5 Star Hotel Spa In Delhi",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb1.webp"
-      
-    },
-    {
-      title: "Explore Spa Delhi With 12+ Spa Outlets in Delhi NCR",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb2.webp"
-    },
-    {
-      title: "Book Massage at the best massage centre in Delh",
-      link: "https://api.whatsapp.com/send?phone=918826482370",
-      image: "/images/hb3.webp"
-    },
-  ];
   const services = [
     {
       title: "B2B Massage in Delhi",
@@ -453,59 +423,7 @@ const locations2 = [
         <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-amber-300/15 blur-3xl" />
       </div>
       {/* //// */}
-      {/* Hero Slider */}
-      <section className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh]">
-        <Swiper
-          loop
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
-          pagination={{ clickable: true, dynamicBullets: true }}
-          modules={[Autoplay, Pagination]}
-          className="w-full h-full"
-        >
-          {slides.map((slide, i) => (
-            <SwiperSlide key={i}>
-              <div className="relative w-full h-full bg-cover bg-center" style={{ backgroundImage: `url(${slide.image})` }}>
-                <div className="absolute inset-0 bg-black/50 md:bg-gradient-to-r md:from-black/70 md:via-black/40 md:to-transparent" />
-                <div className="absolute inset-0 flex flex-col justify-center items-center md:items-start text-center md:text-left px-4 sm:px-8 md:px-24 z-10">
-                  <motion.h2
-                    className="text-white text-2xl sm:text-4xl md:text-5xl font-extrabold max-w-2xl md:max-w-3xl leading-snug mb-4 font-serif"
-                    initial={{ opacity: 0, x: -50 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    transition={{ duration: 0.8 }}
-                  >
-                    {slide.title}
-                  </motion.h2>
-                  <motion.div
-                    className="flex flex-col sm:flex-row gap-4"
-                    initial={{ opacity: 0, y: 20 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 }}
-                  >
-                    <a 
-                        href="https://t.me/+a5Bu6FBPN9FlOWM9" 
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                      >
-                        <FaTelegram className="text-xl mr-3" />
-                        Join for latest staff updates
-                      </a>
-
-                     {/* <a href={slide.link} className="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 shadow-lg hover:shadow-xl">
-                      Book a Spa Session Now
-                    </a>  */}
-                    <a href="/massage-service-in-delhi" className="bg-white/20 hover:bg-white/30 backdrop-blur-lg text-white font-semibold py-2 sm:py-3 px-6 sm:px-8 rounded-full text-sm sm:text-base transition duration-300 border border-white">
-                      Explore Our Spa Services
-                    </a>
-                    
-                    
-                  </motion.div>
-                </div>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </section>
+     <HomeBanner/>
     
       {/* About Section */}
       <section className="py-24 px-4 md:px-8 bg-gradient-to-b from-[#fdf9f5] to-[#fefaf6] relative overflow-hidden">
@@ -559,9 +477,6 @@ const locations2 = [
               <p className="text-gray-600 text-lg leading-relaxed">
                 Want a relaxing massage in Delhi? Visit our best <strong className="text-amber-600 font-medium">spa in Delhi</strong> for exceptional experiences and deep relaxation. We offer many types of popular massage therapies, like B2B massage, sandwich massage, and couples massage with trained therapists. We help you to remove your daily stress and body pain. Our team of experts is ready to provide a luxurious and healing experience. Transform your spa experience at 24+ spa outlets in Delhi. We also offer our massage service at 5-star hotels with foreign therapists.
               </p>
-              {/* <p className="text-gray-600 text-lg leading-relaxed">
-                Our expert therapists combine traditional healing methods with modern wellness practices to create custom treatments that will leave you feeling refreshed, balanced, and revitalized.
-              </p> */}
             </motion.div>
 
             {/* Feature Grid with Hover Effects */}
@@ -1531,9 +1446,6 @@ const locations2 = [
                   <p className="text-gray-700">
                    All sessions are created for your complete comfort and satisfaction. Our female therapists come and give you a relaxing massage experience during your session. We maintain proper hygiene and cleanliness.
                   </p>
-                  {/* <p className="text-gray-700">
-                   All sessions are created with your complete comfort and satisfaction in mind, including hygienic interior and customized treatment. Spa Delhi is where you can rejuvenate and relax your body in the most convenient places at low costs.
-                  </p> */}
                 </div>
               </div>
               
@@ -1563,30 +1475,6 @@ const locations2 = [
           </div>
         </div>
       </div>
-      
-      {/* Floating testimonials */}
-      {/* <div className="mt-16 flex flex-wrap justify-center gap-6">
-        {[
-          { text: '"The best massage experience in Delhi!"', name: "Priya S." },
-          { text: '"Truly rejuvenating - will be back!"', name: "Raj K." },
-          { text: '"Professional therapists, amazing ambiance"', name: "Ananya M." }
-        ].map((testimonial, index) => (
-          <div 
-            key={index} 
-            className="bg-white/90 backdrop-blur-sm rounded-2xl p-4 shadow-lg max-w-xs border border-amber-100 transform hover:scale-105 transition-all duration-300"
-          >
-            <div className="flex items-center mb-2">
-              {[...Array(5)].map((_, i) => (
-                <svg key={i} className="w-4 h-4 text-amber-400 fill-current" viewBox="0 0 24 24">
-                  <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-                </svg>
-              ))}
-            </div>
-            <p className="text-gray-700 italic mb-1">"{testimonial.text}"</p>
-            <p className="text-gray-600 text-sm">- {testimonial.name}</p>
-          </div>
-        ))}
-      </div> */}
           </section>
           {/* end content section */}
 {/* Our Therapy Experts */}
@@ -1864,15 +1752,6 @@ const locations2 = [
              During our service, our therapists focus on how to make customers satisfied with the service. For this reason, we are the most reputable spa in Delhi for premium massage service.
           </motion.p>
         </div>
-        {/* Section Header */}
-        {/* <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            What Our Clients Say
-          </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Discover why thousands of customers trust our services and products every day
-          </p>
-        </div> */}
         
         {/* Testimonial Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -1926,18 +1805,6 @@ const locations2 = [
           ))}
         </div>
         
-        {/* CTA Button */}
-        {/* <div className="mt-16 text-center">
-          <button className="relative inline-flex items-center justify-center px-8 py-3 overflow-hidden font-medium text-indigo-600 transition-all duration-300 rounded-full group hover:bg-indigo-500 hover:text-white">
-            <span className="absolute inset-0 w-full h-full transition duration-300 ease-out transform translate-x-full bg-indigo-500 rounded-full group-hover:translate-x-0"></span>
-            <span className="relative flex items-center text-lg font-medium">
-              View More Testimonials
-              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
-              </svg>
-            </span>
-          </button>
-        </div> */}
       </div>
     </section> 
      {/* Testimonials */}
@@ -2083,28 +1950,6 @@ const locations2 = [
               </motion.div>
             ))}
           </div>
-
-          {/* CTA Box */}
-          {/* <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            viewport={{ once: true }}
-            className="mt-14 bg-gradient-to-r from-amber-500 to-amber-600 rounded-2xl p-8 text-center text-white shadow-xl"
-          >
-            <h3 className="text-2xl font-bold mb-3">Still have questions?</h3>
-            <p className="mb-5 max-w-2xl mx-auto">
-              Our wellness team is here to assist you. Reach out and we’ll help you find the perfect treatment.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <button className="px-6 py-3 bg-white text-amber-700 font-medium rounded-full shadow-md hover:bg-amber-100 transition-colors">
-                Contact Us
-              </button>
-              <button className="px-6 py-3 bg-amber-800 bg-opacity-30 text-white font-medium rounded-full shadow-md border border-white border-opacity-30 hover:bg-opacity-40 transition-colors">
-                Book Appointment
-              </button>
-            </div>
-          </motion.div> */}
         </div>
       </section>
     {/* End F&Q Section */}
@@ -2133,45 +1978,6 @@ const locations2 = [
     </div>
   </div>
 </section>
-    {/* CTA Section */}
-      {/* <section className="py-24 px-6 md:px-16 relative">
-        <div className="max-w-5xl mx-auto bg-gradient-to-r from-amber-700 to-amber-800 rounded-3xl shadow-2xl overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-amber-600/10 to-amber-800/30 backdrop-blur-sm"></div>
-          <div className="relative z-10 py-16 px-8 text-center">
-            <motion.h2 
-              className="text-3xl md:text-4xl font-bold text-white mb-6 font-serif"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-              viewport={{ once: true }}
-            >
-              Ready to Experience Ultimate Relaxation?
-            </motion.h2>
-            <motion.p 
-              className="text-amber-100 text-xl mb-10 max-w-2xl mx-auto"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              viewport={{ once: true }}
-            >
-              Book your appointment today and receive a complimentary aromatherapy session
-            </motion.p>
-            <motion.a
-              href="https://api.whatsapp.com/send?phone=918826482370
-"
-              className="inline-block bg-white text-amber-700 px-10 py-5 rounded-full font-bold text-lg hover:bg-amber-50 transition-all duration-300 shadow-xl hover:shadow-2xl"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
-              viewport={{ once: true }}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              Book Your Session Now
-            </motion.a>
-          </div>
-        </div>
-      </section> */}
       <WhatsappFloat />
       
     </div>
