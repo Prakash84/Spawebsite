@@ -96,7 +96,7 @@ export default function Navbar() {
           <a href="/"> 
             <div className="w-32 h-10 relative">
             <Image
-              src="/images/spadelhilogo22.png"
+              src="/images/spadelhilogo22.webp"
               alt="Delhi Body Spa Logo"
               fill
               className="object-contain"
