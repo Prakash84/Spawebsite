@@ -1,5 +1,4 @@
-"use client";
-import { motion } from 'framer-motion';
+
 import HomeBanner from './components/HomeBanner';
 import AboutSection from './components/AboutSection';
 import HomeServicesSection from './components/HomeServicesSection';
@@ -11,15 +10,13 @@ import HomeLocations from './components/HomeLocations';
 import HomePricing from './components/HomePricing';
 import Relaxinghomecontent from './components/Relaxinghomecontent';
 import HomeTherapyest from './components/HomeTherapyest';
+import HomeHealthBenefits from './components/HomeHealthBenefits';
+import HomeTestimonials from './components/HomeTestimonials';
+import HomeLocation2 from './components/HomeLocation2';
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from 'next/image';
 import WhatsappFloat from './components/WhatsappFloat';
-import Link from "next/link";
-
-
-
-
 const specialFeatures = [
   "Private Room",
   "Jacuzzi Bath",
@@ -32,118 +29,7 @@ const specialFeatures = [
 
 export default function HomeClient() {
   
-const testimonials = [
-    {
-      id: 1,
-      name: "Akash Sharma",
-      role: "Corporate Professional",
-      content: "After long office hours, I wanted a place to relax. Delhi Body Spa in Connaught Place gave me the perfect body massage. The ambience was soothing, and I felt completely stress-free after the session. Highly recommended for anyone looking for the best body spa in Delhi",
-      date: "April 15, 2023",
-      rating: 5,
-      initials: "JD",
-      gradient: "from-indigo-500 to-purple-600"
-    },
-    {
-      id: 2,
-      name: "Rohit Verma",
-      role: "Entrepreneur",
-      content: "I have visited several spas in Delhi, but it was quite a different experience. Therapists are trained, the spa facility is clean and the massage actually helped me to shed off the body pains. This must have been one of the best body spas in Delhi.",
-      date: "May 3, 2023",
-      rating: 5,
-      initials: "SA",
-      gradient: "from-cyan-500 to-blue-600"
-    },
-    {
-      id: 3,
-      name: "Sonu Kapoor",
-      role: "Fitness Enthusiast",
-      content: "After my workout sessions, I visit Delhi Body Spa for full body massage. The team is very professional, and the oils they use are premium quality. This is the perfect spot for relaxation and body care in Delhi",
-      date: "June 8, 2023",
-      rating: 4,
-      initials: "MR",
-      gradient: "from-emerald-500 to-teal-600"
-    }
-  ];
- 
- // Physical Benefits Data
-  const physicalBenefits = [
-    { 
-      id: 1, 
-      title: "Muscle Relief", 
-      description: "Stimulates knotted muscles and relieves pain.",
-      icon: "💆"
-    },
-    { 
-      id: 2, 
-      title: "Improved Circulation", 
-      description: "Increases blood circulation.",
-      icon: "❤️"
-    },
-    { 
-      id: 3, 
-      title: "Detoxification", 
-      description: "Helps the body naturally eliminate toxins.",
-      icon: "✨"
-    },
-    { 
-      id: 4, 
-      title: "Flexibility Boost", 
-      description: "Improves distribution of movement throughout the joints.",
-      icon: "🧘"
-    },
-    { 
-      id: 5, 
-      title: "Pain Management", 
-      description: "Relieves acute and chronic pain.",
-      icon: "🛡️"
-    }
-  ];
-  // Spiritual Benefits Data
-  const spiritualBenefits = [
-    { 
-      id: 1, 
-      title: "Stress Reduction", 
-      description: "Helps to calm the mind and the nerves.",
-      icon: "🧘‍♀️"
-    },
-    { 
-      id: 2, 
-      title: "Mental Clarity", 
-      description: "Helps you concentrate and relax.",
-      icon: "⚖️"
-    },
-    { 
-      id: 3, 
-      title: "Emotional Balance", 
-      description: "It is calming for the mind and soul.",
-      icon: "💡"
-    },
-    { 
-      id: 4, 
-      title: "Energy Flow", 
-      description: "Opens and revitalizes the body energy.",
-      icon: "🕊️"
-    },
-    { 
-      id: 5, 
-      title: "Deep Relaxation", 
-      description: "Connects the body, the mind and the spirit.",
-      icon: "🌀"
-    }
-  ];
-const locations2 = [
-  { name: "Sandwich Massage", link: "/sandwich-massage-in-delhi" },
-  { name: "Couple Massage", link: "/couples-massage-in-delhi" },
-  { name: " B2B Massage", link: "/b2b-massage-in-delhi" },
-  { name: "Spa Jobs in Delhi", link: "/spa-therapist-jobs-in-delhi" },
-  { name: "Full Body Massage", link: "/full-body-massage-in-delhi" },
-  
-  { name: "Spa in Aerocity ", link: "/spa-in-aerocity" },
-  { name: "Spa in Connaught Place", link: "/spa-in-connaught-place" },
-  { name: "Spa in Lajpat Nagar", link: "/spa-in-lajpat-nagar " },
-  { name: "Spa in Gurugram", link: "/spa-in-gurgaon" },
-  { name: "Spa in Noida ", link: "/spa-in-noida" },
-];
+
   return (
     <main>
     <div className="font-sans overflow-hidden">
@@ -158,10 +44,10 @@ const locations2 = [
      <AboutSection />
     <HomeServicesSection />
     <HomeWhyChoiceus />
-    
        <HomeOurProcess/>
       <HomeOutlet />
       <HomePricing/>
+
       <section className="bg-gray-50 py-16"> 
         <div className="max-w-7xl mx-auto px-4 sm:px-6"> {/* First Row */} <div className="grid md:grid-cols-2 gap-8 items-center"> <div> <Image src="/images/80535.webp" alt="Luxury Spa in Delhi" width={600} height={400} loading="lazy" className="rounded-2xl shadow-md w-full h-auto" /> </div> <div className="bg-white shadow-md p-6 md:p-8 rounded-xl"> <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6"> Visit Our Massage Centre{" "} <span className="text-amber-600"> in Delhi for Deep Relaxation </span> </h2> 
         <p className="text-gray-600 leading-relaxed">
@@ -234,136 +120,10 @@ const locations2 = [
   </div>
       </section>
           {/* end 18+ section */}
+
           <Relaxinghomecontent/>
           <HomeTherapyest/>
-       {/* Benefits section */}
-       <div className="bg-gradient-to-br from-amber-50 to-amber-100 py-20 px-4">
-      <div className="max-w-7xl mx-auto">
-        {/* Section Heading */}
-        <div className="text-center mb-16">
-          <motion.p
-            className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            Holistic Wellbeing
-          </motion.p>
-          
-          <motion.h2
-            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            Benefits Of <span className="text-amber-600"> Choosing Our</span> Massage Spa in Delhi
-          </motion.h2>
-          
-          <motion.p
-            className="text-gray-600 max-w-2xl mx-auto text-lg"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-            By choosing us you will improve sleep quality, blood circulation, and skin tone. Our massage spa in Delhi has certified therapists for your relaxing massage service.
-          </motion.p>
-        </div>
-
-        {/* Benefits Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-          {/* Physical Benefits */}
-          <motion.div 
-            className="bg-white rounded-2xl shadow-xl p-8 border border-amber-100"
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            viewport={{ once: true }}
-          >
-            <div className="flex items-center mb-8">
-              <div className="bg-amber-100 p-4 rounded-xl mr-4">
-                <div className="text-3xl text-amber-600">🏃‍♂️</div>
-              </div>
-              <h3 className="text-3xl font-bold text-amber-900">Physical Benefits</h3>
-            </div>
-            
-            <div className="space-y-6">
-              {physicalBenefits.map((benefit) => (
-                <motion.div 
-                  key={benefit.id}
-                  className="flex items-start"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: benefit.id * 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  <div className="bg-amber-50 p-3 rounded-lg mr-4 mt-1">
-                    <span className="text-2xl">{benefit.icon}</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-amber-800">{benefit.title}</h4>
-                    <p className="text-gray-600 mt-1">{benefit.description}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-          
-          {/* Spiritual Benefits */}
-          <motion.div 
-            className="bg-white rounded-2xl shadow-xl p-8 border border-amber-100"
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7, delay: 0.2 }}
-            viewport={{ once: true }}
-          >
-            <div className="flex items-center mb-8">
-              <div className="bg-amber-100 p-4 rounded-xl mr-4">
-                <div className="text-3xl text-amber-600">🧘</div>
-              </div>
-              <h3 className="text-3xl font-bold text-amber-900">Spiritual Benefits</h3>
-            </div>
-            
-            <div className="space-y-6">
-              {spiritualBenefits.map((benefit) => (
-                <motion.div 
-                  key={benefit.id}
-                  className="flex items-start"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ delay: benefit.id * 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  <div className="bg-amber-50 p-3 rounded-lg mr-4 mt-1">
-                    <span className="text-2xl">{benefit.icon}</span>
-                  </div>
-                  <div>
-                    <h4 className="text-xl font-bold text-amber-800">{benefit.title}</h4>
-                    <p className="text-gray-600 mt-1">{benefit.description}</p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        </div>
-        
-        {/* CTA Button */}
-        <motion.div 
-          className="text-center mt-16"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4 }}
-          viewport={{ once: true }}
-        >
-         <a href="/massage-service-in-delhi">
-          <button className="bg-gradient-to-r from-amber-500 to-amber-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300">
-            Discover Our Treatments
-          </button>
-          </a> 
-        </motion.div>
-      </div>
-    </div>
+          <HomeHealthBenefits/>
       
       {/* end */}
       <section className="w-full bg-[#f8f6f3] py-20 px-4">
@@ -412,171 +172,54 @@ const locations2 = [
         </div>
       </div>
     </section>
-      {/* // */}
-      <section className="py-16 px-4 sm:px-6 bg-gradient-to-br from-[#FFF9F0] via-[#fcf5e9] to-[#f9f1e2]">
-      <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-12">
-          <motion.p
-              className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-              viewport={{ once: true }}
-            >
-              Client Experiences
-            </motion.p>
-          <motion.h2
-            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            What Customers Said <span className="text-amber-600"> About our Spa in Delhi?</span>
-          </motion.h2>
-          <motion.p
-            className="text-gray-600 max-w-2xl mx-auto text-lg"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-             During our service, our therapists focus on how to make customers satisfied with the service. For this reason, we are the most reputable spa in Delhi for premium massage service.
-          </motion.p>
-        </div>
-        
-        {/* Testimonial Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {testimonials.map((testimonial) => (
-            <div 
-              key={testimonial.id}
-              className="bg-white rounded-2xl shadow-lg p-6 relative overflow-hidden transform transition-all duration-300 hover:-translate-y-2"
-            >
-              {/* Background Quote Icon */}
-              <div className="absolute top-4 right-4 text-indigo-100 text-6xl z-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" viewBox="0 0 16 16">
-                  <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2z"/>
-                </svg>
-              </div>
-              
-              <div className="relative z-10">
-                {/* User Info */}
-                <div className="flex items-center mb-4">
-                  <div className={`w-12 h-12 rounded-full bg-gradient-to-r ${testimonial.gradient} flex items-center justify-center text-white font-bold text-lg`}>
-                    {testimonial.initials}
-                  </div>
-                  <div className="ml-4">
-                    <h4 className="font-semibold text-gray-900 text-lg">{testimonial.name}</h4>
-                    <p className="text-gray-500 text-sm">{testimonial.role}</p>
-                  </div>
-                </div>
-                
-                {/* Rating */}
-                <div className="flex mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <svg 
-                      key={i}
-                      className={`w-5 h-5 ${i < testimonial.rating ? 'text-yellow-400' : 'text-gray-300'} mr-1`}
-                      fill="currentColor"
-                      viewBox="0 0 20 20"
-                    >
-                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                    </svg>
-                  ))}
-                </div>
-                
-                {/* Testimonial Content */}
-                <p className="text-gray-700 mb-4 leading-relaxed">
-                  {testimonial.content}
-                </p>
-                
-                {/* Date */}
-                <p className="text-xs text-gray-400">Posted on {testimonial.date}</p>
-              </div>
-            </div>
-          ))}
-        </div>
-        
-      </div>
-    </section> 
-     {/* Testimonials */}
-                  <section className="mt-20 py-18 px-16 md:px-16 bg-gradient-to-br from-amber-900 to-amber-700 relative overflow-hidden rounded-3xl shadow-xl">
-              {/* Decorative Pattern Background */}
-              <div className="absolute inset-0 opacity-5">
-                <div className="pattern-dots pattern-amber-500 pattern-bg-transparent pattern-opacity-100 pattern-size-4 w-full h-full"></div>
-              </div>
-    
-              {/* Main Content Container */}
-              <div className="max-w-7xl mx-auto relative z-10 text-center">
-                {/* Heading and Subheading */}
-                <motion.h2
-                  className="text-3xl md:text-4xl font-bold text-white leading-tight mb-6 font-serif"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5, delay: 0.1 }}
-                  viewport={{ once: true }}
-                >
-                  Book a massage <span className="text-amber-300">spa in Delhi Instantly</span>
-                </motion.h2>
-    
-                <motion.p
-                  className="text-amber-300 uppercase font-semibold tracking-wider mb-12"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.5 }}
-                  viewport={{ once: true }}
-                >
-                  For stress relief and removing muscle pain. Book a massage spa in Delhi at 24+ locations.
-                </motion.p>
-    
-                {/* CTA Buttons */}
-                <div className="grid md:grid-cols-3 gap-6 justify-center items-center">
-                  <a
-                    href="tel:+919217255113"
-                    className="bg-white text-amber-700 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-100 transition-all duration-300"
-                  >
-                    📞 Call to Book: +91 9217255113
-                  </a>
-                  <a
-                    href="/contact"
-                    className="border-2 border-white text-white px-8 py-4 rounded-full font-bold shadow-md hover:bg-white/10 transition-all duration-300"
-                  >
-                    ✉️ Send Inquiry
-                  </a>
-                  <a
-                    href="/spa-in-rohini"
-                    className="bg-amber-300 text-amber-900 px-8 py-4 rounded-full font-bold shadow-md hover:bg-amber-400 transition-all duration-300"
-                  >
-                    💆‍♀️ View Outlets
-                  </a>
-                </div>
-              </div>
-                  </section>   
-                  <HomeFaqSection /> 
-    {/* //// */}
-<section className="py-16">
-  <div className="max-w-7xl mx-auto px-6 text-center">
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 
-      {locations2.map((location, i) => (
-        <motion.div
-          key={i}
-          initial={{ opacity: 0, scale: 0.9 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.4, delay: i * 0.05 }}
-          whileHover={{ scale: 1.05 }}
-        >
-          <Link
-            href={location.link}
-            className="block bg-red-800 text-white font-semibold text-lg py-4 rounded-xl shadow-md hover:bg-red-700 transition duration-300"
-          >
-            {location.name}
-          </Link>
-        </motion.div>
-      ))}
+    <HomeTestimonials/>
+     
+     {/* Testimonials */}
+<section className="mt-16 py-14 px-4 sm:px-8 bg-amber-800 rounded-3xl">
+  <div className="max-w-7xl mx-auto text-center">
+
+    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+      Book a Massage{" "}
+      <span className="text-amber-300">
+        Spa in Delhi Instantly
+      </span>
+    </h2>
+
+    <p className="text-amber-200 max-w-3xl mx-auto mb-10">
+      For stress relief and removing muscle pain. Book a massage spa in Delhi
+      at 24+ premium locations across Delhi NCR.
+    </p>
+
+    <div className="grid md:grid-cols-3 gap-4">
+
+      <a
+        href="tel:+919217255113"
+        className="bg-white text-amber-800 py-4 px-6 rounded-xl font-semibold"
+      >
+        📞 Call to Book
+      </a>
+
+      <a
+        href="/contact"
+        className="border border-white text-white py-4 px-6 rounded-xl font-semibold"
+      >
+        ✉️ Send Inquiry
+      </a>
+
+      <a
+        href="/spa-in-rohini"
+        className="bg-amber-300 text-amber-900 py-4 px-6 rounded-xl font-semibold"
+      >
+        💆 View Outlets
+      </a>
 
     </div>
+
   </div>
-</section>
+</section> 
+                  <HomeFaqSection /> 
+                  <HomeLocation2/>
       <WhatsappFloat />
       
     </div>
