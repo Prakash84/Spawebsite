@@ -11,7 +11,7 @@ export const metadata = {
     type: "website",
   },
    alternates: {
-    canonical: "https://www.spadelhi.com/b2b-massage-in-delhi",
+    canonical: "https://www.spadelhi.com/full-body-massage-in-delhi",
   },
   twitter: {
     card: "summary_large_image",
