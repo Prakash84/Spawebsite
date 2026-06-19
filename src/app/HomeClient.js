@@ -10,11 +10,10 @@ import HomeOutlet from './components/HomeOutlet';
 import HomeLocations from './components/HomeLocations';
 import HomePricing from './components/HomePricing';
 import Relaxinghomecontent from './components/Relaxinghomecontent';
+import HomeTherapyest from './components/HomeTherapyest';
 import "swiper/css";
 import "swiper/css/pagination";
-import { FaWhatsapp } from 'react-icons/fa';
 import Image from 'next/image';
-import { FaInstagram } from "react-icons/fa";
 import WhatsappFloat from './components/WhatsappFloat';
 import Link from "next/link";
 
@@ -31,48 +30,6 @@ const specialFeatures = [
   "Foreigner Therapist",
 ];
 
-const teamMembers = [
-  {
-    name: "Chelsea Foster",
-    designation: "Spa Therapist",
-    image: "/images/spamodel.webp",
-    socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
-      instagram: "https://www.instagram.com/delhi.luxury_spa/",
-      // twitter: "https://twitter.com",
-    },
-  },
-  {
-    name: "Lane Parsons",
-    designation: "Spa Therapist",
-    image: "/images/spaExper2.webp",
-    socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
-      instagram: "https://www.instagram.com/delhi.luxury_spa/",
-      // twitter: "https://twitter.com",
-    },
-  },
-  {
-    name: "Haven West",
-    designation: "Spa Therapist",
-    image: "/images/spamodel2.webp",
-    socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
-      instagram: "https://www.instagram.com/delhi.luxury_spa/",
-      // twitter: "https://twitter.com",
-    },
-  },
-  {
-    name: "Avery Grace",
-    designation: "Spa Therapist",
-    image: "/images/spaExpert4.webp",
-    socials: {
-      WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
-      instagram: "https://www.instagram.com/delhi.luxury_spa/",
-      // twitter: "https://twitter.com",
-    },
-  },
-];
 export default function HomeClient() {
   
 const testimonials = [
@@ -278,75 +235,7 @@ const locations2 = [
       </section>
           {/* end 18+ section */}
           <Relaxinghomecontent/>
-          
-{/* Our Therapy Experts */}
-      <section className="py-16 px-4 bg-gradient-to-br from-[#FFF9F0] via-[#fcf5e9] to-[#f9f1e2]">
-        <div className="max-w-7xl mx-auto">
-          
-          <div className="text-center mb-16">
-          <motion.p
-            className="text-amber-300 uppercase font-semibold tracking-wider mb-4"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
-          >
-            Experts Therapy
-          </motion.p>
-          
-          <motion.h2
-            className="text-3xl md:text-5xl font-bold text-amber-900 font-serif mb-4"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-          >
-            Expert Therapists at <span className="text-amber-600"> Our Massage Parlour in Delhi</span>
-          </motion.h2>
-          
-          <motion.p
-            className="text-gray-600 max-w-2xl mx-auto text-lg"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.1 }}
-            viewport={{ once: true }}
-          >
-             We have indian and foreign therapists at our premium massage parlour in Delhi. Our therapists come from Russia, Afghanistan, Thailand, and Uzbekistan. They have many years of experience giving massage services.
-          </motion.p>
-        </div>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, idx) => (
-              <motion.div
-                key={idx}
-                whileHover={{ scale: 1.05 }}
-                className="bg-white rounded-2xl shadow-md overflow-hidden text-center relative group"
-              >
-                <div className="relative h-96 overflow-hidden">
-                  <Image
-                  loading="lazy"
-                    src={member.image}
-                    alt={member.name}
-                    width={400}
-                    height={400}
-                    className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute bottom-0 left-0 right-0 bg-black/60 p-4">
-                    <h3 className="text-white text-xl font-semibold">
-                      {member.name}
-                    </h3>
-                    <p className="text-yellow-300">{member.designation}</p>
-                  </div>
-                </div>
-                <div className="flex justify-center gap-4 mt-4 pb-4">
-                  <a href={member.socials.WhatsApp} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaWhatsapp /></a>
-                  <a href={member.socials.instagram} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaInstagram /></a>
-                  {/* <a href={member.socials.twitter} target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-yellow-700 text-xl"><FaTwitter /></a> */}
-                </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
-      </section>
-       {/* End Our Therapy Experts */}
+          <HomeTherapyest/>
        {/* Benefits section */}
        <div className="bg-gradient-to-br from-amber-50 to-amber-100 py-20 px-4">
       <div className="max-w-7xl mx-auto">
