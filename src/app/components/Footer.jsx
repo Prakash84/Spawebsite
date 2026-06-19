@@ -8,7 +8,7 @@ export default function Footer() {
   const icons = [
     { name: "facebook", icon: <FaFacebookF className="text-blue-600" />, link: "#" },
     { name: "twitter", icon: <FaTwitter className="text-sky-500" />, link: "#" },
-    { name: "instagram", icon: <FaInstagram className="text-pink-500" />, link: "https://www.instagram.com/delhi.luxury_spa/" },
+    { name: "instagram", icon: <FaInstagram className="text-pink-500" />, link: "#" },
     { 
     name: "WhatsApp", 
     icon: <WhatsApp className="text-green-500 w-6 h-6" />, 
@@ -17,12 +17,12 @@ export default function Footer() {
   { 
     name: "LinkedIn", 
     icon: <Linkedin className="text-blue-600 w-6 h-6" />, 
-    link: "https://linkedin.com/in/your-profile" // apna profile link
+    link: "#" // apna profile link
   },
   { 
     name: "YouTube", 
     icon: <Youtube className="text-red-600 w-6 h-6" />, 
-    link: "https://youtube.com/@yourchannel" // apna channel link
+    link: "#" // apna channel link
   }
   ];
 

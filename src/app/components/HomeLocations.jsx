@@ -44,7 +44,18 @@ export default function HomeLocations() {
   {
     name: "Connaught Place",
     image: "/images/TheParkConnaughtPlace.webp",
-    description: "Looking for a spa in central Delhi? We have a spa in Connaught Place for giving extra ordinary massage service in the heart of Delhi.",
+    description: ( <>
+    Looking for a spa in central Delhi? We have a 
+    {" "}
+    <a
+      href="/spa-in-connaught-place"
+      className="text-teal-600 font-semibold underline"
+    >
+      spa in Connaught Place 
+    </a>
+    for giving extra ordinary massage service in the heart of Delhi.
+
+    </>),
     link: "https://wa.me/8826482370"
   },
   {
@@ -129,7 +140,7 @@ const specialFeatures = [
                         Book on WhatsApp
                       </a> */}
                       <a 
-                              href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                              href="#" 
                               target="_blank"
                               rel="noopener noreferrer"
                               className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
