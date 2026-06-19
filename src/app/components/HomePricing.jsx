@@ -53,6 +53,7 @@ const pricingPlans = [
 
 export default function HomePricing() {
   return (
+    <>
     <section
       id="Pricing"
       className="py-12 px-4 sm:px-6 lg:px-8 bg-amber-50"
@@ -152,5 +153,8 @@ export default function HomePricing() {
         </div>
       </div>
     </section>
+    
+    </>
+    
   );
 }

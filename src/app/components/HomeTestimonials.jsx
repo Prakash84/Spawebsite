@@ -33,6 +33,7 @@ export default function HomeTestimonials() {
      }
    ];
   return (
+    <>
     <section className="py-16 px-4 sm:px-6 bg-amber-50">
       <div className="max-w-7xl mx-auto">
 
@@ -108,6 +109,51 @@ export default function HomeTestimonials() {
         </div>
       </div>
     </section>
+    {/* Testimonials */}
+    <section className="mt-16 py-14 px-4 sm:px-8 bg-amber-800 rounded-3xl">
+      <div className="max-w-7xl mx-auto text-center">
+    
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          Book a Massage{" "}
+          <span className="text-amber-300">
+            Spa in Delhi Instantly
+          </span>
+        </h2>
+    
+        <p className="text-amber-200 max-w-3xl mx-auto mb-10">
+          For stress relief and removing muscle pain. Book a massage spa in Delhi
+          at 24+ premium locations across Delhi NCR.
+        </p>
+    
+        <div className="grid md:grid-cols-3 gap-4">
+    
+          <a
+            href="tel:+919217255113"
+            className="bg-white text-amber-800 py-4 px-6 rounded-xl font-semibold"
+          >
+            📞 Call to Book
+          </a>
+    
+          <a
+            href="/contact"
+            className="border border-white text-white py-4 px-6 rounded-xl font-semibold"
+          >
+            ✉️ Send Inquiry
+          </a>
+    
+          <a
+            href="/spa-in-rohini"
+            className="bg-amber-300 text-amber-900 py-4 px-6 rounded-xl font-semibold"
+          >
+            💆 View Outlets
+          </a>
+    
+        </div>
+    
+      </div>
+    </section> 
+    </>
+    
   );
 }
 

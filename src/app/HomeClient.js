@@ -17,16 +17,6 @@ import "swiper/css";
 import "swiper/css/pagination";
 import Image from 'next/image';
 import WhatsappFloat from './components/WhatsappFloat';
-const specialFeatures = [
-  "Private Room",
-  "Jacuzzi Bath",
-  "Steam Bath",
-
-  "5 Star Hotels",
-  "Female Therapist",
-  "Foreigner Therapist",
-];
-
 export default function HomeClient() {
   
 
@@ -59,165 +49,16 @@ export default function HomeClient() {
             </p> </div> <div className="order-1 md:order-2"> <Image src="/images/453.webp" alt="Full Body Massage in Connaught Place" width={600} height={400} loading="lazy" className="rounded-2xl shadow-md w-full h-auto" /> </div> </div> </div> </section>
     
     <HomeLocations/>    
-          {/* 18+ Section */}
-          <section 
-  className="relative py-20 px-6 text-center bg-cover bg-center bg-no-repeat overflow-hidden"
-  style={{ backgroundImage: "url('/images/18+bodyspa.webp')" }}
->
-  {/* Enhanced gradient overlay with subtle grain texture */}
-  <div className="absolute inset-0 bg-gradient-to-b from-black/90 via-[#3A2415]/80 to-black/90 z-0" />
-  <div className="absolute inset-0 bg-[url('/images/noise.png')] opacity-10 mix-blend-soft-light z-1" />
-
-  <div className="relative z-10 max-w-6xl mx-auto text-[#FAF3E9]">
-    {/* Elegant heading with decorative elements */}
-    <div className="flex flex-col items-center mb-12">
-      <div className="w-24 h-0.5 bg-gradient-to-r from-transparent via-[#D4A866] to-transparent mb-8" />
-      <h2 className="text-4xl sm:text-5xl md:text-6xl font-playfair font-bold mb-4 text-[#F9D9A9] tracking-wide">
-        <span className="block text-xl font-light tracking-widest text-[#D4A866] mb-2">
-          PREMIUM WELLNESS DESTINATIONS
-        </span>
-        24+ Exclusive Spa Delhi Outlets
-      </h2>
-      <div className="w-16 h-0.5 bg-[#D4A866] mt-6" />
-    </div>
-
-    {/* Refined description */}
-    <p className="text-lg sm:text-xl max-w-2xl mx-auto mb-16 font-light leading-relaxed font-raleway tracking-wide">
-      Indulge in unparalleled luxury & holistic wellness experiences across our premier 5-star locations worldwide.
-    </p>
-
-    {/* Sophisticated features grid */}
-    <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
-      {specialFeatures.map((item, index) => (
-        <li key={index}>
-          <div className="flex items-start gap-3 p-5 rounded-xl border border-[#D4A866]/30 bg-gradient-to-b from-[#2D1B0F]/60 to-[#1A1109]/60 backdrop-blur-sm hover:border-[#D4A866]/60 transition-all duration-300 group hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-black/20">
-            <svg
-              className="flex-shrink-0 w-5 h-5 mt-0.5 text-[#D4A866] group-hover:scale-110 transition-transform"
-              fill="currentColor"
-              viewBox="0 0 512 512"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 
-                0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 
-                36.204 0L192 312.69 432.095 72.596c9.997-9.997 
-                26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 
-                9.997 26.206 0 36.204l-294.4 294.401c-9.998 
-                9.997-26.207 9.997-36.204-.001z"/>
-            </svg>
-            <span className="text-left font-light text-[#FAF3E9] group-hover:text-[#F9D9A9] transition-colors">
-              {item}
-            </span>
-          </div>
-        </li>
-      ))}
-    </ul>
-
-    {/* Decorative corner elements */}
-    <div className="absolute top-6 left-6 w-8 h-8 border-t border-l border-[#D4A866]/50" />
-    <div className="absolute top-6 right-6 w-8 h-8 border-t border-r border-[#D4A866]/50" />
-    <div className="absolute bottom-6 left-6 w-8 h-8 border-b border-l border-[#D4A866]/50" />
-    <div className="absolute bottom-6 right-6 w-8 h-8 border-b border-r border-[#D4A866]/50" />
-  </div>
-      </section>
-          {/* end 18+ section */}
-
+          
           <Relaxinghomecontent/>
           <HomeTherapyest/>
           <HomeHealthBenefits/>
       
-      {/* end */}
-      <section className="w-full bg-[#f8f6f3] py-20 px-4">
-      <div className="max-w-7xl mx-auto">
-
-        {/* Heading */}
-        <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
-            Why Choose Spa Delhi?
-          </h2>
-          <p className="text-[#6b6b6b] max-w-2xl mx-auto">
-           We made thousands of trusted customers by giving professional massage service in Delhi. We have 24+ luxury spa outlets all over Delhi and the NCR Regions.
-          </p>
-        </div>
-
-        {/* Stats */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
-          
-          {/* Outlets */}
-          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
-            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">24+</h3>
-            <p className="text-lg text-[#2c2c2c] font-medium">Outlets</p>
-            <p className="text-sm text-[#6b6b6b] mt-2">
-              Premium spa outlets across top locations
-            </p>
-          </div>
-
-          {/* Hotel Partners */}
-          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
-            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">5★</h3>
-            <p className="text-lg text-[#2c2c2c] font-medium">Hotel Partners</p>
-            <p className="text-sm text-[#6b6b6b] mt-2">
-              Collaborations with luxury five-star hotels
-            </p>
-          </div>
-
-          {/* Happy Clients */}
-          <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
-            <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">20k+</h3>
-            <p className="text-lg text-[#2c2c2c] font-medium">Happy Clients</p>
-            <p className="text-sm text-[#6b6b6b] mt-2">
-              Thousands trust us for relaxation & wellness
-            </p>
-          </div>
-
-        </div>
-      </div>
-    </section>
+      
 
     <HomeTestimonials/>
      
-     {/* Testimonials */}
-<section className="mt-16 py-14 px-4 sm:px-8 bg-amber-800 rounded-3xl">
-  <div className="max-w-7xl mx-auto text-center">
-
-    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-      Book a Massage{" "}
-      <span className="text-amber-300">
-        Spa in Delhi Instantly
-      </span>
-    </h2>
-
-    <p className="text-amber-200 max-w-3xl mx-auto mb-10">
-      For stress relief and removing muscle pain. Book a massage spa in Delhi
-      at 24+ premium locations across Delhi NCR.
-    </p>
-
-    <div className="grid md:grid-cols-3 gap-4">
-
-      <a
-        href="tel:+919217255113"
-        className="bg-white text-amber-800 py-4 px-6 rounded-xl font-semibold"
-      >
-        📞 Call to Book
-      </a>
-
-      <a
-        href="/contact"
-        className="border border-white text-white py-4 px-6 rounded-xl font-semibold"
-      >
-        ✉️ Send Inquiry
-      </a>
-
-      <a
-        href="/spa-in-rohini"
-        className="bg-amber-300 text-amber-900 py-4 px-6 rounded-xl font-semibold"
-      >
-        💆 View Outlets
-      </a>
-
-    </div>
-
-  </div>
-</section> 
+     
                   <HomeFaqSection /> 
                   <HomeLocation2/>
       <WhatsappFloat />

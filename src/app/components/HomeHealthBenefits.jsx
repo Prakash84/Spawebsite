@@ -70,6 +70,7 @@ import Link from "next/link";
 
 export default function HomeHealthBenefits() {
   return (
+    <>
     <section className="bg-amber-50 py-16 px-4">
       <div className="max-w-7xl mx-auto">
 
@@ -162,6 +163,55 @@ export default function HomeHealthBenefits() {
 
       </div>
     </section>
+    {/* end */}
+          <section className="w-full bg-[#f8f6f3] py-20 px-4">
+          <div className="max-w-7xl mx-auto">
+    
+            {/* Heading */}
+            <div className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-serif text-[#2c2c2c] mb-4">
+                Why Choose Spa Delhi?
+              </h2>
+              <p className="text-[#6b6b6b] max-w-2xl mx-auto">
+               We made thousands of trusted customers by giving professional massage service in Delhi. We have 24+ luxury spa outlets all over Delhi and the NCR Regions.
+              </p>
+            </div>
+    
+            {/* Stats */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
+              
+              {/* Outlets */}
+              <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+                <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">24+</h3>
+                <p className="text-lg text-[#2c2c2c] font-medium">Outlets</p>
+                <p className="text-sm text-[#6b6b6b] mt-2">
+                  Premium spa outlets across top locations
+                </p>
+              </div>
+    
+              {/* Hotel Partners */}
+              <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+                <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">5★</h3>
+                <p className="text-lg text-[#2c2c2c] font-medium">Hotel Partners</p>
+                <p className="text-sm text-[#6b6b6b] mt-2">
+                  Collaborations with luxury five-star hotels
+                </p>
+              </div>
+    
+              {/* Happy Clients */}
+              <div className="bg-white rounded-2xl shadow-md py-12 px-6 hover:shadow-xl transition">
+                <h3 className="text-5xl font-bold text-[#9c6b3b] mb-3">20k+</h3>
+                <p className="text-lg text-[#2c2c2c] font-medium">Happy Clients</p>
+                <p className="text-sm text-[#6b6b6b] mt-2">
+                  Thousands trust us for relaxation & wellness
+                </p>
+              </div>
+    
+            </div>
+          </div>
+        </section>
+    </>
+    
   );
 }
 
