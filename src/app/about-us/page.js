@@ -10,6 +10,9 @@ export const metadata = {
     images: ["https://yourdomain.com/images/hb1.jpg"], // <-- use absolute URL in production
     type: "website",
   },
+   alternates: {
+    canonical: "https://www.spadelhi.com/about-us",
+  },
   twitter: {
     card: "summary_large_image",
     images: ["https://yourdomain.com/images/hb1.jpg"]

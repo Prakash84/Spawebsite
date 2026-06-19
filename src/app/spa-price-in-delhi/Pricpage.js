@@ -211,7 +211,7 @@ const teamMembers = [
    <section
       className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh] bg-cover bg-center bg-no-repeat flex items-center justify-center text-white"
       style={{
-        backgroundImage: "url('/images/steptodown.com870307.jpg')"
+        backgroundImage: "url('/images/steptodown.com870307.webp')"
       }}
     >
       {/* Gradient Overlay with soft blur */}
