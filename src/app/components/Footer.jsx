@@ -1,30 +1,39 @@
 import { WhatsApp } from "@mui/icons-material";
 import { Instagram, Linkedin, Youtube } from "lucide-react";
-import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { Hotel } from "lucide-react";
  
 
 export default function Footer() {
   const icons = [
-    { name: "facebook", icon: <FaFacebookF className="text-blue-600" />, link: "#" },
-    { name: "twitter", icon: <FaTwitter className="text-sky-500" />, link: "#" },
-    { name: "instagram", icon: <FaInstagram className="text-pink-500" />, link: "#" },
-    { 
-    name: "WhatsApp", 
-    icon: <WhatsApp className="text-green-500 w-6 h-6" />, 
-    link: "https://api.whatsapp.com/send?phone=9650684501" // apna number daalna
+  // { name: "facebook", icon: <FaFacebookF className="text-blue-600" />, link: "#" },
+  // { name: "twitter", icon: <FaTwitter className="text-sky-500" />, link: "#" },
+  // { name: "instagram", icon: <FaInstagram className="text-pink-500" />, link: "#" },
+
+  {
+    name: "Telegram",
+    icon: <FaTelegramPlane className="text-sky-500 text-xl" />,
+    link: "https://t.me/your_username"
   },
-  { 
-    name: "LinkedIn", 
-    icon: <Linkedin className="text-blue-600 w-6 h-6" />, 
-    link: "#" // apna profile link
+
+  {
+    name: "WhatsApp",
+    icon: <WhatsApp className="text-green-500 w-6 h-6" />,
+    link: "https://api.whatsapp.com/send?phone=919650684501"
   },
-  { 
-    name: "YouTube", 
-    icon: <Youtube className="text-red-600 w-6 h-6" />, 
-    link: "#" // apna channel link
-  }
-  ];
+
+  // {
+  //   name: "LinkedIn",
+  //   icon: <Linkedin className="text-blue-600 w-6 h-6" />,
+  //   link: "#"
+  // },
+
+  // {
+  //   name: "YouTube",
+  //   icon: <Youtube className="text-red-600 w-6 h-6" />,
+  //   link: "#"
+  // }
+];
 
   return (
     <footer className="bg-gray-900 text-white py-16 px-6 md:px-16 relative">

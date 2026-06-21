@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import { FaWhatsapp, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 
 const teamMembers = [
   {
@@ -9,6 +9,7 @@ const teamMembers = [
     image: "/images/spamodel.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      telegram: "https://t.me/your_username",
       instagram: "",
     },
   },
@@ -18,6 +19,7 @@ const teamMembers = [
     image: "/images/spaExper2.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      telegram: "https://t.me/your_username",
       instagram: "",
     },
   },
@@ -27,6 +29,7 @@ const teamMembers = [
     image: "/images/spamodel2.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      telegram: "https://t.me/your_username",
       instagram: "",
     },
   },
@@ -36,6 +39,7 @@ const teamMembers = [
     image: "/images/spaExpert4.webp",
     socials: {
       whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      telegram: "https://t.me/your_username",
       instagram: "",
     },
   },
@@ -93,24 +97,33 @@ export default function HomeTherapyest() {
               </div>
 
               <div className="flex justify-center gap-4 py-4">
-                <a
-                  href={member.socials.whatsapp}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-green-600"
-                >
-                  <FaWhatsapp size={22} />
-                </a>
+  <a
+    href={member.socials.whatsapp}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-600 hover:text-green-600 transition"
+  >
+    <FaWhatsapp size={22} />
+  </a>
 
-                <a
-                  href={member.socials.instagram}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-gray-600 hover:text-pink-600"
-                >
-                  <FaInstagram size={22} />
-                </a>
-              </div>
+  <a
+    href={member.socials.telegram}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-600 hover:text-sky-500 transition"
+  >
+    <FaTelegramPlane size={22} />
+  </a>
+
+  {/* <a
+    href={member.socials.instagram}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-gray-600 hover:text-pink-600 transition"
+  >
+    <FaInstagram size={22} />
+  </a> */}
+</div>
             </div>
           ))}
         </div>
