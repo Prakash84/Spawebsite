@@ -56,7 +56,7 @@ export default function Swedishvsdeeptissue() {
       {/* Banner Section */}
       <section className="relative h-[60vh] w-full">
         <Image
-          src="/images/steptodown.com870307.jpg"
+          src="/images/steptodown.com870307.webp"
           alt="Blog Banner"
           fill
           className="object-cover"

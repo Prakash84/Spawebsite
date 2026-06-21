@@ -8,6 +8,7 @@ import { FaHandSparkles, FaLeaf } from 'react-icons/fa';
   import { AnimatePresence } from "framer-motion";
   import React, { useState, useEffect } from 'react'
   import WhatsappFloat from "../components/WhatsappFloat";
+  import Link from "next/link";
 
 
 const blogs = [
@@ -143,9 +144,11 @@ export default function Bolgpage() {
                 className="w-full h-52 object-cover"
               />
               <div className="p-5">
-                <h3 className="text-xl font-semibold text-amber-700 mb-2">
-                  {blog.title}
-                </h3>
+                <Link href={blog.link}>
+  <h3 className="text-xl font-semibold text-amber-700 mb-2 cursor-pointer hover:text-amber-900">
+    {blog.title}
+  </h3>
+</Link>
                 <p className="text-gray-600 text-sm mb-4">
                   {blog.description}
                 </p>
