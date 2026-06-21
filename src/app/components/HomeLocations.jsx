@@ -178,7 +178,7 @@ const specialFeatures = [
 
     {/* Refined description */}
     <p className="text-lg sm:text-xl max-w-2xl mx-auto mb-16 font-light leading-relaxed font-raleway tracking-wide">
-      Indulge in unparalleled luxury & holistic wellness experiences across our premier 5-star locations worldwide.
+      Indulge in unparalleled luxury & holistic wellness experiences across our premier 5-star locations worldwide. Relaxe with your Partner at the best couple spa in Delhi.
     </p>
 
     {/* Sophisticated features grid */}

@@ -46,13 +46,13 @@ export default function HomeTestimonials() {
           <h2 className="text-3xl md:text-5xl font-bold text-amber-900 mb-4">
             What Customers Said{" "}
             <span className="text-amber-600">
-              About Our Spa in Delhi
+              About Our Body Spa in Delhi
             </span>
           </h2>
 
           <p className="text-gray-600 max-w-3xl mx-auto">
             During our service, our therapists focus on customer satisfaction.
-            That's why we are one of the most trusted spa destinations in Delhi.
+            That's why we are one of the best spa in Delhi.
           </p>
         </div>
 

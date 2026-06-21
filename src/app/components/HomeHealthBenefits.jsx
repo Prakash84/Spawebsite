@@ -88,7 +88,7 @@ export default function HomeHealthBenefits() {
           </h2>
 
           <p className="text-gray-600 max-w-3xl mx-auto">
-            By choosing us you will improve sleep quality, blood circulation,
+            By choosing our massage service in delhi you will improve sleep quality, blood circulation,
             and skin tone. Our massage spa in Delhi has certified therapists
             for your relaxing massage service.
           </p>

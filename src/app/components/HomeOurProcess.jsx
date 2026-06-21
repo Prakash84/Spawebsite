@@ -52,7 +52,7 @@ export default function HomeOurProcess() {
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-5 font-serif">
             How To Book a{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-amber-700">
-              Spa in Delhi?
+              Luxury Spa in Delhi?
             </span>
           </h2>
 

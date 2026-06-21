@@ -49,7 +49,7 @@ export default function RelaxingHomeContent() {
             </p>
 
             <p className="text-gray-700 leading-relaxed mb-6">
-              Want Full body to body massage in Delhi? Book Spa Delhi with professional female therapists for your deep relaxation. Our therapists focus on 100% safety & Privacy during your session. We have 24+ spa outlets, including 5-star hotels in Delhi. Whenever you are feeling stressed and want some enjoyable time. Book Body to body massage in Delhi with female therapists.
+              Want Full body to body massage in Delhi? Book best Spa in Delhi with professional female therapists for your deep relaxation. Our therapists focus on 100% safety & Privacy during your session. We have 24+ spa outlets, including 5-star hotels in Delhi. Whenever you are feeling stressed and want some enjoyable time. Book Body to body massage in Delhi with female therapists.
             </p>
 
             <div className="grid grid-cols-2 gap-4 mb-8">
@@ -79,7 +79,7 @@ export default function RelaxingHomeContent() {
             </p>
 
             <p className="text-gray-700 mb-8">
-              All sessions are created for your complete comfort and satisfaction. Our female therapists come and give you a relaxing massage experience during your session. We maintain proper hygiene and cleanliness.
+              All sessions are created for your complete comfort and satisfaction. At body spa in Delhi, our female therapists come and give you a relaxing massage experience during your session. We maintain proper hygiene and cleanliness.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">

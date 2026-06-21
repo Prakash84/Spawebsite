@@ -74,7 +74,7 @@ export default function HomePricing() {
           </h2>
 
           <p className="text-amber-800 max-w-3xl mx-auto">
-            Tailored spa experiences starting from just ₹1999. Choose from our
+            Our massage service in Delhi starting from just ₹1999. Choose from our
             exclusive massage options designed for complete relaxation and
             rejuvenation. Check our affordable{" "}
             <a
