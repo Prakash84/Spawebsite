@@ -143,7 +143,7 @@ const teamMembers = [
   {
     name: "Chelsea Foster",
     designation: "Spa Therapist",
-    image: "/images/spamodel.jpg",
+    image: "/images/spamodel.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -163,7 +163,7 @@ const teamMembers = [
   {
     name: "Haven West",
     designation: "Spa Therapist",
-    image: "/images/spamodel2.jpg",
+    image: "/images/spamodel2.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",
@@ -173,7 +173,7 @@ const teamMembers = [
   {
     name: "Avery Grace",
     designation: "Spa Therapist",
-    image: "/images/spaExpert4.jpg",
+    image: "/images/spaExpert4.webp",
     socials: {
       WhatsApp: "https://api.whatsapp.com/send?phone=919217255113",
       instagram: "https://www.instagram.com/delhi.luxury_spa/",

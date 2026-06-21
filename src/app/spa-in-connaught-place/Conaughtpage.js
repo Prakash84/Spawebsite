@@ -194,7 +194,7 @@ const SERVICES_LEFT = [
     chips: ['Russian Therapist', 'Afgani Therapist', 'Uzbeki Therapist'],
     time: '60-90 min',
     price: 'From ₹2,800',
-    image: '/images/spamodel.jpg',
+    image: '/images/spamodel.webp',
   },
   {
     id: 'body',
