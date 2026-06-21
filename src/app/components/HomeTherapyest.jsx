@@ -8,8 +8,8 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=9650684501",
-      instagram: "#",
+      whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      instagram: "",
     },
   },
   {
@@ -17,8 +17,8 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExper2.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=9650684501",
-      instagram: "#",
+      whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      instagram: "",
     },
   },
   {
@@ -26,8 +26,8 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spamodel2.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=9650684501",
-      instagram: "#",
+      whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      instagram: "",
     },
   },
   {
@@ -35,8 +35,8 @@ const teamMembers = [
     designation: "Spa Therapist",
     image: "/images/spaExpert4.webp",
     socials: {
-      whatsapp: "https://api.whatsapp.com/send?phone=9650684501",
-      instagram: "#",
+      whatsapp: "https://api.whatsapp.com/send?phone=919650684501",
+      instagram: "",
     },
   },
 ];
