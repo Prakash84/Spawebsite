@@ -32,6 +32,18 @@ export default function HomeOutlet() {
     image: '/images/TheGrandNewDelhi.webp',
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
+  {
+    title: 'Spa in Connaught Place',
+    description: 'Enjoy a relaxing experience at our spa in Connaught Place with professional body massage services, serving top hotels like Radisson Blu, The Lalit, The Park and more for your complete comfort and relaxation.',
+    image: '/images/TheParkConnaughtPlace.webp',
+    link: 'https://api.whatsapp.com/send?phone=918826482370',
+  },
+  {
+    title: 'Spa in Dwarka',
+    description: 'Feel at ease in our spa in Dwarka with professional massage therapists who come to your hotel room where you can have on-demand hotel spa to have a serene and relaxing stay at the hotel.',
+    image: '/images/TheGrandNewDelhi.webp',
+    link: 'https://api.whatsapp.com/send?phone=918826482370',
+  },
 ];
 
   return (
@@ -119,92 +131,52 @@ export default function HomeOutlet() {
              </motion.div>
      
              {/* Outlets Grid */}
-             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
-               {outlets.map((outlet, index) => (
-                 <motion.div
-                   key={outlet.id}
-                   initial={{ opacity: 0, y: 50 }}
-                   whileInView={{ opacity: 1, y: 0 }}
-                   transition={{ duration: 0.7, delay: index * 0.15 }}
-                   viewport={{ once: true, margin: "-100px" }}
-                   className="relative group"
-                 >
-                   {/* Card */}
-                   <div className="relative bg-white rounded-3xl shadow-2xl overflow-hidden h-full flex flex-col transition-all duration-500 group-hover:shadow-2xl group-hover:-translate-y-2 border border-amber-100">
-                     {/* Image section */}
-                     <div className="relative h-80 overflow-hidden">
-                       {/* <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent z-10"></div> */}
-                       <div className="absolute inset-0 bg-gradient-to-r from-amber-900/10 to-transparent z-10"></div>
-                        <Image
-                             src={outlet.image} // example: "/images/lajpat-nagar.jpg"
-                             alt={outlet.title}
-                             fill
-                             className="object-cover"
-                             priority
-                           />
-                       
-                       {/* Rating badge */}
-                       <div className="absolute top-6 right-6 z-20">
-                         <div className="flex items-center gap-1 bg-gradient-to-r from-amber-600 to-amber-700 text-white px-3 py-1.5 rounded-full shadow-lg">
-                           <FaStar className="text-amber-200" />
-                           <span className="font-bold">{outlet.rating}</span>
-                         </div>
-                       </div>
-                       
-                       {/* Location */}
-                       <div className="absolute bottom-6 left-6 z-20">
-                         <div className="flex items-center text-white">
-                           <FaMapMarkerAlt className="mr-2 text-amber-300" />
-                           <span className="font-medium">{outlet.location}</span>
-                         </div>
-                       </div>
-                       
-                       {/* Decorative corner */}
-                       <div className="absolute top-0 left-0 w-16 h-16 border-t-4 border-l-4 border-amber-500 rounded-tl-3xl z-10"></div>
-                     </div>
-     
-                     {/* Content section */}
-                     <div className="p-8 flex-1 flex flex-col">
-                       <div className="flex-1">
-                         <h3 className="text-2xl md:text-3xl font-bold text-amber-900 mb-4 font-serif group-hover:text-amber-700 transition-colors">
-                           {outlet.title}
-                         </h3>
-                         <p className="text-amber-800/80 mb-8 leading-relaxed">
-                           {outlet.description}
-                         </p>
-                       </div>
-                       
-                       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-6">
-                         {/* <a
-                           href="#"
-                           className="flex-1 flex items-center justify-center gap-3 bg-gradient-to-r from-amber-600 to-amber-700 hover:from-amber-700 hover:to-amber-800 text-white font-medium py-4 px-6 rounded-xl transition-all group-hover:shadow-lg group-hover:scale-[1.02]"
-                         >
-                           <FaWhatsapp className="text-xl" />
-                           <span className="font-medium tracking-wide">Book on WhatsApp</span>
-                         </a> */}
-                         <a 
-                             href="#" 
-                             target="_blank"
-                             rel="noopener noreferrer"
-                             className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                           >
-                             <FaTelegram className="text-xl mr-3" />
-                            Join for daily updates
-                           </a>
-                         
-                         <div className="text-center sm:text-right">
-                           <div className="text-amber-700 text-sm font-medium">Starting from</div>
-                           <div className="text-amber-900 font-bold text-2xl">₹14,999</div>
-                         </div>
-                       </div>
-                     </div>
-                   </div>
-                   
-                   {/* Floating decorative element */}
-                   <div className="absolute -top-4 -right-4 w-20 h-20 bg-amber-500/10 rounded-full z-0 group-hover:bg-amber-500/20 transition-colors"></div>
-                 </motion.div>
-               ))}
-             </div>       
+             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+  {outlets.map((outlet, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.4, delay: index * 0.1 }}
+      className="group"
+    >
+      <div className="bg-white rounded-3xl overflow-hidden border border-amber-100 shadow-lg hover:shadow-xl transition-all duration-300 h-full flex flex-col">
+        
+        <div className="relative h-64 overflow-hidden">
+          <Image
+            src={outlet.image}
+            alt={outlet.title}
+            fill
+            priority={index === 0}
+            sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 25vw"
+            className="object-cover transition-transform duration-500 group-hover:scale-105"
+          />
+        </div>
+
+        <div className="p-6 flex flex-col flex-1">
+          <h3 className="text-2xl font-bold text-amber-900 mb-3">
+            {outlet.title}
+          </h3>
+
+          <p className="text-gray-600 text-sm leading-7 flex-1">
+            {outlet.description}
+          </p>
+
+          <a
+            href="https://t.me/yourchannel"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-5 bg-gradient-to-r from-blue-500 to-indigo-600 text-white py-3 px-5 rounded-full flex items-center justify-center"
+          >
+            <FaTelegram className="mr-2" />
+            Join for Daily Updates
+          </a>
+        </div>
+      </div>
+    </motion.div>
+  ))}
+</div>  
              {/* View all button */}
              <motion.div 
                className="text-center mt-16"

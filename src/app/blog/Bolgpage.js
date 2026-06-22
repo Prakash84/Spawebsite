@@ -33,6 +33,13 @@ const blogs = [
     image: "/images/1627.jpg",
     link: "/how-hot-stone-massage-works-in-delhi-spa",
   },
+  {
+    title: "Is B2B Massage Legal in India?",
+    description:
+      "The short answer is: there is no simple nationwide “yes” or “no” for B2B massage in India, because the legality depends on how the service is offered, marketed, staffed, and operated.",
+    image: "/images/18+bodyspa.webp",
+    link: "/is-b2b-massage-legal-in-india",
+  },
 ];
 
 export default function Bolgpage() {
