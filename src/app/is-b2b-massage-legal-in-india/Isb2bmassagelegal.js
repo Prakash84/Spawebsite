@@ -221,7 +221,7 @@ Common spa services include:
         
         <div className="w-full h-[260px] md:h-[380px] relative rounded-xl overflow-hidden mb-12">
           <Image
-            src="/images/finalizing.AVIF"
+            src="/images/fpkdl.com_960_1758980524_tranquil-oasis-with-plush-massage-table-adorned-with_1126694-2523.jpg"
             alt="Swedish Massage vs Deep Tissue Massage"
             fill
             className="object-cover"
