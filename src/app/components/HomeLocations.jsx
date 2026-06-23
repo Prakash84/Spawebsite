@@ -51,9 +51,9 @@ export default function HomeLocations() {
       href="/spa-in-connaught-place"
       className="text-teal-600 font-semibold underline"
     >
-      spa in Connaught Place 
-    </a>
-    for giving extra ordinary massage service in the heart of Delhi.
+      spa in Connaught Place  
+    </a>{" "}
+     for giving extra ordinary massage service in the heart of Delhi.
 
     </>),
     link: "https://wa.me/8826482370"
@@ -97,7 +97,7 @@ const specialFeatures = [
                   transition={{ delay: 0.1 }}
                   viewport={{ once: true }}
                 >
-                 Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="spa-in-rohini">Spa in Rohini</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
+                 Find the perfect spa outlet near you for effortless access to world-class relaxation. Visit Our <span className="font-semibold text-amber-700"><a href="spa-in-aerocity">Spa in Aerocity</a></span>, Lajpat Nagar, Aerocity and Paschim Vihar.
                 </motion.p>
               </div>
       

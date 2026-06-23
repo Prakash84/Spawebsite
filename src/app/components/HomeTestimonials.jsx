@@ -142,7 +142,7 @@ export default function HomeTestimonials() {
           </a>
     
           <a
-            href="/spa-in-rohini"
+            href="/outlets"
             className="bg-amber-300 text-amber-900 py-4 px-6 rounded-xl font-semibold"
           >
             💆 View Outlets
