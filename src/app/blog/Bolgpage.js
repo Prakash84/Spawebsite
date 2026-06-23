@@ -40,6 +40,7 @@ const blogs = [
     image: "/images/18+bodyspa.webp",
     link: "/is-b2b-massage-legal-in-india",
   },
+  
 ];
 
 export default function Bolgpage() {

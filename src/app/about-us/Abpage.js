@@ -321,9 +321,9 @@ export default function Abpage({
           </p>
           
           <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <a href='/about'>
+            <a href='/spa-price-in-delhi'>
                <button className="px-6 py-3 bg-gradient-to-r from-amber-600 to-amber-800 text-white rounded-sm hover:opacity-90 transition-opacity duration-300 flex items-center space-x-2">
-              <span><a href='/spa-price-in-delhi'>Our Prices</a></span>
+              <span><a >Our Prices</a></span>
               <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
               </svg>
