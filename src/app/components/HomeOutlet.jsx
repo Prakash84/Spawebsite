@@ -33,17 +33,17 @@ export default function HomeOutlet() {
     link: 'https://api.whatsapp.com/send?phone=918826482370',
   },
   {
-    title: 'Spa in Connaught Place',
-    description: 'Enjoy a relaxing experience at our spa in Connaught Place with professional body massage services, serving top hotels like Radisson Blu, The Lalit, The Park and more for your complete comfort and relaxation.',
-    image: '/images/TheParkConnaughtPlace.webp',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
-  },
-  {
-    title: 'Spa in Dwarka',
-    description: 'Feel at ease in our spa in Dwarka with professional massage therapists who come to your hotel room where you can have on-demand hotel spa to have a serene and relaxing stay at the hotel.',
-    image: '/images/TheGrandNewDelhi.webp',
-    link: 'https://api.whatsapp.com/send?phone=918826482370',
-  },
+  title: 'Spa in Lajpat Nagar',
+  description: 'Experience complete relaxation at our spa in Lajpat Nagar with expert body massage therapies and professional female therapists. Whether you are staying at nearby hotels or looking for a premium wellness experience, we provide rejuvenating spa services designed to refresh your body and mind.',
+  image: '/images/spa-in-lajpat-nagar.webp',
+  link: 'https://api.whatsapp.com/send?phone=918826482370',
+},
+{
+  title: 'Spa in Rajouri Garden',
+  description: 'Unwind at our luxury spa in Rajouri Garden with relaxing body massage treatments and skilled therapists. We offer personalized spa experiences for residents, travelers, and hotel guests, helping you relieve stress and enjoy complete comfort and relaxation.',
+  image: '/images/spa-in-Rajouri-Garden.webp',
+  link: 'https://api.whatsapp.com/send?phone=918826482370',
+},
 ];
 
   return (
