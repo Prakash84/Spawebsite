@@ -1,5 +1,6 @@
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { Suspense } from "react";
 
 // Above the fold components (Normal Import)
 import HomeBanner from "./components/HomeBanner";
@@ -47,11 +48,7 @@ export default function HomeClient() {
   return (
     <main className="font-sans overflow-hidden">
       {/* Decorative Background */}
-      <div className="absolute inset-0 pointer-events-none z-0 overflow-hidden">
-        <div className="absolute top-1/4 left-10 w-24 h-24 rounded-full bg-amber-400/10 blur-xl animate-pulse" />
-        <div className="absolute bottom-1/3 right-20 w-32 h-32 rounded-full bg-amber-600/10 blur-xl animate-pulse" />
-        <div className="absolute top-1/3 right-1/4 w-16 h-16 rounded-full bg-amber-300/10 blur-xl" />
-      </div>
+      <div className="absolute top-1/4 left-10 w-24 h-24 rounded-full bg-amber-400/5 blur-xl" />
 
       {/* Above The Fold */}
       <HomeBanner />
@@ -62,7 +59,9 @@ export default function HomeClient() {
       {/* Other Sections */}
       <HomeOurProcess />
       <HomeOutlet />
-      <HomePricing />
+      <Suspense fallback={null}>
+    <HomePricing />
+</Suspense>
 
       {/* Content Section */}
       <section className="bg-gray-50 py-16"> 
