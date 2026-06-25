@@ -24,16 +24,8 @@ const raleway = Raleway({
 
 // All FontAwesome icons from react-icons/fa
 import {
-  FaFacebookF,
-  FaInstagram,
-  FaTwitter,
   FaSpa,
   FaStar,
-  FaMapMarkerAlt,
-  FaPhone,
-  FaCheckCircle,
-  FaHotel,
-  FaCrown
 } from 'react-icons/fa';
   const faqs = [
     
@@ -271,28 +263,6 @@ export default function Aboutpage({
   return (
     <div className="font-sans overflow-hidden">
      
-      {/* Banner */}
-        {/* <section
-      className="relative w-full h-[45vh] sm:h-[60px] md:h-[70vh] lg:h-[85vh] xl:h-[80vh] bg-center bg-cover flex items-center justify-center text-white"
-      style={{
-        backgroundImage: "url('/images/aboutusbanner.jpg')", // ✅ Change image as needed
-      }}
-    >
-      
-      <motion.div
-        initial={{ opacity: 0, y: 30 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 1 }}
-        className="relative z-10 text-center max-w-2xl px-4"
-      >
-        <h1 className="text-4xl md:text-5xl font-semibold tracking-wide font-[PlayfairDisplay]">
-          Discover Tranquility
-        </h1>
-        <p className="mt-4 text-lg md:text-xl text-gray-200">
-          Welcome to our world of calm and luxury. Rejuvenate your body and soul.
-        </p>
-      </motion.div>
-    </section> */}
      <div className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-rose-50">
       {/* Floating decorative elements */}
       <div className="absolute top-10 left-10 w-24 h-24 bg-rose-100 rounded-full opacity-20 animate-float"></div>
