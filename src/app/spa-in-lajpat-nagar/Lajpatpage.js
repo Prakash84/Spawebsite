@@ -273,7 +273,10 @@ const SERVICES_RIGHT = [
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-            Enjoy the luxury at your exclusive spa in Lajpat Nagar at Spa Delhi, the premier massage centre that offers an array of premium relaxation and top-notch wellness services at the best hotels in the Lajpat Nagar area, New Delhi. Whether you are coming on business trips, travelling around or having a quick timeout, Spa Delhi will provide you with relaxing treatments. Our team includes trained experts who focus on calming, full-body, and couple massage options. Each service is designed to clear your mind, loosen tight muscles, and help you feel at ease.
+            Enjoy the luxury at your exclusive spa in Lajpat Nagar at Spa Delhi, the premier massage centre that offers an array of premium relaxation and top-notch wellness services at the best hotels in the Lajpat Nagar area, New Delhi. Whether you are coming on business trips, travelling around or having a quick timeout, Spa Delhi will provide you with relaxing treatments. 
+            </p>
+            <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+              Our team includes trained experts who focus on calming, full-body, and couple massage options. Each service is designed to clear your mind, loosen tight muscles, and help you feel at ease.
             </p>
             
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
