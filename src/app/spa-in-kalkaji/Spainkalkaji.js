@@ -13,7 +13,7 @@ import {  FaClock, FaPhoneAlt,  FaCreditCard } from 'react-icons/fa'
 
 
 
-export default function SpaInRajourigGrden() {
+export default function Spainkalkaji() {
   const [isVisible, setIsVisible] = useState(false);
       useEffect(() => {
                 setIsVisible(true);
@@ -26,52 +26,48 @@ export default function SpaInRajourigGrden() {
             const faqs = [
                   
                   {
-                    question: "What services are offered at the spa in Rajouri Garden?",
-                    answer: "Our spa in Rajouri Garden provides Thai, full body, couple, sandwich, B2B and home spa massage service in Rajouri Garden. We offer all massages in a luxury private room with professional therapists.",
+                    question: "What is the first visit offer for Spa in Kalkaji?",
+                    answer: "Our Spa in Kalkaji offers a special first visit package starting at just ₹1999. This introductory offer is designed for new guests who want to enjoy a premium spa experience at an affordable price. It is one of the best ways to try our professional massage and wellness services in Kalkaji.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Are there first-visit offers at body spa in Rajouri Garden?",
-                    answer: "Yes you can grab the first visit offer at our body spa in Rajouri Garden. Our full body massage started in just 1999 for the first visitor.",
+                    question: "Do you have foreign therapists at your Spa in Kalkaji?",
+                    answer: "Yes, our Spa in Kalkaji has experienced foreign therapists from Russia, Thailand, and Uzbekistan, along with highly trained Indian staff. Many clients prefer our international therapists for their professional techniques, relaxing service style, and premium spa experience.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "Do you provide authentic Full body massage in Rajouri Garden?",
-                    answer: "Yes, we are providing authentic full body massage in Rajouri Garden by our well trained therapists. You can choose your therapists as per your needs. Our therapists are certified and well trained.",
+                    question: "Is your staff trained and professional?",
+                    answer: "Absolutely. We have a team of high-profile Indian staff and international therapists who are trained to provide a comfortable, hygienic, and relaxing spa service. Our focus is on giving every guest a high-quality wellness experience in a clean and peaceful environment.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Can I walk into the massage centre in Rajouri Garden?",
-                    answer: "Yes, we are accepted but it depends on the availability of our therapists. So we recommended you to book your spa session in advance. ",
+                    question: "Do you have spa outlets across Delhi NCR?",
+                    answer: "Yes, we operate 24+ spa outlets across Delhi NCR. This makes it convenient for customers searching for a trusted spa near Kalkaji, as well as other nearby locations. Our multiple outlets ensure consistent service quality and easy accessibility.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "How do I locate the massage spa in Rajouri Garden?",
-                        answer: "Just call us our team and share you full details about our spa and availability of our therapists. Our spa is located in prime locations. Where you can travel easily by metro or your private vehicle. When you book your spa session our team shares the exact location of our spa with you. ",
+                        question: "Do you offer 5-star hotel spa services?",
+                        answer: "Yes, we also provide 5-star hotel spa service for guests looking for a luxury wellness experience. Whether you visit our Spa in Kalkaji or choose our premium service options, you can expect a calm atmosphere, expert care, and professional hospitality.",
                         icon: <FaHotTub className="text-teal-600" />
                       },
-                      {
-                            question: "Can I pay online for my services?",
-                            answer: "Yes, we offer secure online payment options through our website for your convenience.",
-                            icon: <FaSpa className="text-teal-600" />
-                          },
+                      
                 ];
   const hotelOutlets = [
   {
-    title: "Taj Mahal Hotel Rajouri Garden",
+    title: "Taj Mahal Hotel Kalkaji",
     image: "/images/tajmahalhotel_lajpatnagar.jpg",
     description:
       "At the Taj Mahal Hotel, Spa Delhi, you are welcomed to a luxurious spa setting. We apply deep oils and light yet firm movements in our methods to provide a deep calmness to both your mind and body.",
   },
   {
-    title: "The Oberoi Rajouri Garden",
+    title: "The Oberoi Kalkaji",
     image: "/images/TheOberoi_Lajpatnagar.webp",
     description:
       "The Oberoi is a place for classy comfort, and Spa Delhi adds its own touch with tailored spa sessions. Mixing old ways with modern choices, these therapies help you fully relax.",
   },
   {
-    title: "Eros Hotel New Delhi Rajouri Garden",
+    title: "Eros Hotel New Delhi Kalkaji",
     image: "/images/ErosHotel_lajpatnagar.jpg",
     description:
       "Eros Hotel offers a quiet spot for Spa Delhi’s expert massages. Our employees will assist you in forgetting about stress and increase your mood through a calm attitude that aims at your entire health.",
@@ -143,13 +139,13 @@ export default function SpaInRajourigGrden() {
     },
     {
       title: "B2B Massage",
-      description: "The Body-to-Body Massage spa in Rajouri Garden at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
+      description: "The Body-to-Body Massage spa in Kalkaji at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
     },
     {
       title: "Full Body Massage",
-      description: "Our team of experts leading Full body massage in Rajouri Garden massages all parts of you and relieves stress, helps in blood circulation, and uplifts energy.",
+      description: "Our team of experts leading Full body massage in Kalkaji massages all parts of you and relieves stress, helps in blood circulation, and uplifts energy.",
       icon: "🪨",
       url: "/full-body-massage-in-delhi",
     },
@@ -196,9 +192,9 @@ const SERVICES_RIGHT = [
   {
     id: 'top',
     title: 'Top Rated Services',
-    subtitle: 'Available at Top Rajouri Garden Hotels',
+    subtitle: 'Available at Top Kalkaji Hotels',
     desc:
-      "No matter where you stay among Rajouri Garden’s best hotels, Spa Delhi makes pampering services easy to reach.",
+      "No matter where you stay among Kalkaji’s best hotels, Spa Delhi makes pampering services easy to reach.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -267,23 +263,21 @@ const SERVICES_RIGHT = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Hotel Spa</span>
-            and Massage Services
-              <span className="block mt-2 font-medium">Top Hotels <span className="text-rose-600">in Rajouri Garden</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Affordable Spa in Kalkaji</span>
+            for Body Massage, B2B Massage and
+              <span className="block mt-2 font-medium">Sandwich Massage <span className="text-rose-600">| Offer ₹1999</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           Welcome to Spa Delhi, your trusted spa in Rajouri Garden, New Delhi, offering premium relaxation and wellness therapies at some of the best hotels in the area. If you are searching for a massage centre in Rajouri Garden that provides a peaceful, professional, and luxurious experience, Spa Delhi is the perfect choice.
+         Looking for a spa in Kalkaji that genuinely relaxes your body? At Luxury Body Spa in Delhi, we offer premium massage services in Kalkaji, including B2B massage, full body massage, sandwich massage, Thai massage, and aromatherapy to help you ease stress and body pain. With 24+ spa outlets across Delhi NCR, we provide reliable massage service anytime and anywhere.
             </p>
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           Whether you are visiting for business, travelling through the city, or simply need a short break from your routine, our spa treatments are designed to help you relax, recharge, and feel refreshed. We offer a wide range of massage services in Rajouri Garden, including calming massages, full-body massages, and couple massage options, all delivered by trained and experienced therapists.
+          Our spa in Kalkaji is located near Kalkaji Mandir Metro Station, making it easy to visit after work or on weekends. Whether you want a deep tissue massage, Thai therapy, or body to body massage in Kalkaji, our trained female therapists ensure complete privacy and a relaxing experience. Your first visit starts at just ₹1499. Book on WhatsApp today.
             </p>
-            <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           At Spa Delhi, every treatment is created to soothe the mind, release muscle tension, and improve your overall sense of well-being. Our focus is on providing a premium spa experience with complete comfort, care, and relaxation.
-            </p>
+           
 
 
-            <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
+            {/* <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
               <div className="flex items-center space-x-3">
                 <div className="w-10 h-10 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -317,7 +311,7 @@ const SERVICES_RIGHT = [
                 </div>
                 <span className="text-sm text-gray-700">Holistic Treatments</span>
               </div>
-            </div>
+            </div> */}
 
             <div className="pt-6 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a href='/massage-service-in-delhi'>
@@ -345,7 +339,7 @@ const SERVICES_RIGHT = [
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
                 <img
-                  src="/images/fpkdl.com_750_1758981681_panorama-photo-cityscape-las-vegas-city-with-fountain-show-paris-area-las-vegas-nevada_167657-2440.jpg" // ✅ Yahan apna image path daal
+                  src="/images/imagee22.webp" // ✅ Yahan apna image path daal
                   alt="Spa Environment"
                   className="w-full h-full object-cover"
                 />
@@ -381,6 +375,243 @@ const SERVICES_RIGHT = [
         </div>
       </div>
       {/* End Banner */}
+        {/* content */}
+      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
+      {/* Decorative elements */}
+      <div className="absolute top-10 left-10 opacity-10">
+        <svg width="100" height="100" viewBox="0 0 100 100">
+          <path d="M50,15 C65,15 80,25 85,40 C90,55 85,70 70,85 C55,90 40,85 25,70 C15,55 15,40 25,25 C30,20 40,15 50,15 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
+        </svg>
+      </div>
+      
+      <div className="absolute bottom-20 right-10 opacity-10 rotate-45">
+        <svg width="80" height="80" viewBox="0 0 80 80">
+          <path d="M40,10 C50,10 60,15 65,25 C70,35 65,45 55,55 C45,60 35,65 25,55 C15,45 15,35 25,25 C30,20 35,15 40,10 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
+        </svg>
+      </div>
+      
+      <div className="max-w-[95%] mx-auto">
+        {/* Section header */}
+        <div className="text-center mb-16">
+          <motion.div
+                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
+                      initial={{ opacity: 0, scale: 0.9 }}
+                      whileInView={{ opacity: 1, scale: 1 }}
+                      transition={{ delay: 0.2, duration: 0.5 }}
+                    >
+                      <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
+                      <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
+                    </motion.div>
+                    
+                    <motion.h2
+                      className="text-4xl md:text-5xl lg:text-4xl font-bold text-amber-900 mb-6 font-serif"
+                      initial={{ opacity: 0, y: 20 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{ delay: 0.3, duration: 0.6 }}
+                    >
+                      A Trusted Massage Centre in Kalkaji <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">for Spa, Hotel Spa & Home Spa Services</span>
+                    </motion.h2>
+          <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
+        </div>
+        
+
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
+          {/* Left Image & Content */}
+          
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7 }}
+            className="w-full lg:w-1/2 relative"
+          >
+            <div className="relative overflow-hidden rounded-2xl shadow-xl z-10">
+              <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
+                <div className="bg-white p-6 rounded-2xl shadow-sm">
+                  <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
+                    <img
+                        src="/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg" // Change path accordingly
+                        alt="Premium Body Spa"
+                        className="w-full h-full object-cover rounded-xl"
+                      />
+                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
+                    <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
+                      Most Popular
+                    </div>
+                  </div>
+                  
+                  <div className="mt-6">
+                    <div className="flex justify-between items-start">
+                      <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
+                      <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
+                        <span className="font-bold">₹1999</span> First Visit
+                      </div>
+                    </div>
+                    
+                    <ul className="mt-4 space-y-2">
+                      <li className="flex items-center">
+                        <span className="text-amber-600 mr-2">✓</span>
+                        <span className="text-stone-700">Couple Massage</span>
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-amber-600 mr-2">✓</span>
+                        <span className="text-stone-700">Jacuzzi Bath</span>
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-amber-600 mr-2">✓</span>
+                        <span className="text-stone-700">Private Room</span>
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-amber-600 mr-2">✓</span>
+                        <span className="text-stone-700">Oil & Cream Massage</span>
+                      </li>
+                      <li className="flex items-center">
+                        <span className="text-amber-600 mr-2">✓</span>
+                        <span className="text-stone-700">Aromatherapy</span>
+                      </li>
+                    </ul>
+                    
+                    {/* <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
+                      Book Now
+                    </button> */}
+                    <a 
+                                                            href="https://t.me/+a5Bu6FBPN9FlOWM9" 
+                                                            target="_blank"
+                                                            rel="noopener noreferrer"
+                                                            className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
+                                                          >
+                                                            <FaTelegram className="text-xl mr-3" />
+                                                            Meet Our Team
+                                                          </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Decorative elements */}
+            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-amber-100 rounded-full z-0"></div>
+            <div className="absolute -top-6 -right-6 w-16 h-16 bg-stone-200 rounded-full z-0"></div>
+          </motion.div>
+
+          {/* Right Text Content */}
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.7 }}
+            className="w-full lg:w-1/2"
+          >
+            <div className="max-w-lg">
+              <p className="text-lg text-stone-600 mb-6 leading-relaxed">
+               Looking for a trusted massage centre in Kalkaji? Welcome to Spa Delhi, where you can enjoy professional spa services in Kalkaji, including body massage, deep tissue massage, aromatherapy, hotel spa, and home spa services. Our relaxing spa experience is designed to help you reduce stress, relieve body pain, and feel refreshed after a long day. 
+                 
+                <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
+                 <span className="font-medium text-stone-800"></span>
+              </p>
+              
+              
+              
+              <p className="text-stone-600 mb-6 leading-relaxed">
+               Our spa in Kalkaji is conveniently located near Kalkaji Metro Station, making it easy to visit from nearby areas like Nehru Place, Govindpuri, CR Park, and Kalkaji. Whether you prefer a deep tissue massage, a soothing aromatherapy session, or a relaxing body to body massage in Kalkaji, our trained therapists provide each service with care, privacy, and professional techniques.
+              </p>
+              
+              <div className="grid grid-cols-2 gap-4 mb-8">
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                  <div className="text-amber-600 text-2xl mb-2">★</div>
+                  <h4 className="font-medium text-stone-800">Award-Winning</h4>
+                  <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
+                </div>
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                  <div className="text-amber-600 text-2xl mb-2">♨</div>
+                  <h4 className="font-medium text-stone-800">Thermal Suite</h4>
+                  <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
+                </div>
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                  <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
+                  <h4 className="font-medium text-stone-800">Couples Welcome</h4>
+                  <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
+                </div>
+                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
+                  <div className="text-amber-600 text-2xl mb-2">🌿</div>
+                  <h4 className="font-medium text-stone-800">Organic Products</h4>
+                  <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
+                </div>
+              </div>
+              
+              <div className="flex flex-col sm:flex-row gap-4">
+                <a href='/spa-price-in-delhi'>
+                  <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  View Packages
+                </button>
+                </a>
+                <a href='https://api.whatsapp.com/send?phone=919217255113'>
+                  <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
+                  Book Appointment
+                </button>
+                </a>
+                
+              </div>
+            
+            </div>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+      {/* end content */}
+      {/* About Us Section */}
+            <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
+              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+                
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                  className="space-y-6"
+                >
+                  <motion.div
+                                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.2 }}
+                                viewport={{ once: true }}
+                              >
+                                <span className="mr-2">✦</span> About Our Kalkaji Spa Outlets
+                              </motion.div>
+                  
+                              <motion.h2
+                                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.3 }}
+                                viewport={{ once: true }}
+                              >
+                                Spa in Kalkaji with <span className="relative">
+                                  <span className="text-amber-600 z-10 relative">Foreign Therapists</span>
+                                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                                </span>
+                              </motion.h2>
+                  <p className="text-gray-700 text-lg">
+                  Looking for the best spa in Kalkaji with experienced foreign therapists? Welcome to Spa Delhi, where we offer premium spa and massage services designed to help you relax, recharge, and enjoy a luxurious wellness experience. Our team includes skilled Russian, Thai, and Ujabagii therapists who are trained in different massage styles and techniques to provide a soothing and memorable spa session.
+                  </p>
+                  <p className="text-gray-700 text-lg">
+                    At our massage centre in Kalkaji, you can choose from a wide range of treatments including body massage, deep tissue massage, aromatherapy, body to body massage, Thai massage, and sandwich massage. Whether you want to release stress, improve blood circulation, or simply enjoy a calming escape, our foreign therapists ensure every session is performed with care, comfort, and professionalism.
+                  </p>
+                </motion.div>
+      
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="grid grid-cols-2 gap-4"
+                >
+                  <div className="rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/staff10.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/foreignetherapist.webp" alt="Massage Session" className="w-full h-full object-cover" />
+                  </div>
+                </motion.div>
+              </div>
+            </section>
+      {/* Services Section */}
       {/* our 5* hoterl outlets */}
              <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -408,7 +639,7 @@ const SERVICES_RIGHT = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Hotels in Rajouri Garden</span>
+                      Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Hotels in Kalkaji</span>
                     </motion.h2>
                     
                     <motion.p
@@ -485,62 +716,7 @@ const SERVICES_RIGHT = [
       </section>
       
             {/* End outlets */}
-            {/* About Us Section */}
-            <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
-              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
-                
-                <motion.div
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6 }}
-                  className="space-y-6"
-                >
-                  <motion.div
-                                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.2 }}
-                                viewport={{ once: true }}
-                              >
-                                <span className="mr-2">✦</span> About Our Rajouri Garden Spa Outlets
-                              </motion.div>
-                  
-                              <motion.h2
-                                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.3 }}
-                                viewport={{ once: true }}
-                              >
-                                Rejuvenate Your Senses <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">with the Best Massage in Rajouri Garden</span>
-                                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
-                                </span>
-                              </motion.h2>
-                  <p className="text-gray-700 text-lg">
-                   Step into a calm space with Spa Delhi’s massages at Rajouri Garden. Our spa sessions are placed close to popular hotels like The Oberoi, Eros Hotel and Taj Mahal Hotel so that you can have a blend of intelligent service and comfortable areas in which you can have a rest. 
-                  </p>
-                  <p className="text-gray-700 text-lg">
-                    Each guest can find something that will suit strong pressure with deep tissue massage or light oils with aromatherapy session. The therapists at Spa Delhi will never leave without applying the best oils and proven techniques to ensure that you leave each visit feeling better and more relaxed.
-                  </p>
-                </motion.div>
-      
-                <motion.div
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  className="grid grid-cols-2 gap-4"
-                >
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/staff10.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/spaexpert3.webp" alt="Massage Session" className="w-full h-full object-cover" />
-                  </div>
-                </motion.div>
-              </div>
-            </section>
-      {/* Services Section */}
+            
       <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-20">
@@ -560,7 +736,7 @@ const SERVICES_RIGHT = [
         transition={{ duration: 0.5, delay: 0.1 }}
         viewport={{ once: true }}
       >
-        Our Massage <span className="text-amber-500">Services at Hotels in Rajouri Garden</span>
+        Our Massage <span className="text-amber-500">Services at Hotels in Kalkaji</span>
       </motion.h2>
     </div>
 
@@ -603,190 +779,7 @@ const SERVICES_RIGHT = [
   </div>
        </section>
        {/* End Services Section */}
-      {/* content */}
-      <section className="bg-gradient-to-br from-amber-50 to-stone-100 py-16 px-4 md:px-8 lg:px-16 relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-10 left-10 opacity-10">
-        <svg width="100" height="100" viewBox="0 0 100 100">
-          <path d="M50,15 C65,15 80,25 85,40 C90,55 85,70 70,85 C55,90 40,85 25,70 C15,55 15,40 25,25 C30,20 40,15 50,15 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-        </svg>
-      </div>
-      
-      <div className="absolute bottom-20 right-10 opacity-10 rotate-45">
-        <svg width="80" height="80" viewBox="0 0 80 80">
-          <path d="M40,10 C50,10 60,15 65,25 C70,35 65,45 55,55 C45,60 35,65 25,55 C15,45 15,35 25,25 C30,20 35,15 40,10 Z" fill="none" stroke="#4a5a5a" strokeWidth="1" />
-        </svg>
-      </div>
-      
-      <div className="max-w-[95%] mx-auto">
-        {/* Section header */}
-        <div className="text-center mb-16">
-          <motion.div
-                      className="inline-flex items-center gap-2 bg-gradient-to-r from-amber-500/10 to-amber-500/5 border border-amber-500/20 px-5 py-2 rounded-full mb-6"
-                      initial={{ opacity: 0, scale: 0.9 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      transition={{ delay: 0.2, duration: 0.5 }}
-                    >
-                      <div className="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></div>
-                      <span className="text-amber-700 font-medium tracking-wider">PREMIUM EXPERIENCE</span>
-                    </motion.div>
-                    
-                    <motion.h2
-                      className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
-                      initial={{ opacity: 0, y: 20 }}
-                      whileInView={{ opacity: 1, y: 0 }}
-                      transition={{ delay: 0.3, duration: 0.6 }}
-                    >
-                      Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">centre in Rajouri Garden for Spa Services in Delhi</span>
-                    </motion.h2>
-          <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
-        </div>
-        
-
-        <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
-          {/* Left Image & Content */}
-          
-          <motion.div 
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            className="w-full lg:w-1/2 relative"
-          >
-            <div className="relative overflow-hidden rounded-2xl shadow-xl z-10">
-              <div className="bg-gradient-to-br from-stone-50 to-amber-50 p-1 rounded-2xl">
-                <div className="bg-white p-6 rounded-2xl shadow-sm">
-                  <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
-                    <img
-                        src="/images/steptodown.com800611.jpg" // Change path accordingly
-                        alt="Premium Body Spa"
-                        className="w-full h-full object-cover rounded-xl"
-                      />
-                    <div className="bg-gray-200 border-2 border-dashed rounded-xl w-full h-full" />
-                    <div className="absolute top-4 right-4 bg-amber-700 text-white text-sm px-3 py-1 rounded-full">
-                      Most Popular
-                    </div>
-                  </div>
-                  
-                  <div className="mt-6">
-                    <div className="flex justify-between items-start">
-                      <h3 className="text-2xl font-serif font-bold text-stone-800">Premium Body Spa</h3>
-                      <div className="bg-amber-100 text-amber-800 px-3 py-1 rounded-full">
-                        <span className="font-bold">₹1999</span> First Visit
-                      </div>
-                    </div>
-                    
-                    <ul className="mt-4 space-y-2">
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Couple Massage</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Jacuzzi Bath</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Private Room</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Oil & Cream Massage</span>
-                      </li>
-                      <li className="flex items-center">
-                        <span className="text-amber-600 mr-2">✓</span>
-                        <span className="text-stone-700">Aromatherapy</span>
-                      </li>
-                    </ul>
-                    
-                    {/* <button className="mt-6 w-full bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-                      Book Now
-                    </button> */}
-                    <a 
-                                                            href="https://t.me/+a5Bu6FBPN9FlOWM9" 
-                                                            target="_blank"
-                                                            rel="noopener noreferrer"
-                                                            className="bg-gradient-to-r from-blue-500 to-indigo-600 hover:from-blue-600 hover:to-indigo-700 text-white font-medium py-3 px-6 rounded-full flex items-center justify-center transition-all shadow-lg"
-                                                          >
-                                                            <FaTelegram className="text-xl mr-3" />
-                                                            Meet Our Team
-                                                          </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Decorative elements */}
-            <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-amber-100 rounded-full z-0"></div>
-            <div className="absolute -top-6 -right-6 w-16 h-16 bg-stone-200 rounded-full z-0"></div>
-          </motion.div>
-
-          {/* Right Text Content */}
-          <motion.div 
-            initial={{ opacity: 0, x: 30 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.7 }}
-            className="w-full lg:w-1/2"
-          >
-            <div className="max-w-lg">
-              <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Spa Delhi transforms the definition of comfort and style. Being recognized as one of the <span className="font-medium text-stone-800"> Massage centre in Rajouri Garden</span>, we strive to provide you with services that will not only relax your body but also your mind. 
-                 
-                <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
-                 <span className="font-medium text-stone-800"></span>
-              </p>
-              
-              
-              
-              <p className="text-stone-600 mb-6 leading-relaxed">
-               Our line of treatments encompasses all the B2B massages to Aromatherapy and Deep Tissue services, performed by both domestic and professional personnel. Visit the hotel whether you are going to spend your stay or to have a break, all the services will be tailored to satisfy your desires to achieve the best experience.
-
-Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so you can relax in some of the finest locations in Delhi.
-
-              </p>
-              
-              <div className="grid grid-cols-2 gap-4 mb-8">
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                  <div className="text-amber-600 text-2xl mb-2">★</div>
-                  <h4 className="font-medium text-stone-800">Award-Winning</h4>
-                  <p className="text-sm text-stone-600 mt-1">5-star rated luxury spa</p>
-                </div>
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                  <div className="text-amber-600 text-2xl mb-2">♨</div>
-                  <h4 className="font-medium text-stone-800">Thermal Suite</h4>
-                  <p className="text-sm text-stone-600 mt-1">Steam, sauna & jacuzzi</p>
-                </div>
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                  <div className="text-amber-600 text-2xl mb-2">👨‍👩‍👧</div>
-                  <h4 className="font-medium text-stone-800">Couples Welcome</h4>
-                  <p className="text-sm text-stone-600 mt-1">Private couple suites</p>
-                </div>
-                <div className="bg-white p-4 rounded-xl shadow-sm border border-stone-100">
-                  <div className="text-amber-600 text-2xl mb-2">🌿</div>
-                  <h4 className="font-medium text-stone-800">Organic Products</h4>
-                  <p className="text-sm text-stone-600 mt-1">Natural & sustainable</p>
-                </div>
-              </div>
-              
-              <div className="flex flex-col sm:flex-row gap-4">
-                <a href='/spa-price-in-delhi'>
-                  <button className="flex-1 bg-gradient-to-r from-stone-800 to-stone-900 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                  View Packages
-                </button>
-                </a>
-                <a href='https://api.whatsapp.com/send?phone=919217255113'>
-                  <button className="flex-1 bg-gradient-to-r from-amber-500 to-amber-700 text-white font-medium py-3 px-6 rounded-xl shadow-lg hover:shadow-xl transition-all">
-                  Book Appointment
-                </button>
-                </a>
-                
-              </div>
-            
-            </div>
-          </motion.div>
-        </div>
-      </div>
-    </section>
-      {/* end content */}
+    
 
       
            
@@ -803,7 +796,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                                             transition={{ duration: 0.6 }}
                                                                           >
                                                                             <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Rajouri Garden</h1>
+                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Kalkaji</h1>
                                                                             <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
                                                                             <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                                                                               The difference is that at Spa Delhi, we blend knowledge, comfort and personal care to all the people who make their way in.
@@ -924,7 +917,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                                               >
                                                                                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                                                                                   <div>
-                                                                                    <h4 className="text-2xl font-bold">Book Your Luxury Massage at Rajouri Garden Today!</h4>
+                                                                                    <h4 className="text-2xl font-bold">Book Your Luxury Massage at Kalkaji Today!</h4>
                                                                                     <p className="mt-2 opacity-95">
                                                                                       Try Spa Delhi’s special massages if you are staying in The Oberoi, Taj Mahal Hotel, or Eros. Our careful team offers comfort at every step. For anyone hoping for a peaceful break in the city, just call and let Spa Delhi lead you toward deep relaxation and total wellness.
                                                                                     </p>
@@ -975,7 +968,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                   className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
                                                 >
                                                   <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-                                                    How to Book Massage spa in in Rajouri Garden&apos;s
+                                                    How to Book Massage spa in in Kalkaji&apos;s
                                                   </span>
                                                   <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                                                     Prestigious Hotels?

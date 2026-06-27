@@ -26,28 +26,28 @@ export default function SpaInRajourigGrden() {
             const faqs = [
                   
                   {
-                    question: "What services are offered at the spa in Rajouri Garden?",
-                    answer: "Our spa in Rajouri Garden provides Thai, full body, couple, sandwich, B2B and home spa massage service in Rajouri Garden. We offer all massages in a luxury private room with professional therapists.",
+                    question: "What services are offered at the spa in Greater Kailash?",
+                    answer: "Our spa in Greater Kailash provides Thai, full body, couple, sandwich, B2B and home spa massage service in Greater Kailash. We offer all massages in a luxury private room with professional therapists.",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                    question: "Are there first-visit offers at body spa in Rajouri Garden?",
-                    answer: "Yes you can grab the first visit offer at our body spa in Rajouri Garden. Our full body massage started in just 1999 for the first visitor.",
+                    question: "Are there first-visit offers at body spa in Greater Kailash?",
+                    answer: "Yes you can grab the first visit offer at our body spa in Greater Kailash. Our full body massage started in just 1999 for the first visitor.",
                     icon: <FaHandSparkles className="text-teal-600" />
                   },
                   
                   {
-                    question: "Do you provide authentic Full body massage in Rajouri Garden?",
-                    answer: "Yes, we are providing authentic full body massage in Rajouri Garden by our well trained therapists. You can choose your therapists as per your needs. Our therapists are certified and well trained.",
+                    question: "Do you provide authentic Full body massage in Greater Kailash?",
+                    answer: "Yes, we are providing authentic full body massage in Greater Kailash by our well trained therapists. You can choose your therapists as per your needs. Our therapists are certified and well trained.",
                     icon: <FaLeaf className="text-teal-600" />
                   },
                   {
-                    question: "Can I walk into the massage centre in Rajouri Garden?",
+                    question: "Can I walk into the massage centre in Greater Kailash?",
                     answer: "Yes, we are accepted but it depends on the availability of our therapists. So we recommended you to book your spa session in advance. ",
                     icon: <FaSpa className="text-teal-600" />
                   },
                   {
-                        question: "How do I locate the massage spa in Rajouri Garden?",
+                        question: "How do I locate the massage spa in Greater Kailash?",
                         answer: "Just call us our team and share you full details about our spa and availability of our therapists. Our spa is located in prime locations. Where you can travel easily by metro or your private vehicle. When you book your spa session our team shares the exact location of our spa with you. ",
                         icon: <FaHotTub className="text-teal-600" />
                       },
@@ -59,19 +59,19 @@ export default function SpaInRajourigGrden() {
                 ];
   const hotelOutlets = [
   {
-    title: "Taj Mahal Hotel Rajouri Garden",
+    title: "Taj Mahal Hotel Greater Kailash",
     image: "/images/tajmahalhotel_lajpatnagar.jpg",
     description:
       "At the Taj Mahal Hotel, Spa Delhi, you are welcomed to a luxurious spa setting. We apply deep oils and light yet firm movements in our methods to provide a deep calmness to both your mind and body.",
   },
   {
-    title: "The Oberoi Rajouri Garden",
+    title: "The Oberoi Greater Kailash",
     image: "/images/TheOberoi_Lajpatnagar.webp",
     description:
       "The Oberoi is a place for classy comfort, and Spa Delhi adds its own touch with tailored spa sessions. Mixing old ways with modern choices, these therapies help you fully relax.",
   },
   {
-    title: "Eros Hotel New Delhi Rajouri Garden",
+    title: "Eros Hotel New Delhi Greater Kailash",
     image: "/images/ErosHotel_lajpatnagar.jpg",
     description:
       "Eros Hotel offers a quiet spot for Spa Delhi’s expert massages. Our employees will assist you in forgetting about stress and increase your mood through a calm attitude that aims at your entire health.",
@@ -143,13 +143,13 @@ export default function SpaInRajourigGrden() {
     },
     {
       title: "B2B Massage",
-      description: "The Body-to-Body Massage spa in Rajouri Garden at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
+      description: "The Body-to-Body Massage spa in Greater Kailash at Spa Delhi will help relax. This treatment can be used in regard to tiredness, to make you feel at ease and to refresh your senses using fine oils and skilled moves.",
       icon: "💆‍♂️",
       url: "/b2b-massage-in-delhi",
     },
     {
       title: "Full Body Massage",
-      description: "Our team of experts leading Full body massage in Rajouri Garden massages all parts of you and relieves stress, helps in blood circulation, and uplifts energy.",
+      description: "Our team of experts leading Full body massage in Greater Kailash massages all parts of you and relieves stress, helps in blood circulation, and uplifts energy.",
       icon: "🪨",
       url: "/full-body-massage-in-delhi",
     },
@@ -196,9 +196,9 @@ const SERVICES_RIGHT = [
   {
     id: 'top',
     title: 'Top Rated Services',
-    subtitle: 'Available at Top Rajouri Garden Hotels',
+    subtitle: 'Available at Top Greater Kailash Hotels',
     desc:
-      "No matter where you stay among Rajouri Garden’s best hotels, Spa Delhi makes pampering services easy to reach.",
+      "No matter where you stay among Greater Kailash’s best hotels, Spa Delhi makes pampering services easy to reach.",
     chips: ['Zero-Waste', 'Organic Linens', 'Water Recycling', 'Carbon Offsetting'],
     time: '60-120 min',
     price: 'From ₹2,500',
@@ -267,20 +267,18 @@ const SERVICES_RIGHT = [
             </div>
             
             <h1 className="text-4xl md:text-5xl font-light text-gray-800">
-              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Hotel Spa</span>
-            and Massage Services
-              <span className="block mt-2 font-medium">Top Hotels <span className="text-rose-600">in Rajouri Garden</span></span>
+              <span className="block font-serif text-5xl md:text-6xl mb-3 text-amber-800">Best Spa in</span>
+            Greater Kailash for Body Massage,
+              <span className="block mt-2 font-medium">B2B Massage, <span className="text-rose-600">and Sandwich Massage</span></span>
             </h1>
             
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           Welcome to Spa Delhi, your trusted spa in Rajouri Garden, New Delhi, offering premium relaxation and wellness therapies at some of the best hotels in the area. If you are searching for a massage centre in Rajouri Garden that provides a peaceful, professional, and luxurious experience, Spa Delhi is the perfect choice.
+          Looking for a spa in Greater Kailash that genuinely relaxes your body? At Luxury Body Spa in Delhi, we offer a wide range of massages in Greater Kailash, B2B massage, full-body massage, sandwich massage, and aromatherapy sessions for people who want to end day-to-day stress and body pain. We have more than 24+ spa outlets all across Delhi for your anytime and anywhere massage service in Delhi.
             </p>
             <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           Whether you are visiting for business, travelling through the city, or simply need a short break from your routine, our spa treatments are designed to help you relax, recharge, and feel refreshed. We offer a wide range of massage services in Rajouri Garden, including calming massages, full-body massages, and couple massage options, all delivered by trained and experienced therapists.
+          Our massage centre in Greater Kailash is located near Greater Kailash metro station, making it easy to visit after work or on weekends. Whether you need a deep tissue massage, Thai therapy, or a body to body massage in Greater Kailash, our trained female therapists handle every session with care and complete privacy. First visit starts at just ₹1499. Book your massage in Greater Kailash on WhatsApp today.
             </p>
-            <p className="text-gray-600 max-w-xl mx-auto lg:mx-0 leading-relaxed">
-           At Spa Delhi, every treatment is created to soothe the mind, release muscle tension, and improve your overall sense of well-being. Our focus is on providing a premium spa experience with complete comfort, care, and relaxation.
-            </p>
+           
 
 
             <div className="grid grid-cols-2 gap-4 mt-8 max-w-md mx-auto lg:mx-0">
@@ -345,7 +343,7 @@ const SERVICES_RIGHT = [
             <div className="absolute inset-0 border-4 border-white shadow-xl overflow-hidden">
               <div className="relative w-full h-full">
                 <img
-                  src="/images/fpkdl.com_750_1758981681_panorama-photo-cityscape-las-vegas-city-with-fountain-show-paris-area-las-vegas-nevada_167657-2440.jpg" // ✅ Yahan apna image path daal
+                  src="/images/ErosHotel_lajpatnagar.jpg" // ✅ Yahan apna image path daal
                   alt="Spa Environment"
                   className="w-full h-full object-cover"
                 />
@@ -381,6 +379,62 @@ const SERVICES_RIGHT = [
         </div>
       </div>
       {/* End Banner */}
+      {/* About Us Section */}
+            <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
+              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
+                
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6 }}
+                  className="space-y-6"
+                >
+                  <motion.div
+                                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.2 }}
+                                viewport={{ once: true }}
+                              >
+                                <span className="mr-2">✦</span> About Our Greater Kailash Spa Outlets
+                              </motion.div>
+                  
+                              <motion.h2
+                                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
+                                initial={{ opacity: 0, y: 20 }}
+                                whileInView={{ opacity: 1, y: 0 }}
+                                transition={{ delay: 0.3 }}
+                                viewport={{ once: true }}
+                              >
+                                A Trusted Massage <span className="relative">
+                                  <span className="text-amber-600 z-10 relative">Centre in Greater Kailash</span>
+                                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
+                                </span>
+                              </motion.h2>
+                  <p className="text-gray-700 text-lg">
+                   Step into a calm space with Spa Delhi’s massages at Greater Kailash. Our spa sessions are placed close to popular hotels like The Oberoi, Eros Hotel and Taj Mahal Hotel so that you can have a blend of intelligent service and comfortable areas in which you can have a rest. 
+                  </p>
+                  <p className="text-gray-700 text-lg">
+                    Each guest can find something that will suit strong pressure with deep tissue massage or light oils with aromatherapy session. The therapists at Spa Delhi will never leave without applying the best oils and proven techniques to ensure that you leave each visit feeling better and more relaxed.
+                  </p>
+                </motion.div>
+      
+                <motion.div
+                  initial={{ opacity: 0, y: 40 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 0.2 }}
+                  className="grid grid-cols-2 gap-4"
+                >
+                  <div className="rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/staff10.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="rounded-2xl overflow-hidden shadow-xl">
+                    <img src="/images/foreignetherapist.webp" alt="Massage Session" className="w-full h-full object-cover" />
+                  </div>
+                </motion.div>
+              </div>
+            </section>
+      {/* Services Section */}
       {/* our 5* hoterl outlets */}
              <section className="w-full py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -408,7 +462,7 @@ const SERVICES_RIGHT = [
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Hotels in Rajouri Garden</span>
+                      Massage at <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">Top Hotels in Greater Kailash</span>
                     </motion.h2>
                     
                     <motion.p
@@ -485,62 +539,7 @@ const SERVICES_RIGHT = [
       </section>
       
             {/* End outlets */}
-            {/* About Us Section */}
-            <section className="w-full py-16 bg-gradient-to-b from-white to-yellow-50">
-              <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-10 px-6">
-                
-                <motion.div
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6 }}
-                  className="space-y-6"
-                >
-                  <motion.div
-                                className="inline-block bg-amber-100 text-amber-700 px-4 py-2 rounded-full mb-6 font-medium"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.2 }}
-                                viewport={{ once: true }}
-                              >
-                                <span className="mr-2">✦</span> About Our Rajouri Garden Spa Outlets
-                              </motion.div>
-                  
-                              <motion.h2
-                                className="text-4xl md:text-5xl lg:text-4xl font-bold text-gray-800 leading-tight mb-8"
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                transition={{ delay: 0.3 }}
-                                viewport={{ once: true }}
-                              >
-                                Rejuvenate Your Senses <span className="relative">
-                                  <span className="text-amber-600 z-10 relative">with the Best Massage in Rajouri Garden</span>
-                                  <span className="absolute bottom-2 left-0 w-full h-3 bg-amber-200/60 z-0"></span>
-                                </span>
-                              </motion.h2>
-                  <p className="text-gray-700 text-lg">
-                   Step into a calm space with Spa Delhi’s massages at Rajouri Garden. Our spa sessions are placed close to popular hotels like The Oberoi, Eros Hotel and Taj Mahal Hotel so that you can have a blend of intelligent service and comfortable areas in which you can have a rest. 
-                  </p>
-                  <p className="text-gray-700 text-lg">
-                    Each guest can find something that will suit strong pressure with deep tissue massage or light oils with aromatherapy session. The therapists at Spa Delhi will never leave without applying the best oils and proven techniques to ensure that you leave each visit feeling better and more relaxed.
-                  </p>
-                </motion.div>
-      
-                <motion.div
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  transition={{ duration: 0.6, delay: 0.2 }}
-                  className="grid grid-cols-2 gap-4"
-                >
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/staff10.jpg" alt="Luxury Spa Room" className="w-full h-full object-cover" />
-                  </div>
-                  <div className="rounded-2xl overflow-hidden shadow-xl">
-                    <img src="/images/spaexpert3.webp" alt="Massage Session" className="w-full h-full object-cover" />
-                  </div>
-                </motion.div>
-              </div>
-            </section>
-      {/* Services Section */}
+            
       <section id="services" className="py-10 px-6 md:px-16 bg-gradient-to-b from-amber-50 to-white relative">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-20">
@@ -560,7 +559,7 @@ const SERVICES_RIGHT = [
         transition={{ duration: 0.5, delay: 0.1 }}
         viewport={{ once: true }}
       >
-        Our Massage <span className="text-amber-500">Services at Hotels in Rajouri Garden</span>
+        Our Massage <span className="text-amber-500">Services at Hotels in Greater Kailash</span>
       </motion.h2>
     </div>
 
@@ -632,12 +631,12 @@ const SERVICES_RIGHT = [
                     </motion.div>
                     
                     <motion.h2
-                      className="text-4xl md:text-5xl lg:text-6xl font-bold text-amber-900 mb-6 font-serif"
+                      className="text-4xl md:text-5xl lg:text-4xl font-bold text-amber-900 mb-6 font-serif"
                       initial={{ opacity: 0, y: 20 }}
                       whileInView={{ opacity: 1, y: 0 }}
                       transition={{ delay: 0.3, duration: 0.6 }}
                     >
-                      Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">centre in Rajouri Garden for Spa Services in Delhi</span>
+                      Spa Delhi: Best Massage <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-amber-800">centre in Greater Kailash for Spa Services in Delhi</span>
                     </motion.h2>
           <div className="w-24 h-1 bg-amber-500 mx-auto rounded-full"></div>
         </div>
@@ -657,7 +656,7 @@ const SERVICES_RIGHT = [
                 <div className="bg-white p-6 rounded-2xl shadow-sm">
                   <div className="relative h-80 md:h-96 rounded-xl overflow-hidden">
                     <img
-                        src="/images/steptodown.com800611.jpg" // Change path accordingly
+                        src="/images/fpkdl.com_750_1758780040_content-european-woman-lies-comfortably-massage_1036891-1866.jpg" // Change path accordingly
                         alt="Premium Body Spa"
                         className="w-full h-full object-cover rounded-xl"
                       />
@@ -729,7 +728,7 @@ const SERVICES_RIGHT = [
           >
             <div className="max-w-lg">
               <p className="text-lg text-stone-600 mb-6 leading-relaxed">
-                Spa Delhi transforms the definition of comfort and style. Being recognized as one of the <span className="font-medium text-stone-800"> Massage centre in Rajouri Garden</span>, we strive to provide you with services that will not only relax your body but also your mind. 
+                Spa Delhi transforms the definition of comfort and style. Being recognized as one of the <span className="font-medium text-stone-800"> Massage centre in Greater Kailash</span>, we strive to provide you with services that will not only relax your body but also your mind. 
                  
                 <span className="font-medium text-stone-800"></span> <span className="font-medium text-stone-800"></span> 
                  <span className="font-medium text-stone-800"></span>
@@ -740,7 +739,7 @@ const SERVICES_RIGHT = [
               <p className="text-stone-600 mb-6 leading-relaxed">
                Our line of treatments encompasses all the B2B massages to Aromatherapy and Deep Tissue services, performed by both domestic and professional personnel. Visit the hotel whether you are going to spend your stay or to have a break, all the services will be tailored to satisfy your desires to achieve the best experience.
 
-Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so you can relax in some of the finest locations in Delhi.
+Spa Delhi is located in Aerocity, Connaught Place, Greater Kailash and Dwarka, so you can relax in some of the finest locations in Delhi.
 
               </p>
               
@@ -803,7 +802,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                                             transition={{ duration: 0.6 }}
                                                                           >
                                                                             <span className="text-sm font-medium text-amber-700 tracking-widest">OUR SIGNATURE OFFERINGS</span>
-                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Rajouri Garden</h1>
+                                                                            <h1 className="text-4xl md:text-5xl font-bold text-[#3a2e2a] mt-4 mb-4 font-serif">Why Choose Spa Delhi for Spa Services in Greater Kailash</h1>
                                                                             <div className="mx-auto w-28 h-1 bg-amber-600 rounded-full" />
                                                                             <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
                                                                               The difference is that at Spa Delhi, we blend knowledge, comfort and personal care to all the people who make their way in.
@@ -924,7 +923,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                                               >
                                                                                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                                                                                   <div>
-                                                                                    <h4 className="text-2xl font-bold">Book Your Luxury Massage at Rajouri Garden Today!</h4>
+                                                                                    <h4 className="text-2xl font-bold">Book Your Luxury Massage at Greater Kailash Today!</h4>
                                                                                     <p className="mt-2 opacity-95">
                                                                                       Try Spa Delhi’s special massages if you are staying in The Oberoi, Taj Mahal Hotel, or Eros. Our careful team offers comfort at every step. For anyone hoping for a peaceful break in the city, just call and let Spa Delhi lead you toward deep relaxation and total wellness.
                                                                                     </p>
@@ -975,7 +974,7 @@ Spa Delhi is located in Aerocity, Connaught Place, Rajouri Garden and Dwarka, so
                                                   className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-amber-900"
                                                 >
                                                   <span className="block font-[Great_Vibes] text-4xl md:text-5xl text-amber-800">
-                                                    How to Book Massage spa in in Rajouri Garden&apos;s
+                                                    How to Book Massage spa in in Greater Kailash&apos;s
                                                   </span>
                                                   <span className="block font-[Great_Vibes] text-3xl md:text-4xl bg-gradient-to-r from-amber-600 to-amber-400 text-transparent bg-clip-text">
                                                     Prestigious Hotels?
